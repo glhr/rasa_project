@@ -4,6 +4,8 @@ actions:
 - received_command_denied
 - received_goodbye
 - received_greet
+- received_none
+- received_show
 - utter_goodbye
 - utter_greet
 - utter_received_command
@@ -15,7 +17,8 @@ entities:
 - bye
 - object_color
 - object_name
-- placement
+- placement_origin
+- placement_destination
 - undefined_object
 intents:
 - affirmative
