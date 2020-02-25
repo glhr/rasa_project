@@ -7,8 +7,236 @@
 - What's up robot?
 - Hello fellow human
 - Good morning robot
+- Yo
+- Hello!
+- Hi there robot
+- Hello there robot
+- Hey there dummy
+- Hey there robot
+- hey there robot
+- Heyyy what's up.
+- Hey
+- Hi
+
+## intent:show
+- This [cup](object_name) is [red](object_color).
+- This [thing](undefined_object) is [white](object_color).
+- This is a pair of [scissors](object_name).
+- This is a ball.
+- This is a [sports ball](object_name).
+- I'm showing you a [ball](object_name).
+- I'm going to show you what a [cell phone](object_name) looks like.
+- This [ball](object_name) is [green](object_color).
+- This is a [blue](object_color) [cube](object_name).
+- I'm showing you a [blue](object_color) [cube](object_name).
+- You should know that this is a [ball](object_name).
+- This is a [yellow](object_color) [brick](object_name).
+- This is an [orange](object_name).
+
+## intent:affirmative
+- Yeah
+- Yes
+- Exactly
+- Yup that's exactly right
+- Yep do that
+- Sure
+- Go ahead
+- That's right
+- OK
+- Yep please do that
+- Yeah [move](action) it
+- Yes exactly.
+- Yes that's what I want
+- precisely
+- absolutely
+- yeah
+- Yes that's exactly what I want.
+- Yes please do that.
+- Yep
+- Yeah
+- Yes please
+- Yeah do that
+- Affirmative
+- I confirm
+- Yes
+- yes
+
+## intent:none
+- Nothing
+
+## intent:bye
+- That's all, bye!
+- That's all for now, bye robot
+- You suck honestly, I'm out
+- Thanks robot, that's it for now.
+- Goodbye
+- Ciao
+- See you later
+- Okay we're done here.
+- I'm out
+- Ok bye then
+- Bye
+- Thank you!
+
+## intent:deny
+- That's incorrect
+- No [stop](action) that immediately
+- Nope
+- That's not correct
+- Don't do that
+- Absolutely not
+- No you didn't understand
+- Nevermind
+- Not at all
+- Incorrect
+- No not like that.
+- That's not what I meant.
+- No!
+- No don't do that
+- Absolutely not
+- Nope
+- No
+- no
 
 ## intent:command
+- Please [pick up](action) [this object](undefined_object).
+- Could you [move](action) [this](undefined_object) to the [right](placement)?
+- Stop!
+- I would like you to [drop](action) [this object](undefined_object).
+- [Put](action) [this object](undefined_object) on the [right](placement).
+- Don't move!
+- [Stop](action) moving.
+- [Stop](action) what you're doing.
+- Could you please [shift](action) this [cup](object_name) a little bit to the [left](placement).
+- I would like you to [pick](action) [this](undefined_object) up and [place](action) it on the [left](placement).
+- [Grab](action) the [cup](object_name), [lift](action) it and [put](action) it here.
+- Can you [grab](action) the [cup](object_name) over there?
+- Just [give](action) me [that object](undefined_object).
+- Please [hand](action) me [that thing](undefined_object).
+- I want to tell you that you should [pick](action) [this](undefined_object) up.
+- [Grab](action) me [that thing](undefined_object) over there
+- I want you to [pick](action) [it](undefined_object) up.
+- [Pick](action) [this](undefined_object) up.
+- [give](action) me [that thing](undefined_object) over there.
+- [Hand](action) over that [cup](object_name) over there.
+- [Hand](action) over [that thing](undefined_object) please.
+- [Take](action) this [brick](object_name), [lift](action) it up and [place](action) it on the [right](placement).
+- [Pick up](action) the [red](object_color) [phone](object_name) and [put](action) it on the [right](placement).
+-  I'd like you to [put](action) the [red](object_color) [phone](object_name) on the [left](placement). Thanks!
+- Hello robot! Could you [give](action) me [this object](undefined_object)?
+- Hello, could you do something for me?
+- Let's try again.
+- Do that again.
+- Let's try that again please.
+- Come on, do it.
+- Could you [give](action) me that [phone](object_name)?
+- I want you to [grab](action) the [blue](object_color) [brick](object_name).
+- First I want you to [give](action) me the [yellow](object_color) [cup](object_name) and then [pick up](action) the [green](object_color) [ball](object_name).
+- [Pick up](action) the [brick](object_name) then [put](action) it on the [left](placement).
+- I want you to [grab](action) the [orange](object_color) [object](undefined_object).
+- [Pick up](action) this [cup](object_name) for me please.
+- I would like you to [grab](action) these [scissors](object_name) and [place](action) them to the [left](placement).
+- Are you able to [move](action) this [book](object_name)?
+- I'm asking you to [hold](action) the [teddy bear](object_name).
+- Can you [tell](action) me what [this](undefined_object) is?
+- [Grab](action) the [pencil](object_name) please.
+- [Pick up](action) this [ball](object_name) please.
+- I want you to [take](action) the [red](object_color) [pencil](object_name) please thanks.
+- Just [move](action) this [keyboard](object_name) away.
+- [Stop](action) what you're doing immediately.
+- Okay [grab](action) the [green](object_color) [pen](object_name) now.
+- Okay [pick up](action) this [cable](object_name) over [here](placement) first and then [put](action) it on the [right](placement) side.
+- So I want you to [move](action) the [black](object_color) [toy](object_name) and [put](action) it somewhere on the [left](placement) side next to the [red](object_color) [block](object_name).
+- Could you [move](action) the [orange](object_color) [block](object_name)
+- First I want you to [pick up](action) the [pink](object_color) [box](object_name) for me.
+- Could you [move](action) this [box](object_name) to the [right](placement) please
+- Could you [move](action) this [object](undefined_object) to the [left](placement) please.
+- [Spank](action) me.
+- [Move](action).
+- [Move](action) [this thing](undefined_object).
+- Could you please [spank](action) this [red](object_color) [box](object_name) now.
+- [Stop](action) that immediately.
+- [grab](action) the [blue](object_color) [ball](object_name)
+- Please [grab](action) the [blue](object_color) [ball](object_name).
+- I'd really like it if you could [pick up](action) this [yellow](object_color) [cell phone](object_name), thanks very much.
+- Please [grab](action) this [purple](object_color) [bubble](object_name) for me and then [put](action) the [bubble](object_name) down.
+- Okay so I want to ask you to [move](action) the [blue](object_color) [brick](object_name) but not a lot.
+- Use your gripper to [pick](action) [this](undefined_object) up.
+- Grab [this](undefined_object) with the gripper.
+- [Put](action) the [ball](object_name) down.
+- [Put](action) the [ball](object_name) somewhere else.
+- [Place](action) the [ball](object_name) in a different location.
+- Could you please [pick up](action) the [red](object_color) [brick](object_name) and [place](action) the [red](object_color) [brick](object_name) on the [right](placement).
+- I want you to [let go](action) of [this object](undefined_object) and [grab](action) the [purple](object_color) [bottle](object_name).
+- Can you lift the [green](object_color) [ball](object_name)
+- Can you lift the [green](object_color) [ball](object_name) up and [place](action) it on the [left](placement)
+- I'd like you to [push](action) [this](undefined_object) a bit to the [right](placement).
+- Please [pick](action) [this](undefined_object) up
+- Please [pick](action) [this](undefined_object) up.
+- [Pick up](action) this [orange](object_color) [ball](object_name)
+- [Pick up](action) this [orange](object_color) [ball](object_name).
+- [Pick](action) [this](undefined_object) up please
+- [Pick](action) [this](undefined_object) up please.
+- [Pick](action) [this](undefined_object) up
+- [Pick](action) this [shit](object_name) up!
+- [move](action) [this](undefined_object)
+- [Pick](action) this [ball](object_name) up.
+- [Pick](action) [this](undefined_object) up and then [put](action) it down.
+- [Pick](action) [it](undefined_object) up.
+- Yes [pick up](action) the [green](object_color) [ball](object_name) not the blue one.
+- Please [grab](action) the [flamingo](object_name) and [throw](action) it out.
+- Could you [grab](action) that [phone](object_name) on the [left](placement) side and [put](action) it somewhere on the [right](placement) thanks.
+- [Move](action) this [ball](object_name) and then [place](action) it [here](placement)
+- I wanna ask if you can [move](action) this [ball](object_name) and put it [there](placement)
+- I wanna ask if you can [move](action) this [ball](object_name) and [put](action) it [there](placement).
+- [Move](action) [this thing](undefined_object) and [put](action) it [there](placement).
+- [Pick](action) [this](undefined_object) up and [put](action) it [there](placement)
+- [Pick up](action) this [orange](object_color) [ball](object_name) and [fuck](action) it.
+- [Throw](action) the [ball](object_name).
+- I really really really want you to [throw](action) the [ball](object_name) at [Donald Trump](placement).
+- [Throw](action) the [phone](object_name) at [my face](placement).
+- Toss the [orange](object_color) [ball](object_name).
+- [Throw](action) out the [orange](object_color) [ball](object_name).
+- Can you [pick](action) [this](undefined_object) up first and after that please [put](action) it over [there](placement).
+- Please [pick up](action) the [pink](object_color) [prism](object_name) and [place](action) it in the [left corner](placement) of the platform afterwards.
+- Could you [rotate](action) this [ball](object_name) and then discard it.
+- I want you to [grasp](action) the [brown](object_color) [cube](object_name), lift the [cube](object_name) and [move](action) it a bit to the [right](placement).
+- Please hold the [orange](object_color) [sphere](object_name) and then drop it thanks.
+- Come on just [move](action) this [cuboid](object_name) from the platform.
+- Please [obey](action) me.
+- Could you [pick up](action) the [orange](object_color) [triangle](object_name) for me?
+- Please check this [ball](object_name) carefully.
+- [Check](action) this [pink](object_color) [triangle](object_name) very slowly.
+- Could you [inspect](action) this [white](object_color) [sheet](object_name) for me?
+- Please [look](action) carefully at this [brick](object_name).
+- I want you to [clasp](action) [this thing](undefined_object).
+- I want you to [crush](action) [this thing](undefined_object) with your awesome gripper.
+- [Pick up](action) this [lamp](object_name) for me.
+- I'd like you to [move](action) this [glass](object_name) to the [other side](placement).
+- Please [lift](action) this [glass](object_name) up from the platform.
+- [Pick](action) this [ball](object_name) up from the platform and [place](action) it somewhere on the [right](placement).
+- [Say](action) [something](undefined_object).
+- Okay now [stop](action) what you're doing immediately
+- Hey robot [tell](action) me what you're thinking right now.
+- [Find](action) a [red](object_color) [ball](object_name) on the platform.
+- Please [inspect](action) this [orange](object_name) very carefully.
+- [Check out](action) this [green](object_color) [apple](object_name) that I'm showing you.
+- [Pick up](action) this [ball](object_name).
+- [Hold](action) this [orange](object_color) [ball](object_name).
+- [Hold](action) on to the [ball](object_name).
+- Please [find](action) the [orange](object_color) [brick](object_name).
+- Please [look](action) for a [phone](object_name).
+- please [pick up](action) the [phone](object_name)
+- [Give](action) me [that thing](undefined_object).
+- [Give](action) me [that](undefined_object).
+- [Give](action) me [that](undefined_object) right there.
+- I want you to [pick up](action) this [bottle](object_name) from the [bottom-left](placement) and [put](action) it somewhere on the [right](placement).
+- Okay now [take](action) the [green](object_color) [plate](object_name) from the [left](placement) side of the platform.
+- Could you [lift](action) this [fork](object_name) up from the [bottom right](placement).
+- Could you [grab](action) the [gray](object_color) [can](object_name) from the [center](placement) of the platform?
+- [Pick](action) [this](undefined_object) up from the [left corner](placement) and [put](action) it on the [top](placement).
+- Please [take](action) the [red](object_color) [ball](object_name) with your gripper and when you're done [put](action) it in the [bottom left](placement) corner.
+- I'm ordering you to [place](action) the [brick](object_name) in the [middle](placement) of the platform.
 - [Pick up](action:pickup) this [ball](object_name).
 - Could you [pick up](action:pickup) this [yellow](object_color) [ball](object_name)?
 - I want you to [grab](action:pickup) this [blue](object_color) [bottle](object_name) please.
@@ -23,41 +251,9 @@
 - I want you to [look](action:find) for a [bracelet](object_name).
 - I want you to [move](action) this [ball](object_name) to the [right](placement).
 - Could you also [lift](action:pickup) the [phone](object_name) over there?
-
-## intent:affirmative
-- Yeah
-- Yes
-- Exactly
-- Yup that's exactly right
-- Yep do that
-- Sure
-- Go ahead
-- That's right
-- OK
-- Yep please do that
-
-## intent:bye
-- That's all, bye!
-- That's all for now, bye robot
-- You suck honestly, I'm out
-- Thanks robot, that's it for now.
-- Goodbye
-- Ciao
-- See you later
-- Okay we're done here.
-- I'm out
-- Ok bye then
-
-## intent:deny
-- That's incorrect
-- No [stop](action) that immediately
-- Nope
-- That's not correct
-- Don't do that
-- Absolutely not
-- No you didn't understand
-- Nevermind
-- Not at all
+- OK so can you [lift](action:pickup) the [gold](object_color) [phone](object_name) over there
+- Could you please [put](action:move) down that [phone](object_name) right now
+- Now [pick up](action:pickup) the [apricot](object_name)
 
 ## synonym:find
 - detect
@@ -85,10 +281,10 @@
 ## synonym:pickup
 - Pick up
 - pick up
-- raise
 - grab
 - bring
 - lift
+- raise
 - get
 - acquire
 - hoist

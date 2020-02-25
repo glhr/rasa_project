@@ -70,7 +70,9 @@
 * affirmative
     - received_command_confirmed
 * deny
+    - received_command_denied
 * bye
+    - received_goodbye
 
 ## interactive_story_1
 * greetings
@@ -85,3 +87,27 @@
     - received_command_denied
 * bye
     - received_goodbye
+
+## interactive_story_1
+* greetings
+    - received_greet
+* bye
+    - received_goodbye
+* greetings
+    - received_greet
+* command{"action": "pickup", "object_color": "gold", "object_name": "phone"}
+    - received_command
+* deny
+    - received_command_denied
+* bye
+    - received_goodbye
+
+## interactive_story_1
+* command{"action": "move", "object_name": "phone"}
+    - received_command
+* affirmative{"action": "move"}
+    - received_command_confirmed
+* command{"action": "pickup", "object_name": "apricot"}
+    - received_command
+* deny
+    - received_command_denied
