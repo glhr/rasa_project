@@ -70,6 +70,7 @@
 * affirmative
     - received_command_confirmed
 * deny
+    - received_command_denied
 * bye
 
 ## interactive_story_1
@@ -82,6 +83,18 @@
 * command{"action": "lift", "object_name": "phone"}
     - received_command
 * deny
+    - received_command_denied
+* bye
+    - received_goodbye
+
+## interactive_story_1
+* command{"action": "pickup", "object_color": "green", "object_name": "apple"}
+    - received_command
+* affirmative{"action": "pick", "undefined_object": "it"}
+    - received_command_confirmed
+* command{"action": "move", "object_color": "blue", "object_name": "peach", "placement": "left"}
+    - received_command
+* deny{"object_color": "green"}
     - received_command_denied
 * bye
     - received_goodbye

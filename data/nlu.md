@@ -23,6 +23,8 @@
 - I want you to [look](action:find) for a [bracelet](object_name).
 - I want you to [move](action) this [ball](object_name) to the [right](placement).
 - Could you also [lift](action:pickup) the [phone](object_name) over there?
+- Could you [pick up](action:pickup) this [green](object_color) [apple](object_name) over there
+- Also [move](action) the [blue](object_color) [peach](object_name) to the [left](placement) of the platform
 
 ## intent:affirmative
 - Yeah
@@ -35,6 +37,7 @@
 - That's right
 - OK
 - Yep please do that
+- Yes [pick](action) [it](undefined_object) up
 
 ## intent:bye
 - That's all, bye!
@@ -47,6 +50,7 @@
 - Okay we're done here.
 - I'm out
 - Ok bye then
+- Bye stupid robot
 
 ## intent:deny
 - That's incorrect
@@ -58,6 +62,7 @@
 - No you didn't understand
 - Nevermind
 - Not at all
+- No the [green](object_color) one
 
 ## synonym:find
 - detect
@@ -85,10 +90,10 @@
 ## synonym:pickup
 - Pick up
 - pick up
-- raise
 - grab
 - bring
 - lift
+- raise
 - get
 - acquire
 - hoist
