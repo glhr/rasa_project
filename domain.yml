@@ -40,6 +40,8 @@ responses:
   - text: received_goodbye
   received_greet:
   - text: received_greet
+  received_none:
+  - text: utter_prompt
   utter_goodbye:
   - text: Bye
   utter_greet:
