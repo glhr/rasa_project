@@ -18,11 +18,11 @@ entities:
 - placement
 - undefined_object
 intents:
-- bye
-- greetings
-- command
 - affirmative
 - deny
+- command
+- bye
+- greetings
 responses:
   received_command:
   - text: received_command

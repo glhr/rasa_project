@@ -72,6 +72,7 @@
 * deny
     - received_command_denied
 * bye
+    - received_goodbye
 
 ## interactive_story_1
 * greetings
@@ -88,13 +89,25 @@
     - received_goodbye
 
 ## interactive_story_1
-* command{"action": "pickup", "object_color": "green", "object_name": "apple"}
+* greetings
+    - received_greet
+* bye
+    - received_goodbye
+* greetings
+    - received_greet
+* command{"action": "pickup", "object_color": "gold", "object_name": "phone"}
     - received_command
-* affirmative{"action": "pick", "undefined_object": "it"}
-    - received_command_confirmed
-* command{"action": "move", "object_color": "blue", "object_name": "peach", "placement": "left"}
-    - received_command
-* deny{"object_color": "green"}
+* deny
     - received_command_denied
 * bye
     - received_goodbye
+
+## interactive_story_1
+* command{"action": "move", "object_name": "phone"}
+    - received_command
+* affirmative{"action": "move"}
+    - received_command_confirmed
+* command{"action": "pickup", "object_name": "apricot"}
+    - received_command
+* deny
+    - received_command_denied
