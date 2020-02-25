@@ -1,0 +1,3374 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "text": "Please pick up this object.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 26,
+                        "value": "this object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 7,
+                        "end": 14,
+                        "value": "pick up",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Could you move this to the right?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 15,
+                        "end": 19,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 27,
+                        "end": 32,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Stop!",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "I would like you to drop this object.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 25,
+                        "end": 36,
+                        "value": "this object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "drop",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Put this object on the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 15,
+                        "value": "this object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "value": "Put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Don't move!",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "Stop moving.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Stop",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Stop what you're doing.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Stop",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Could you please shift this cup a little bit to the left.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "shift",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 28,
+                        "end": 31,
+                        "value": "cup",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 52,
+                        "end": 56,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I would like you to pick this up and place it on the left.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 25,
+                        "end": 29,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 37,
+                        "end": 42,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 53,
+                        "end": 57,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Grab the cup, lift it and put it here.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 9,
+                        "end": 12,
+                        "value": "cup",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 14,
+                        "end": 18,
+                        "value": "lift",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 26,
+                        "end": 29,
+                        "value": "put",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Can you grab the cup over there?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 17,
+                        "end": 20,
+                        "value": "cup",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Just give me that object.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 24,
+                        "value": "that object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "give",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Please hand me that thing.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 25,
+                        "value": "that thing",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "hand",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "I want to tell you that you should pick this up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 40,
+                        "end": 44,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 35,
+                        "end": 39,
+                        "value": "pick",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Grab me that thing over there",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 18,
+                        "value": "that thing",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Grab",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to pick it up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 19,
+                        "end": 21,
+                        "value": "it",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 14,
+                        "end": 18,
+                        "value": "pick",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "give me that thing over there.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 18,
+                        "value": "that thing",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "give",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Hand over that cup over there.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Hand",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 15,
+                        "end": 18,
+                        "value": "cup",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Hand over that thing please.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 20,
+                        "value": "that thing",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Hand",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Take this brick, lift it up and place it on the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Take",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 15,
+                        "value": "brick",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 17,
+                        "end": 21,
+                        "value": "lift",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 32,
+                        "end": 37,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 48,
+                        "end": 53,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up the red phone and put it on the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 12,
+                        "end": 15,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 16,
+                        "end": 21,
+                        "value": "phone",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 26,
+                        "end": 29,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 40,
+                        "end": 45,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": " I'd like you to put the red phone on the left. Thanks!",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 25,
+                        "end": 28,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 17,
+                        "end": 20,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 29,
+                        "end": 34,
+                        "value": "phone",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 42,
+                        "end": 46,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Hello robot! Could you give me this object?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 31,
+                        "end": 42,
+                        "value": "this object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "give",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Hello, could you do something for me?",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "No not like that.",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "That's not what I meant.",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "Let's try again.",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "Do that again.",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "Let's try that again please.",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "Come on, do it.",
+                "intent": "command",
+                "entities": []
+            },
+            {
+                "text": "Hello!",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Could you give me that phone?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "give",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "phone",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Thank you!",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "I want you to grab the blue brick.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "blue",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 14,
+                        "end": 18,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 28,
+                        "end": 33,
+                        "value": "brick",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "This cup is red.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 12,
+                        "end": 15,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 5,
+                        "end": 8,
+                        "value": "cup",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "This thing is white.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 19,
+                        "value": "white",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 5,
+                        "end": 10,
+                        "value": "thing",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "First I want you to give me the yellow cup and then pick up the green ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 32,
+                        "end": 38,
+                        "value": "yellow",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "give",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 39,
+                        "end": 42,
+                        "value": "cup",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 64,
+                        "end": 69,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 52,
+                        "end": 59,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 70,
+                        "end": 74,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up the brick then put it on the left.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 12,
+                        "end": 17,
+                        "value": "brick",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 23,
+                        "end": 26,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 37,
+                        "end": 41,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to grab the orange object.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 18,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 23,
+                        "end": 29,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 30,
+                        "end": 36,
+                        "value": "object",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "This is a pair of scissors.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 26,
+                        "value": "scissors",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this cup for me please.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 16,
+                        "value": "cup",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I would like you to grab these scissors and place them to the left.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 31,
+                        "end": 39,
+                        "value": "scissors",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 44,
+                        "end": 49,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 62,
+                        "end": 66,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Are you able to move this book?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 20,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 26,
+                        "end": 30,
+                        "value": "book",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I'm asking you to hold the teddy bear.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 22,
+                        "value": "hold",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 27,
+                        "end": 37,
+                        "value": "teddy bear",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "This is a ball.",
+                "intent": "",
+                "entities": []
+            },
+            {
+                "text": "This is a sports ball.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 21,
+                        "value": "sports ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I'm showing you a ball.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 22,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I'm going to show you what a cell phone looks like.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 29,
+                        "end": 39,
+                        "value": "cell phone",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Can you tell me what this is?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 21,
+                        "end": 25,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "tell",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Grab the pencil please.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 9,
+                        "end": 15,
+                        "value": "pencil",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Grab",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this ball please.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 17,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to take the red pencil please thanks.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 18,
+                        "value": "take",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 23,
+                        "end": 26,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 27,
+                        "end": 33,
+                        "value": "pencil",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Just move this keyboard away.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 15,
+                        "end": 23,
+                        "value": "keyboard",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Yes exactly.",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Yes that's what I want",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "precisely",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "absolutely",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "yeah",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Stop what you're doing immediately.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Stop",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Okay grab the green pen now.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 14,
+                        "end": 19,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 20,
+                        "end": 23,
+                        "value": "pen",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Okay pick up this cable over here first and then put it on the right side.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 18,
+                        "end": 23,
+                        "value": "cable",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 29,
+                        "end": 33,
+                        "value": "here",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 63,
+                        "end": 68,
+                        "value": "right",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 49,
+                        "end": 52,
+                        "value": "put",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "So I want you to move the black toy and put it somewhere on the left side next to the red block.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 21,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 26,
+                        "end": 31,
+                        "value": "black",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 32,
+                        "end": 35,
+                        "value": "toy",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 86,
+                        "end": 89,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 90,
+                        "end": 95,
+                        "value": "block",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 40,
+                        "end": 43,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 64,
+                        "end": 68,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Could you move the orange block",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 19,
+                        "end": 25,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 26,
+                        "end": 31,
+                        "value": "block",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "First I want you to pick up the pink box for me.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 27,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 32,
+                        "end": 36,
+                        "value": "pink",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 37,
+                        "end": 40,
+                        "value": "box",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Could you move this box to the right please",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 20,
+                        "end": 23,
+                        "value": "box",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 31,
+                        "end": 36,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Could you move this object to the left please.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 20,
+                        "end": 26,
+                        "value": "object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 34,
+                        "end": 38,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Spank me.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Spank",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Move.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Move",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Move this thing.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 15,
+                        "value": "this thing",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Could you please spank this red box now.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "spank",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 28,
+                        "end": 31,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 32,
+                        "end": 35,
+                        "value": "box",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Stop that immediately.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Stop",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "grab the blue ball",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 9,
+                        "end": 13,
+                        "value": "blue",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 14,
+                        "end": 18,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please grab the blue ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 16,
+                        "end": 20,
+                        "value": "blue",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 21,
+                        "end": 25,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I'd really like it if you could pick up this yellow cell phone, thanks very much.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 32,
+                        "end": 39,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 45,
+                        "end": 51,
+                        "value": "yellow",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 52,
+                        "end": 62,
+                        "value": "cell phone",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please grab this purple bubble for me and then put the bubble down.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 24,
+                        "end": 30,
+                        "value": "bubble",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 17,
+                        "end": 23,
+                        "value": "purple",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 47,
+                        "end": 50,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 55,
+                        "end": 61,
+                        "value": "bubble",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Okay so I want to ask you to move the blue brick but not a lot.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 29,
+                        "end": 33,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 38,
+                        "end": 42,
+                        "value": "blue",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 43,
+                        "end": 48,
+                        "value": "brick",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Yes that's exactly what I want.",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Use your gripper to pick this up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 25,
+                        "end": 29,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Grab this with the gripper.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Put the ball down.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "value": "Put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Put the ball somewhere else.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "value": "Put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Place the ball in a different location.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Could you please pick up the red brick and place the red brick on the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 24,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 29,
+                        "end": 32,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 33,
+                        "end": 38,
+                        "value": "brick",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 43,
+                        "end": 48,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 53,
+                        "end": 56,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 57,
+                        "end": 62,
+                        "value": "brick",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 70,
+                        "end": 75,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to let go of this object and grab the purple bottle.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 20,
+                        "value": "let go",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 24,
+                        "end": 35,
+                        "value": "this object",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 40,
+                        "end": 44,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 49,
+                        "end": 55,
+                        "value": "purple",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 56,
+                        "end": 62,
+                        "value": "bottle",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Can you lift the green ball",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Can you lift the green ball up and place it on the left",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 35,
+                        "end": 40,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 51,
+                        "end": 55,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I'd like you to push this a bit to the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 20,
+                        "value": "push",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 21,
+                        "end": 25,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 39,
+                        "end": 44,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Hi there robot",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Hello there robot",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Please pick this up",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 12,
+                        "end": 16,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Please pick this up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 12,
+                        "end": 16,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this orange ball",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this orange ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Hey there dummy",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Nothing",
+                "intent": "",
+                "entities": []
+            },
+            {
+                "text": "Pick this up please",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this up please.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Hey there robot",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "hey there robot",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Pick this up",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this shit up!",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "shit",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "move this",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this ball up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this up and then put it down.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 22,
+                        "end": 25,
+                        "value": "put",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Pick it up.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 7,
+                        "value": "it",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Yes pick up the green ball not the blue one.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 11,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 16,
+                        "end": 21,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 22,
+                        "end": 26,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Heyyy what's up.",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Please grab the flamingo and throw it out.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 16,
+                        "end": 24,
+                        "value": "flamingo",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 29,
+                        "end": 34,
+                        "value": "throw",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Hey",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Could you grab that phone on the left side and put it somewhere on the right thanks.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 33,
+                        "end": 37,
+                        "value": "left",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 20,
+                        "end": 25,
+                        "value": "phone",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 71,
+                        "end": 76,
+                        "value": "right",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 47,
+                        "end": 50,
+                        "value": "put",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Hi",
+                "intent": "greetings",
+                "entities": []
+            },
+            {
+                "text": "Move this ball and then place it here",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 33,
+                        "end": 37,
+                        "value": "here",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I wanna ask if you can move this ball and put it there",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 33,
+                        "end": 37,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 49,
+                        "end": 54,
+                        "value": "there",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I wanna ask if you can move this ball and put it there.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 33,
+                        "end": 37,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 49,
+                        "end": 54,
+                        "value": "there",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 42,
+                        "end": 45,
+                        "value": "put",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Move this thing and put it there.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 15,
+                        "value": "this thing",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 20,
+                        "end": 23,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 27,
+                        "end": 32,
+                        "value": "there",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this up and put it there",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 17,
+                        "end": 20,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "there",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this orange ball and fuck it.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 29,
+                        "end": 33,
+                        "value": "fuck",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Throw the ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Throw",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I really really really want you to throw the ball at Donald Trump.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 35,
+                        "end": 40,
+                        "value": "throw",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 53,
+                        "end": 65,
+                        "value": "Donald Trump",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 45,
+                        "end": 49,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Throw the phone at my face.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Throw",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 15,
+                        "value": "phone",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 19,
+                        "end": 26,
+                        "value": "my face",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Toss the orange ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 9,
+                        "end": 15,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 16,
+                        "end": 20,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Throw out the orange ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Throw",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 14,
+                        "end": 20,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 21,
+                        "end": 25,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Can you pick this up first and after that please put it over there.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 17,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 61,
+                        "end": 66,
+                        "value": "there",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 49,
+                        "end": 52,
+                        "value": "put",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Please pick up the pink prism and place it in the left corner of the platform afterwards.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 14,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 19,
+                        "end": 23,
+                        "value": "pink",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "prism",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 34,
+                        "end": 39,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 50,
+                        "end": 61,
+                        "value": "left corner",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Could you rotate this ball and then discard it.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 16,
+                        "value": "rotate",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 22,
+                        "end": 26,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to grasp the brown cube, lift the cube and move it a bit to the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "brown",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 30,
+                        "end": 34,
+                        "value": "cube",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 14,
+                        "end": 19,
+                        "value": "grasp",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 45,
+                        "end": 49,
+                        "value": "cube",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 54,
+                        "end": 58,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 75,
+                        "end": 80,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Please hold the orange sphere and then drop it thanks.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 22,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 23,
+                        "end": 29,
+                        "value": "sphere",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Come on just move this cuboid from the platform.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 17,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 23,
+                        "end": 29,
+                        "value": "cuboid",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please obey me.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "obey",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Could you pick up the orange triangle for me?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 17,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 22,
+                        "end": 28,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 29,
+                        "end": 37,
+                        "value": "triangle",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "This ball is green.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 13,
+                        "end": 18,
+                        "value": "green",
+                        "entity": "object_color"
+                    }
+                ]
+            },
+            {
+                "text": "This is a blue cube.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "blue",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 15,
+                        "end": 19,
+                        "value": "cube",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I'm showing you a blue cube.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 22,
+                        "value": "blue",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 23,
+                        "end": 27,
+                        "value": "cube",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "You should know that this is a ball.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 31,
+                        "end": 35,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "This is a yellow brick.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 16,
+                        "value": "yellow",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "brick",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please check this ball carefully.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 22,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Check this pink triangle very slowly.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Check",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 11,
+                        "end": 15,
+                        "value": "pink",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 16,
+                        "end": 24,
+                        "value": "triangle",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Could you inspect this white sheet for me?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 17,
+                        "value": "inspect",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "white",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 29,
+                        "end": 34,
+                        "value": "sheet",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please look carefully at this brick.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "look",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 30,
+                        "end": 35,
+                        "value": "brick",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to clasp this thing.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 30,
+                        "value": "this thing",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 14,
+                        "end": 19,
+                        "value": "clasp",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to crush this thing with your awesome gripper.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 19,
+                        "value": "crush",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 20,
+                        "end": 30,
+                        "value": "this thing",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this lamp for me.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 17,
+                        "value": "lamp",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "I'd like you to move this glass to the other side.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 20,
+                        "value": "move",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 39,
+                        "end": 49,
+                        "value": "other side",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 26,
+                        "end": 31,
+                        "value": "glass",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please lift this glass up from the platform.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "lift",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 17,
+                        "end": 22,
+                        "value": "glass",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this ball up from the platform and place it somewhere on the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 40,
+                        "end": 45,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 66,
+                        "end": 71,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Say something.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "value": "Say",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 4,
+                        "end": 13,
+                        "value": "something",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Okay now stop what you're doing immediately",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 9,
+                        "end": 13,
+                        "value": "stop",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Hey robot tell me what you're thinking right now.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "tell",
+                        "entity": "action"
+                    }
+                ]
+            },
+            {
+                "text": "Find a red ball on the platform.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Find",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 7,
+                        "end": 10,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 11,
+                        "end": 15,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please inspect this orange very carefully.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 14,
+                        "value": "inspect",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 20,
+                        "end": 26,
+                        "value": "orange",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Check out this green apple that I'm showing you.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 9,
+                        "value": "Check out",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 15,
+                        "end": 20,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 21,
+                        "end": 26,
+                        "value": "apple",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Pick up this ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 7,
+                        "value": "Pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 13,
+                        "end": 17,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "This is an orange.",
+                "intent": "",
+                "entities": [
+                    {
+                        "start": 11,
+                        "end": 17,
+                        "value": "orange",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Yes please do that.",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Yep",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Yeah",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Yes please",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Yeah do that",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "Affirmative",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "I confirm",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "No!",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "No don't do that",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "Absolutely not",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "Hold this orange ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Hold",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 10,
+                        "end": 16,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 17,
+                        "end": 21,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Nope",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "Hold on to the ball.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Hold",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 15,
+                        "end": 19,
+                        "value": "ball",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Please find the orange brick.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "find",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 16,
+                        "end": 22,
+                        "value": "orange",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "brick",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "Yes",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "No",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "Please look for a phone.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "look",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 18,
+                        "end": 23,
+                        "value": "phone",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "yes",
+                "intent": "affirmative",
+                "entities": []
+            },
+            {
+                "text": "please pick up the phone",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 14,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 19,
+                        "end": 24,
+                        "value": "phone",
+                        "entity": "object_name"
+                    }
+                ]
+            },
+            {
+                "text": "no",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "Give me that thing.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Give",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 8,
+                        "end": 18,
+                        "value": "that thing",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Give me that.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Give",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "that",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "Give me that right there.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Give",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "that",
+                        "entity": "undefined_object"
+                    }
+                ]
+            },
+            {
+                "text": "I want you to pick up this bottle from the bottom-left and put it somewhere on the right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 14,
+                        "end": 21,
+                        "value": "pick up",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 27,
+                        "end": 33,
+                        "value": "bottle",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 43,
+                        "end": 54,
+                        "value": "bottom-left",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 59,
+                        "end": 62,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 83,
+                        "end": 88,
+                        "value": "right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Okay now take the green plate from the left side of the platform.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 9,
+                        "end": 13,
+                        "value": "take",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 18,
+                        "end": 23,
+                        "value": "green",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "plate",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 39,
+                        "end": 43,
+                        "value": "left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Could you lift this fork up from the bottom right.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "lift",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "fork",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 37,
+                        "end": 49,
+                        "value": "bottom right",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Could you grab the gray can from the center of the platform?",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "grab",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 19,
+                        "end": 23,
+                        "value": "gray",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 24,
+                        "end": 27,
+                        "value": "can",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 37,
+                        "end": 43,
+                        "value": "center",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Pick this up from the left corner and put it on the top.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pick",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 22,
+                        "end": 33,
+                        "value": "left corner",
+                        "entity": "placement"
+                    },
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "this",
+                        "entity": "undefined_object"
+                    },
+                    {
+                        "start": 38,
+                        "end": 41,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 52,
+                        "end": 55,
+                        "value": "top",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "Please take the red ball with your gripper and when you're done put it in the bottom left corner.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "take",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 16,
+                        "end": 19,
+                        "value": "red",
+                        "entity": "object_color"
+                    },
+                    {
+                        "start": 20,
+                        "end": 24,
+                        "value": "ball",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 64,
+                        "end": 67,
+                        "value": "put",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 78,
+                        "end": 89,
+                        "value": "bottom left",
+                        "entity": "placement"
+                    }
+                ]
+            },
+            {
+                "text": "I'm ordering you to place the brick in the middle of the platform.",
+                "intent": "command",
+                "entities": [
+                    {
+                        "start": 20,
+                        "end": 25,
+                        "value": "place",
+                        "entity": "action"
+                    },
+                    {
+                        "start": 30,
+                        "end": 35,
+                        "value": "brick",
+                        "entity": "object_name"
+                    },
+                    {
+                        "start": 43,
+                        "end": 49,
+                        "value": "middle",
+                        "entity": "placement"
+                    }
+                ]
+            }
+        ]
+    }
+}

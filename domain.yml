@@ -1,0 +1,57 @@
+actions:
+- received_command
+- received_command_confirmed
+- received_command_denied
+- received_goodbye
+- received_greet
+- utter_goodbye
+- utter_greet
+- utter_received_command
+- utter_repeat_command
+- utter_user_denied
+- utter_user_gave_confirmation
+entities:
+- action
+- bye
+- object_color
+- object_name
+- placement
+- undefined_object
+intents:
+- bye
+- greetings
+- command
+- affirmative
+- deny
+responses:
+  received_command:
+  - text: received_command
+  received_command_confirmed:
+  - text: received_command_confirmed
+  received_command_denied:
+  - text: received_command_denied
+  received_goodbye:
+  - text: received_goodbye
+  received_greet:
+  - text: received_greet
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Yo, what's up?
+  utter_received_command:
+  - text: Thanks for giving me a command.
+  utter_repeat_command:
+  - text: So just to make sure, you want me to {action} that {object_color} {object_name}?
+  utter_user_denied:
+  - text: Damn, that sucks for me.
+  - text: Well, I guess I won't do that then.
+  - text: Well I'm glad I asked!
+  - text: Got it, I won't do that.
+  utter_user_gave_confirmation:
+  - text: Cool, I'll do that.
+  - text: Getting right on it!
+  - text: Okay sure.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
