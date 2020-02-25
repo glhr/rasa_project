@@ -111,3 +111,18 @@
     - received_command
 * deny
     - received_command_denied
+
+## interactive_story_1
+* greetings
+    - received_greet
+* none
+    - received_none
+    - utter_prompt
+* command{"action": "Find", "object_color": "red", "object_name": "ball", "placement_destination": "left"}
+    - received_command
+* affirmative
+    - received_command_confirmed
+* none
+    - utter_prompt
+* bye
+    - received_goodbye

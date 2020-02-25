@@ -12,7 +12,6 @@
 - Hi there robot
 - Hello there robot
 - Hey there dummy
-- Hey there robot
 - hey there robot
 - Heyyy what's up.
 - Hey
@@ -54,18 +53,19 @@
 - Yes that's exactly what I want.
 - Yes please do that.
 - Yep
-- Yeah
 - Yes please
 - Yeah do that
 - Affirmative
 - I confirm
-- Yes
 - yes
+- yes please
 
 ## intent:none
 - Nothing
 - I don't know
 - Nice weather
+- Good
+- Cool
 
 ## intent:bye
 - That's all, bye!
@@ -81,6 +81,7 @@
 - Bye stupid robot
 - Bye
 - Thank you!
+- Nothing, bye
 
 ## intent:deny
 - That's incorrect
@@ -98,8 +99,6 @@
 - That's not what I meant.
 - No!
 - No don't do that
-- Absolutely not
-- Nope
 - No
 - no
 
@@ -143,7 +142,7 @@
 - [Hand](action) over [that thing](undefined_object) please.
 - [Take](action) this [brick](object_name), [lift](action) it up and [place](action) it on the [right](placement_destination).
 - [Pick up](action) the [red](object_color) [phone](object_name) and [put](action) it on the [right](placement_destination).
--  I'd like you to [put](action) the [red](object_color) [phone](object_name) on the [left](placement_destination). Thanks!
+- I'd like you to [put](action) the [red](object_color) [phone](object_name) on the [left](placement_destination). Thanks!
 - Hello robot! Could you [give](action) me [this object](undefined_object)?
 - Hello, could you do something for me?
 - Let's try again.
@@ -258,23 +257,10 @@
 - [Pick](action) [this](undefined_object) up from the [left corner](placement_origin) and [put](action) it on the [top](placement_destination).
 - Please [take](action) the [red](object_color) [ball](object_name) with your gripper and when you're done [put](action) it in the [bottom left](placement_destination) corner.
 - I'm ordering you to [place](action) the [brick](object_name) in the [middle](placement_destination) of the platform.
-- [Pick up](action:pickup) this [ball](object_name).
-- Could you [pick up](action:pickup) this [yellow](object_color) [ball](object_name)?
-- I want you to [grab](action:pickup) this [blue](object_color) [bottle](object_name) please.
-- Okay just [bring](action:pickup) me that [waffle](object_name).
-- Could you also [detect](action:find) [something](undefined_object) [blue](object_color)?
-- Can you [detect](action:find) any [red](object_color) [book](object_name) on the platform?
-- [Detect](action:find) the [gold](object_color) [phone](object_name) instead.
-- Cool! You can [lift](action:pickup) the [phone](object_name) now.
-- Last thing, just [drop](action) [it](undefined_object) somewhere on the [right](placement_destination).
-- [Pick up](action:pickup) that [yellow](object_color) [cable](object_name) and then [place](action:move) it on the [left](placement_destination)
-- Do you [recognize](action:find) a [bracelet](object_name) on the table?
-- I want you to [look](action:find) for a [bracelet](object_name).
-- I want you to [move](action) this [ball](object_name) to the [right](placement_destination).
-- Could you also [lift](action:pickup) the [phone](object_name) over there?
 - OK so can you [lift](action:pickup) the [gold](object_color) [phone](object_name) over there
 - Could you please [put](action:move) down that [phone](object_name) right now
 - Now [pick up](action:pickup) the [apricot](object_name)
+- [Find](action) a [red](object_color) [ball](object_name) on the [left](placement_destination)
 
 ## synonym:find
 - detect
@@ -294,9 +280,9 @@
 
 ## synonym:move
 - place
+- put
 - shift
 - relocate
-- put
 - set
 
 ## synonym:pickup

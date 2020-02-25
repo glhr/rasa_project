@@ -8,6 +8,7 @@ actions:
 - received_show
 - utter_goodbye
 - utter_greet
+- utter_prompt
 - utter_received_command
 - utter_repeat_command
 - utter_user_denied
@@ -17,17 +18,17 @@ entities:
 - bye
 - object_color
 - object_name
-- placement_origin
 - placement_destination
+- placement_origin
 - undefined_object
 intents:
 - affirmative
-- deny
-- command
 - bye
-- greetings
-- show
 - none
+- command
+- greetings
+- deny
+- show
 responses:
   received_command:
   - text: received_command
@@ -44,8 +45,14 @@ responses:
   utter_greet:
   - text: Hey! How are you?
   - text: Yo, what's up?
+  utter_prompt:
+  - text: What would you like me to do?
+  - text: Feel free to order me around.
+  - text: I'm bored. Tell me what to do.
+  - text: So you're just here to chat huh? Try giving me a command instead.
   utter_received_command:
   - text: Thanks for giving me a command.
+  - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
   - text: So just to make sure, you want me to {action} that {object_color} {object_name}?
   utter_user_denied:
@@ -57,6 +64,7 @@ responses:
   - text: Cool, I'll do that.
   - text: Getting right on it!
   - text: Okay sure.
+  - text: I'm moving my sexy arms for you now.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
