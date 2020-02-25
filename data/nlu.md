@@ -44,6 +44,7 @@
 - That's right
 - OK
 - Yep please do that
+- Yes [pick](action) [it](undefined_object) up
 - Yeah [move](action) it
 - Yes exactly.
 - Yes that's what I want
@@ -75,6 +76,7 @@
 - Okay we're done here.
 - I'm out
 - Ok bye then
+- Bye stupid robot
 - Bye
 - Thank you!
 
@@ -88,6 +90,7 @@
 - No you didn't understand
 - Nevermind
 - Not at all
+- No the [green](object_color) one
 - Incorrect
 - No not like that.
 - That's not what I meant.
@@ -99,6 +102,22 @@
 - no
 
 ## intent:command
+- [Pick up](action:pickup) this [ball](object_name).
+- Could you [pick up](action:pickup) this [yellow](object_color) [ball](object_name)?
+- I want you to [grab](action:pickup) this [blue](object_color) [bottle](object_name) please.
+- Okay just [bring](action:pickup) me that [waffle](object_name).
+- Could you also [detect](action:find) [something](undefined_object) [blue](object_color)?
+- Can you [detect](action:find) any [red](object_color) [book](object_name) on the platform?
+- [Detect](action:find) the [gold](object_color) [phone](object_name) instead.
+- Cool! You can [lift](action:pickup) the [phone](object_name) now.
+- Last thing, just [drop](action) [it](undefined_object) somewhere on the [right](placement).
+- [Pick up](action:pickup) that [yellow](object_color) [cable](object_name) and then [place](action:move) it on the [left](placement)
+- Do you [recognize](action:find) a [bracelet](object_name) on the table?
+- I want you to [look](action:find) for a [bracelet](object_name).
+- I want you to [move](action) this [ball](object_name) to the [right](placement).
+- Could you also [lift](action:pickup) the [phone](object_name) over there?
+- Could you [pick up](action:pickup) this [green](object_color) [apple](object_name) over there
+- Also [move](action) the [blue](object_color) [peach](object_name) to the [left](placement) of the platform
 - Please [pick up](action) [this object](undefined_object).
 - Could you [move](action) [this](undefined_object) to the [right](placement)?
 - Stop!

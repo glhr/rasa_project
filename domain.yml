@@ -23,6 +23,8 @@ intents:
 - command
 - bye
 - greetings
+- show
+- none
 responses:
   received_command:
   - text: received_command
