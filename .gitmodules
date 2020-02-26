@@ -1,0 +1,2 @@
+[submodule "rasa-voice-interface"]
+	url = https://github.com/glhr/rasa-voice-interface.git
