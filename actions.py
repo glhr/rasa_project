@@ -30,12 +30,23 @@ class ReceivedCommand(Action):
 
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
-            nlp_node.send_command(action,object_name,object_color)
 
-        dispatcher.utter_message(template="utter_repeat_command",
-                                 action=action,
-                                 object_color=object_color,
-                                 object_name=object_name)
+        if (action is not None) and (object_name is not None):
+            if object_color is None: object_color = ''
+            
+            if ENABLE_ROS:
+                nlp_node.send_command(action,object_name,object_color)
+
+            dispatcher.utter_message(template="utter_repeat_command",
+                                     action=action,
+                                     object_color=object_color,
+                                     object_name=object_name)
+        elif (action is None) and (object_name is not None):
+            dispatcher.utter_message(template="utter_incomplete_command_missing_action",
+                                     object_name=object_name)
+        elif (action is not None) and (object_name is None):
+            dispatcher.utter_message(template="utter_incomplete_command_missing_object",
+                                     action=action)
 
         return []
 
@@ -81,6 +92,19 @@ class ReceivedGoodbye(Action):
         dispatcher.utter_message(template="utter_goodbye")
         return []
 
+class ReceivedNone(Action):
+
+    def name(self) -> Text: return "received_none"
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        if ENABLE_ROS:
+            nlp_node.send_raw_msg(tracker.latest_message['text'])
+
+        dispatcher.utter_message(template="utter_prompt")
+        return []
+
 class ReceivedGreet(Action):
 
     def name(self) -> Text: return "received_greet"
@@ -90,6 +114,6 @@ class ReceivedGreet(Action):
 
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
-            
+
         dispatcher.utter_message(template="utter_greet")
         return []

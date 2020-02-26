@@ -117,12 +117,43 @@
     - received_greet
 * none
     - received_none
-    - utter_prompt
 * command{"action": "Find", "object_color": "red", "object_name": "ball", "placement_destination": "left"}
     - received_command
 * affirmative
     - received_command_confirmed
 * none
-    - utter_prompt
+    - received_none
 * bye
     - received_goodbye
+
+## interactive_story_1
+* greetings
+    - received_greet
+* none
+    - received_none
+* command{"action": "pickup", "object_color": "pink", "object_name": "flamingo"}
+    - received_command
+* affirmative
+    - received_command_confirmed
+* none
+    - received_none
+* bye
+    - received_goodbye
+
+## interactive_story_1
+* greetings
+    - received_greet
+* none
+    - received_none
+* command{"action": "find", "undefined_object": "something"}
+    - received_command
+* command{"action": "Find", "object_color": "red", "object_name": "apple"}
+    - received_command
+* affirmative
+    - received_command_confirmed
+* none
+    - received_none
+* command{"action": "push", "object_name": "apple"}
+    - received_command
+* affirmative
+    - received_command_confirmed

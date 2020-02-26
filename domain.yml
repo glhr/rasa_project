@@ -8,6 +8,8 @@ actions:
 - received_show
 - utter_goodbye
 - utter_greet
+- utter_incomplete_command_missing_action
+- utter_incomplete_command_missing_object
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
@@ -15,18 +17,17 @@ actions:
 - utter_user_gave_confirmation
 entities:
 - action
-- bye
 - object_color
 - object_name
 - placement_destination
 - placement_origin
 - undefined_object
 intents:
+- greetings
 - affirmative
-- bye
 - none
 - command
-- greetings
+- bye
 - deny
 - show
 responses:
@@ -47,6 +48,10 @@ responses:
   utter_greet:
   - text: Hey! How are you?
   - text: Yo, what's up?
+  utter_incomplete_command_missing_action:
+  - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
+  utter_incomplete_command_missing_object:
+  - text: What object do you want me to {action} exactly?
   utter_prompt:
   - text: What would you like me to do?
   - text: Feel free to order me around.

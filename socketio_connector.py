@@ -41,7 +41,7 @@ try:
         from speech import stt_deepspeech as stt
     else: USE_STT = None
 except Exception as e:
-    logger.warning("Loading STT module {} failed: {}".format(USE_SST, e))
+    logger.warning("Loading STT module {} failed: {}".format(USE_STT, e))
     USE_STT = None
 
 from pathlib import Path
