@@ -105,22 +105,23 @@
 - No
 - no
 
+
 ## intent:command
-- [Pick up](action:pickup) this [ball](object_name).
-- Could you [pick up](action:pickup) this [yellow](object_color) [ball](object_name)?
-- I want you to [grab](action:pickup) this [blue](object_color) [bottle](object_name) please.
-- Okay just [bring](action:pickup) me that [waffle](object_name).
+- [Pick up](action:pick up) this [ball](object_name).
+- Could you [pick up](action:pick up) this [yellow](object_color) [ball](object_name)?
+- I want you to [grab](action:pick up) this [blue](object_color) [bottle](object_name) please.
+- Okay just [bring](action:pick up) me that [waffle](object_name).
 - Could you also [detect](action:find) [something](undefined_object) [blue](object_color)?
 - Can you [detect](action:find) any [red](object_color) [book](object_name) on the platform?
 - [Detect](action:find) the [gold](object_color) [phone](object_name) instead.
-- Cool! You can [lift](action:pickup) the [phone](object_name) now.
+- Cool! You can [lift](action:pick up) the [phone](object_name) now.
 - Last thing, just [drop](action) [it](undefined_object) somewhere on the [right](placement_destination).
-- [Pick up](action:pickup) that [yellow](object_color) [cable](object_name) and then [place](action:move) it on the [left](placement_destination)
+- [Pick up](action:pick up) that [yellow](object_color) [cable](object_name) and then [place](action:move) it on the [left](placement_destination)
 - Do you [recognize](action:find) a [bracelet](object_name) on the table?
 - I want you to [look](action:find) for a [bracelet](object_name).
 - I want you to [move](action) this [ball](object_name) to the [right](placement_destination).
-- Could you also [lift](action:pickup) the [phone](object_name) over there?
-- Could you [pick up](action:pickup) this [green](object_color) [apple](object_name) over there
+- Could you also [lift](action:pick up) the [phone](object_name) over there?
+- Could you [pick up](action:pick up) this [green](object_color) [apple](object_name) over there
 - Also [move](action) the [blue](object_color) [peach](object_name) to the [left](placement_destination) of the platform
 - Please [pick up](action) [this object](undefined_object).
 - Could you [move](action) [this](undefined_object) to the [right](placement_destination)?
@@ -256,9 +257,9 @@
 - [Pick](action) [this](undefined_object) up from the [left corner](placement_origin) and [put](action) it on the [top](placement_destination).
 - Please [take](action) the [red](object_color) [ball](object_name) with your gripper and when you're done [put](action) it in the [bottom left](placement_destination) corner.
 - I'm ordering you to [place](action) the [brick](object_name) in the [middle](placement_destination) of the platform.
-- OK so can you [lift](action:pickup) the [gold](object_color) [phone](object_name) over there
+- OK so can you [lift](action:pick up) the [gold](object_color) [phone](object_name) over there
 - Could you please [put](action:move) down that [phone](object_name) right now
-- Now [pick up](action:pickup) the [apricot](object_name)
+- Now [pick up](action:pick up) the [apricot](object_name)
 - Hey, could you [place](action:move) the [apple](object_name) on the [left](placement_destination)
 - Just [find](action) me [something](undefined_object)
 - [Find](action) me a [red](object_color) [apple](object_name).
@@ -287,7 +288,7 @@
 - relocate
 - set
 
-## synonym:pickup
+## synonym:pick up
 - Pick up
 - pick up
 - grab

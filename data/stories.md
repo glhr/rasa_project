@@ -95,7 +95,7 @@
     - received_goodbye
 * greetings
     - received_greet
-* command{"action": "pickup", "object_color": "gold", "object_name": "phone"}
+* command{"action": "pick up", "object_color": "gold", "object_name": "phone"}
     - received_command
 * deny
     - received_command_denied
@@ -107,7 +107,7 @@
     - received_command
 * affirmative{"action": "move"}
     - received_command_confirmed
-* command{"action": "pickup", "object_name": "apricot"}
+* command{"action": "pick up", "object_name": "apricot"}
     - received_command
 * deny
     - received_command_denied
@@ -131,7 +131,7 @@
     - received_greet
 * none
     - received_none
-* command{"action": "pickup", "object_color": "pink", "object_name": "flamingo"}
+* command{"action": "pick up", "object_color": "pink", "object_name": "flamingo"}
     - received_command
 * affirmative
     - received_command_confirmed
