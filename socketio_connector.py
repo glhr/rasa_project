@@ -175,7 +175,7 @@ class SocketIOInput(InputChannel):
                     message = data["message"]
                     logger.info('TXT: {}'.format(message))
 
-            await sio.emit(self.user_message_evt, {"text":message}, room=sid)
+            await sio.emit(self.user_message_evt, {"text":message.casefold()}, room=sid)
 
 
             message_rasa = UserMessage(message, output_channel, sid,
