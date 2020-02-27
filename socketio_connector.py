@@ -13,9 +13,7 @@ import scipy.io.wavfile as wav
 import os
 import sys
 import io
-import torch
 import numpy as np
-from collections import OrderedDict
 
 import librosa
 import urllib
