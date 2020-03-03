@@ -7,6 +7,8 @@
     - received_command_confirmed
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -17,6 +19,8 @@
     - received_command_confirmed
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -31,6 +35,8 @@
     - received_command_denied
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -53,6 +59,8 @@
     - received_command_confirmed
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -73,6 +81,8 @@
     - received_command_denied
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -87,6 +97,8 @@
     - received_command_denied
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -101,6 +113,8 @@
     - received_command_denied
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * command{"action": "move", "object_name": "phone"}
@@ -111,6 +125,8 @@
     - received_command
 * deny
     - received_command_denied
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -125,6 +141,8 @@
     - received_none
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -139,6 +157,8 @@
     - received_none
 * bye
     - received_goodbye
+* restart
+    - action_restart
 
 ## interactive_story_1
 * greetings
@@ -157,3 +177,5 @@
     - received_command
 * affirmative
     - received_command_confirmed
+* restart
+    - action_restart

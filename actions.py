@@ -7,6 +7,7 @@
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
+from rasa_sdk.events import Restarted
 from rasa_sdk.executor import CollectingDispatcher
 
 try:
@@ -117,3 +118,18 @@ class ReceivedGreet(Action):
 
         dispatcher.utter_message(template="utter_greet")
         return []
+
+class ReceivedRestart(Action):
+
+    def name(self) -> Text: return "received_restart"
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        if ENABLE_ROS:
+            nlp_node.send_raw_msg(tracker.latest_message['text'])
+
+        dispatcher.utter_message(template="utter_restart")
+        def apply_to(self, tracker) -> None: 
+            tracker._reset_slots()
+        return[Restarted()]

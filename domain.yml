@@ -6,6 +6,7 @@ actions:
 - received_greet
 - received_none
 - received_show
+- received_restart
 - utter_goodbye
 - utter_greet
 - utter_incomplete_command_missing_action
@@ -15,6 +16,7 @@ actions:
 - utter_repeat_command
 - utter_user_denied
 - utter_user_gave_confirmation
+- utter_restart
 entities:
 - action
 - object_color
@@ -23,13 +25,14 @@ entities:
 - placement_origin
 - undefined_object
 intents:
-- greetings
-- affirmative
+- greetings: {triggers: utter_greet}
+- affirmative: {triggers: utter_user_gave_confirmation}
 - none
 - command
-- bye
-- deny
+- bye: {triggers: utter_goodbye}
+- deny: {triggers: utter_user_denied}
 - show
+- restart
 responses:
   received_command:
   - text: received_command
@@ -43,6 +46,8 @@ responses:
   - text: received_greet
   received_none:
   - text: utter_prompt
+  received_restart:
+  - text: received_restart
   utter_goodbye:
   - text: Bye
   utter_greet:
@@ -72,6 +77,10 @@ responses:
   - text: Getting right on it!
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
+  utter_restart:
+  - text: Alright, let's start over.
+  - text: We will give it another shot!
+  - text: Why don't we try that one more time?
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
