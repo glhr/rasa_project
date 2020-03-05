@@ -10,12 +10,6 @@ from rasa.core.channels.channel import UserMessage, OutputChannel
 
 import scipy.io.wavfile as wav
 
-import os
-import sys
-import io
-import numpy as np
-
-import librosa
 import urllib
 import time
 
