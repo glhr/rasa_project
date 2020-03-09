@@ -4,16 +4,20 @@
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
+import logging
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import Restarted
 from rasa_sdk.executor import CollectingDispatcher
 
+logger = logging.getLogger(__name__)
+
 try:
     from ros_comm import nlp_node
     ENABLE_ROS = True
-except:
+except Exception as e:
+    logger.warning("Failed to load ros_comm module: {}".format(e))
     ENABLE_ROS = False
 
 class ReceivedCommand(Action):
@@ -28,15 +32,17 @@ class ReceivedCommand(Action):
         action = next(tracker.get_latest_entity_values("action"), None)
         object_color = next(tracker.get_latest_entity_values("object_color"), None)
         object_name = next(tracker.get_latest_entity_values("object_name"), None)
+        placement_origin = next(tracker.get_latest_entity_values("placement_origin"), None)
+        placement_destination = next(tracker.get_latest_entity_values("placement_destination"), None)
 
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
 
         if (action is not None) and (object_name is not None):
             if object_color is None: object_color = ''
-            
+
             if ENABLE_ROS:
-                nlp_node.send_command(action,object_name,object_color)
+                nlp_node.send_command(action,object_name,object_color,placement_origin,placement_destination)
 
             dispatcher.utter_message(template="utter_repeat_command",
                                      action=action,
@@ -130,6 +136,6 @@ class ReceivedRestart(Action):
             nlp_node.send_raw_msg(tracker.latest_message['text'])
 
         dispatcher.utter_message(template="utter_restart")
-        def apply_to(self, tracker) -> None: 
+        def apply_to(self, tracker) -> None:
             tracker._reset_slots()
         return[Restarted()]

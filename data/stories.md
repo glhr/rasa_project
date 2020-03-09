@@ -179,3 +179,14 @@
     - received_command_confirmed
 * restart
     - action_restart
+## interactive_story_1
+* command{"action": "move", "object_name": "ball", "placement_origin": "left", "placement_destination": "right"}
+    - received_command
+* affirmative
+    - utter_user_gave_confirmation
+* command{"action": "move", "object_name": "ball", "placement_origin": "left", "placement_destination": "right"}
+    - received_command
+* deny
+    - utter_user_denied
+* bye
+    - utter_goodbye

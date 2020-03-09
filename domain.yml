@@ -5,8 +5,8 @@ actions:
 - received_goodbye
 - received_greet
 - received_none
-- received_show
 - received_restart
+- received_show
 - utter_goodbye
 - utter_greet
 - utter_incomplete_command_missing_action
@@ -14,9 +14,9 @@ actions:
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
+- utter_restart
 - utter_user_denied
 - utter_user_gave_confirmation
-- utter_restart
 entities:
 - action
 - object_color
@@ -25,12 +25,16 @@ entities:
 - placement_origin
 - undefined_object
 intents:
-- greetings: {triggers: utter_greet}
-- affirmative: {triggers: utter_user_gave_confirmation}
-- none
+- affirmative:
+    triggers: utter_user_gave_confirmation
+- bye:
+    triggers: utter_goodbye
+- deny:
+    triggers: utter_user_denied
 - command
-- bye: {triggers: utter_goodbye}
-- deny: {triggers: utter_user_denied}
+- greetings:
+    triggers: utter_greet
+- none
 - show
 - restart
 responses:
@@ -67,6 +71,10 @@ responses:
   - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
   - text: So just to make sure, you want me to {action} that {object_color} {object_name}?
+  utter_restart:
+  - text: Alright, let's start over.
+  - text: We will give it another shot!
+  - text: Why don't we try that one more time?
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
@@ -77,10 +85,6 @@ responses:
   - text: Getting right on it!
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
-  utter_restart:
-  - text: Alright, let's start over.
-  - text: We will give it another shot!
-  - text: Why don't we try that one more time?
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
