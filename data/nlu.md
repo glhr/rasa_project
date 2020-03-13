@@ -267,7 +267,7 @@
 - [Move](action) the [ball](object_name) from the [right](placement_origin) to the [left](placement_destination).
 - Please [pick up](action) the [phone](object_name) on the [left](placement_origin) and put it on the [right](placement_destination).
 
-## synonym
+## synonym:find
 - detect
 - Detect
 - recognize
@@ -283,14 +283,14 @@
 - come across
 - notice
 
-## synonym
+## synonym:move
 - place
 - put
 - shift
 - relocate
 - set
 
-## synonym
+## synonym:pick up
 - Pick up
 - pick up
 - grab
