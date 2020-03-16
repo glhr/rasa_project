@@ -10,6 +10,10 @@ spacy_nlp_config = {"name": "SpacyNLP"}
 blank_config = RasaNLUModelConfig({"language": "en", "pipeline": []})
 spacy_nlp = ComponentBuilder().create_component(spacy_nlp_config, blank_config).nlp
 
+mitie_nlp_config = {"name": "MitieNLP"}
+mitie_feature_extractor = ComponentBuilder().create_component(mitie_nlp_config, blank_config).extractor
+
+
 def logging_setup():
     logger = logging.getLogger(__name__)
     logging.getLogger("tensorflow").setLevel(logging.ERROR)
