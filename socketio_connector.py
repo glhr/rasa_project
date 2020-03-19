@@ -8,10 +8,10 @@ from typing import Optional, Text, Any, List, Dict, Iterable
 from rasa.core.channels.channel import InputChannel
 from rasa.core.channels.channel import UserMessage, OutputChannel
 
-import scipy.io.wavfile as wav
-
 import urllib
 import time
+
+from speech.utils import get_path_from_filename
 
 USE_TTS = 'mozilla'
 USE_STT = 'deepspeech'
@@ -23,7 +23,8 @@ try:
         from speech import tts_pyttsx3 as tts
     elif USE_TTS == 'mozilla':
         from speech import tts_mozilla as tts
-    else: USE_TTS = None
+    else:
+        USE_TTS = None
 except Exception as e:
     logger.warning("Loading TTS module {} failed: {}".format(USE_TTS, e))
     USE_TTS = None
@@ -38,6 +39,7 @@ except Exception as e:
 
 from pathlib import Path
 dirpath = str(Path(__file__).parent.absolute())
+
 
 class SocketBlueprint(Blueprint):
     def __init__(self, sio: AsyncServer, socketio_path, *args, **kwargs):
@@ -62,7 +64,6 @@ class SocketIOOutput(OutputChannel):
         self.bot_message_evt = bot_message_evt
         self.message = message
 
-
     async def _send_audio_message(self, socket_id, response,  **kwargs: Any):
         # type: (Text, Any) -> None
         """Sends a message to the recipient using the bot event."""
@@ -70,13 +71,13 @@ class SocketIOOutput(OutputChannel):
         if USE_TTS:
             ts = time.time()
             OUT_FILE = str(ts)+'.wav'
-            OUT_PATH = dirpath + '/' + OUT_FILE
+            OUT_PATH = get_path_from_filename(OUT_FILE)
             tts.generate_speech(response['text'],OUT_PATH)
             link = "http://localhost:8888/"+OUT_FILE
-        else: link = None
+        else:
+            link = None
 
-        await self.sio.emit(self.bot_message_evt, {'text':response['text'], 'link':link}, room=socket_id)
-
+        await self.sio.emit(self.bot_message_evt, {'text': response['text'], 'link': link}, room=socket_id)
 
     async def send_text_message(self, recipient_id: Text, message: Text, **kwargs: Any) -> None:
         """Send a message through this channel."""
@@ -113,7 +114,6 @@ class SocketIOInput(InputChannel):
         self.user_message_evt = user_message_evt
         self.namespace = namespace
         self.socketio_path = socketio_path
-
 
     def blueprint(self, on_new_message):
         sio = AsyncServer(async_mode="sanic", cors_allowed_origins='*')
@@ -154,26 +154,25 @@ class SocketIOInput(InputChannel):
             if data['message'] == "/get_started":
                 message = data['message']
             else:
-                try: # message is an audio file
+                try:  # message is an audio file
                     received_file = 'output_'+sid+'.wav'
-                    urllib.request.urlretrieve(data['message'], received_file)
-                    path = os.path.dirname(__file__)
+                    urllib.request.urlretrieve(data['message'], get_path_from_filename(received_file))
 
                     if USE_STT:
-                        fs, audio = wav.read("output_{0}.wav".format(sid))
-                        message = stt.generate_text(audio)
+                        from speech.stt_wrapper import generate_text
+                        message = generate_text(received_file, method='google')
                     else:
                         message = "Speech to Text isn't available"
-                    logger.info('STT: {}'.format(message))
+                    logger.info('STT: {}'.format(message[0:10]))
                 except Exception as e: # message is a string
+                    logger.warning(e)
                     message = data["message"]
-                    logger.info('TXT: {}'.format(message))
+                    logger.info('TXT: {}'.format(message[0:10]))
 
-            await sio.emit(self.user_message_evt, {"text":message.casefold()}, room=sid)
-
+            await sio.emit(self.user_message_evt, {"text": message.casefold()}, room=sid)
 
             message_rasa = UserMessage(message, output_channel, sid,
-                                  input_channel=self.name())
+                                    input_channel=self.name())
             await on_new_message(message_rasa)
 
         return socketio_webhook
