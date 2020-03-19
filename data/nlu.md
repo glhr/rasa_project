@@ -58,6 +58,88 @@
 - Affirmative
 - I confirm
 - yes
+- that's correct
+- it's fine
+- go ahead
+- sounds good
+- okay
+- yes
+- ok
+- okie dokie
+- sure
+- go for it
+- yeah
+- yea
+- do it
+- of course
+- I guess
+- correct
+- yeah sure
+- why not
+- please do
+- sure is
+- I agree
+- I don't mind
+- certainly
+- exactly
+- yes I agree
+- I think so
+- yes it is
+- right
+- okay then
+- yes of course
+- yes I do
+- that s okay
+- I do
+- yup
+- ya
+- oh yes
+- yes sure
+- obviously
+- k
+- sure why not
+- yeah right
+- yeah of course
+- absolutely
+- yes indeed
+- ok sure
+- ok yes
+- yes correct
+- ok thank you
+- sure thing
+- ye
+- confirm
+- yep
+- looks good
+- yes thank you
+- definitely
+- yes right
+- yes I would like to
+- alrighty
+- yes definitely
+- yeh
+- yes it is correct
+- yeah that's right
+- ok you can
+- yap
+- yes you may
+- confirmed
+- of course why not
+- yes that's fine
+- affirmative
+- yeah go ahead
+- yeah I'm sure
+- okay sounds good
+- okay that's fine
+- yeah exactly
+- that is ok
+- this is correct
+- ok go ahead
+- yes this is correct
+- nevermind its okay
+- okey
+- yes for sure
+- all right
 
 ## intent:none
 - Nothing
@@ -104,7 +186,68 @@
 - No don't do that
 - No
 - no
-
+- cancel
+- abort
+- annul
+- cancel it
+- cancel request
+- cancelled
+- dismiss
+- dismissed
+- disregard
+- disregard that
+- skip
+- skip it
+- cancel everything
+- cancel all
+- forget about it
+- forget
+- don't do that
+- stop
+- just forget it
+- forget that
+- discard
+- forget this
+- just forget about it
+- forget about that
+- i said cancel
+- just cancel it
+- nothing cancel
+- just stop it
+- no cancel cancel
+- no just cancel
+- cancel my request
+- can you cancel that
+- cancel all that
+- cancel this request
+- no cancel this
+- no cancel everything
+- no stop
+- just forget
+- i want to cancel
+- nevermind forget about it
+- no just cancel it
+- nothing just forget it
+- i said cancel it
+- cancel the whole thing
+- can you cancel it
+- so cancel
+- i said forget it
+- cancel all this
+- forget it nevermind
+- stop it
+- i want to cancel it
+- i would like to cancel
+- now cancel
+- cancel now
+- sorry cancel
+- cancel that one
+- skip skip skip
+- cancel it cancel it
+- cancel that cancel that
+- do nothing
+- I said cancel cancel
+- but can you cancel it
 
 ## intent:command
 - [Pick up](action) this [ball](object_name).
