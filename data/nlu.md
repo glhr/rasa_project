@@ -1,21 +1,33 @@
 ## intent:greetings
-- Hello
-- Hey there robot
-- Hi what's up dummy boy?
-- Greetings kind Sir
-- Hey fuckface
-- What's up robot?
-- Hello fellow human
-- Good morning robot
-- Yo
-- Hello!
-- Hi there robot
-- Hello there robot
-- Hey there dummy
 - hey there robot
-- Heyyy what's up.
-- Hey
-- Hi
+- hi what's up dummy boy?
+- greetings kind Sir
+- what's up robot?
+- hello fellow human
+- good morning robot
+- yo
+- hi there robot
+- hello there robot
+- hey there dummy
+- hey there robot
+- hey what's up
+- long time no see
+- hello
+- hi
+- howdy
+- hey there
+- hey
+- greetings
+- I greet you
+- hi there
+- hello there
+- lovely day isn't it
+- hello again
+- just going to say hi
+- a good day
+- afternoon
+- hello hi
+- heya
 
 ## intent:show
 - This [cup](object_name) is [red](object_color).
@@ -33,11 +45,9 @@
 - This is an [orange](object_name).
 
 ## intent:affirmative
-- Yeah
-- Yes
 - Exactly
 - Yup that's exactly right
-- Yep do that
+- yep do that
 - Sure
 - Go ahead
 - That's right
@@ -54,7 +64,7 @@
 - Yes please do that.
 - Yep
 - Yes please
-- Yeah do that
+- yeah do that
 - Affirmative
 - I confirm
 - yes
@@ -154,19 +164,52 @@
 - Awesome
 
 ## intent:bye
-- That's all, bye!
-- That's all for now, bye robot
-- You suck honestly, I'm out
-- Thanks robot, that's it for now.
-- Goodbye
-- Ciao
-- See you later
-- Okay we're done here.
-- I'm out
-- Ok bye then
-- Bye stupid robot
-- Bye
-- Thank you!
+- that's all, bye!
+- that's all for now, bye robot
+- you suck honestly, I'm out
+- thanks robot, that's it for now
+- goodbye
+- ciao
+- see you later
+- okay we're done here.
+- i'm out
+- ok bye then
+- bye stupid robot
+- bye
+- thank you
+- okay see you later
+- hope to see you later
+- bye for now
+- till next time
+- I must go
+- bye
+- goodbye
+- see you
+- see you soon
+- bye-bye
+- good bye
+- bye bye see you
+- bye bye see you soon
+- bye bye take care
+- I said bye
+- never mind bye
+- now bye
+- that's all goodbye
+- that's it goodbye
+- leave me alone
+- go to bed
+- goodbye for now
+- talk to you later
+- you can go now
+- get lost
+- goodbye see you later
+- alright bye
+- see ya
+- thanks bye bye
+- okay bye
+- okay thank you bye
+- see you tomorrow
+- ok bye
 
 ## intent:deny
 - That's incorrect
@@ -248,6 +291,18 @@
 - do nothing
 - I said cancel cancel
 - but can you cancel it
+- that was wrong
+- that's not what I asked
+- that's wrong
+- wrong
+- it is not right
+- that's not right
+- it's wrong
+- that is incorrect
+- incorrect
+- not correct
+- you are wrong
+- not right
 
 ## intent:command
 - [Pick up](action) this [ball](object_name).
