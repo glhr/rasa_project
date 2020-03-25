@@ -1,9 +1,8 @@
 import logging
 import uuid
 from sanic import Blueprint, response
-from sanic.request import Request
 from socketio import AsyncServer
-from typing import Optional, Text, Any, List, Dict, Iterable
+from typing import Optional, Text, Any
 
 from rasa.core.channels.channel import InputChannel
 from rasa.core.channels.channel import UserMessage, OutputChannel
@@ -11,10 +10,10 @@ from rasa.core.channels.channel import UserMessage, OutputChannel
 import urllib
 import time
 
-from speech.utils import get_path_from_filename
+from speech.utils import get_path_from_filename, get_current_directory
 
 USE_TTS = 'mozilla'
-USE_STT = 'deepspeech'
+USE_STT = 'google'
 
 logger = logging.getLogger(__name__)
 
@@ -30,15 +29,12 @@ except Exception as e:
     USE_TTS = None
 
 try:
-    if USE_STT == 'deepspeech':
-        from speech import stt_deepspeech as stt
-    else: USE_STT = None
+    from speech.stt_wrapper import generate_text
 except Exception as e:
     logger.warning("Loading STT module {} failed: {}".format(USE_STT, e))
     USE_STT = None
 
-from pathlib import Path
-dirpath = str(Path(__file__).parent.absolute())
+dirpath = get_current_directory()
 
 
 class SocketBlueprint(Blueprint):
@@ -69,10 +65,9 @@ class SocketIOOutput(OutputChannel):
         """Sends a message to the recipient using the bot event."""
 
         if USE_TTS:
-            ts = time.time()
-            OUT_FILE = str(ts)+'.wav'
+            OUT_FILE = str(time.time())+'.wav'
             OUT_PATH = get_path_from_filename(OUT_FILE)
-            tts.generate_speech(response['text'],OUT_PATH)
+            tts.generate_speech(response['text'], OUT_PATH)
             link = "http://localhost:8888/"+OUT_FILE
         else:
             link = None
@@ -128,7 +123,6 @@ class SocketIOInput(InputChannel):
         @sio.on('connect', namespace=self.namespace)
         async def connect(sid, environ):
             logger.debug("User {} connected to socketIO endpoint.".format(sid))
-            print('Connected!')
 
         @sio.on('disconnect', namespace=self.namespace)
         async def disconnect(sid):
@@ -137,8 +131,6 @@ class SocketIOInput(InputChannel):
 
         @sio.on('session_request', namespace=self.namespace)
         async def session_request(sid, data):
-            print('This is session request')
-
             if data is None:
                 data = {}
             if 'session_id' not in data or data['session_id'] is None:
@@ -151,23 +143,21 @@ class SocketIOInput(InputChannel):
         async def handle_message(sid, data):
 
             output_channel = SocketIOOutput(sio, sid, self.bot_message_evt, data['message'])
-            if data['message'] == "/get_started":
-                message = data['message']
-            else:
+            if data['message'].startswith("data:audio"):
                 try:  # message is an audio file
                     received_file = 'output_'+sid+'.wav'
                     urllib.request.urlretrieve(data['message'], get_path_from_filename(received_file))
 
                     if USE_STT:
-                        from speech.stt_wrapper import generate_text
-                        message = generate_text(received_file, method='google')
+                        message = generate_text(received_file, method=USE_STT)
                     else:
                         message = "Speech to Text isn't available"
-                    logger.info('STT: {}'.format(message[0:10]))
-                except Exception as e: # message is a string
-                    logger.warning(e)
-                    message = data["message"]
-                    logger.info('TXT: {}'.format(message[0:10]))
+                    logger.info('STT ({}): {}'.format(USE_STT, message))
+                except Exception as e:  # message is a string
+                    logger.error(e)
+            else:
+                message = data["message"]
+                logger.info('TXT: {}'.format(message))
 
             await sio.emit(self.user_message_evt, {"text": message.casefold()}, room=sid)
 
