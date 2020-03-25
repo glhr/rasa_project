@@ -13,6 +13,8 @@
 - hey what's up
 - long time no see
 - hello
+- hallo
+- hola
 - hi
 - howdy
 - hey there
@@ -21,20 +23,31 @@
 - i greet you
 - hi there
 - hello there
-- lovely day isn't it
 - hello again
 - just going to say hi
 - a good day
 - afternoon
 - hello hi
 - heya
+- hello is anybody there
+- hi again
+- sup
+- wasssup
+- what up
+- whats up
+- yoo
+- good morning
+- good afternoon
 
 ## intent:show
 - this [cup](object_name) is [red](object_color)
 - this [thing](undefined_object) is [white](object_color)
 - this is a pair of [scissors](object_name)
-- this is a ball
+- this is a [ball](object_name)
 - this is a [sports ball](object_name)
+- here is a [green](object_color) [apple](object_name)
+- ok here's a [banana](object_name) for you to look at
+- here is a [fruit](object_name) with a [yellow](object_color) color
 - i'm showing you a [ball](object_name)
 - i'm going to show you what a [cell phone](object_name) looks like
 - this [ball](object_name) is [green](object_color)
@@ -155,8 +168,9 @@
 - nothing
 - i don't know
 - nice weather
+- lovely day isn't it
 - i like you
-- who are you?
+- who are you
 - good
 - cool
 - that's nice
@@ -181,6 +195,10 @@
 - i need to talk to you
 - i want to speak with you
 - can we chat
+- are we friends
+- what's your name
+- my name is human
+- how are you
 
 ## intent:bye
 - that's all bye
@@ -195,7 +213,6 @@
 - ok bye then
 - bye stupid robot
 - bye
-- thank you
 - okay see you later
 - hope to see you later
 - bye for now
@@ -216,7 +233,6 @@
 - that's all goodbye
 - that's it goodbye
 - leave me alone
-- go to bed
 - goodbye for now
 - talk to you later
 - you can go now
@@ -229,6 +245,9 @@
 - okay thank you bye
 - see you tomorrow
 - ok bye
+- we'll speak soon
+- end
+- finish
 
 ## intent:deny
 - that's incorrect
@@ -263,7 +282,6 @@
 - forget about it
 - forget
 - don't do that
-- stop
 - just forget it
 - forget that
 - discard
@@ -344,8 +362,6 @@
 - i would like you to [drop](action) [this object](undefined_object)
 - [put](action) [this object](undefined_object) on the [right](placement_destination)
 - don't move
-- [stop](action) moving
-- [stop](action) what you're doing
 - could you please [shift](action) this [cup](object_name) a little bit to the [left](placement_destination)
 - i would like you to [pick](action) [this](undefined_object) up and [place](action) it on the [left](placement_destination)
 - [grab](action) the [cup](object_name) [lift](action) it and [put](action) it here
@@ -386,10 +402,9 @@
 - first i want you to [pick up](action) the [pink](object_color) [box](object_name) for me
 - could you [move](action) this [box](object_name) to the [right](placement_destination) please
 - could you [move](action) this [object](undefined_object) to the [left](placement_destination) please
-- [spank](action) me
 - [move](action)
 - [move](action) [this thing](undefined_object)
-- could you please [spank](action) this [red](object_color) [box](object_name) now
+- could you please [squeeze](action) this [red](object_color) [box](object_name) now
 - [stop](action) that immediately
 - [grab](action) the [blue](object_color) [ball](object_name)
 - please [grab](action) the [blue](object_color) [ball](object_name)
@@ -400,7 +415,7 @@
 - grab [this](undefined_object) with the gripper
 - [put](action) the [ball](object_name) down
 - [put](action) the [ball](object_name) somewhere else
-- [place](action) the [ball](object_name) in a different location
+- [place](action) the [ball](object_name) in the [center](placement_destination)
 - could you please [pick up](action) the [red](object_color) [brick](object_name) and [place](action) the [red](object_color) [brick](object_name) on the [right](placement_destination)
 - i want you to [let go](action) of [this object](undefined_object) and [grab](action) the [purple](object_color) [bottle](object_name)
 - can you lift the [green](object_color) [ball](object_name)
@@ -428,7 +443,7 @@
 - [pick](action) [this](undefined_object) up and [put](action) it [there](placement_destination)
 - [pick up](action) this [orange](object_color) [ball](object_name) and [fuck](action) it
 - [throw](action) the [ball](object_name)
-- i really really really want you to [throw](action) the [ball](object_name) at [donald trump](placement_destination)
+- i really really really want you to [throw](action) the [ball](object_name) to the [left](placement_destination)
 - [throw](action) the [phone](object_name) at [my face](placement_destination)
 - toss the [orange](object_color) [ball](object_name)
 - [throw](action) out the [orange](object_color) [ball](object_name)
@@ -436,7 +451,7 @@
 - please [pick up](action) the [pink](object_color) [prism](object_name) and [place](action) it in the [left corner](placement_destination) of the platform afterwards
 - could you [rotate](action) this [ball](object_name) and then discard it
 - i want you to [grasp](action) the [brown](object_color) [cube](object_name) lift the [cube](object_name) and [move](action) it a bit to the [right](placement_destination)
-- please hold the [orange](object_color) [sphere](object_name) and then drop it thanks
+- please [hold](action) the [orange](object_color) [sphere](object_name) and then [drop](action) it thanks
 - come on just [move](action) this [cuboid](object_name) from the platform
 - please [obey](action) me
 - could you [pick up](action) the [orange](object_color) [triangle](object_name) for me?
@@ -447,7 +462,7 @@
 - i want you to [clasp](action) [this thing](undefined_object)
 - i want you to [crush](action) [this thing](undefined_object) with your awesome gripper
 - [pick up](action) this [lamp](object_name) for me
-- i'd like you to [move](action) this [glass](object_name) to the [other side](placement_destination)
+- i'd like you to [move](action) this [glass](object_name) to the [center](placement_destination)
 - please [lift](action) this [glass](object_name) up from the platform
 - [pick](action) this [ball](object_name) up from the platform and [place](action) it somewhere on the [right](placement_destination)
 - [say](action) [something](undefined_object)
@@ -465,7 +480,7 @@
 - [give](action) me [that thing](undefined_object)
 - [give](action) me [that](undefined_object)
 - [give](action) me [that](undefined_object) right there
-- i want you to [pick up](action) this [bottle](object_name) from the [bottom-left](placement_origin) and [put](action) it somewhere on the [right](placement_destination)
+- i want you to [pick up](action) this [bottle](object_name) from the [bottom-left](placement_origin) and [put](action) it somewhere in the [middle](placement_destination)
 - okay now [take](action) the [green](object_color) [plate](object_name) from the [left](placement_origin) side of the platform
 - could you [lift](action) this [fork](object_name) up from the [bottom right](placement_origin)
 - could you [grab](action) the [gray](object_color) [can](object_name) from the [center](placement_origin) of the platform?
@@ -479,7 +494,7 @@
 - just [find](action) me [something](undefined_object)
 - [find](action) me a [red](object_color) [apple](object_name)
 - okay then [push](action) the [apple](object_name) off the table
-- [move](action) the [ball](object_name) from the [right](placement_origin) to the [left](placement_destination)
+- [move](action) the [ball](object_name) from the [middle](placement_origin) to the [left](placement_destination)
 - please [pick up](action) the [phone](object_name) on the [left](placement_origin) and put it on the [right](placement_destination)
 
 ## synonym:find
