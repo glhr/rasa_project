@@ -498,7 +498,7 @@
 - please [pick up](action) the [phone](object_name) on the [left](placement_origin) and put it on the [right](placement_destination)
 
 ## synonym:find
-- detect
+- find
 - detect
 - recognize
 - look
@@ -514,6 +514,7 @@
 - notice
 
 ## synonym:move
+- move
 - place
 - put
 - shift
@@ -521,7 +522,6 @@
 - set
 
 ## synonym:pick up
-- pick up
 - pick up
 - grab
 - bring
