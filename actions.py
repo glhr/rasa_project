@@ -28,7 +28,7 @@ class ReceivedCommand(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(template="utter_received_command")
+        # dispatcher.utter_message(template="utter_received_command")
         action = next(tracker.get_latest_entity_values("action"), None)
         object_color = next(tracker.get_latest_entity_values("object_color"), None)
         object_name = next(tracker.get_latest_entity_values("object_name"), None)
@@ -40,9 +40,6 @@ class ReceivedCommand(Action):
 
         if (action is not None) and (object_name is not None):
             if object_color is None: object_color = ''
-
-            if ENABLE_ROS:
-                nlp_node.send_command(action,object_name,object_color,placement_origin,placement_destination)
 
             dispatcher.utter_message(template="utter_repeat_command",
                                      action=action,
@@ -67,8 +64,17 @@ class ReceivedCommandConfirmed(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(template="utter_user_gave_confirmation")
 
+        action = tracker.get_slot('action')
+        logger.info(action)
+        logger.info(tracker.slots)
+        object_name = tracker.get_slot('object_name')
+        object_color = tracker.get_slot('object_color')
+        placement_origin = tracker.get_slot('placement_origin')
+        placement_destination = tracker.get_slot('placement_destination')
+
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
+            nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
 
         return []
 

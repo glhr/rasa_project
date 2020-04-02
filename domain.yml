@@ -26,14 +26,14 @@ entities:
 - undefined_object
 intents:
 - affirmative:
-    triggers: utter_user_gave_confirmation
+    triggers: received_command_confirmed
 - bye:
-    triggers: utter_goodbye
+    triggers: received_goodbye
 - deny:
-    triggers: utter_user_denied
+    triggers: received_command_denied
 - command
 - greetings:
-    triggers: utter_greet
+    triggers: received_greet
 - none
 - show
 - restart
@@ -88,3 +88,19 @@ responses:
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
+slots:
+  action:
+    type: text
+    initial_value: "none"
+  object_color:
+    type: text
+    initial_value: "none"
+  object_name:
+    type: text
+    initial_value: "none"
+  placement_destination:
+    type: text
+    initial_value: "none"
+  placement_origin:
+    type: text
+    initial_value: "none"
