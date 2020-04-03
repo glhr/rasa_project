@@ -64,20 +64,33 @@ class SocketIOOutput(OutputChannel):
         # type: (Text, Any) -> None
         """Sends a message to the recipient using the bot event."""
 
-        if USE_TTS:
-            OUT_FILE = str(time.time())+'.wav'
-            OUT_PATH = get_path_from_filename(OUT_FILE)
-            tts.generate_speech(response['text'], OUT_PATH)
-            link = "http://localhost:8888/"+OUT_FILE
-        else:
-            link = None
+        OUT_FILE = str(time.time())+'.wav'
+        OUT_PATH = get_path_from_filename(OUT_FILE)
+        tts.generate_speech(response['text'], OUT_PATH)
+        link = "http://localhost:8888/"+OUT_FILE
 
         await self.sio.emit(self.bot_message_evt, {'text': response['text'], 'link': link}, room=socket_id)
 
     async def send_text_message(self, recipient_id: Text, message: Text, **kwargs: Any) -> None:
         """Send a message through this channel."""
 
-        await self._send_audio_message(self.sid, {"text": message})
+        if USE_TTS:
+            await self._send_audio_message(self.sid, {"text": message})
+        else:
+            await self.sio.emit(self.bot_message_evt, {'text': message, 'link': None}, room=recipient_id)
+
+    async def send_image_url(self, recipient_id: Text, url: Text, **kwargs: Any) -> None:
+        bot_message = {
+            "attachment": {
+                "type": "image",
+                "payload": {
+                  "title": "image",
+                  "src": url
+                }
+            },
+            "link": None
+        }
+        await self.sio.emit(self.bot_message_evt, bot_message, room=recipient_id)
 
 
 class SocketIOInput(InputChannel):

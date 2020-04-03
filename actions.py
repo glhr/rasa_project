@@ -63,6 +63,8 @@ class ReceivedCommandConfirmed(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(template="utter_user_gave_confirmation")
+        image_url="https://i.kym-cdn.com/entries/icons/facebook/000/002/691/sings.jpg"
+        dispatcher.utter_attachment(None, image=image_url)
 
         action = tracker.get_slot('action')
         logger.info(action)

@@ -56,7 +56,9 @@ responses:
   - text: Bye
   utter_greet:
   - text: Hey! How are you?
+    image: "https://i.imgflip.com/17eo8m.jpg"
   - text: Yo, what's up?
+    image: "https://i.imgflip.com/17eo8m.jpg"
   utter_incomplete_command_missing_action:
   - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
   utter_incomplete_command_missing_object:
