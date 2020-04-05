@@ -35,8 +35,8 @@ intents:
 - greetings:
     triggers: utter_greet
 - none
-- show
 - restart
+- show
 responses:
   received_command:
   - text: received_command
@@ -52,6 +52,8 @@ responses:
   - text: utter_prompt
   received_restart:
   - text: received_restart
+  received_show:
+  - text: received_show
   utter_goodbye:
   - text: Bye
   utter_greet:
