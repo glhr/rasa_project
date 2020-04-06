@@ -11,6 +11,7 @@ actions:
 - utter_greet
 - utter_incomplete_command_missing_action
 - utter_incomplete_command_missing_object
+- utter_unknown_action_command
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
@@ -65,6 +66,8 @@ responses:
   - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
   utter_incomplete_command_missing_object:
   - text: What object do you want me to {action} exactly?
+  utter_unknown_action_command:
+  - text: Sorry, I don't know how to perform that action, {action}, could you elaborate on what you want me to do?
   utter_prompt:
   - text: What would you like me to do?
   - text: Feel free to order me around.
