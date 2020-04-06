@@ -513,7 +513,7 @@
 - come across
 - notice
 
-## synonym:move
+## synonym:move 
 - move
 - place
 - put

@@ -58,11 +58,11 @@ def add_synonym(synonym_cat, new_synonym):
     elif synonym_cat == 'pick up':
         write_synonym_to_file(lines, new_synonym, num[2])
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     #collect_synonym()
     #print(all_synonyms)
     
-    synonym_cat = 'pick up'
-    new_synonym = 'TESTattachTEST'
+    #synonym_cat = 'pick up'
+    #new_synonym = 'TESTattachTEST'
     
-    add_synonym(synonym_cat, new_synonym)
+    #add_synonym(synonym_cat, new_synonym)

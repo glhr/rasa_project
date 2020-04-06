@@ -11,6 +11,8 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import Restarted
 from rasa_sdk.executor import CollectingDispatcher
 
+from synonym_extraction import collect_synonym, add_synonym
+
 logger = logging.getLogger(__name__)
 
 try:
@@ -41,10 +43,17 @@ class ReceivedCommand(Action):
         if (action is not None) and (object_name is not None):
             if object_color is None: object_color = ''
 
-            dispatcher.utter_message(template="utter_repeat_command",
+            list_of_syn = collect_synonym()
+            if action in list_of_syn:
+                #logger.warning('known actions')
+                dispatcher.utter_message(template="utter_repeat_command",
                                      action=action,
                                      object_color=object_color,
                                      object_name=object_name)
+            else:
+                #logger.warning('unknown actions')
+                dispatcher.utter_message(template="utter_unknown_action_command",
+                                     action=action)
         elif (action is None) and (object_name is not None):
             dispatcher.utter_message(template="utter_incomplete_command_missing_action",
                                      object_name=object_name)
