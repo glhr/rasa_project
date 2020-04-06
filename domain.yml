@@ -1,4 +1,5 @@
 actions:
+- action_session_start
 - received_command
 - received_command_confirmed
 - received_command_denied

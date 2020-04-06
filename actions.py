@@ -8,7 +8,7 @@ import logging
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import Restarted
+from rasa_sdk.events import Restarted, SessionStarted, ActionExecuted, EventType
 from rasa_sdk.executor import CollectingDispatcher
 
 from synonym_extraction import collect_synonym, add_synonym
@@ -22,6 +22,49 @@ except Exception as e:
     logger.warning("Failed to load ros_comm module: {}".format(e))
     ENABLE_ROS = False
 
+
+list_of_syn = []
+
+
+class ActionSessionStart(Action):
+
+    """Applies a conversation session start.
+    Takes all `SlotSet` events from the previous session and applies them to the new
+    session.
+    """
+
+    def name(self) -> Text:
+        return "action_session_start"
+
+    @staticmethod
+    def _slot_set_events_from_tracker(
+        tracker: Tracker,
+    ) -> List["SlotSet"]:
+        """Fetch SlotSet events from tracker and carry over key, value and metadata."""
+
+        from rasa.core.events import SlotSet
+
+        return [
+            SlotSet(key=event.key, value=event.value, metadata=event.metadata)
+            for event in tracker.applied_events()
+            if isinstance(event, SlotSet)
+        ]
+
+    async def run(
+        self, dispatcher: CollectingDispatcher,
+                tracker: Tracker,
+                domain: Dict[Text, Any]) -> List[EventType]:
+
+        global list_of_syn
+        _events = [SessionStarted()]
+        _events.extend(self._slot_set_events_from_tracker(tracker))
+        _events.append(ActionExecuted("action_listen"))
+
+        list_of_syn = collect_synonym()  # fill the list of known actions from training file
+
+        return _events
+
+
 class ReceivedCommand(Action):
 
     def name(self) -> Text: return "received_command"
@@ -29,7 +72,7 @@ class ReceivedCommand(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+        global list_of_syn
         # dispatcher.utter_message(template="utter_received_command")
         action = next(tracker.get_latest_entity_values("action"), None)
         object_color = next(tracker.get_latest_entity_values("object_color"), None)
@@ -43,7 +86,6 @@ class ReceivedCommand(Action):
         if (action is not None) and (object_name is not None):
             if object_color is None: object_color = ''
 
-            list_of_syn = collect_synonym()
             if action in list_of_syn:
                 #logger.warning('known actions')
                 dispatcher.utter_message(template="utter_repeat_command",
