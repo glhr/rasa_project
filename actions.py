@@ -22,7 +22,8 @@ except Exception as e:
     logger.warning("Failed to load ros_comm module: {}".format(e))
     ENABLE_ROS = False
 
-
+input_nlu_file = './data/nlu.md'
+user_nlu_file = './data/user_nlu.md'
 list_of_syn = []
 
 
@@ -60,7 +61,7 @@ class ActionSessionStart(Action):
         _events.extend(self._slot_set_events_from_tracker(tracker))
         _events.append(ActionExecuted("action_listen"))
 
-        list_of_syn = collect_synonym()  # fill the list of known actions from training file
+        list_of_syn = collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)  # fill the list of known actions from training file
 
         return _events
 
