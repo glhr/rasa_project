@@ -191,3 +191,10 @@
     - utter_user_denied
 * bye
     - utter_goodbye
+
+## synonym_form_story_1
+* synonym_add
+    - synonym_form
+    - form{"name": "synonym_form"}
+    - form{"name": null}
+    - utter_synonym_slots

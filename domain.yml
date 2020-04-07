@@ -31,14 +31,15 @@ intents:
     triggers: received_command_confirmed
 - bye:
     triggers: received_goodbye
+- command
 - deny:
     triggers: received_command_denied
-- command
 - greetings:
     triggers: received_greet
 - none
 - restart
 - show
+- synonym_add
 responses:
   received_command:
   - text: received_command
@@ -83,6 +84,8 @@ responses:
   - text: Alright, let's start over.
   - text: We will give it another shot!
   - text: Why don't we try that one more time?
+  utter_synonym_slots:
+  - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
@@ -112,3 +115,8 @@ slots:
   placement_origin:
     type: text
     initial_value: "none"
+  synonym_category:
+    type: text
+    initial_value: "none"
+forms:
+  - synonym_form
