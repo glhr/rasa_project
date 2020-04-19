@@ -129,12 +129,13 @@ class ReceivedCommandConfirmed(Action):
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
             nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
-            response, imgpath = nlp_node.wait_for_response()
-            print("Image saved at {}".format(imgpath))
-            print("Found {} object: {}".format(response.desired_color, response.found_obj))
+            if action == "find":
+                response, imgpath = nlp_node.wait_for_response()
+                print("Image saved at {}".format(imgpath))
+                print("Found {} object: {}".format(response.desired_color, response.found_obj))
 
-            imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
-            dispatcher.utter_attachment(None, image= imgurl)
+                imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
+                dispatcher.utter_attachment(None, image= imgurl)
 
         return []
 
