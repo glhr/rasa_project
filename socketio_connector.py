@@ -10,7 +10,7 @@ from rasa.core.channels.channel import UserMessage, OutputChannel
 import urllib
 import time
 
-from speech.utils import get_path_from_filename, get_current_directory
+from speech.speechutils import get_path_from_filename, get_current_directory
 
 USE_TTS = 'mozilla'
 USE_STT = 'google'
@@ -168,6 +168,7 @@ class SocketIOInput(InputChannel):
                     logger.info('STT ({}): {}'.format(USE_STT, message))
                 except Exception as e:  # message is a string
                     logger.error(e)
+                    message = None
             else:
                 message = data["message"]
                 logger.info('TXT: {}'.format(message))

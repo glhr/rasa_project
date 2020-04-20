@@ -5,6 +5,7 @@
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
 import logging
+import time
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -115,8 +116,8 @@ class ReceivedCommandConfirmed(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(template="utter_user_gave_confirmation")
-        image_url="https://i.kym-cdn.com/entries/icons/facebook/000/002/691/sings.jpg"
-        dispatcher.utter_attachment(None, image=image_url)
+        # image_url="https://i.kym-cdn.com/entries/icons/facebook/000/002/691/sings.jpg"
+        # dispatcher.utter_attachment(None, image=image_url)
 
         action = tracker.get_slot('action')
         logger.info(action)
@@ -129,6 +130,13 @@ class ReceivedCommandConfirmed(Action):
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
             nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
+            if action == "find":
+                response, imgpath = nlp_node.wait_for_response()
+                print("Image saved at {}".format(imgpath))
+                print("Found {} object: {}".format(response.desired_color, response.found_obj))
+
+                imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
+                dispatcher.utter_attachment(None, image= imgurl)
 
         return []
 
