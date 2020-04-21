@@ -148,7 +148,12 @@ class ExecuteCommand(Action):
                     print("Found {} object: {}".format(response.desired_color, response.found_obj))
 
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
-                    dispatcher.utter_attachment(None, image= imgurl)
+                    dispatcher.utter_attachment(None, image=imgurl)
+
+                    if response.found_obj:
+                        dispatcher.utter_message(text="I found the {} object you asked for.".format(response.desired_color))
+                    else:
+                        dispatcher.utter_message(text="Sorry, I didn't find any {} object.".format(response.desired_color))
                 else:
                     dispatcher.utter_message(template="utter_failed_command")
 
