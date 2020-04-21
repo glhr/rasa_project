@@ -115,8 +115,18 @@ class ReceivedCommandConfirmed(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(template="utter_user_gave_confirmation")
-        # image_url="https://i.kym-cdn.com/entries/icons/facebook/000/002/691/sings.jpg"
-        # dispatcher.utter_attachment(None, image=image_url)
+
+        return []
+
+
+class ExecuteCommand(Action):
+
+    def name(self) -> Text: return "execute_command"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
 
         action = tracker.get_slot('action')
         logger.info(action)
@@ -131,11 +141,16 @@ class ReceivedCommandConfirmed(Action):
             nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
             if action == "find":
                 response, imgpath = nlp_node.wait_for_response()
-                print("Image saved at {}".format(imgpath))
-                print("Found {} object: {}".format(response.desired_color, response.found_obj))
 
-                imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
-                dispatcher.utter_attachment(None, image= imgurl)
+                if response is not None:
+                    dispatcher.utter_message(template="utter_executed_command")
+                    print("Image saved at {}".format(imgpath))
+                    print("Found {} object: {}".format(response.desired_color, response.found_obj))
+
+                    imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
+                    dispatcher.utter_attachment(None, image= imgurl)
+                else:
+                    dispatcher.utter_message(template="utter_failed_command")
 
         return []
 

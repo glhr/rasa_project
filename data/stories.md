@@ -5,6 +5,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * bye
     - received_goodbye
 * restart
@@ -17,6 +18,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * bye
     - received_goodbye
 * restart
@@ -29,6 +31,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * command{"action": "detect", "undefined_object": "something", "object_color": "blue"}
     - received_command
 * deny
@@ -49,14 +52,17 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * command{"action": "lift", "object_name": "phone"}
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * command{"action": "drop", "undefined_object": "it", "placement": "right"}
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * bye
     - received_goodbye
 * restart
@@ -69,6 +75,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * command{"action": "recognize", "object_name": "bracelet"}
     - received_command
 * deny
@@ -77,6 +84,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * deny
     - received_command_denied
 * bye
@@ -91,6 +99,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * command{"action": "lift", "object_name": "phone"}
     - received_command
 * deny
@@ -121,6 +130,7 @@
     - received_command
 * affirmative{"action": "move"}
     - received_command_confirmed
+    - execute_command
 * command{"action": "pick up", "object_name": "apricot"}
     - received_command
 * deny
@@ -137,6 +147,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * none
     - received_none
 * bye
@@ -153,6 +164,7 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * none
     - received_none
 * bye
@@ -171,12 +183,14 @@
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * none
     - received_none
 * command{"action": "push", "object_name": "apple"}
     - received_command
 * affirmative
     - received_command_confirmed
+    - execute_command
 * restart
     - action_restart
 
@@ -184,10 +198,11 @@
 * command{"action": "move", "object_name": "ball", "placement_origin": "left", "placement_destination": "right"}
     - received_command
 * affirmative
-    - utter_user_gave_confirmation
+    - received_command_confirmed
+    - execute_command
 * command{"action": "move", "object_name": "ball", "placement_origin": "left", "placement_destination": "right"}
     - received_command
 * deny
-    - utter_user_denied
+    - received_command_denied
 * bye
-    - utter_goodbye
+    - received_command_denied

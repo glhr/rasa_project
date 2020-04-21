@@ -8,6 +8,7 @@ actions:
 - received_none
 - received_restart
 - received_show
+- execute_command
 - utter_goodbye
 - utter_greet
 - utter_incomplete_command_missing_action
@@ -19,6 +20,8 @@ actions:
 - utter_restart
 - utter_user_denied
 - utter_user_gave_confirmation
+- utter_executed_command
+- utter_failed_command
 entities:
 - action
 - object_color
@@ -27,8 +30,7 @@ entities:
 - placement_origin
 - undefined_object
 intents:
-- affirmative:
-    triggers: received_command_confirmed
+- affirmative
 - bye:
     triggers: received_goodbye
 - deny:
@@ -56,6 +58,8 @@ responses:
   - text: received_restart
   received_show:
   - text: received_show
+  execute_command:
+  - text: execute_command
   utter_goodbye:
   - text: Bye
   utter_greet:
@@ -86,13 +90,15 @@ responses:
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
-  - text: Well I'm glad I asked!
   - text: Got it, I won't do that.
   utter_user_gave_confirmation:
   - text: Cool, I'll do that.
   - text: Getting right on it!
   - text: Okay sure.
-  - text: I'm moving my sexy arms for you now.
+  utter_executed_command:
+  - text: Done! Here you go buddy.
+  utter_failed_command:
+  - text: Sorry, something went wrong and I wasn't able to do that.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
