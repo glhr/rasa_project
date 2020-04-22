@@ -8,6 +8,7 @@ actions:
 - received_none
 - received_restart
 - received_show
+- execute_command
 - utter_clarification_repeat
 - utter_goodbye
 - utter_greet
@@ -20,6 +21,8 @@ actions:
 - utter_restart
 - utter_user_denied
 - utter_user_gave_confirmation
+- utter_executed_command
+- utter_failed_command
 - utter_wrong_synonym_category
 
 entities:
@@ -32,8 +35,7 @@ entities:
 - undefined_object
 
 intents:
-- affirmative:
-    triggers: received_command_confirmed
+- affirmative
 - bye:
     triggers: received_goodbye
 - inform
@@ -64,6 +66,8 @@ responses:
   - text: received_restart
   received_show:
   - text: received_show
+  execute_command:
+  - text: execute_command
   utter_clarification_repeat:
   - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_goodbye:
@@ -96,12 +100,15 @@ responses:
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
-  - text: Well I'm glad I asked!
   - text: Got it, I won't do that.
   utter_user_gave_confirmation:
   - text: Cool, I'll do that.
   - text: Getting right on it!
   - text: Okay sure.
+  utter_executed_command:
+  - text: Done! Here you go buddy.
+  utter_failed_command:
+  - text: Sorry, something went wrong and I wasn't able to do that.
   - text: I'm moving my sexy arms for you now.
   utter_wrong_synonym_category:
   - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "show", "move", or "pick up".
