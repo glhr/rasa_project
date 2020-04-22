@@ -303,7 +303,7 @@ class ActionClarificationForm(FormAction):
         add_synonym(synonym_category, action)       # saves the new action as a synonym for the specific category
         print(synonym_category, action)
 
-        dispatcher.utter_message(template="utter_user_gave_confirmation")
+        dispatcher.utter_message(template="utter_clarification_repeat")
         return []
 
         
