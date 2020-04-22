@@ -2,7 +2,7 @@ import os
 import re
 
 input_nlu_file = './data/nlu.md'
-user_nlu_file = './data/user_nlu.md'
+user_nlu_file  = './data/user_nlu.md'
 synonym_list = []
 all_synonyms = []
 
@@ -40,6 +40,7 @@ def collect_synonym(file_link):
 def write_synonym_to_file(lines, new_synonym, num):
     """ Takes the new synonym given by the user and writes it to a secondary file """
     with open(user_nlu_file, 'w') as f:
+        num = num - 2
         lines.insert(num, new_synonym)
         lines = "".join(lines)
         f.write(lines)
@@ -62,7 +63,7 @@ def add_synonym(synonym_cat, new_synonym):
 #if __name__ == "__main__":
     #all_synonyms = collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)
     #print(all_synonyms)
-    
+
     #synonym_cat = 'pick up'
     #new_synonym = 'TESTattachTEST'
     

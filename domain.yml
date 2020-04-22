@@ -8,6 +8,7 @@ actions:
 - received_none
 - received_restart
 - received_show
+- utter_clarification_repeat
 - utter_goodbye
 - utter_greet
 - utter_incomplete_command_missing_action
@@ -19,27 +20,33 @@ actions:
 - utter_restart
 - utter_user_denied
 - utter_user_gave_confirmation
+- utter_wrong_synonym_category
+
 entities:
 - action
 - object_color
 - object_name
 - placement_destination
 - placement_origin
+- synonym_category
 - undefined_object
+
 intents:
 - affirmative:
     triggers: received_command_confirmed
 - bye:
     triggers: received_goodbye
+- inform
 - command
 - deny:
     triggers: received_command_denied
 - greetings:
     triggers: received_greet
+- new_synonym_add
 - none
 - restart
 - show
-- synonym_add
+
 responses:
   received_command:
   - text: received_command
@@ -57,6 +64,8 @@ responses:
   - text: received_restart
   received_show:
   - text: received_show
+  utter_clarification_repeat:
+  - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_goodbye:
   - text: Bye
   utter_greet:
@@ -69,7 +78,7 @@ responses:
   utter_incomplete_command_missing_object:
   - text: What object do you want me to {action} exactly?
   utter_unknown_action_command:
-  - text: Sorry, I don't know how to perform that action, {action}, could you elaborate on what you want me to do?
+  - text: Sorry, I don't know how to perform that action, {action}, would you like to add it as a synonym for one of the known actions?
   utter_prompt:
   - text: What would you like me to do?
   - text: Feel free to order me around.
@@ -84,8 +93,6 @@ responses:
   - text: Alright, let's start over.
   - text: We will give it another shot!
   - text: Why don't we try that one more time?
-  utter_synonym_slots:
-  - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
@@ -96,9 +103,13 @@ responses:
   - text: Getting right on it!
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
+  utter_wrong_synonym_category:
+  - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "show", "move", or "pick up".
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
+
 slots:
   action:
     type: text
@@ -115,8 +126,10 @@ slots:
   placement_origin:
     type: text
     initial_value: "none"
+  requested_slot:
+    type: unfeaturized
   synonym_category:
-    type: text
-    initial_value: "none"
+    type: unfeaturized
+
 forms:
-  - synonym_form
+  - clarification_form

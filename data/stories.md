@@ -192,9 +192,45 @@
 * bye
     - utter_goodbye
 
-## synonym_form_story_1
-* synonym_add
-    - synonym_form
-    - form{"name": "synonym_form"}
+<!-- ## clarification_form_story_1
+* greetings
+    - received_greet
+* command{"action": null}
+* new_synonym_add
+    - form{"name": "clarification_form"}
     - form{"name": null}
-    - utter_synonym_slots
+    - clarification_form
+    - utter_clarification_repeat -->
+
+<!-- ## clarification_form_story_2
+* form: choose{"synonym_category": "pick up"}
+    - slot{"synonym_category": "pick up"}
+    - form clarification_form
+    - slot{"synonym_category": "pick up"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_restart
+
+## clarification_form_story_3
+* form: choose{"synonym_category": "show"}
+    - slot{"synonym_category": "show"}
+    - form clarification_form
+    - slot{"synonym_category": "show"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_restart
+
+## clarification_form_story_4
+* form: choose{"synonym_category": "move"}
+    - slot{"synonym_category": "move"}
+    - form clarification_form
+    - slot{"synonym_category": "move"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_restart -->
+
+## clarification_story_1
+- clarification_form
+- form{"name": "clarification_form"}
+- form{"name": null}
+- utter_clarification_repeat

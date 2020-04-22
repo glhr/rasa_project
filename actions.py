@@ -6,11 +6,13 @@
 
 import logging
 import time
-from typing import Any, Text, Dict, List
+from typing import Any, Text, Dict, List, Union
 
-from rasa_sdk import Action, Tracker
-from rasa_sdk.events import Restarted, SessionStarted, ActionExecuted, EventType
+from rasa_sdk import Action, Tracker, ActionExecutionRejection
+from rasa_sdk.events import Restarted, SessionStarted, ActionExecuted, EventType, FollowupAction, SlotSet
 from rasa_sdk.executor import CollectingDispatcher
+from rasa.core.slots import Slot
+from rasa_sdk.forms import FormAction, REQUESTED_SLOT, Action
 
 from synonym_extraction import collect_synonym, add_synonym
 
@@ -24,8 +26,8 @@ except Exception as e:
     ENABLE_ROS = False
 
 input_nlu_file = './data/nlu.md'
-user_nlu_file = './data/user_nlu.md'
-list_of_syn = []
+user_nlu_file  = './data/user_nlu.md'
+list_of_syn    = []
 
 
 class ActionSessionStart(Action):
@@ -35,8 +37,7 @@ class ActionSessionStart(Action):
     session.
     """
 
-    def name(self) -> Text:
-        return "action_session_start"
+    def name(self) -> Text: return "action_session_start"
 
     @staticmethod
     def _slot_set_events_from_tracker(
@@ -98,9 +99,12 @@ class ReceivedCommand(Action):
                 #logger.warning('unknown actions')
                 dispatcher.utter_message(template="utter_unknown_action_command",
                                      action=action)
+                return [FollowupAction("clarification_form")]
+                
         elif (action is None) and (object_name is not None):
             dispatcher.utter_message(template="utter_incomplete_command_missing_action",
                                      object_name=object_name)
+        
         elif (action is not None) and (object_name is None):
             dispatcher.utter_message(template="utter_incomplete_command_missing_object",
                                      action=action)
@@ -207,3 +211,79 @@ class ReceivedRestart(Action):
         def apply_to(self, tracker) -> None:
             tracker._reset_slots()
         return[Restarted()]
+
+class ActionClarificationForm(FormAction):
+
+    def name(self) -> Text: return "clarification_form"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+
+        return ["synonym_category"]
+
+    @staticmethod
+    def synonym_db() -> List[Text]:
+        """Database of supported categories for synonyms"""
+
+        return [
+            "find",
+            "move",
+            "pick up"
+        ]
+
+    def slot_mappings(self):
+        return {
+            "synonym_category": self.from_entity(entity="synonym_category", intent=["inform", "new_synonym_add"])}
+
+    def validate_synonym(self, value: Text, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> Dict[Text, Any]:
+        """Validate synonym category value."""
+
+        slot_values = self.extract_other_slots(dispatcher, tracker, domain)
+        
+        # # extract requested slot
+        # slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
+        # logger.warning('went to validate synonym')
+        # if slot_to_fill:
+        #     slot_values.update(self.extract_requested_slot(dispatcher, tracker, domain))
+        #     if not slot_values:
+        #         # reject form action execution
+        #         # if some slot was requested but nothing was extracted
+        #         # it will allow other policies to predict another action
+        #         raise ActionExecutionRejection(self.name(),
+        #                                        "Failed to validate slot {0} "
+        #                                        "with action {1}"
+        #                                        "".format(slot_to_fill,
+        #                                                  self.name()))
+
+        # # we'll check when validation failed in order to add appropriate utterances
+    
+
+        # # validation succeed, set the slots values to the extracted values
+        # return [SlotSet(slot, value) for slot, value in slot_values.items()]
+        if value.lower() in self.synonym_db():
+            # validation succeeded, set the value of the "synonym category" slot to value
+            return [SlotSet('synonym_category', value)]
+        else:
+            dispatcher.utter_message(template="utter_wrong_synonym_category")
+            # validation failed, set this slot to None, meaning the user will be asked for the slot again
+            return [SlotSet('synonym_category', None)]
+
+    def submit(self, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict]:
+
+        action = tracker.get_slot('action')
+        synonym_category = tracker.get_slot('synonym_category')
+
+        """Define what the form has to do
+            after all required slots are filled"""
+        add_synonym(synonym_category, action)       # saves the new action as a synonym for the specific category
+        print(synonym_category, action)
+
+        dispatcher.utter_message(template="utter_user_gave_confirmation")
+        return []
+
+        

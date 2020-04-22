@@ -26,4 +26,3 @@
 
 
 ## synonym:pick up
-
