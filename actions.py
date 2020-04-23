@@ -6,13 +6,13 @@
 
 import logging
 import time
-from typing import Any, Text, Dict, List, Union
+from typing import Any, Dict, List, Text, Union
 
-from rasa_sdk import Action, Tracker, ActionExecutionRejection
-from rasa_sdk.events import Restarted, SessionStarted, ActionExecuted, EventType, FollowupAction, SlotSet
+from rasa_sdk import Action, Tracker
+from rasa_sdk.events import ActionExecuted, EventType, FollowupAction, Restarted, SessionStarted, SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from rasa.core.slots import Slot
-from rasa_sdk.forms import FormAction, REQUESTED_SLOT, Action
+from rasa_sdk.forms import Action, FormAction, REQUESTED_SLOT
 
 from synonym_extraction import collect_synonym, add_synonym
 
@@ -27,7 +27,7 @@ except Exception as e:
 
 input_nlu_file = './data/nlu.md'
 user_nlu_file  = './data/user_nlu.md'
-list_of_syn    = []
+list_of_synonym    = []
 
 
 class ActionSessionStart(Action):
@@ -45,7 +45,7 @@ class ActionSessionStart(Action):
     ) -> List["SlotSet"]:
         """Fetch SlotSet events from tracker and carry over key, value and metadata."""
 
-        from rasa.core.events import SlotSet
+        #from rasa.core.events import SlotSet
 
         return [
             SlotSet(key=event.key, value=event.value, metadata=event.metadata)
@@ -58,12 +58,12 @@ class ActionSessionStart(Action):
                 tracker: Tracker,
                 domain: Dict[Text, Any]) -> List[EventType]:
 
-        global list_of_syn
+        global list_of_synonym
         _events = [SessionStarted()]
         _events.extend(self._slot_set_events_from_tracker(tracker))
         _events.append(ActionExecuted("action_listen"))
 
-        list_of_syn = collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)  # fill the list of known actions from training file
+        list_of_synonym = collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)  # fill the list of known actions from training file
 
         return _events
 
@@ -75,7 +75,7 @@ class ReceivedCommand(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        global list_of_syn
+        global list_of_synonym
         # dispatcher.utter_message(template="utter_received_command")
         action = next(tracker.get_latest_entity_values("action"), None)
         object_color = next(tracker.get_latest_entity_values("object_color"), None)
@@ -89,7 +89,7 @@ class ReceivedCommand(Action):
         if (action is not None) and (object_name is not None):
             if object_color is None: object_color = ''
 
-            if action in list_of_syn:
+            if action in list_of_synonym:
                 #logger.warning('known actions')
                 dispatcher.utter_message(template="utter_repeat_command",
                                      action=action,
@@ -263,26 +263,6 @@ class ActionClarificationForm(FormAction):
 
         slot_values = self.extract_other_slots(dispatcher, tracker, domain)
         
-        # # extract requested slot
-        # slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
-        # logger.warning('went to validate synonym')
-        # if slot_to_fill:
-        #     slot_values.update(self.extract_requested_slot(dispatcher, tracker, domain))
-        #     if not slot_values:
-        #         # reject form action execution
-        #         # if some slot was requested but nothing was extracted
-        #         # it will allow other policies to predict another action
-        #         raise ActionExecutionRejection(self.name(),
-        #                                        "Failed to validate slot {0} "
-        #                                        "with action {1}"
-        #                                        "".format(slot_to_fill,
-        #                                                  self.name()))
-
-        # # we'll check when validation failed in order to add appropriate utterances
-    
-
-        # # validation succeed, set the slots values to the extracted values
-        # return [SlotSet(slot, value) for slot, value in slot_values.items()]
         if value.lower() in self.synonym_db():
             # validation succeeded, set the value of the "synonym category" slot to value
             return [SlotSet('synonym_category', value)]
@@ -301,7 +281,7 @@ class ActionClarificationForm(FormAction):
         """Define what the form has to do
             after all required slots are filled"""
         add_synonym(synonym_category, action)       # saves the new action as a synonym for the specific category
-        print(synonym_category, action)
+        #print(synonym_category, action)
 
         dispatcher.utter_message(template="utter_clarification_repeat")
         return []

@@ -8,6 +8,7 @@ all_synonyms = []
 
 def detect_synonym(lines):
     """ Finds the lines in nlu.md that include the keyword "synonym:" """
+    synonym_list = []
     for num, line in enumerate(lines, 1):
         if 'synonym:' in line:
             synonym_list.append(num)
@@ -30,7 +31,9 @@ def find_synonym(file_link, lines, i, num):
 def collect_synonym(file_link):
     """ Takes the nlu.md files and collects the list of all synonyms and returns it """
     with open(file_link, 'r') as f:
+        lines = []
         lines = f.readlines()
+        num = []
         num = detect_synonym(lines)
         for i in range(len(num)):
            find_synonym(file_link, lines, i, num)
@@ -40,31 +43,30 @@ def collect_synonym(file_link):
 def write_synonym_to_file(lines, new_synonym, num):
     """ Takes the new synonym given by the user and writes it to a secondary file """
     with open(user_nlu_file, 'w') as f:
-        num = num - 2
         lines.insert(num, new_synonym)
         lines = "".join(lines)
         f.write(lines)
         f.close()
 
-def add_synonym(synonym_cat, new_synonym):
+def add_synonym(synonym_category, new_synonym):
     """ Decides where in the file that the new synonym should be written and then calls the function to write there"""
     with open(user_nlu_file, 'r') as f:
         lines = f.readlines()
         num = detect_synonym(lines)
         f.close()
     new_synonym = '- ' + new_synonym + '\n'
-    if   synonym_cat == 'find':
+    if   synonym_category == 'find':
         write_synonym_to_file(lines, new_synonym, num[0])
-    elif synonym_cat == 'move':
+    elif synonym_category == 'move':
         write_synonym_to_file(lines, new_synonym, num[1])
-    elif synonym_cat == 'pick up':
+    elif synonym_category == 'pick up':
         write_synonym_to_file(lines, new_synonym, num[2])
 
 #if __name__ == "__main__":
     #all_synonyms = collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)
     #print(all_synonyms)
 
-    #synonym_cat = 'pick up'
+    #synonym_category = 'move'
     #new_synonym = 'TESTattachTEST'
     
-    #add_synonym(synonym_cat, new_synonym)
+    #add_synonym(synonym_category, new_synonym)

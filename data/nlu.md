@@ -509,6 +509,10 @@
 - add it to [find](synonym_category)
 - put it in the [pick up](synonym_category) category
 - i want it to be for [move](synonym_category) synonym
+- can you add it to the [pick up](synonym_category) synonym?
+- that action should be added to the [find](synonym_category) category
+- i would like it to be added to the [move](synonym_category) list of synonyms
+- will you please add it to the [find](synonym_category) category?
 
 ## synonym:find
 - find
