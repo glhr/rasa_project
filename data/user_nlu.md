@@ -20,13 +20,9 @@
 
 
 ## synonym:find
-- TESTattachTEST
 
 
 ## synonym:move
-- TESTattachTEST
 
 
 ## synonym:pick up
-- TESTattachTEST
-
