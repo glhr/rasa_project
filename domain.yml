@@ -100,7 +100,7 @@ responses:
   - text: We will give it another shot!
   - text: Why don't we try that one more time?
   utter_unknown_action_command:
-  - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "show", "move", or "pick up"?
+  - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "find", "move", or "pick up"?
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
@@ -112,7 +112,7 @@ responses:
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
   utter_wrong_synonym_category:
-  - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "show", "move", or "pick up".
+  - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "find", "move", or "pick up".
 
 session_config:
   carry_over_slots_to_new_session: true
