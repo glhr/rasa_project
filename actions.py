@@ -278,8 +278,7 @@ class ActionClarificationForm(FormAction):
         action = tracker.get_slot('action')
         synonym_category = tracker.get_slot('synonym_category')
 
-        """Define what the form has to do
-            after all required slots are filled"""
+        """Define what the form has to do after all required slots are filled"""
         add_synonym(synonym_category, action)       # saves the new action as a synonym for the specific category
         #print(synonym_category, action)
 

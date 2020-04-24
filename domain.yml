@@ -10,19 +10,19 @@ actions:
 - received_show
 - execute_command
 - utter_clarification_repeat
+- utter_executed_command
+- utter_failed_command
 - utter_goodbye
 - utter_greet
 - utter_incomplete_command_missing_action
 - utter_incomplete_command_missing_object
-- utter_unknown_action_command
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
 - utter_restart
+- utter_unknown_action_command
 - utter_user_denied
 - utter_user_gave_confirmation
-- utter_executed_command
-- utter_failed_command
 - utter_wrong_synonym_category
 
 entities:
@@ -50,6 +50,8 @@ intents:
 - show
 
 responses:
+  execute_command:
+  - text: execute_command
   received_command:
   - text: received_command
   received_command_confirmed:
@@ -66,10 +68,12 @@ responses:
   - text: received_restart
   received_show:
   - text: received_show
-  execute_command:
-  - text: execute_command
   utter_clarification_repeat:
   - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
+  utter_executed_command:
+  - text: Done! Here you go buddy.
+  utter_failed_command:
+  - text: Sorry, something went wrong and I wasn't able to do that.
   utter_goodbye:
   - text: Bye
   utter_greet:
@@ -81,8 +85,6 @@ responses:
   - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
   utter_incomplete_command_missing_object:
   - text: What object do you want me to {action} exactly?
-  utter_unknown_action_command:
-  - text: Sorry, I don't know how to perform that action, {action}, would you like to add it as a synonym for one of the known actions?
   utter_prompt:
   - text: What would you like me to do?
   - text: Feel free to order me around.
@@ -97,6 +99,8 @@ responses:
   - text: Alright, let's start over.
   - text: We will give it another shot!
   - text: Why don't we try that one more time?
+  utter_unknown_action_command:
+  - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "show", "move", or "pick up"?
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
@@ -107,10 +111,6 @@ responses:
   - text: Getting right on it!
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
-  utter_executed_command:
-  - text: Done! Here you go buddy.
-  utter_failed_command:
-  - text: Sorry, something went wrong and I wasn't able to do that.
   utter_wrong_synonym_category:
   - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "show", "move", or "pick up".
 
