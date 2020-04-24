@@ -10,8 +10,6 @@ from rasa.core.channels.channel import UserMessage, OutputChannel
 import urllib
 import time
 
-from speech.speechutils import get_path_from_filename, get_current_directory
-
 USE_TTS = 'mozilla'
 USE_STT = 'google'
 
@@ -27,6 +25,16 @@ try:
 except Exception as e:
     logger.warning("Loading TTS module {} failed: {}".format(USE_TTS, e))
     USE_TTS = None
+
+try:
+    from speech.speechutils import get_path_from_filename, get_current_directory
+except Exception as e:
+    from pathlib import Path
+    logger.warning(e)
+    def get_current_directory():
+        return str(Path(__file__).parent.absolute())
+    def get_path_from_filename(filename):
+        return get_current_directory() + '/audio/' + filename
 
 try:
     from speech.stt_wrapper import generate_text
