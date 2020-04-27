@@ -24,6 +24,11 @@ import 'materialize-css/dist/js/materialize.min.js'
 
 var $ = require("jquery");
 
+function scrollDown() {
+	var d = $('#msg_ul');
+	d.scrollTop(d.prop("scrollHeight"));
+}
+
 function addBotMessageToList(data, type) {
 		if (type == 'text') {
 			console.log("-> addBotMessageToList " + type)
@@ -33,15 +38,13 @@ function addBotMessageToList(data, type) {
 			console.log("-> addBotMessageToList " + type)
 			$('#msg_ul').append('<li class="collection-item botmsg_li"><span class="botmsg_span speech-bubble speech-bubble-right"><img src="'+data+'"></span></li>');
 		}
-		var d = $('#msg_ul');
-		d.scrollTop(d.prop("scrollHeight"));
+		scrollDown();
 }
 
 function addUserMessageToList(data) {
 	console.log("-> addUserMessageToList")
     $("#msg_ul").append('<li class="collection-item usermsg_li"><span class="usermsg_span speech-bubble speech-bubble-left">'+data+'</span></li>');
-	var d = $('#msg_ul');
-	d.scrollTop(d.prop("scrollHeight"));
+		scrollDown();
 }
 
 $('#user_input_form').submit(function(e) {
@@ -50,4 +53,5 @@ $('#user_input_form').submit(function(e) {
 		var msg = $("#user_input").val();
 		console.log("user input " + msg);
 		addUserMessage(msg);
+		$("#user_input").val('');
 });
