@@ -181,10 +181,13 @@ class SocketIOInput(InputChannel):
                 message = data["message"]
                 logger.info('TXT: {}'.format(message))
 
-            await sio.emit(self.user_message_evt, {"text": message.casefold()}, room=sid)
+            if message is not None:
+                await sio.emit(self.user_message_evt, {"text": message.casefold()}, room=sid)
 
-            message_rasa = UserMessage(message, output_channel, sid,
-                                    input_channel=self.name())
-            await on_new_message(message_rasa)
+                message_rasa = UserMessage(message, output_channel, sid,
+                                        input_channel=self.name())
+                await on_new_message(message_rasa)
+            else:
+                await sio.emit(self.bot_message_evt, {'text': "Dude, I can't hear shit, could you try speaking English?", 'link': None}, room=sid)
 
         return socketio_webhook
