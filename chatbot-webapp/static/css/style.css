@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -6,13 +6,25 @@ body {
 
   main {
     flex: 1 0 auto;
-  }
+  } */
+
+.page-footer {
+  padding-top: 0px !important;
+  background-color: transparent !important;
+}
+
+
+#msg_ul {
+  height: 70vh;
+  overflow-y: scroll;
+}
 
 .speech-bubble > img {
 	max-height: 250px;
 }
 
 .speech-bubble {
+  display:inline-block;
 	position: relative;
 	border-radius: .4em;
 	padding: 15px 20px;
@@ -61,8 +73,11 @@ body {
 }
 
 .collection, .collection-item {
+    padding: 2px 20px !important;
 		border: 0px !important;
 }
+
+
 .usermsg_li {
 	float: right;
 	width: 100%;
