@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="LH7 chatbot" content="LH7 chatbot">
+		<title>LH7+ chatbot</title>
+		<link rel="stylesheet" href="/static/css/style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+    <body>
+      <header>
+        <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center">LH7+</a>
+          </div>
+        </nav>
+        </div>
+      </header>
+
+    <main>
+		<div class="container-fluid">
+      <div class="row">
+      <ul class="collection" id="msg_ul">
+        {% for usermessage, botmessage in messages %}
+              <li class="collection-item usermsg_li">
+                <span class="usermsg_span speech-bubble speech-bubble-left">{{usermessage.text}}</span>
+              </li>
+
+              <li class="collection-item botmsg_li">
+                <span class="botmsg_span speech-bubble speech-bubble-right">{{botmessage.text}}</span>
+              </li>
+        {% endfor %}
+        </ul>
+        </div>
+		</div>
+    </main>
+
+
+    <footer class="page-footer">
+      <div class="container">
+            <div class="row">
+              <nav>
+                  <div class="nav-wrapper">
+                    <form id="user_input_form">
+                      <div class="input-field">
+                        <input id="user_input" type="search" required>
+                        <label class="label-icon" for="user_input"><i class="material-icons">send</i></label>
+                        <!-- <i class="material-icons">close</i> -->
+                      </div>
+                    </form>
+                  </div>
+                </nav>
+            </div>
+          </div>
+      </footer>
+
+
+
+			<script src="/static/dist/bundle.js" type="text/javascript"></script>
+
+    </body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.speech-bubble > img {
+	max-height: 250px;
+}
+
+.speech-bubble {
+	position: relative;
+	border-radius: .4em;
+	padding: 15px 20px;
+	margin: 0.1em 0;
+	text-align: center;
+	color: white;
+	/* font-weight: bold; */
+	font-size: 120%;
+	text-shadow: 0 -.05em .1em rgba(0,0,0,.3);
+}
+
+.speech-bubble-left {
+	background: #98c7b2;
+}
+
+.speech-bubble-right {
+	background: #00aabb;
+}
+
+.speech-bubble-left:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-left-color: #98c7b2;
+	border-right: 0;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+.speech-bubble-right:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.collection, .collection-item {
+		border: 0px !important;
+}
+.usermsg_li {
+	float: right;
+	width: 100%;
+
+}
+
+.usermsg_span {
+	float: right;
+}
+
+.botmsg_li {
+	float: left;
+	width: 100%;
+}

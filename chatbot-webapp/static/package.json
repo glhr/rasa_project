@@ -1,0 +1,41 @@
+{
+  "name": "leaflask-map",
+  "version": "1.0.0",
+  "description": "A web-app to keep track of travels, using Leaflet.js and a Flask back-end.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "jquery": "^3.5.0",
+    "materialize-css": "^1.0.0",
+    "socket.io-client": "^2.3.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress -d --config webpack.config.js --watch",
+    "demo": "webpack --progress -d --config webpack.config_demo.js --watch"
+  },
+  "author": "glhr",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glhr/flask-map.git"
+  },
+  "keywords": [
+    "leaflet",
+    "flask",
+    "geosearch",
+    "map"
+  ],
+  "bugs": {
+    "url": "https://github.com/glhr/flask-map/issues"
+  },
+  "homepage": "https://github.com/glhr/flask-map#readme"
+}
