@@ -1,8 +1,8 @@
 ## intent:greetings
 - hey there robot
-- hi what's up dummy boy?
+- hi what's up dummy boy
 - greetings kind sir
-- what's up robot?
+- what's up robot
 - hello fellow human
 - good morning robot
 - yo
@@ -64,7 +64,7 @@
 - sure
 - go ahead
 - that's right
-- OK
+- ok
 - yep please do that
 - yes [pick](action) [it](undefined_object) up
 - yeah [move](action) it
@@ -351,32 +351,32 @@
 - not right
 
 ## intent:command
+- [look](action) for an [orange](object_color) [fruit](object_name)
+- how about you [search](action) for an [orange](object_name)
 - [pick up](action) this [ball](object_name)
-- could you [pick up](action) this [yellow](object_color) [ball](object_name)?
+- could you [pick up](action) this [yellow](object_color) [ball](object_name)
 - i want you to [grab](action) this [blue](object_color) [bottle](object_name) please
 - okay just [bring](action) me that [waffle](object_name)
-- could you also [detect](action) [something](undefined_object) [blue](object_color)?
-- can you [detect](action) any [red](object_color) [book](object_name) on the platform?
+- could you also [detect](action) [something](undefined_object) [blue](object_color)
+- can you [detect](action) any [red](object_color) [book](object_name) on the platform
 - [detect](action) the [gold](object_color) [phone](object_name) instead
 - cool you can [lift](action) the [phone](object_name) now
 - last thing just [drop](action) [it](undefined_object) somewhere on the [right](placement_destination)
 - [pick up](action) that [yellow](object_color) [cable](object_name) and then [place](action) it on the [left](placement_destination)
-- do you [recognize](action) a [bracelet](object_name) on the table?
+- do you [recognize](action) a [bracelet](object_name) on the table
 - i want you to [look](action) for a [bracelet](object_name)
 - i want you to [move](action) this [ball](object_name) to the [right](placement_destination)
-- could you also [lift](action) the [phone](object_name) over there?
+- could you also [lift](action) the [phone](object_name) over there
 - could you [pick up](action) this [green](object_color) [apple](object_name) over there
 - also [move](action) the [blue](object_color) [peach](object_name) to the [left](placement_destination) of the platform
 - please [pick up](action) [this object](undefined_object)
-- could you [move](action) [this](undefined_object) to the [right](placement_destination)?
-- stop
+- could you [move](action) [this](undefined_object) to the [right](placement_destination)
 - i would like you to [drop](action) [this object](undefined_object)
 - [put](action) [this object](undefined_object) on the [right](placement_destination)
-- don't move
 - could you please [shift](action) this [cup](object_name) a little bit to the [left](placement_destination)
 - i would like you to [pick](action) [this](undefined_object) up and [place](action) it on the [left](placement_destination)
 - [grab](action) the [cup](object_name) [lift](action) it and [put](action) it here
-- can you [grab](action) the [cup](object_name) over there?
+- can you [grab](action) the [cup](object_name) over there
 - just [give](action) me [that object](undefined_object)
 - please [hand](action) me [that thing](undefined_object)
 - i want to tell you that you should [pick](action) [this](undefined_object) up
@@ -389,18 +389,18 @@
 - [take](action) this [brick](object_name) [lift](action) it up and [place](action) it on the [right](placement_destination)
 - [pick up](action) the [red](object_color) [phone](object_name) and [put](action) it on the [right](placement_destination)
 - i'd like you to [put](action) the [red](object_color) [phone](object_name) on the [left](placement_destination) thanks
-- hello robot could you [give](action) me [this object](undefined_object)?
-- hello could you [do](action) something for me?
-- could you [give](action) me that [phone](object_name)?
+- hello robot could you [give](action) me [this object](undefined_object)
+- hello could you [do](action) something for me
+- could you [give](action) me that [phone](object_name)
 - i want you to [grab](action) the [blue](object_color) [brick](object_name)
 - first i want you to [give](action) me the [yellow](object_color) [cup](object_name) and then [pick up](action) the [green](object_color) [ball](object_name)
 - [pick up](action) the [brick](object_name) then [put](action) it on the [left](placement_destination)
 - i want you to [grab](action) the [orange](object_color) [object](undefined_object)
 - [pick up](action) this [cup](object_name) for me please
 - i would like you to [grab](action) these [scissors](object_name) and [place](action) them to the [left](placement_destination)
-- are you able to [move](action) this [book](object_name)?
+- are you able to [move](action) this [book](object_name)
 - i'm asking you to [hold](action) the [teddy bear](object_name)
-- can you [tell](action) me what [this](undefined_object) is?
+- can you [tell](action) me what [this](undefined_object) is
 - [grab](action) the [pencil](object_name) please
 - [pick up](action) this [ball](object_name) please
 - i want you to [take](action) the [red](object_color) [pencil](object_name) please thanks
@@ -465,10 +465,10 @@
 - please [hold](action) the [orange](object_color) [sphere](object_name) and then [drop](action) it thanks
 - come on just [move](action) this [cuboid](object_name) from the platform
 - please [obey](action) me
-- could you [pick up](action) the [orange](object_color) [triangle](object_name) for me?
+- could you [pick up](action) the [orange](object_color) [triangle](object_name) for me
 - please check this [ball](object_name) carefully
 - [check](action) this [pink](object_color) [triangle](object_name) very slowly
-- could you [inspect](action) this [white](object_color) [sheet](object_name) for me?
+- could you [inspect](action) this [white](object_color) [sheet](object_name) for me
 - please [look](action) carefully at this [brick](object_name)
 - i want you to [clasp](action) [this thing](undefined_object)
 - i want you to [crush](action) [this thing](undefined_object) with your awesome gripper
@@ -494,11 +494,11 @@
 - i want you to [pick up](action) this [bottle](object_name) from the [bottom-left](placement_origin) and [put](action) it somewhere in the [middle](placement_destination)
 - okay now [take](action) the [green](object_color) [plate](object_name) from the [left](placement_origin) side of the platform
 - could you [lift](action) this [fork](object_name) up from the [bottom right](placement_origin)
-- could you [grab](action) the [gray](object_color) [can](object_name) from the [center](placement_origin) of the platform?
+- could you [grab](action) the [gray](object_color) [can](object_name) from the [center](placement_origin) of the platform
 - [pick](action) [this](undefined_object) up from the [left corner](placement_origin) and [put](action) it on the [top](placement_destination)
 - please [take](action) the [red](object_color) [ball](object_name) with your gripper and when you're done [put](action) it in the [bottom left](placement_destination) corner
 - i'm ordering you to [place](action) the [brick](object_name) in the [middle](placement_destination) of the platform
-- OK so can you [lift](action) the [gold](object_color) [phone](object_name) over there
+- ok so can you [lift](action) the [gold](object_color) [phone](object_name) over there
 - could you please [put](action) down that [phone](object_name) right now
 - now [pick up](action) the [apricot](object_name)
 - hey could you [place](action) the [apple](object_name) on the [left](placement_destination)
@@ -511,8 +511,8 @@
 ## intent:new_synonym_add
 - im looking to add a new synonym for [find](synonym_category)
 - i want to program a new verb for the robot commands [pick up](synonym_category)
-- can you please add this synonym to the list of [move](synonym_category)?
-- I would like to add this synonym for [find](synonym_category)
+- can you please add this synonym to the list of [move](synonym_category)
+- i would like to add this synonym for [find](synonym_category)
 - add the synonym to [pick up](synonym_category) please
 - uh you need to add this synonym to [move](synonym_category)
 
@@ -520,10 +520,10 @@
 - add it to [find](synonym_category)
 - put it in the [pick up](synonym_category) category
 - i want it to be for [move](synonym_category) synonym
-- can you add it to the [pick up](synonym_category) synonym?
+- can you add it to the [pick up](synonym_category) synonym
 - that action should be added to the [find](synonym_category) category
 - i would like it to be added to the [move](synonym_category) list of synonyms
-- will you please add it to the [find](synonym_category) category?
+- will you please add it to the [find](synonym_category) category
 
 ## synonym:find
 - find
