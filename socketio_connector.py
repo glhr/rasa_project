@@ -166,8 +166,13 @@ class SocketIOInput(InputChannel):
             output_channel = SocketIOOutput(sio, sid, self.bot_message_evt, data['message'])
             if data['message'].startswith("data:audio"):
                 try:  # message is an audio file
-                    received_file = 'output_'+sid+'.wav'
-                    urllib.request.urlretrieve(data['message'], get_path_from_filename(received_file))
+                    received_file = 'output_rune.wav'
+                    audiopath = get_path_from_filename(received_file)
+                    logger.info(audiopath)
+                    urllib.request.urlretrieve(data['message'], audiopath)
+                    import os.path
+                    if not os.path.isfile(audiopath):
+                        raise Exception
 
                     if USE_STT:
                         message = generate_text(received_file, method=USE_STT)
