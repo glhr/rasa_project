@@ -134,3 +134,5 @@ dmypy.json
 results/
 
 test_scripts/data/
+
+vision.png
