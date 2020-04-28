@@ -199,6 +199,18 @@
 - what's your name
 - my name is human
 - how are you
+- what should i say
+- i don't know what to say
+- :)
+- what is this
+- i'm confused
+- are you hungry
+- how does this work
+- i'm not sure what to do
+- what should i type
+- how does this work exactly
+- you don't wanna chat
+- why
 
 ## intent:bye
 - that's all bye
@@ -212,7 +224,6 @@
 - i'm out
 - ok bye then
 - bye stupid robot
-- bye
 - okay see you later
 - hope to see you later
 - bye for now
@@ -530,7 +541,7 @@
 - come across
 - notice
 
-## synonym:move 
+## synonym:move
 - move
 - place
 - put
