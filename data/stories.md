@@ -143,7 +143,7 @@
     - received_greet
 * none
     - received_none
-* command{"action": "Find", "object_color": "red", "object_name": "ball", "placement_destination": "left"}
+* command{"action": "find", "object_color": "red", "object_name": "ball", "placement_destination": "left"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -205,7 +205,7 @@
 * deny
     - received_command_denied
 * bye
-    - received_command_denied
+    - received_goodbye
 
 ## clarification_story_1
 - clarification_form
