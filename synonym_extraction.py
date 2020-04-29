@@ -1,8 +1,8 @@
 import os
 import re
 
-input_nlu_file = './data/nlu.md'
-user_nlu_file  = './data/user_nlu.md'
+input_nlu_file = './data/nlu/synonyms.md'
+user_nlu_file  = './data/nlu/user_nlu.md'
 synonym_list = []
 all_synonyms = []
 

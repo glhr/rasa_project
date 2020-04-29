@@ -11,8 +11,8 @@ from typing import Any, Dict, List, Text, Union
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import ActionExecuted, EventType, FollowupAction, Restarted, SessionStarted, SlotSet
 from rasa_sdk.executor import CollectingDispatcher
-from rasa.core.slots import Slot
 from rasa_sdk.forms import Action, FormAction, REQUESTED_SLOT
+from rasa.core.slots import Slot
 
 from synonym_extraction import collect_synonym, add_synonym
 
@@ -27,6 +27,8 @@ except Exception as e:
 
 input_nlu_file = './data/nlu.md'
 user_nlu_file  = './data/user_nlu.md'
+input_nlu_file = './data/nlu/synonyms.md'
+user_nlu_file  = './data/nlu/user_nlu.md'
 list_of_synonym    = []
 
 
