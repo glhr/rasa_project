@@ -190,3 +190,11 @@
 - that action should be added to the [find](synonym_category) category
 - i would like it to be added to the [move](synonym_category) list of synonyms
 - will you please add it to the [find](synonym_category) category
+
+## intent:restart
+- please restart the program
+- restart the conversation
+- can we start this conversation over?
+- i made a mistake and we need to start from the beginning
+- the program needs to be restarted
+- reset all the conversation slots

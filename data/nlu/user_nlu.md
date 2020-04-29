@@ -19,6 +19,15 @@
 ## intent:command
 
 
+## intent:new_synonym_add
+
+
+## intent:inform
+
+
+## intent:restart
+
+
 ## synonym:find
 
 
