@@ -3,7 +3,7 @@
 - this [thing](undefined_object) is [white](object_color)
 - this is a pair of [scissors](object_name)
 - this is a [ball](object_name)
-- this is a [sports ball](object_name)
+- this is an [apple](object_name)
 - here is a [green](object_color) [apple](object_name)
 - ok here's a [banana](object_name) for you to look at
 - here is a [fruit](object_name) with a [yellow](object_color) color
@@ -13,29 +13,30 @@
 - this [ball](object_name) is [green](object_color)
 - this is a [blue](object_color) [cube](object_name)
 - i'm showing you a [blue](object_color) [cube](object_name)
-- you should know that this is a [ball](object_name)
 - this is a [yellow](object_color) [brick](object_name)
 - this is an [orange](object_name)
 - this is a [blue](object_color) [banana](object_name)
 - this is a [blue](object_color) [ball](object_name)
 - and this right here is an [orange](object_color) [apple](object_name)
 - let me show you what a [banana](object_name) looks like
+- this object is a [kiwi](object_name)
+- i'm teaching you what [green](obj_color) [grapes](object_name) look like
 
 ## intent:command
-- [look for](action) an [orange](object_color) [fruit](object_name)
-- how about you [search](action) for an [orange](object_name)
+- [look for](action) an [orange](object_color) [fruit](object_name) on the [left](placement_origin)
+- how about you [search](action) for an [orange](object_name) in the [middle](placement_origin)
 - [pick up](action) this [ball](object_name)
 - could you [pick up](action) this [yellow](object_color) [ball](object_name)
 - i want you to [grab](action) this [blue](object_color) [bottle](object_name) please
 - okay just [bring](action) me that [waffle](object_name)
 - could you also [detect](action) [something](undefined_object) [blue](object_color)
-- can you [detect](action) any [red](object_color) [book](object_name) on the platform
-- [detect](action) the [gold](object_color) [phone](object_name) instead
+- can you [detect](action) any [red](object_color) [book](object_name) on the [right](placement_origin) of the platform
+- [find](action) the [gold](object_color) [phone](object_name) instead
 - cool you can [lift](action) the [phone](object_name) now
 - last thing just [drop](action) [it](undefined_object) somewhere on the [right](placement_destination)
-- [pick up](action) that [yellow](object_color) [cable](object_name) and then [place](action) it on the [left](placement_destination)
+- [pick up](action) that [yellow](object_color) [cable](object_name) and then [place](action) it on the [left](placement_destination) side
 - do you [recognize](action) a [bracelet](object_name) on the table
-- i want you to [look for](action) a [bracelet](object_name)
+- i want you to [look for](action) a [bracelet](object_name) in the [middle](placement_origin)
 - i want you to [move](action) this [ball](object_name) to the [right](placement_destination)
 - could you also [lift](action) the [phone](object_name) over there
 - could you [pick up](action) this [green](object_color) [apple](object_name) over there
@@ -78,14 +79,14 @@
 - just [move](action) this [keyboard](object_name) away
 - [stop](action) what you're doing immediately
 - okay [grab](action) the [green](object_color) [pen](object_name) now
-- okay [pick up](action) this [cable](object_name) over [here](placement_origin) first and then [put](action) it on the [right](placement_destination) side
-- so i want you to [move](action) the [black](object_color) [toy](object_name) and [put](action) it somewhere on the [left](placement_destination) side next to the [red](object_color) [block](object_name)
+- okay [pick up](action) this [cable](object_name) over [here](placement_origin) first
+- so i want you to [move](action) the [black](object_color) [toy](object_name) to the [left](placement_destination)
 - could you [move](action) the [orange](object_color) [block](object_name)
 - first i want you to [pick up](action) the [pink](object_color) [box](object_name) for me
 - could you [move](action) this [box](object_name) to the [right](placement_destination) please
 - could you [move](action) this [object](undefined_object) to the [left](placement_destination) please
 - [move](action)
-- [move](action) [this thing](undefined_object)
+- [move](action) this [thing](undefined_object)
 - could you please [squeeze](action) this [red](object_color) [box](object_name) now
 - [stop](action) that immediately
 - [grab](action) the [blue](object_color) [ball](object_name)
@@ -98,7 +99,8 @@
 - [put](action) the [ball](object_name) down
 - [put](action) the [ball](object_name) somewhere else
 - [place](action) the [ball](object_name) in the [center](placement_destination)
-- could you please [pick up](action) the [red](object_color) [brick](object_name) and [place](action) the [red](object_color) [brick](object_name) on the [right](placement_destination)
+- could you please [pick up](action) the [red](object_color) [brick](object_name)
+- [place](action) the [red](object_color) [brick](object_name) on the [right](placement_destination)
 - i want you to [let go](action) of [this object](undefined_object) and [grab](action) the [purple](object_color) [bottle](object_name)
 - can you lift the [green](object_color) [ball](object_name)
 - can you lift the [green](object_color) [ball](object_name) up and [place](action) it on the [left](placement_destination)
@@ -113,11 +115,12 @@
 - [pick](action) this [shit](object_name) up
 - [move](action) [this](undefined_object)
 - [pick](action) this [ball](object_name) up
-- [pick](action) [this](undefined_object) up and then [put](action) it down
+- [pick](action) [this](undefined_object) up
 - [pick](action) [it](undefined_object) up
 - yes [pick up](action) the [green](object_color) [ball](object_name) not the blue one
-- please [grab](action) the [flamingo](object_name) and [throw](action) it out
-- could you [grab](action) that [phone](object_name) on the [left](placement_origin) side and [put](action) it somewhere on the [right](placement_destination) thanks
+- please [grab](action) the [flamingo](object_name)
+- could you [grab](action) that [phone](object_name) on the [left](placement_origin) side
+- [put](action) [it](undefined_object) somewhere on the [right](placement_destination) thanks
 - [move](action) this [ball](object_name) and then [place](action) it [here](placement_destination)
 - i wanna ask if you can [move](action) this [ball](object_name) and put it [there](placement_destination)
 - i wanna ask if you can [move](action) this [ball](object_name) and [put](action) it [there](placement_destination)
@@ -156,7 +159,7 @@
 - [hold](action) this [orange](object_color) [ball](object_name)
 - [hold](action) on to the [ball](object_name)
 - please [find](action) the [orange](object_color) [brick](object_name)
-- please [look](action) for a [phone](object_name)
+- please [look for](action) a [phone](object_name) in the [middle](placement_origin)
 - please [pick up](action) the [phone](object_name)
 - [give](action) me [that thing](undefined_object)
 - [give](action) me [that](undefined_object)
@@ -173,11 +176,12 @@
 - now [pick up](action) the [apricot](object_name)
 - hey could you [place](action) the [apple](object_name) on the [left](placement_destination)
 - just [find](action) me [something](undefined_object)
-- [find](action) me a [red](object_color) [apple](object_name)
+- [find](action) me a [red](object_color) [apple](object_name) on the [right](placement_origin) side
 - okay then [push](action) the [apple](object_name) off the table
 - [move](action) the [ball](object_name) from the [middle](placement_origin) to the [left](placement_destination)
 - please [pick up](action) the [phone](object_name) on the [left](placement_origin) and put it on the [right](placement_destination)
 
+<!--
 ## intent:new_synonym_add
 - im looking to add a new synonym for [find](synonym_category)
 - i want to program a new verb for the robot commands [pick up](synonym_category)
@@ -193,7 +197,7 @@
 - can you add it to the [pick up](synonym_category) synonym
 - that action should be added to the [find](synonym_category) category
 - i would like it to be added to the [move](synonym_category) list of synonyms
-- will you please add it to the [find](synonym_category) category
+- will you please add it to the [find](synonym_category) category -->
 
 ## intent:restart
 - please restart the program

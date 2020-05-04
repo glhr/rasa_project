@@ -9,7 +9,7 @@ import time
 from typing import Any, Dict, List, Text, Union
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import ActionExecuted, EventType, FollowupAction, Restarted, SessionStarted, SlotSet
+from rasa_sdk.events import AllSlotsReset, SlotSet, ActionExecuted, EventType, FollowupAction, Restarted, SessionStarted, SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import Action, FormAction, REQUESTED_SLOT
 from rasa.core.slots import Slot
@@ -30,6 +30,56 @@ user_nlu_file  = './data/user_nlu.md'
 input_nlu_file = './data/nlu/synonyms.md'
 user_nlu_file  = './data/nlu/user_nlu.md'
 list_of_synonym    = []
+
+invalid_values = [None, "none", "None", "unknown", "", "any"]
+
+def check_slots_for_command(tracker, dispatcher, check_confirm=True):
+    action = tracker.get_slot('action')
+    object_name = tracker.get_slot('object_name')
+    object_color = tracker.get_slot('object_color')
+    placement_origin = tracker.get_slot('placement_origin')
+    placement_destination = tracker.get_slot('placement_destination')
+    command_confirmed = tracker.get_slot('command_confirmed')
+
+    # slots contain a valid command
+    if (action not in invalid_values) and (action in list_of_synonym) and (object_name not in invalid_values):
+
+        if action == "find" and placement_destination not in invalid_values and placement_origin in invalid_values:
+            placement_origin = placement_destination
+
+        if command_confirmed or not check_confirm:
+            return True
+        else:
+            description = '{} {}'.format(object_color, object_name) if object_color not in invalid_values else object_name
+            placement = ' {} the {}'.format("in" if placement_origin == "middle" else "on",
+                                            placement_origin) if placement_origin not in invalid_values else ' somewhere on the platform'
+            print(description, placement)
+            dispatcher.utter_message(template="utter_repeat_command",
+                                     action=action,
+                                     object_description=description,
+                                     placement=placement)
+
+    # object name given without an action
+    elif (action in invalid_values) and (object_name not in invalid_values):
+        dispatcher.utter_message(template="utter_incomplete_command_missing_action",
+                                 object_name=object_name)
+
+    # action given without an object name
+    elif (action not in invalid_values) and (object_name in invalid_values):
+        dispatcher.utter_message(template="utter_incomplete_command_missing_object",
+                                 action=action)
+
+    # unknown action and object
+    elif (action in invalid_values) and (object_name in invalid_values):
+        dispatcher.utter_message(template="utter_prompt")
+
+    elif action not in list_of_synonym:
+        # logger.warning('unknown actions')
+        dispatcher.utter_message(template="utter_unknown_action_command",
+                                 action=action)
+        return [FollowupAction("clarification_form")]
+
+    return False
 
 
 class ActionSessionStart(Action):
@@ -85,33 +135,20 @@ class ReceivedCommand(Action):
         placement_origin = tracker.get_slot('placement_origin')
         placement_destination = tracker.get_slot('placement_destination')
 
+        if placement_origin not in ['middle', 'left', 'right']:
+            placement_origin = 'any'
+        if placement_destination not in ['middle', 'left', 'right']:
+            placement_destination = 'any'
+
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
 
-        if (action is not None) and (object_name is not None):
-            if object_color is None: object_color = ''
+        check = check_slots_for_command(tracker, dispatcher)
 
-            if action in list_of_synonym:
-                #logger.warning('known actions')
-                dispatcher.utter_message(template="utter_repeat_command",
-                                     action=action,
-                                     object_color=object_color,
-                                     object_name=object_name)
-            else:
-                #logger.warning('unknown actions')
-                dispatcher.utter_message(template="utter_unknown_action_command",
-                                     action=action)
-                return [FollowupAction("clarification_form")]
-
-        elif (action is None) and (object_name is not None):
-            dispatcher.utter_message(template="utter_incomplete_command_missing_action",
-                                     object_name=object_name)
-
-        elif (action is not None) and (object_name is None):
-            dispatcher.utter_message(template="utter_incomplete_command_missing_object",
-                                     action=action)
-
-        return []
+        return [
+            SlotSet("placement_origin", placement_origin),
+            SlotSet("placement_destination", placement_destination)
+                ]
 
 
 class ReceivedCommandConfirmed(Action):
@@ -121,9 +158,13 @@ class ReceivedCommandConfirmed(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(template="utter_user_gave_confirmation")
 
-        return []
+        if check_slots_for_command(tracker, dispatcher, check_confirm=False):
+            dispatcher.utter_message(template="utter_user_gave_confirmation")
+
+        return [
+            SlotSet("command_confirmed", True)
+        ]
 
 
 class ExecuteCommand(Action):
@@ -134,7 +175,6 @@ class ExecuteCommand(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-
         action = tracker.get_slot('action')
         logger.info(action)
         logger.info(tracker.slots)
@@ -143,9 +183,14 @@ class ExecuteCommand(Action):
         placement_origin = tracker.get_slot('placement_origin')
         placement_destination = tracker.get_slot('placement_destination')
 
-        if ENABLE_ROS:
+        if check_slots_for_command(tracker, dispatcher) and ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
+
+            if action == "find" and placement_destination not in invalid_values and placement_origin in invalid_values:
+                placement_origin = placement_destination
+
             nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
+
             if action == "find":
                 response, imgpath = nlp_node.wait_for_response()
 
@@ -157,14 +202,20 @@ class ExecuteCommand(Action):
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
                     dispatcher.utter_attachment(None, image=imgurl)
 
-                    if response.found_obj:
-                        dispatcher.utter_message(text="I found the {} object you asked for.".format(response.desired_color))
+                    placement = ' in the {} area of the platform'.format(placement_origin) if placement_origin not in invalid_values else ''
+
+                    if response.found_obj and response.desired_color not in invalid_values:
+                        dispatcher.utter_message(text="I found the {} object you asked for{}.".format(response.desired_color, placement))
+                    elif response.found_obj and response.desired_color in invalid_values:
+                        dispatcher.utter_message(text="You didn't specify any color, but here are the objects I found{}.".format(placement))
+                    elif not response.found_obj and response.desired_color not in invalid_values:
+                        dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
                     else:
-                        dispatcher.utter_message(text="Sorry, I didn't find any {} object.".format(response.desired_color))
+                        dispatcher.utter_message(text="This is what I can see.")
                 else:
                     dispatcher.utter_message(template="utter_failed_command")
 
-        return []
+        return [AllSlotsReset()]
 
 class ReceivedCommandDenied(Action):
 
@@ -177,7 +228,7 @@ class ReceivedCommandDenied(Action):
             nlp_node.send_raw_msg(tracker.latest_message['text'])
 
         dispatcher.utter_message(template="utter_user_denied")
-        return []
+        return [AllSlotsReset()]
 
 
 class ReceivedShow(Action):
@@ -193,7 +244,7 @@ class ReceivedShow(Action):
         placement_origin = tracker.get_slot('placement_origin')
         placement_destination = tracker.get_slot('placement_destination')
 
-        if ENABLE_ROS:
+        if check_slots_for_command(tracker, dispatcher) and ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
             nlp_node.send_command(action="show",
                                   object=None,
@@ -220,7 +271,7 @@ class ReceivedShow(Action):
         dispatcher.utter_message(template="utter_user_show",
                                  object_color=object_color,
                                  object_name=object_name)
-        return []
+        return [AllSlotsReset()]
 
 
 class ReceivedGoodbye(Action):

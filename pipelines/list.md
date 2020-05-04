@@ -21,6 +21,8 @@ pipeline:
     epochs: 100
   ```
 
+The pipeline contains the ConveRTFeaturizer that provides pre-trained word embeddings of the user utterance. Pre-trained word embeddings are helpful as they already encode some kind of linguistic knowledge. For example, if you have a sentence like “I want to buy apples” in your training data, and Rasa is asked to predict the intent for “get pears”, your model already knows that the words “apples” and “pears” are very similar. This is especially useful if you don’t have enough training data. The advantage of the ConveRTFeaturizer is that it doesn’t treat each word of the user message independently, but creates a contextual vector representation for the complete sentence. However, ConveRT is only available in English.
+
 ### pretrained_embeddings_spacy
 
 The advantage of pretrained_embeddings_spacy pipeline is that if you have a training example like: “I want to buy apples”, and Rasa is asked to predict the intent for “get pears”, your model already knows that the words “apples” and “pears” are very similar. This is especially useful if you don’t have enough training data.

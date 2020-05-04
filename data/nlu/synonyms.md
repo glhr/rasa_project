@@ -1,3 +1,8 @@
+##synonym:middle
+- middle
+- center
+- centre
+
 ## synonym:find
 - find
 - detect
