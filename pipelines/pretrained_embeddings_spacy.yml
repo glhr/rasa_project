@@ -5,7 +5,7 @@ pipeline:
 - name: "SpacyTokenizer"
 - name: "SpacyFeaturizer"
 - name: "RegexFeaturizer"
-- name: "CRFEntityExtractor"
+- name: "DIETClassifier"
 - name: "EntitySynonymMapper"
 
 - name: "SklearnIntentClassifier"
