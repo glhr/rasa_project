@@ -204,8 +204,10 @@
     - received_command
 * deny
     - received_command_denied
-* bye
-    - received_goodbye
+
+## interactive_story_1
+* show
+    - received_show
 
 ## clarification_story_1
 - clarification_form

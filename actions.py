@@ -79,11 +79,11 @@ class ReceivedCommand(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         global list_of_synonym
         # dispatcher.utter_message(template="utter_received_command")
-        action = next(tracker.get_latest_entity_values("action"), None)
-        object_color = next(tracker.get_latest_entity_values("object_color"), None)
-        object_name = next(tracker.get_latest_entity_values("object_name"), None)
-        placement_origin = next(tracker.get_latest_entity_values("placement_origin"), None)
-        placement_destination = next(tracker.get_latest_entity_values("placement_destination"), None)
+        action = tracker.get_slot('action')
+        object_name = tracker.get_slot('object_name')
+        object_color = tracker.get_slot('object_color')
+        placement_origin = tracker.get_slot('placement_origin')
+        placement_destination = tracker.get_slot('placement_destination')
 
         if ENABLE_ROS:
             nlp_node.send_raw_msg(tracker.latest_message['text'])
@@ -102,11 +102,11 @@ class ReceivedCommand(Action):
                 dispatcher.utter_message(template="utter_unknown_action_command",
                                      action=action)
                 return [FollowupAction("clarification_form")]
-                
+
         elif (action is None) and (object_name is not None):
             dispatcher.utter_message(template="utter_incomplete_command_missing_action",
                                      object_name=object_name)
-        
+
         elif (action is not None) and (object_name is None):
             dispatcher.utter_message(template="utter_incomplete_command_missing_object",
                                      action=action)
@@ -177,6 +177,49 @@ class ReceivedCommandDenied(Action):
             nlp_node.send_raw_msg(tracker.latest_message['text'])
 
         dispatcher.utter_message(template="utter_user_denied")
+        return []
+
+
+class ReceivedShow(Action):
+    def name(self) -> Text: return "received_show"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        action = tracker.get_slot('action')
+        object_name = tracker.get_slot('object_name')
+        object_color = tracker.get_slot('object_color')
+        placement_origin = tracker.get_slot('placement_origin')
+        placement_destination = tracker.get_slot('placement_destination')
+
+        if ENABLE_ROS:
+            nlp_node.send_raw_msg(tracker.latest_message['text'])
+            nlp_node.send_command(action="show",
+                                  object=None,
+                                  obj_color=None,
+                                  placement_origin="middle",
+                                  placement_destination=None)
+
+            response, imgpath = nlp_node.wait_for_response()
+
+            if response is not None:
+                print("Image saved at {}".format(imgpath))
+                print("Found object: {}".format(response.desired_color, response.found_obj))
+
+                imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
+                dispatcher.utter_attachment(None, image=imgurl)
+
+                if response.found_obj:
+                    dispatcher.utter_message(text="This is the object I found".format(response.desired_color))
+                else:
+                    dispatcher.utter_message(text="Sorry, I didn't find any object.".format(response.desired_color))
+            else:
+                dispatcher.utter_message(template="utter_failed_command")
+
+        dispatcher.utter_message(template="utter_user_show",
+                                 object_color=object_color,
+                                 object_name=object_name)
         return []
 
 
@@ -264,7 +307,7 @@ class ActionClarificationForm(FormAction):
         """Validate synonym category value."""
 
         slot_values = self.extract_other_slots(dispatcher, tracker, domain)
-        
+
         if value.lower() in self.synonym_db():
             # validation succeeded, set the value of the "synonym category" slot to value
             return [SlotSet('synonym_category', value)]
@@ -286,5 +329,3 @@ class ActionClarificationForm(FormAction):
 
         dispatcher.utter_message(template="utter_clarification_repeat")
         return []
-
-        
