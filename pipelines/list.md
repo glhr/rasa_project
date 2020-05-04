@@ -38,3 +38,25 @@ pipeline:
 - name: "EntitySynonymMapper"
 - name: "SklearnIntentClassifier"
 ```
+
+### supervised_embeddings
+
+The advantage of the supervised_embeddings pipeline is that your word vectors will be customised for your domain. For example, in general English, the word “balance” is closely related to “symmetry”, but very different to the word “cash”. In a banking domain, “balance” and “cash” are closely related and you’d like your model to capture that. This pipeline doesn’t use a language-specific model, so it will work with any language that you can tokenize (on whitespace or using a custom tokenizer).
+
+You can read more about this topic in this blog post: https://medium.com/rasa-blog/supervised-word-vectors-from-scratch-in-rasa-nlu-6daf794efcd8
+
+```
+language: "en"
+
+pipeline:
+- name: "WhitespaceTokenizer"
+- name: "RegexFeaturizer"
+- name: "CRFEntityExtractor"
+- name: "EntitySynonymMapper"
+- name: "CountVectorsFeaturizer"
+- name: "CountVectorsFeaturizer"
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 4
+- name: "EmbeddingIntentClassifier"
+```
