@@ -98,7 +98,6 @@
 - could you [grab](action) that [phone](object_name) on the [left](placement_origin) side
 - [put](action) [it](undefined_object) somewhere on the [right](placement_destination) thanks
 - [move](action) this [ball](object_name) and then [place](action) it [here](placement_destination)
-- i wanna ask if you can [move](action) this [ball](object_name) and put it [there](placement_destination)
 - i wanna ask if you can [move](action) this [ball](object_name) and [put](action) it [there](placement_destination)
 - [move](action) [this thing](undefined_object) and [put](action) it [there](placement_destination)
 - [pick](action) [this](undefined_object) up and [put](action) it [there](placement_destination)
@@ -128,6 +127,7 @@
 - [say](action) [something](undefined_object)
 - okay now [stop](action) what you're doing immediately
 - hey robot [tell](action) me what you're thinking right now
+- could you [pick](action) [it](undefined_object) up?
 - [find](action) a [red](object_color) [ball](object_name) on the platform
 - please [inspect](action) this [orange](object_name) very carefully
 - [check out](action) this [green](object_color) [apple](object_name) that i'm showing you
@@ -190,6 +190,7 @@
 - this is an [apple](object_name)
 - here is a [green](object_color) [apple](object_name)
 - ok here's a [banana](object_name) for you to look at
+- i need you to learn what a [tomato](object_name) is
 - here is a [fruit](object_name) with a [yellow](object_color) color
 - i'm showing you a [ball](object_name)
 - i'm showing you a [blue](object_color) [banana](object_name)
@@ -205,6 +206,9 @@
 - let me show you what a [banana](object_name) looks like
 - this object is a [kiwi](object_name)
 - i'm teaching you what [green](obj_color) [grapes](object_name) look like
+- i wanna show you a [red](object_color) [apple](object_name)
+- and this one is a [green](object_color) [kiwi](object_name) fruit
+- okay now i'm going to teach you what a [pineapple](object_name) is
 
 ## intent:train
 - can you retrain everything?

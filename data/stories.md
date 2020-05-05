@@ -1,4 +1,9 @@
 ## interactive_story_1
+* show{"object_color": "purple", "object_name": "cherry"}
+    - received_show
+* affirmative
+    - received_show_confirmed
+    - execute_command
 * greetings
     - received_greet
 * command{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
@@ -6,6 +11,8 @@
 * affirmative
     - received_command_confirmed
     - execute_command
+* show
+    - received_show
 * bye
     - received_goodbye
 * restart
@@ -165,6 +172,11 @@
 * affirmative
     - received_command_confirmed
     - execute_command
+* show{"object_name": "grapefruit"}
+    - received_show
+* affirmative
+    - received_show_confirmed
+    - execute_command
 * none
     - received_none
 * bye
@@ -175,6 +187,10 @@
 ## interactive_story_1
 * greetings
     - received_greet
+* show{"undefined_object": "thing", "object_name": "watermelon"}
+    - received_show
+* deny
+    - received_command_denied
 * none
     - received_none
 * command{"action": "find", "undefined_object": "something"}
@@ -237,3 +253,19 @@
     - received_goodbye
 * restart
     - received_restart
+## interactive_story_1
+* greetings
+    - received_greet
+* show{"object_color": "red", "object_name": "apple"}
+    - received_show
+* command{"action": "pick", "undefined_object": "it"}
+    - received_command
+* show{"object_color": "green", "object_name": "kiwi"}
+    - received_show
+* affirmative
+    - received_show_confirmed
+    - execute_command
+* show{"object_name": "pineapple"}
+    - received_show
+* deny
+    - received_command_denied
