@@ -25,8 +25,6 @@ except Exception as e:
     logger.warning("Failed to load ros_comm module: {}".format(e))
     ENABLE_ROS = False
 
-input_nlu_file = './data/nlu.md'
-user_nlu_file  = './data/user_nlu.md'
 input_nlu_file = './data/nlu/synonyms.md'
 user_nlu_file  = './data/nlu/user_nlu.md'
 list_of_synonym    = []

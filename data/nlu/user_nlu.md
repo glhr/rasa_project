@@ -1,32 +1,22 @@
-## intent:greetings
-
-
-## intent:show
-
-
 ## intent:affirmative
-
-
-## intent:none
-
 
 ## intent:bye
 
+## intent:command
 
 ## intent:deny
 
-
-## intent:command
-
-
-## intent:new_synonym_add
-
+## intent:greetings
 
 ## intent:inform
 
+## intent:none
 
 ## intent:restart
 
+## intent:show
+
+## intent:train
 
 ## synonym:find
 

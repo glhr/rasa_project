@@ -181,15 +181,6 @@
 - [move](action) the [ball](object_name) from the [middle](placement_origin) to the [left](placement_destination)
 - please [pick up](action) the [phone](object_name) on the [left](placement_origin) and put it on the [right](placement_destination)
 
-<!--
-## intent:new_synonym_add
-- im looking to add a new synonym for [find](synonym_category)
-- i want to program a new verb for the robot commands [pick up](synonym_category)
-- can you please add this synonym to the list of [move](synonym_category)
-- i would like to add this synonym for [find](synonym_category)
-- add the synonym to [pick up](synonym_category) please
-- uh you need to add this synonym to [move](synonym_category)
-
 ## intent:inform
 - add it to [find](synonym_category)
 - put it in the [pick up](synonym_category) category
@@ -197,7 +188,13 @@
 - can you add it to the [pick up](synonym_category) synonym
 - that action should be added to the [find](synonym_category) category
 - i would like it to be added to the [move](synonym_category) list of synonyms
-- will you please add it to the [find](synonym_category) category -->
+- will you please add it to the [find](synonym_category) category
+- im looking to add a new synonym for [find](synonym_category)
+- i want to program a new verb for the robot commands [pick up](synonym_category)
+- can you please add this synonym to the list of [move](synonym_category)
+- i would like to add this synonym for [find](synonym_category)
+- add the synonym to [pick up](synonym_category) please
+- uh you need to add this synonym to [move](synonym_category)
 
 ## intent:restart
 - please restart the program
@@ -206,3 +203,5 @@
 - i made a mistake and we need to start from the beginning
 - the program needs to be restarted
 - reset all the conversation slots
+- restart everything
+- start everything over
