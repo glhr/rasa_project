@@ -15,6 +15,7 @@ from rasa_sdk.forms import Action, FormAction, REQUESTED_SLOT
 from rasa.core.slots import Slot
 
 from synonym_extraction import collect_synonym, add_synonym
+from train_and_relaunch import train_rasa
 
 logger = logging.getLogger(__name__)
 
@@ -377,4 +378,24 @@ class ActionClarificationForm(FormAction):
         #print(synonym_category, action)
 
         dispatcher.utter_message(template="utter_clarification_repeat")
+        return []
+
+class ReceivedTrain(Action):
+
+    def name(self) -> Text: return "received_train"
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # if ENABLE_ROS:
+        #     nlp_node.send_raw_msg(tracker.latest_message['text'])
+        
+        dispatcher.utter_message(template="utter_train")
+        
+        logger.warning('training models')
+        
+        train_rasa()
+        
+        logger.warning('training models complete')
+
         return []

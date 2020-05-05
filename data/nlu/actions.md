@@ -205,3 +205,17 @@
 - let me show you what a [banana](object_name) looks like
 - this object is a [kiwi](object_name)
 - i'm teaching you what [green](obj_color) [grapes](object_name) look like
+
+## intent:train
+- can you retrain everything?
+- can you retrain the nlu model?
+- can you retrain the core model?
+- will you please retrain the models
+- retrain all of the models
+- it would be nice if you could retrain the models
+- i made some new additions and we need to retrain to incldue them
+- models need to be retrained with new data
+- can you train everything?
+- you need to train all the model again
+- if you dont train the models no improvements will happen
+- the models needs to be trained to fix the issue
