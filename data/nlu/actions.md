@@ -1,27 +1,3 @@
-## intent:show
-- this [cup](object_name) is [red](object_color)
-- this [thing](undefined_object) is [white](object_color)
-- this is a pair of [scissors](object_name)
-- this is a [ball](object_name)
-- this is an [apple](object_name)
-- here is a [green](object_color) [apple](object_name)
-- ok here's a [banana](object_name) for you to look at
-- here is a [fruit](object_name) with a [yellow](object_color) color
-- i'm showing you a [ball](object_name)
-- i'm showing you a [blue](object_color) [banana](object_name)
-- i'm going to show you what a [cell phone](object_name) looks like
-- this [ball](object_name) is [green](object_color)
-- this is a [blue](object_color) [cube](object_name)
-- i'm showing you a [blue](object_color) [cube](object_name)
-- this is a [yellow](object_color) [brick](object_name)
-- this is an [orange](object_name)
-- this is a [blue](object_color) [banana](object_name)
-- this is a [blue](object_color) [ball](object_name)
-- and this right here is an [orange](object_color) [apple](object_name)
-- let me show you what a [banana](object_name) looks like
-- this object is a [kiwi](object_name)
-- i'm teaching you what [green](obj_color) [grapes](object_name) look like
-
 ## intent:command
 - [look for](action) an [orange](object_color) [fruit](object_name) on the [left](placement_origin)
 - how about you [search](action) for an [orange](object_name) in the [middle](placement_origin)
@@ -205,3 +181,27 @@
 - reset all the conversation slots
 - restart everything
 - start everything over
+
+## intent:show
+- this [cup](object_name) is [red](object_color)
+- this [thing](undefined_object) is [white](object_color)
+- this is a pair of [scissors](object_name)
+- this is a [ball](object_name)
+- this is an [apple](object_name)
+- here is a [green](object_color) [apple](object_name)
+- ok here's a [banana](object_name) for you to look at
+- here is a [fruit](object_name) with a [yellow](object_color) color
+- i'm showing you a [ball](object_name)
+- i'm showing you a [blue](object_color) [banana](object_name)
+- i'm going to show you what a [cell phone](object_name) looks like
+- this [ball](object_name) is [green](object_color)
+- this is a [blue](object_color) [cube](object_name)
+- i'm showing you a [blue](object_color) [cube](object_name)
+- this is a [yellow](object_color) [brick](object_name)
+- this is an [orange](object_name)
+- this is a [blue](object_color) [banana](object_name)
+- this is a [blue](object_color) [ball](object_name)
+- and this right here is an [orange](object_color) [apple](object_name)
+- let me show you what a [banana](object_name) looks like
+- this object is a [kiwi](object_name)
+- i'm teaching you what [green](obj_color) [grapes](object_name) look like
