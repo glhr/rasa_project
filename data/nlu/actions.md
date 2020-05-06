@@ -205,7 +205,7 @@
 - and this right here is an [orange](object_color) [apple](object_name)
 - let me show you what a [banana](object_name) looks like
 - this object is a [kiwi](object_name)
-- i'm teaching you what [green](obj_color) [grapes](object_name) look like
+- i'm teaching you what [green](object_color) [grapes](object_name) look like
 - i wanna show you a [red](object_color) [apple](object_name)
 - and this one is a [green](object_color) [kiwi](object_name) fruit
 - okay now i'm going to teach you what a [pineapple](object_name) is

@@ -8,9 +8,9 @@ actions:
 - received_none
 - received_restart
 - received_show
+- received_show_confirmed
 - received_train
 - execute_command
-- received_show_confirmed
 - utter_clarification_repeat
 - utter_executed_command
 - utter_failed_command
@@ -28,6 +28,7 @@ actions:
 - utter_user_denied
 - utter_user_gave_confirmation
 - utter_wrong_synonym_category
+
 entities:
 - action
 - object_color
@@ -36,19 +37,17 @@ entities:
 - placement_origin
 - synonym_category
 - undefined_object
-forms:
-- clarification_form
+
 intents:
-- command
 - affirmative
-- show
+- bye:
+    triggers: received_goodbye
+- inform
+- command
 - deny:
     triggers: received_command_denied
 - greetings:
     triggers: received_greet
-- bye:
-    triggers: received_goodbye
-- inform
 - new_synonym_add
 - none
 - restart
@@ -85,10 +84,10 @@ responses:
   utter_goodbye:
   - text: Bye
   utter_greet:
-  - image: https://i.imgflip.com/17eo8m.jpg
-    text: Hey! How are you?
-  - image: https://i.imgflip.com/17eo8m.jpg
-    text: Yo, what's up?
+  - text: Hey! How are you?
+    image: "https://i.imgflip.com/17eo8m.jpg"
+  - text: Yo, what's up?
+    image: "https://i.imgflip.com/17eo8m.jpg"
   utter_incomplete_command_missing_action:
   - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
   utter_incomplete_command_missing_object:
@@ -111,11 +110,8 @@ responses:
   - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for helping me learn!
   utter_train:
   - text: The Core and NLU models have been trained. You will need to restart the front-end.
-  - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for
-      helping me learn!
   utter_unknown_action_command:
-  - text: Sorry, I don't know how to perform the action, {action}. Would you like
-      to add it as a synonym for either "find", "move", or "pick up"?
+  - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "find", "move", or "pick up"?
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
@@ -127,31 +123,33 @@ responses:
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
   utter_wrong_synonym_category:
-  - text: Sorry, I don't know the category you are trying to map the verb to. You
-      need to map it to either "find", "move", or "pick up".
+  - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "find", "move", or "pick up".
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
+
 slots:
   action:
-    initial_value: none
     type: text
-  command_confirmed:
-    initial_value: false
-    type: bool
+    initial_value: none
   object_color:
-    initial_value: none
     type: text
+    initial_value: none
   object_name:
-    initial_value: none
     type: text
+    initial_value: none
   placement_destination:
-    initial_value: none
     type: text
+    initial_value: none
   placement_origin:
-    initial_value: none
     type: text
-  requested_slot:
-    type: unfeaturized
+    initial_value: none
+  command_confirmed:
+    type: bool
+    initial_value: False
   synonym_category:
     type: unfeaturized
+
+forms:
+  - clarification_form
