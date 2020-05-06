@@ -225,34 +225,6 @@
 * show
     - received_show
 
-## clarification_story_1
-- clarification_form
-- form{"name": "clarification_form"}
-- form{"name": null}
-- utter_clarification_repeat
-
-## retrain_story_1
-- clarification_form
-- form{"name": "clarification_form"}
-- form{"name": null}
-- utter_clarification_repeat
-* train
-    - received_train
-
-## retrain_story_2
-* greetings
-    - received_greet
-* command{"action": "grab", "object_color": "blue", "object_name": "bottle"}
-    - received_command
-* affirmative
-    - received_command_confirmed
-    - execute_command
-* train
-    - received_train
-* bye
-    - received_goodbye
-* restart
-    - received_restart
 ## interactive_story_1
 * greetings
     - received_greet
