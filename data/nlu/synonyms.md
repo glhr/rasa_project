@@ -1,4 +1,4 @@
-##synonym:middle
+## synonym:middle
 - middle
 - center
 - centre
