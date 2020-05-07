@@ -15,9 +15,6 @@
     - received_show
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -29,9 +26,6 @@
     - execute_command
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -47,9 +41,6 @@
     - received_command_denied
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -75,9 +66,6 @@
     - execute_command
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -100,9 +88,6 @@
     - received_command_denied
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -118,9 +103,6 @@
     - received_command_denied
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -135,9 +117,6 @@
     - received_command_denied
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * command{"action": "move", "object_name": "phone"}
@@ -149,9 +128,7 @@
     - received_command
 * deny
     - received_command_denied
-* restart
-    - received_restart
-    - utter_restart
+
 
 ## interactive_story_1
 * greetings
@@ -167,9 +144,6 @@
     - utter_prompt
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -190,9 +164,6 @@
     - utter_prompt
 * bye
     - utter_goodbye
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * greetings
@@ -217,9 +188,6 @@
 * affirmative
     - received_command_confirmed
     - execute_command
-* restart
-    - received_restart
-    - utter_restart
 
 ## interactive_story_1
 * command{"action": "move", "object_name": "ball", "placement_origin": "left", "placement_destination": "right"}

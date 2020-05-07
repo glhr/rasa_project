@@ -275,19 +275,6 @@ class ReceivedShow(Action):
 
 
 
-
-
-class ReceivedRestart(Action):
-
-    def name(self) -> Text: return "received_restart"
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        def apply_to(self, tracker) -> None:
-            tracker._reset_slots()
-        return[Restarted()]
-
 class ActionClarificationForm(FormAction):
 
     def name(self) -> Text: return "clarification_form"

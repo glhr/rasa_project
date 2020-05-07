@@ -3,10 +3,8 @@ actions:
 - received_command
 - received_command_confirmed
 - received_command_denied
-- received_restart
 - received_show
 - received_show_confirmed
-- received_train
 - execute_command
 - utter_learned_synonym
 - utter_executed_command
@@ -18,9 +16,7 @@ actions:
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
-- utter_restart
 - utter_show
-- utter_train
 - utter_unknown_action
 - utter_user_denied
 - utter_got_confirmation
@@ -44,9 +40,7 @@ intents:
 - greetings
 - new_synonym_add
 - none
-- restart
 - show
-- train
 
 responses:
 
@@ -59,12 +53,8 @@ responses:
   - text: received_command_confirmed
   received_command_denied:
   - text: received_command_denied
-  received_restart:
-  - text: received_restart
   received_show:
   - text: received_show
-  received_train:
-  - text: received_train
 
 #  BOT MESSAGE TEMPLATES
   utter_learned_synonym:
@@ -94,14 +84,8 @@ responses:
   - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
   - text: So just to make sure, you want me to {action} the {object_description}{placement}?
-  utter_restart:
-  - text: Alright, let's start over.
-  - text: We will give it another shot!
-  - text: Why don't we try that one more time?
-  utter_show:
+  utter_got_description:
   - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for helping me learn!
-  utter_train:
-  - text: The Core and NLU models have been trained. You will need to restart the front-end.
   utter_unknown_action:
   - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "find", "move", or "pick up"?
   utter_user_denied:

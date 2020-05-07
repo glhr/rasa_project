@@ -172,16 +172,6 @@
 - add the synonym to [pick up](synonym_category) please
 - uh you need to add this synonym to [move](synonym_category)
 
-## intent:restart
-- please restart the program
-- restart the conversation
-- can we start this conversation over?
-- i made a mistake and we need to start from the beginning
-- the program needs to be restarted
-- reset all the conversation slots
-- restart everything
-- start everything over
-
 ## intent:show
 - this [cup](object_name) is [red](object_color)
 - this [thing](undefined_object) is [white](object_color)

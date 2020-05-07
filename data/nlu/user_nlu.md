@@ -12,11 +12,7 @@
 
 ## intent:none
 
-## intent:restart
-
 ## intent:show
-
-## intent:train
 
 ## synonym:find
 
