@@ -35,7 +35,9 @@ intents:
 - affirmative
 - bye
 - clarification
-- command
+- find
+- pickup
+- move
 - deny
 - greetings
 - new_synonym_add
