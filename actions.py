@@ -63,12 +63,12 @@ def check_slots_for_command(tracker, dispatcher, check_confirm=True):
 
     # object name given without an action
     elif (action in invalid_values) and (object_name not in invalid_values):
-        dispatcher.utter_message(template="utter_incomplete_command_missing_action",
+        dispatcher.utter_message(template="utter_prompt_action",
                                  object_name=object_name)
 
     # action given without an object name
     elif (action not in invalid_values) and (object_name in invalid_values):
-        dispatcher.utter_message(template="utter_incomplete_command_missing_object",
+        dispatcher.utter_message(template="utter_prompt_object",
                                  action=action)
 
     # unknown action and object
@@ -77,7 +77,7 @@ def check_slots_for_command(tracker, dispatcher, check_confirm=True):
 
     elif action not in list_of_synonym:
         # logger.warning('unknown actions')
-        dispatcher.utter_message(template="utter_unknown_action_command",
+        dispatcher.utter_message(template="utter_unknown_action",
                                  action=action)
         return [FollowupAction("clarification_form")]
 
@@ -159,7 +159,7 @@ class ReceivedCommandConfirmed(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         if check_slots_for_command(tracker, dispatcher, check_confirm=False):
-            dispatcher.utter_message(template="utter_user_gave_confirmation")
+            dispatcher.utter_message(template="utter_got_confirmation")
 
         return [
             SlotSet("command_confirmed", True)
@@ -323,7 +323,7 @@ class ActionClarificationForm(FormAction):
             # validation succeeded, set the value of the "synonym category" slot to value
             return [SlotSet('synonym_category', value)]
         else:
-            dispatcher.utter_message(template="utter_wrong_synonym_category")
+            dispatcher.utter_message(template="utter_unknown_synonym")
             # validation failed, set this slot to None, meaning the user will be asked for the slot again
             return [SlotSet('synonym_category', None)]
 
@@ -338,5 +338,5 @@ class ActionClarificationForm(FormAction):
         add_synonym(synonym_category, action)       # saves the new action as a synonym for the specific category
         #print(synonym_category, action)
 
-        dispatcher.utter_message(template="utter_clarification_repeat")
+        dispatcher.utter_message(template="utter_learned_synonym")
         return []

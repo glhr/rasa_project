@@ -8,23 +8,23 @@ actions:
 - received_show_confirmed
 - received_train
 - execute_command
-- utter_clarification_repeat
+- utter_learned_synonym
 - utter_executed_command
 - utter_failed_command
 - utter_goodbye
 - utter_greet
-- utter_incomplete_command_missing_action
-- utter_incomplete_command_missing_object
+- utter_prompt_action
+- utter_prompt_object
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
 - utter_restart
 - utter_show
 - utter_train
-- utter_unknown_action_command
+- utter_unknown_action
 - utter_user_denied
-- utter_user_gave_confirmation
-- utter_wrong_synonym_category
+- utter_got_confirmation
+- utter_unknown_synonym
 
 entities:
 - action
@@ -67,7 +67,7 @@ responses:
   - text: received_train
 
 #  BOT MESSAGE TEMPLATES
-  utter_clarification_repeat:
+  utter_learned_synonym:
   - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_executed_command:
   - text: Done! Here you go buddy.
@@ -80,9 +80,9 @@ responses:
     image: "https://i.imgflip.com/17eo8m.jpg"
   - text: Yo, what's up?
     image: "https://i.imgflip.com/17eo8m.jpg"
-  utter_incomplete_command_missing_action:
+  utter_prompt_action:
   - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
-  utter_incomplete_command_missing_object:
+  utter_prompt_object:
   - text: What object do you want me to {action} exactly?
   utter_prompt:
   - text: What would you like me to do?
@@ -102,19 +102,19 @@ responses:
   - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for helping me learn!
   utter_train:
   - text: The Core and NLU models have been trained. You will need to restart the front-end.
-  utter_unknown_action_command:
+  utter_unknown_action:
   - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "find", "move", or "pick up"?
   utter_user_denied:
   - text: Damn, that sucks for me.
   - text: Well, I guess I won't do that then.
   - text: Well I'm glad I asked!
   - text: Got it, I won't do that.
-  utter_user_gave_confirmation:
+  utter_got_confirmation:
   - text: Cool, I'll do that.
   - text: Getting right on it!
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
-  utter_wrong_synonym_category:
+  utter_unknown_synonym:
   - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "find", "move", or "pick up".
 
 session_config:
