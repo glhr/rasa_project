@@ -33,6 +33,8 @@ list_of_synonym    = []
 
 invalid_values = [None, "none", "None", "unknown", "", "any"]
 
+
+
 def check_slots_for_command(tracker, dispatcher, check_confirm=True):
     action = tracker.get_slot('action')
     object_name = tracker.get_slot('object_name')
@@ -140,9 +142,6 @@ class ReceivedCommand(Action):
         if placement_destination not in ['middle', 'left', 'right']:
             placement_destination = 'any'
 
-        if ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
-
         check = check_slots_for_command(tracker, dispatcher)
 
         return [
@@ -184,7 +183,6 @@ class ExecuteCommand(Action):
         placement_destination = tracker.get_slot('placement_destination')
 
         if check_slots_for_command(tracker, dispatcher) and ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
 
             if action == "find" and placement_destination not in invalid_values and placement_origin in invalid_values:
                 placement_origin = placement_destination
@@ -230,9 +228,6 @@ class ReceivedCommandDenied(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        if ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
-
         dispatcher.utter_message(template="utter_user_denied")
         return [AllSlotsReset()]
 
@@ -251,7 +246,6 @@ class ReceivedShow(Action):
         placement_destination = tracker.get_slot('placement_destination')
 
         if check_slots_for_command(tracker, dispatcher) and ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
             nlp_node.send_command(action="show",
                                   object=None,
                                   obj_color=None,
@@ -280,44 +274,8 @@ class ReceivedShow(Action):
         return [AllSlotsReset()]
 
 
-class ReceivedGoodbye(Action):
 
-    def name(self) -> Text: return "received_goodbye"
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        if ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
-
-        dispatcher.utter_message(template="utter_goodbye")
-        return []
-
-class ReceivedNone(Action):
-
-    def name(self) -> Text: return "received_none"
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        if ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
-
-        dispatcher.utter_message(template="utter_prompt")
-        return []
-
-class ReceivedGreet(Action):
-
-    def name(self) -> Text: return "received_greet"
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        if ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
-
-        dispatcher.utter_message(template="utter_greet")
-        return []
 
 class ReceivedRestart(Action):
 
@@ -326,10 +284,6 @@ class ReceivedRestart(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        if ENABLE_ROS:
-            nlp_node.send_raw_msg(tracker.latest_message['text'])
-
-        dispatcher.utter_message(template="utter_restart")
         def apply_to(self, tracker) -> None:
             tracker._reset_slots()
         return[Restarted()]
@@ -356,7 +310,7 @@ class ActionClarificationForm(FormAction):
 
     def slot_mappings(self):
         return {
-            "synonym_category": self.from_entity(entity="synonym_category", intent=["inform", "new_synonym_add"])}
+            "synonym_category": self.from_entity(entity="synonym_category", intent=["clarification", "new_synonym_add"])}
 
     def validate_synonym(self, value: Text, dispatcher: CollectingDispatcher,
         tracker: Tracker,

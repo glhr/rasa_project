@@ -29,6 +29,7 @@
 
 ## synonym:pick up
 - pick up
+- pick
 - grab
 - bring
 - lift

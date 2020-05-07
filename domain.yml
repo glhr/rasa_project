@@ -3,9 +3,6 @@ actions:
 - received_command
 - received_command_confirmed
 - received_command_denied
-- received_goodbye
-- received_greet
-- received_none
 - received_restart
 - received_show
 - received_show_confirmed
@@ -40,14 +37,11 @@ entities:
 
 intents:
 - affirmative
-- bye:
-    triggers: received_goodbye
+- bye
 - inform
 - command
-- deny:
-    triggers: received_command_denied
-- greetings:
-    triggers: received_greet
+- deny
+- greetings
 - new_synonym_add
 - none
 - restart
@@ -55,6 +49,8 @@ intents:
 - train
 
 responses:
+
+# CUSTOM ACTIONS
   execute_command:
   - text: execute_command
   received_command:
@@ -63,18 +59,14 @@ responses:
   - text: received_command_confirmed
   received_command_denied:
   - text: received_command_denied
-  received_goodbye:
-  - text: received_goodbye
-  received_greet:
-  - text: received_greet
-  received_none:
-  - text: utter_prompt
   received_restart:
   - text: received_restart
   received_show:
   - text: received_show
   received_train:
   - text: received_train
+
+#  BOT MESSAGE TEMPLATES
   utter_clarification_repeat:
   - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_executed_command:

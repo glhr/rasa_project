@@ -5,7 +5,7 @@
     - received_show_confirmed
     - execute_command
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
     - received_command
 * affirmative
@@ -14,26 +14,28 @@
 * show
     - received_show
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "grab", "object_color": "blue", "object_name": "bottle"}
     - received_command
 * affirmative
     - received_command_confirmed
     - execute_command
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "pick up", "object_name": "waffle"}
     - received_command
 * affirmative
@@ -44,13 +46,14 @@
 * deny
     - received_command_denied
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "detect", "object_color": "red", "object_name": "book"}
     - received_command
 * deny{"action": "stop"}
@@ -71,13 +74,14 @@
     - received_command_confirmed
     - execute_command
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "move", "object_color": "yellow", "object_name": "cable", "placement": "left"}
     - received_command
 * affirmative
@@ -95,13 +99,14 @@
 * deny
     - received_command_denied
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "move", "object_name": "ball", "placement": "right"}
     - received_command
 * affirmative
@@ -112,25 +117,27 @@
 * deny
     - received_command_denied
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * bye
-    - received_goodbye
+    - utter_goodbye
 * greetings
-    - received_greet
+    - utter_greet
 * command{"action": "pick up", "object_color": "gold", "object_name": "phone"}
     - received_command
 * deny
     - received_command_denied
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * command{"action": "move", "object_name": "phone"}
@@ -144,10 +151,11 @@
     - received_command_denied
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * none
     - received_none
 * command{"action": "find", "object_color": "red", "object_name": "ball", "placement_destination": "left"}
@@ -158,13 +166,14 @@
 * none
     - received_none
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * none
     - received_none
 * command{"action": "pick up", "object_color": "pink", "object_name": "flamingo"}
@@ -180,13 +189,14 @@
 * none
     - received_none
 * bye
-    - received_goodbye
+    - utter_goodbye
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * show{"undefined_object": "thing", "object_name": "watermelon"}
     - received_show
 * deny
@@ -195,7 +205,7 @@
     - received_none
 * command{"action": "find", "undefined_object": "something"}
     - received_command
-* command{"action": "Find", "object_color": "red", "object_name": "apple"}
+* command{"action": "find", "object_color": "red", "object_name": "apple"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -209,6 +219,7 @@
     - execute_command
 * restart
     - received_restart
+    - utter_restart
 
 ## interactive_story_1
 * command{"action": "move", "object_name": "ball", "placement_origin": "left", "placement_destination": "right"}
@@ -227,7 +238,7 @@
 
 ## interactive_story_1
 * greetings
-    - received_greet
+    - utter_greet
 * show{"object_color": "red", "object_name": "apple"}
     - received_show
 * command{"action": "pick", "undefined_object": "it"}

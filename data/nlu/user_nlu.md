@@ -8,7 +8,7 @@
 
 ## intent:greetings
 
-## intent:inform
+## intent:clarification
 
 ## intent:none
 

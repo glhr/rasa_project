@@ -157,7 +157,7 @@
 - [move](action) the [ball](object_name) from the [middle](placement_origin) to the [left](placement_destination)
 - please [pick up](action) the [phone](object_name) on the [left](placement_origin) and put it on the [right](placement_destination)
 
-## intent:inform
+## intent:clarification
 - add it to [find](synonym_category)
 - put it in the [pick up](synonym_category) category
 - i want it to be for [move](synonym_category) synonym
