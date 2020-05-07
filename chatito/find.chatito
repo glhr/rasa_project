@@ -1,0 +1,116 @@
+// Ways to say find
+
+%[find]('training': '100')
+    *[20%] @[action] @[object_color?] @[object_name]
+    ~[intro?] @[action] ~[object_designator?] @[object_color?] @[object_name] ~[outro?]
+    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[placement_designator?] which is @[object_color] ~[outro?]
+    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has the color @[object_color] ~[outro?]
+    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has a @[object_color] color ~[outro?]
+    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] is @[object_color] ~[outro?]
+
+~[located]
+    placed
+    located
+    positioned
+
+~[which]
+    which
+    that
+
+~[placement_designator]
+    ~[located?] in the @[placement_origin]
+    ~[located?] on the @[placement_origin]
+    ~[located?] at the @[placement_origin]
+    ~[located?] somewhere on the @[placement_origin]
+    ~[located?] over there in the @[placement_origin]
+    ~[located?] in the area on the @[placement_origin]
+    ~[located?] in the @[placement_origin] area
+    ~[located?] in the @[placement_origin] zone
+
+
+@[placement_origin]
+    middle
+    center
+    left
+    right
+
+~[adverb]
+    now
+    also
+    immediately
+
+~[intro]
+    could you ~[adverb?]
+    can you please ~[adverb?]
+    please ~[adverb?]
+    ok ~[adverb?]
+    ~[adverb?] i want you to ~[adverb?]
+    ~[adverb?] i'm asking you to
+    ~[adverb?] can you
+    are you able to
+    do you know how to
+    so
+    um
+    thanks
+    robot
+    my command is
+    i mean
+
+~[outro]
+    please
+    ~[adverb] thanks
+    please robot
+    that's all
+
+~[object_designator]
+    a
+    an
+    the
+    one
+    that
+    this
+    some
+    a single
+
+@[action]
+    find
+    detect
+    recognize
+    look for
+    search for
+    locate
+    identify
+    spot
+    pinpoint
+    observe
+    see
+    perceive
+    notice
+
+@[object_color]
+    orange
+    yellow
+    black
+    brown
+    blue
+    brown
+    purple
+    green
+    pink
+    magenta
+
+@[object_name]
+    orange
+    apple
+    orange
+    apricot
+    kiwi
+    pineapple
+    pear
+    lemon
+    strawberry
+    raspberry
+    melon
+    watermelon
+    pepper
+    tomato
