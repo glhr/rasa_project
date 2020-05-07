@@ -35,8 +35,9 @@ invalid_values = [None, "none", "None", "unknown", "", "any"]
 
 
 
-def check_slots_for_command(tracker, dispatcher, check_confirm=True):
-    action = tracker.get_slot('action')
+def check_slots_for_command(tracker, dispatcher, action=None, check_confirm=True):
+    if action is None:
+        action = tracker.get_slot('action')
     object_name = tracker.get_slot('object_name')
     object_color = tracker.get_slot('object_color')
     placement_origin = tracker.get_slot('placement_origin')
@@ -131,7 +132,7 @@ class ReceivedCommand(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         global list_of_synonym
         # dispatcher.utter_message(template="utter_received_command")
-        action = tracker.get_slot('action')
+        action = tracker.latest_message['intent'].get('name')
         object_name = tracker.get_slot('object_name')
         object_color = tracker.get_slot('object_color')
         placement_origin = tracker.get_slot('placement_origin')
@@ -142,9 +143,10 @@ class ReceivedCommand(Action):
         if placement_destination not in ['middle', 'left', 'right']:
             placement_destination = 'any'
 
-        check = check_slots_for_command(tracker, dispatcher)
+        check = check_slots_for_command(tracker, dispatcher, action)
 
         return [
+            SlotSet("action", action),
             SlotSet("placement_origin", placement_origin),
             SlotSet("placement_destination", placement_destination)
                 ]

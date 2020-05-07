@@ -1,6 +1,6 @@
 ## intent:find
 - [look for](action) an [orange](object_color) [fruit](object_name) on the [left](placement_origin)
-- how about you [search](action) for an [orange](object_name) in the [middle](placement_origin)
+- how about you [search for](action) an [orange](object_name) in the [middle](placement_origin)
 - could you also [detect](action) [something](undefined_object) [blue](object_color)
 - can you [detect](action) any [red](object_color) [book](object_name) on the [right](placement_origin) of the platform
 - [find](action) the [gold](object_color) [phone](object_name) instead
@@ -12,9 +12,13 @@
 - please [find](action) the [orange](object_color) [brick](object_name)
 - please [look for](action) a [phone](object_name) in the [middle](placement_origin)
 - [find](action) a [red](object_color) [ball](object_name) on the platform
+- [find](action) [it](undefined_object)
+- [search for](action) [it](undefined_object)
+- [search for](action a ball on the table
+- can you [see](action) the [cherry](object_name)
 
 
-## intent:pickup
+## intent:pick up
 - i want you to [clasp](action) [this thing](undefined_object)
 - i want you to [crush](action) [this thing](undefined_object) with your awesome gripper
 - please [lift](action) this [glass](object_name) up from the platform

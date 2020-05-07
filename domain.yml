@@ -35,9 +35,12 @@ intents:
 - affirmative
 - bye
 - clarification
-- find
-- pickup
-- move
+- find:
+    triggers: received_command
+- pick up:
+    triggers: received_command
+- move:
+    triggers: received_command
 - deny
 - greetings
 - new_synonym_add
@@ -111,6 +114,7 @@ slots:
   action:
     type: text
     initial_value: none
+    auto_fill: False
   object_color:
     type: text
     initial_value: none

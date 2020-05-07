@@ -1,4 +1,14 @@
 ## intent:greetings
+- how are you
+- whats up
+- how are you doing
+- how is it going
+- are you there
+- how are things going
+- are you around
+- whatsup
+- sup
+- are you around
 - hey there robot
 - hi what's up dummy boy
 - greetings kind sir
@@ -242,6 +252,23 @@
 - finish
 
 ## intent:deny
+- no
+- nope
+- not really
+- that's not right
+- incorrect
+- don't do that
+- its not ok
+- i don't want that
+- didnt meant that
+- dont mean that
+- that's not what i want
+- that's not correct
+- that's wrong
+- it's not good
+- that is wrong
+- its not ok
+- its not correct
 - that's incorrect
 - no stop that immediately
 - nope

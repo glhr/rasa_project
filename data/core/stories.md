@@ -6,7 +6,7 @@
     - execute_command
 * greetings
     - utter_greet
-* pickup{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
+* pick up{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -19,7 +19,7 @@
 ## interactive_story_1
 * greetings
     - utter_greet
-* pickup{"action": "grab", "object_color": "blue", "object_name": "bottle"}
+* pick up{"action": "grab", "object_color": "blue", "object_name": "bottle"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -30,7 +30,7 @@
 ## interactive_story_1
 * greetings
     - utter_greet
-* pickup{"action": "pick up", "object_name": "waffle"}
+* pick up{"action": "pick up", "object_name": "waffle"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -54,7 +54,7 @@
 * affirmative
     - received_command_confirmed
     - execute_command
-* pickup{"action": "lift", "object_name": "phone"}
+* pick up{"action": "lift", "object_name": "phone"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -97,7 +97,7 @@
 * affirmative
     - received_command_confirmed
     - execute_command
-* pickup{"action": "lift", "object_name": "phone"}
+* pick up{"action": "lift", "object_name": "phone"}
     - received_command
 * deny
     - received_command_denied
@@ -111,7 +111,7 @@
     - utter_goodbye
 * greetings
     - utter_greet
-* pickup{"action": "pick up", "object_color": "gold", "object_name": "phone"}
+* pick up{"action": "pick up", "object_color": "gold", "object_name": "phone"}
     - received_command
 * deny
     - received_command_denied
@@ -119,12 +119,12 @@
     - utter_goodbye
 
 ## interactive_story_1
-* pickup{"action": "move", "object_name": "phone"}
+* pick up{"action": "move", "object_name": "phone"}
     - received_command
 * affirmative{"action": "move"}
     - received_command_confirmed
     - execute_command
-* pickup{"action": "pick up", "object_name": "apricot"}
+* pick up{"action": "pick up", "object_name": "apricot"}
     - received_command
 * deny
     - received_command_denied
@@ -150,7 +150,7 @@
     - utter_greet
 * none
     - utter_prompt
-* pickup{"action": "pick up", "object_color": "pink", "object_name": "flamingo"}
+* pick up{"action": "pick up", "object_color": "pink", "object_name": "flamingo"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -183,7 +183,7 @@
     - execute_command
 * none
     - utter_prompt
-* pickup{"action": "push", "object_name": "apple"}
+* pick up{"action": "push", "object_name": "apple"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -209,7 +209,7 @@
     - utter_greet
 * show{"object_color": "red", "object_name": "apple"}
     - received_show
-* pickup{"action": "pick", "undefined_object": "it"}
+* pick up{"action": "pick", "undefined_object": "it"}
     - received_command
 * show{"object_color": "green", "object_name": "kiwi"}
     - received_show
@@ -225,7 +225,7 @@
 ## retrain_story_1
 * greetings
     - utter_greet
-* pickup{"action": "grab", "object_color": "blue", "object_name": "bottle"}
+* pick up{"action": "grab", "object_color": "blue", "object_name": "bottle"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -235,7 +235,7 @@
 ## retrain_story_2
 * greetings
     - utter_greet
-* pickup{"action": "pick up", "object_name": "waffle"}
+* pick up{"action": "pick up", "object_name": "waffle"}
     - received_command
 * affirmative
     - received_command_confirmed
@@ -257,7 +257,7 @@
     - execute_command
 * greetings
     - utter_greet
-* pickup{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
+* pick up{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
     - received_command
 * affirmative
     - received_command_confirmed
