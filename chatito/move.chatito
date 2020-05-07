@@ -2,9 +2,8 @@ import ./common.chatito
 
 // Ways to say find
 
-%[find]('training': '100')
-    *[20%] @[action] @[object_color?] @[object_name]
-    @[action] @[undefined_object?]
+%[move]('training': '100')
+    *[20%] @[action] @[object_color?] @[object_name] ~[destination]
     ~[intro?] @[action] ~[object_designator?] @[object_color?] @[object_name] ~[outro?]
     ~[intro?] @[action] ~[object_designator?] @[object_name] ~[placement_designator?] ~[which] is @[object_color] ~[outro?]
     ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has the color @[object_color] ~[outro?]
@@ -13,3 +12,12 @@ import ./common.chatito
 
 @[action]
     ~[find]
+    ~[pick up]
+    ~[move]
+
+~[destination]
+    to the @[placement_destination]
+    towards the @[placement_destination] area
+    towards the @[placement_destination] zone
+    towards the @[placement_destination] side
+    somewhere on the @[placement_destination]

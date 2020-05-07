@@ -1,0 +1,176 @@
+// Common entities to be imported and reused
+
+~[adverb]
+    now
+    also
+    immediately
+    maybe
+    somehow
+
+~[intro]
+    could you ~[adverb?]
+    can you please ~[adverb?]
+    please ~[adverb?]
+    ok ~[adverb?]
+    ~[adverb?] i want you to ~[adverb?]
+    ~[adverb?] i'm asking you to
+    ~[adverb?] can you
+    are you able to
+    do you know how to
+    so
+    um
+    thanks
+    robot
+    my command is
+    i mean
+    what i mean is
+    i'm ordering you to
+    help me
+
+~[outro]
+    please
+    ~[adverb] thanks
+    please robot
+    that's all
+    if you can
+    if possible
+
+~[object_designator]
+    a
+    an
+    the
+    one
+    that
+    this
+    some
+    a single
+
+~[located]
+    placed
+    located
+    positioned
+
+~[which]
+    which
+    that
+
+~[placement_designator]
+    ~[located?] in the @[placement_origin]
+    ~[located?] on the @[placement_origin]
+    ~[located?] at the @[placement_origin]
+    ~[located?] somewhere on the @[placement_origin]
+    ~[located?] over there in the @[placement_origin]
+    ~[located?] in the area on the @[placement_origin]
+    ~[located?] in the @[placement_origin] area
+    ~[located?] in the @[placement_origin] zone
+    ~[located?] on the @[placement_origin] side
+    on the table
+    around here
+    on the platform
+    around you
+
+~[find]
+    find
+    detect
+    recognize
+    look for
+    search for
+    locate
+    identify
+    spot
+    pinpoint
+    observe
+    see
+    perceive
+    notice
+
+~[move]
+    shift
+    relocate
+
+~[place]
+    place
+    put
+    set
+
+~[pick up]
+    pick up
+    pick
+    grab
+    bring
+    lift
+    raise
+    get
+    acquire
+    hoist
+    latch onto
+    grasp
+    crush
+    hold
+    fetch
+    give
+    pinch
+    snatch
+    seize
+    secure
+    clasp
+    clutch
+    grip
+    clench
+    carry
+    steal
+    claim
+    collect
+    embrace
+    squeeze
+    handle
+
+@[placement_origin]
+    middle
+    center
+    left
+    right
+
+@[placement_destination]
+    middle
+    center
+    left
+    right
+
+
+@[object_color]
+    orange
+    yellow
+    black
+    brown
+    blue
+    brown
+    purple
+    green
+    pink
+    magenta
+
+@[object_name]
+    orange
+    apple
+    orange
+    apricot
+    kiwi
+    pineapple
+    pear
+    lemon
+    strawberry
+    raspberry
+    melon
+    watermelon
+    pepper
+    tomato
+
+@[undefined_object]
+    it
+    that
+    this
+    fruit
+    object
+    thing
+    something
