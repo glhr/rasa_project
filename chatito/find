@@ -1,0 +1,108 @@
+// Ways to say find
+
+%[find]('training': '100')
+    ~[find] @[object_name] ~[placement_designator?]
+    ~[intro?] ~[find] ~[object_designator?] @[object_color?] @[object_name]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] ~[placement_designator?] which is @[object_color]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] which has the color @[object_color]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] which has a @[object_color] color
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] which is @[object_color]
+
+~[located]
+    placed
+    located
+    positioned
+
+~[placement_designator]
+    ~[located?] in the @[placement_origin]
+    on the @[placement_origin]
+    at the @[placement_origin]
+    somewhere on the @[placement_origin]
+    over there in the @[placement_origin]
+    in the area on the @[placement_origin]
+    in the @[placement_origin] area
+    in the @[placement_origin] zone
+
+
+@[placement_origin]
+    middle
+    center
+    left
+    right
+
+~[intro]
+    could you
+    can you please
+    please
+    ok
+    i want you to
+    i'm asking you to
+    can you
+    are you able to
+    do you know how to
+    now
+    so
+    um
+    thanks now
+    please robot
+
+~[outro]
+    please
+    thanks
+    now
+    please robot
+    immediately
+    that's all
+
+~[object_designator]
+    a
+    an
+    the
+    one
+    that
+    this
+    some
+    a single
+
+@[action]
+    find
+    detect
+    recognize
+    look for
+    search for
+    locate
+    identify
+    spot
+    pinpoint
+    observe
+    see
+    perceive
+    notice
+
+@[object_color]
+    orange
+    yellow
+    black
+    brown
+    blue
+    brown
+    purple
+    green
+    pink
+    magenta
+
+@[object_name]
+    orange
+    apple
+    orange
+    apricot
+    kiwi
+    pineapple
+    pear
+    lemon
+    strawberry
+    raspberry
+    melon
+    watermelon
+    pepper
+    tomato
