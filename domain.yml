@@ -16,7 +16,7 @@ actions:
 - utter_prompt
 - utter_received_command
 - utter_repeat_command
-- utter_show
+- utter_got_description
 - utter_unknown_action
 - utter_user_denied
 - utter_got_confirmation
