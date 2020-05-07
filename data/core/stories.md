@@ -157,14 +157,14 @@
 * greetings
     - utter_greet
 * none
-    - received_none
+    - utter_prompt
 * command{"action": "find", "object_color": "red", "object_name": "ball", "placement_destination": "left"}
     - received_command
 * affirmative
     - received_command_confirmed
     - execute_command
 * none
-    - received_none
+    - utter_prompt
 * bye
     - utter_goodbye
 * restart
@@ -175,7 +175,7 @@
 * greetings
     - utter_greet
 * none
-    - received_none
+    - utter_prompt
 * command{"action": "pick up", "object_color": "pink", "object_name": "flamingo"}
     - received_command
 * affirmative
@@ -187,7 +187,7 @@
     - received_show_confirmed
     - execute_command
 * none
-    - received_none
+    - utter_prompt
 * bye
     - utter_goodbye
 * restart
@@ -202,7 +202,7 @@
 * deny
     - received_command_denied
 * none
-    - received_none
+    - utter_prompt
 * command{"action": "find", "undefined_object": "something"}
     - received_command
 * command{"action": "find", "object_color": "red", "object_name": "apple"}
@@ -211,7 +211,7 @@
     - received_command_confirmed
     - execute_command
 * none
-    - received_none
+    - utter_prompt
 * command{"action": "push", "object_name": "apple"}
     - received_command
 * affirmative
@@ -252,3 +252,45 @@
     - received_show
 * deny
     - received_command_denied
+
+
+## retrain_story_1
+* greetings
+    - utter_greet
+* command{"action": "grab", "object_color": "blue", "object_name": "bottle"}
+    - received_command
+* affirmative
+    - received_command_confirmed
+    - execute_command
+
+
+## retrain_story_2
+* greetings
+    - utter_greet
+* command{"action": "pick up", "object_name": "waffle"}
+    - received_command
+* affirmative
+    - received_command_confirmed
+    - execute_command
+* command{"action": "detect", "undefined_object": "something", "object_color": "blue"}
+    - received_command
+* deny
+    - received_command_denied
+
+## retrain_story_3
+* greetings
+    - utter_greet
+
+## retrain_story_4
+* show{"object_color": "purple", "object_name": "cherry"}
+    - received_show
+* affirmative
+    - received_show_confirmed
+    - execute_command
+* greetings
+    - utter_greet
+* command{"action": "pick up", "object_color": "yellow", "object_name": "ball"}
+    - received_command
+* affirmative
+    - received_command_confirmed
+    - execute_command
