@@ -2,8 +2,9 @@
 
 %[find]('training': '100')
     *[20%] @[action] @[object_color?] @[object_name]
+    @[action] @[undefined_object?]
     ~[intro?] @[action] ~[object_designator?] @[object_color?] @[object_name] ~[outro?]
-    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[placement_designator?] which is @[object_color] ~[outro?]
+    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[placement_designator?] ~[which] is @[object_color] ~[outro?]
     ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has the color @[object_color] ~[outro?]
     ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has a @[object_color] color ~[outro?]
     ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] is @[object_color] ~[outro?]
@@ -26,6 +27,11 @@
     ~[located?] in the area on the @[placement_origin]
     ~[located?] in the @[placement_origin] area
     ~[located?] in the @[placement_origin] zone
+    ~[located?] on the @[placement_origin] side
+    on the table
+    around here
+    on the platform
+    around you
 
 
 @[placement_origin]
@@ -38,6 +44,8 @@
     now
     also
     immediately
+    maybe
+    somehow
 
 ~[intro]
     could you ~[adverb?]
@@ -55,12 +63,16 @@
     robot
     my command is
     i mean
+    what i mean is
+    i'm ordering you to
 
 ~[outro]
     please
     ~[adverb] thanks
     please robot
     that's all
+    if you can
+    if possible
 
 ~[object_designator]
     a
@@ -114,3 +126,12 @@
     watermelon
     pepper
     tomato
+
+@[undefined_object]
+    it
+    that
+    this
+    fruit
+    object
+    thing
+    something

@@ -6,7 +6,6 @@
 - [find](action) the [gold](object_color) [phone](object_name) instead
 - do you [recognize](action) a [bracelet](object_name) on the table
 - i want you to [look for](action) a [bracelet](object_name) in the [middle](placement_origin)
-- can you [tell](action) me what [this](undefined_object) is
 - just [find](action) me [something](undefined_object)
 - [find](action) me a [red](object_color) [apple](object_name) on the [right](placement_origin) side
 - please [find](action) the [orange](object_color) [brick](object_name)
@@ -14,7 +13,6 @@
 - [find](action) a [red](object_color) [ball](object_name) on the platform
 - [find](action) [it](undefined_object)
 - [search for](action) [it](undefined_object)
-- [search for](action a ball on the table
 - can you [see](action) the [cherry](object_name)
 
 

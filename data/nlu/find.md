@@ -1,101 +1,101 @@
 ## intent:find
-- my command is [identify](action) this [watermelon](object_name) that has the color [magenta](object_color) now thanks
-- i want you to [locate](action) a [pineapple](object_name) located in the area on the [right](placement_origin) which is [brown](object_color) please robot
-- could you [search for](action) [melon](object_name) over there in the [center](placement_origin) which is [orange](object_color) that's all
-- i'm asking you to [pinpoint](action) some [tomato](object_name) at the [right](placement_origin) which is [black](object_color)
-- please immediately [identify](action) this [kiwi](object_name) located at the [right](placement_origin) which is [purple](object_color) now thanks
-- immediately i want you to immediately [identify](action) one [lemon](object_name) at the [right](placement_origin) which is [pink](object_color) please robot
-- i mean [recognize](action) this [melon](object_name) placed in the [middle](placement_origin) which is [black](object_color) please
-- do you know how to [find](action) some [lemon](object_name) positioned in the [center](placement_origin) zone which is [brown](object_color) please
-- um [spot](action) [pepper](object_name) positioned in the [middle](placement_origin) area which is [yellow](object_color) please robot
-- [spot](action) [blue](object_color) [melon](object_name)
-- now i'm asking you to [recognize](action) the [pepper](object_name) located at the [left](placement_origin) which is [brown](object_color) immediately thanks
-- also i want you to [look for](action) one [pepper](object_name) in the [right](placement_origin) area which is [orange](object_color)
-- can you please immediately [see](action) this [kiwi](object_name) positioned at the [center](placement_origin) which is [black](object_color) please robot
-- [see](action) [magenta](object_color) [melon](object_name)
-- [pinpoint](action) [orange](object_color) [apricot](object_name)
-- could you now [find](action) that [orange](object_name) positioned over there in the [middle](placement_origin) which is [blue](object_color) immediately thanks
-- immediately i want you to also [perceive](action) this [orange](object_name) somewhere on the [center](placement_origin) which is [brown](object_color) please robot
-- could you immediately [identify](action) the [orange](object_name) placed in the [middle](placement_origin) area which is [purple](object_color) immediately thanks
-- [observe](action) [green](object_color) [watermelon](object_name)
-- please [recognize](action) [raspberry](object_name) that is [yellow](object_color)
-- [search for](action) [blue](object_color) [pear](object_name)
-- [look for](action) [lemon](object_name)
-- please also [perceive](action) some [lemon](object_name) in the area on the [right](placement_origin) which is [yellow](object_color) immediately thanks
-- [observe](action) [magenta](object_color) [apple](object_name)
-- now i'm asking you to [detect](action) this [pear](object_name) located in the [right](placement_origin) zone which is [orange](object_color) now thanks
-- do you know how to [perceive](action) some [kiwi](object_name) placed on the [left](placement_origin) which is [blue](object_color) please robot
-- could you also [look for](action) the [apricot](object_name) positioned in the area on the [middle](placement_origin) which is [purple](object_color) please robot
-- now i want you to [detect](action) that [pineapple](object_name) located in the area on the [center](placement_origin) which is [brown](object_color) now thanks
-- [search for](action) [apple](object_name)
-- also i want you to immediately [observe](action) [tomato](object_name) located at the [right](placement_origin) which is [orange](object_color) please robot
-- um [spot](action) some [raspberry](object_name) on the [left](placement_origin) which is [pink](object_color) that's all
-- immediately i want you to [notice](action) [watermelon](object_name) which is [pink](object_color) that's all
-- robot [detect](action) the [pear](object_name) at the [right](placement_origin) which is [brown](object_color) also thanks
-- [look for](action) [green](object_color) [orange](object_name)
-- could you now [identify](action) some [watermelon](object_name) placed in the [left](placement_origin) zone which is [yellow](object_color)
-- [recognize](action) [brown](object_color) [pineapple](object_name)
-- um [notice](action) this [melon](object_name) placed somewhere on the [center](placement_origin) which is [yellow](object_color) that's all
-- i mean [search for](action) an [orange](object_name) in the [right](placement_origin) area which is [purple](object_color)
-- can you please immediately [identify](action) some [tomato](object_name) on the [middle](placement_origin) which is [green](object_color) immediately thanks
-- also i want you to immediately [search for](action) an [apricot](object_name) which is [black](object_color)
-- please immediately [notice](action) a single [tomato](object_name) located at the [left](placement_origin) which is [brown](object_color) please
-- now i want you to [notice](action) that [kiwi](object_name) placed somewhere on the [center](placement_origin) which is [brown](object_color)
-- also i want you to also [observe](action) a [pineapple](object_name) positioned in the area on the [middle](placement_origin) which is [black](object_color) immediately thanks
-- please now [notice](action) this [orange](object_name) positioned on the [left](placement_origin) which is [magenta](object_color) that's all
-- immediately i want you to immediately [recognize](action) one [tomato](object_name) on the [right](placement_origin) which is [purple](object_color) please
-- i mean [locate](action) an [pear](object_name) on the [left](placement_origin) which is [brown](object_color) also thanks
-- [notice](action) a single [strawberry](object_name) in the [left](placement_origin) zone which is [orange](object_color) also thanks
-- i want you to also [find](action) [strawberry](object_name) positioned in the area on the [right](placement_origin) which is [brown](object_color) also thanks
-- [find](action) some [lemon](object_name) located in the [right](placement_origin) zone which is [pink](object_color) please
-- also can you [identify](action) some [orange](object_name) located on the [right](placement_origin) which is [pink](object_color) now thanks
-- immediately i want you to [find](action) the [orange](object_name) placed at the [center](placement_origin) which is [brown](object_color) also thanks
-- are you able to [perceive](action) [strawberry](object_name) placed over there in the [right](placement_origin) which is [green](object_color) please
-- can you [pinpoint](action) this [kiwi](object_name) located in the [middle](placement_origin) area which is [black](object_color) also thanks
-- are you able to [locate](action) a single [apricot](object_name) in the [center](placement_origin) zone which is [purple](object_color)
-- [search for](action) a single [watermelon](object_name) positioned on the [center](placement_origin) which is [purple](object_color)
-- i want you to [perceive](action) a [raspberry](object_name) which is [blue](object_color)
-- [recognize](action) [black](object_color) [orange](object_name)
-- immediately i'm asking you to [observe](action) an [apple](object_name) positioned somewhere on the [center](placement_origin) which is [purple](object_color) that's all
-- [observe](action) [apricot](object_name)
-- [notice](action) [pink](object_color) [pepper](object_name)
-- please also [notice](action) a single [tomato](object_name) located in the [center](placement_origin) area which is [green](object_color) please robot
-- ok [notice](action) a [orange](object_name) which is [yellow](object_color)
-- also i want you to [perceive](action) the [raspberry](object_name) over there in the [right](placement_origin) which is [yellow](object_color) also thanks
-- [identify](action) [orange](object_color) [watermelon](object_name)
-- i want you to now [search for](action) this [lemon](object_name) located at the [left](placement_origin) which is [green](object_color) please
-- can you please now [pinpoint](action) a single [orange](object_name) which is [brown](object_color) please robot
-- also i want you to immediately [pinpoint](action) this [kiwi](object_name) over there in the [middle](placement_origin) which is [pink](object_color)
-- now i want you to also [observe](action) this [pear](object_name) in the [right](placement_origin) area which is [brown](object_color) please
-- robot [perceive](action) the [melon](object_name) at the [middle](placement_origin) which is [pink](object_color) please
-- could you also [look for](action) this [orange](object_name) positioned at the [middle](placement_origin) which is [orange](object_color) also thanks
-- i want you to now [recognize](action) [lemon](object_name) positioned somewhere on the [center](placement_origin) which is [pink](object_color) please
-- [spot](action) that [tomato](object_name) which is [brown](object_color) please robot
-- do you know how to [pinpoint](action) a [raspberry](object_name) in the [left](placement_origin) area which is [green](object_color) immediately thanks
-- [detect](action) [orange](object_color) [strawberry](object_name)
-- [identify](action) that [watermelon](object_name) that has the color [pink](object_color) please
-- could you immediately [see](action) some [kiwi](object_name) that is [brown](object_color) now thanks
-- can you please immediately [notice](action) this [apricot](object_name) that has the color [green](object_color) that's all
-- um [recognize](action) some [strawberry](object_name) placed in the [middle](placement_origin) which is [yellow](object_color) please
-- immediately can you [search for](action) [pineapple](object_name) which is [blue](object_color) immediately thanks
-- ok now [perceive](action) that [pepper](object_name) located in the [right](placement_origin) which is [purple](object_color) immediately thanks
-- now i'm asking you to [see](action) that [melon](object_name) which is [brown](object_color) immediately thanks
-- can you please [recognize](action) some [apple](object_name) located over there in the [center](placement_origin) which is [purple](object_color)
-- [pinpoint](action) [purple](object_color) [tomato](object_name)
-- now i want you to immediately [locate](action) that [apricot](object_name) positioned in the [left](placement_origin) zone which is [yellow](object_color) please robot
-- also i want you to now [perceive](action) a [strawberry](object_name) in the [left](placement_origin) zone which is [black](object_color) please
-- immediately i'm asking you to [observe](action) an [kiwi](object_name) on the [middle](placement_origin) which is [green](object_color) immediately thanks
-- [identify](action) the [kiwi](object_name) placed on the [center](placement_origin) which is [yellow](object_color)
-- [see](action) [watermelon](object_name)
-- are you able to [locate](action) this [orange](object_name) in the area on the [left](placement_origin) which is [brown](object_color) now thanks
-- also can you [detect](action) an [pear](object_name) which is [green](object_color) now thanks
-- i want you to now [pinpoint](action) an [raspberry](object_name) located somewhere on the [left](placement_origin) which is [green](object_color)
-- could you also [look for](action) an [apricot](object_name) located in the [middle](placement_origin) which is [brown](object_color) also thanks
-- ok also [locate](action) a single [strawberry](object_name) over there in the [middle](placement_origin) which is [magenta](object_color) immediately thanks
-- now i want you to [observe](action) this [kiwi](object_name) placed somewhere on the [middle](placement_origin) which is [brown](object_color)
-- [find](action) [orange](object_color) [pepper](object_name)
-- i'm asking you to [observe](action) this [pear](object_name) located over there in the [left](placement_origin) which is [brown](object_color) immediately thanks
-- could you [notice](action) a [watermelon](object_name) positioned at the [left](placement_origin) which is [yellow](object_color) also thanks
-- [pinpoint](action) [brown](object_color) [orange](object_name)
-- i want you to also [find](action) [kiwi](object_name) on the [middle](placement_origin) which is [magenta](object_color)
-- [observe](action) [purple](object_color) [tomato](object_name)
+- could you also [pinpoint](action) some [melon](object_name) in the [middle](placement_origin) zone that is [magenta](object_color)
+- maybe i want you to [find](action) a single [strawberry](object_name) positioned somewhere on the [left](placement_origin) which is [green](object_color) if possible
+- [look for](action) [brown](object_color) [melon](object_name)
+- i want you to immediately [see](action) a single [orange](object_name) located at the [center](placement_origin) which is [blue](object_color) somehow thanks
+- [detect](action) this [raspberry](object_name) placed at the [right](placement_origin) which is [green](object_color) please
+- [pinpoint](action) [orange](object_color) [watermelon](object_name)
+- [see](action) [lemon](object_name)
+- can you [look for](action) the [melon](object_name) in the [center](placement_origin) that is [green](object_color) somehow thanks
+- i mean [identify](action) a [strawberry](object_name) placed somewhere on the [right](placement_origin) which is [magenta](object_color) maybe thanks
+- immediately i want you to immediately [look for](action) this [pepper](object_name) located in the area on the [center](placement_origin) which is [magenta](object_color) maybe thanks
+- i want you to now [locate](action) one [raspberry](object_name) in the [middle](placement_origin) zone which is [yellow](object_color) if possible
+- [look for](action) [pear](object_name)
+- i'm ordering you to [look for](action) one [orange](object_name) in the [center](placement_origin) that is [brown](object_color) if possible
+- my command is [locate](action) that [watermelon](object_name) located in the [right](placement_origin) that is [magenta](object_color) also thanks
+- also can you [notice](action) some [apricot](object_name) positioned in the area on the [center](placement_origin) which is [orange](object_color) also thanks
+- [recognize](action) some [pineapple](object_name) located in the [right](placement_origin) zone that is [brown](object_color) immediately thanks
+- [pinpoint](action) some [strawberry](object_name) located on the [left](placement_origin) which is [orange](object_color) if possible
+- also i want you to also [identify](action) a single [orange](object_name) placed somewhere on the [right](placement_origin) which is [yellow](object_color) please robot
+- ok now [observe](action) an [raspberry](object_name) placed in the area on the [right](placement_origin) that is [pink](object_color)
+- what i mean is [notice](action) that [orange](object_name) placed at the [middle](placement_origin) which is [magenta](object_color) maybe thanks
+- immediately i want you to maybe [perceive](action) this [apricot](object_name) at the [middle](placement_origin) that is [purple](object_color) also thanks
+- [observe](action) a single [melon](object_name) which is [brown](object_color) that's all
+- [recognize](action) [orange](object_color) [apple](object_name)
+- immediately can you [notice](action) a single [apple](object_name) on the [right](placement_origin) that is [green](object_color) please
+- can you please somehow [perceive](action) one [apricot](object_name) at the [middle](placement_origin) that is [magenta](object_color) if possible
+- are you able to [spot](action) [watermelon](object_name) located in the area on the [right](placement_origin) which is [yellow](object_color) also thanks
+- [notice](action) [green](object_color) [orange](object_name)
+- my command is [observe](action) some [strawberry](object_name) located in the [middle](placement_origin) that is [yellow](object_color) maybe thanks
+- immediately i want you to immediately [spot](action) this [lemon](object_name) in the area on the [center](placement_origin) that is [brown](object_color)
+- i mean [see](action) the [melon](object_name) placed in the [middle](placement_origin) that is [brown](object_color) maybe thanks
+- somehow i want you to maybe [perceive](action) [pepper](object_name) located in the area on the [center](placement_origin) which is [brown](object_color) if possible
+- what i mean is [perceive](action) that [lemon](object_name) around you which is [pink](object_color) if possible
+- [pinpoint](action) this [pepper](object_name) placed over there in the [left](placement_origin) which is [purple](object_color) now thanks
+- could you immediately [identify](action) an [pear](object_name) located in the [right](placement_origin) area which is [magenta](object_color)
+- i want you to [detect](action) one [orange](object_name) located in the [middle](placement_origin) zone that is [purple](object_color) that's all
+- [spot](action) [purple](object_color) [orange](object_name)
+- i mean [observe](action) a single [strawberry](object_name) over there in the [right](placement_origin) that is [orange](object_color) immediately thanks
+- i want you to [observe](action) a [tomato](object_name) located in the [right](placement_origin) area that is [purple](object_color)
+- immediately i want you to maybe [see](action) a [melon](object_name) in the area on the [middle](placement_origin) that is [magenta](object_color) immediately thanks
+- [pinpoint](action) an [lemon](object_name) over there in the [middle](placement_origin) that is [brown](object_color) now thanks
+- could you now [pinpoint](action) the [apple](object_name) positioned in the [left](placement_origin) area which is [brown](object_color)
+- [see](action) [pink](object_color) [watermelon](object_name)
+- immediately i want you to immediately [notice](action) [orange](object_name) located in the [right](placement_origin) which is [brown](object_color) now thanks
+- please somehow [locate](action) some [pepper](object_name) positioned in the area on the [center](placement_origin) that is [blue](object_color) immediately thanks
+- robot [recognize](action) a single [apricot](object_name) placed in the [middle](placement_origin) zone which is [pink](object_color) if possible
+- now i want you to [observe](action) a single [tomato](object_name) placed in the area on the [middle](placement_origin) that is [blue](object_color) maybe thanks
+- so [find](action) a [tomato](object_name) located in the area on the [middle](placement_origin) that is [magenta](object_color) please
+- immediately i want you to somehow [locate](action) [strawberry](object_name) located in the [center](placement_origin) zone that is [brown](object_color) please robot
+- could you also [pinpoint](action) the [kiwi](object_name) located in the [center](placement_origin) area which is [green](object_color) now thanks
+- i'm asking you to [pinpoint](action) an [raspberry](object_name) located at the [right](placement_origin) which is [black](object_color) if possible
+- immediately i want you to [notice](action) one [kiwi](object_name) positioned over there in the [center](placement_origin) that is [blue](object_color) please robot
+- my command is [spot](action) a [tomato](object_name) on the [middle](placement_origin) side that is [yellow](object_color) please
+- now i want you to now [pinpoint](action) a single [pineapple](object_name) that is [pink](object_color) also thanks
+- please immediately [find](action) this [strawberry](object_name) on the [right](placement_origin) which is [pink](object_color) now thanks
+- immediately i want you to now [locate](action) [tomato](object_name) located in the area on the [right](placement_origin) which is [brown](object_color) somehow thanks
+- ok [recognize](action) some [pepper](object_name) placed on the [left](placement_origin) side that is [orange](object_color) also thanks
+- i want you to maybe [find](action) [watermelon](object_name) positioned in the [center](placement_origin) that is [brown](object_color) maybe thanks
+- i want you to now [pinpoint](action) an [kiwi](object_name) at the [middle](placement_origin) which is [magenta](object_color) immediately thanks
+- [detect](action) a single [orange](object_name) placed at the [left](placement_origin) that is [orange](object_color) please
+- are you able to [identify](action) this [pear](object_name) located in the [center](placement_origin) that is [green](object_color) somehow thanks
+- now can you [identify](action) a [raspberry](object_name) somewhere on the [right](placement_origin) that is [black](object_color)
+- i want you to maybe [identify](action) a single [kiwi](object_name) located on the [middle](placement_origin) side which is [brown](object_color) maybe thanks
+- are you able to [observe](action) the [raspberry](object_name) located at the [right](placement_origin) that is [pink](object_color) also thanks
+- also i want you to immediately [identify](action) the [melon](object_name) that is [pink](object_color)
+- could you now [notice](action) that [tomato](object_name) positioned over there in the [left](placement_origin) that is [blue](object_color) please
+- [look for](action) some [orange](object_name) on the [center](placement_origin) which is [brown](object_color) if possible
+- ok somehow [observe](action) a [tomato](object_name) at the [left](placement_origin) that is [purple](object_color) if possible
+- immediately i want you to somehow [find](action) a [raspberry](object_name) also thanks
+- somehow i want you to somehow [perceive](action) that [raspberry](object_name) in the area on the [right](placement_origin) that is [orange](object_color) also thanks
+- my command is [search for](action) some [lemon](object_name) over there in the [middle](placement_origin) that is [brown](object_color)
+- [detect](action) [magenta](object_color) [apricot](object_name)
+- somehow i want you to maybe [spot](action) that [orange](object_name) placed in the [center](placement_origin) that is [brown](object_color) please robot
+- now i want you to maybe [pinpoint](action) [pepper](object_name) which is [pink](object_color) maybe thanks
+- [recognize](action) [green](object_color) [pepper](object_name)
+- now i want you to now [spot](action) a single [orange](object_name) positioned at the [right](placement_origin) that is [pink](object_color) please robot
+- immediately can you [spot](action) that [orange](object_name) positioned in the [left](placement_origin) that is [brown](object_color) now thanks
+- immediately i want you to maybe [search for](action) the [raspberry](object_name) on the platform which is [purple](object_color)
+- [see](action) the [apricot](object_name) placed somewhere on the [center](placement_origin) which is [magenta](object_color)
+- somehow can you [identify](action) some [orange](object_name) placed over there in the [right](placement_origin) which is [green](object_color) if possible
+- now can you [detect](action) that [orange](object_name) in the area on the [middle](placement_origin) that is [yellow](object_color) if possible
+- can you please also [recognize](action) an [melon](object_name) in the [right](placement_origin) area which is [magenta](object_color) if possible
+- somehow i want you to now [see](action) [kiwi](object_name) in the [center](placement_origin) area which is [blue](object_color) also thanks
+- can you [locate](action) one [apricot](object_name) located somewhere on the [right](placement_origin) that is [pink](object_color) immediately thanks
+- [look for](action) [pepper](object_name)
+- maybe i want you to immediately [detect](action) some [pear](object_name) located somewhere on the [right](placement_origin) which is [brown](object_color) if you can
+- maybe i want you to [detect](action) some [apricot](object_name) placed in the [middle](placement_origin) zone that is [purple](object_color) somehow thanks
+- ok now [locate](action) a [melon](object_name) located over there in the [middle](placement_origin) that is [brown](object_color) now thanks
+- immediately i want you to somehow [look for](action) an [lemon](object_name) located over there in the [left](placement_origin) that is [magenta](object_color) if possible
+- i want you to immediately [recognize](action) a [melon](object_name) positioned at the [left](placement_origin) which is [brown](object_color) maybe thanks
+- now i'm asking you to [recognize](action) one [watermelon](object_name) somewhere on the [left](placement_origin) which is [black](object_color) also thanks
+- ok immediately [search for](action) some [apricot](object_name) positioned in the [middle](placement_origin) zone that is [brown](object_color) please robot
+- please [pinpoint](action) a single [pineapple](object_name) located in the area on the [center](placement_origin) that is [pink](object_color) please
+- maybe i want you to now [see](action) an [orange](object_name) in the [center](placement_origin) which is [blue](object_color) that's all
+- also i want you to maybe [notice](action) an [kiwi](object_name) located in the [middle](placement_origin) zone that is [yellow](object_color) please robot
+- immediately i want you to [observe](action) [apricot](object_name) on the [middle](placement_origin) that is [brown](object_color) immediately thanks
+- could you somehow [pinpoint](action) some [strawberry](object_name) placed on the [center](placement_origin) which is [green](object_color) please robot
+- [pinpoint](action) [yellow](object_color) [raspberry](object_name)
+- immediately i want you to now [spot](action) one [lemon](object_name) located in the area on the [center](placement_origin) which is [purple](object_color) please robot
+- can you please also [locate](action) the [kiwi](object_name) in the [middle](placement_origin) zone that is [brown](object_color) please robot
+- [spot](action) a [melon](object_name) positioned in the [right](placement_origin) which is [magenta](object_color) please robot
