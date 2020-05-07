@@ -15,7 +15,6 @@ from rasa_sdk.forms import Action, FormAction, REQUESTED_SLOT
 from rasa.core.slots import Slot
 
 from synonym_extraction import collect_synonym, add_synonym
-from train_and_relaunch import train_rasa
 
 logger = logging.getLogger(__name__)
 
@@ -26,6 +25,8 @@ except Exception as e:
     logger.warning("Failed to load ros_comm module: {}".format(e))
     ENABLE_ROS = False
 
+input_nlu_file = './data/nlu.md'
+user_nlu_file  = './data/user_nlu.md'
 input_nlu_file = './data/nlu/synonyms.md'
 user_nlu_file  = './data/nlu/user_nlu.md'
 list_of_synonym    = []
@@ -189,12 +190,13 @@ class ExecuteCommand(Action):
                 placement_origin = placement_destination
 
             nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
+            response, info = nlp_node.wait_for_response()
 
-            if action == "find":
-                response, imgpath = nlp_node.wait_for_response()
-
-                if response is not None:
+            if response is not None:
+                if action == "find":
                     dispatcher.utter_message(template="utter_executed_command")
+
+                    imgpath = info
                     print("Image saved at {}".format(imgpath))
                     print("Found {} object: {}".format(response.desired_color, response.found_obj))
 
@@ -211,8 +213,13 @@ class ExecuteCommand(Action):
                         dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
                     else:
                         dispatcher.utter_message(text="This is what I can see.")
-                else:
-                    dispatcher.utter_message(template="utter_failed_command")
+                elif action == 'move':
+                    dispatcher.utter_message(text="Done with moving.")
+                elif action == 'pick up':
+                    dispatcher.utter_message(text="Done with pick up.")
+            else:
+                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
         return [AllSlotsReset()]
 
@@ -378,24 +385,4 @@ class ActionClarificationForm(FormAction):
         #print(synonym_category, action)
 
         dispatcher.utter_message(template="utter_clarification_repeat")
-        return []
-
-class ReceivedTrain(Action):
-
-    def name(self) -> Text: return "received_train"
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        # if ENABLE_ROS:
-        #     nlp_node.send_raw_msg(tracker.latest_message['text'])
-        
-        dispatcher.utter_message(template="utter_train")
-        
-        logger.warning('training models')
-        
-        train_rasa()
-        
-        logger.warning('training models complete')
-
         return []
