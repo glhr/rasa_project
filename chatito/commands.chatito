@@ -14,7 +14,7 @@ import ./common.chatito
 %[move]('training': '100')
     ~[move] ~[to the right]
     ~[to the right] ~[move] ~[colored object]
-    *[20%] ~[move] ~[the?] ~[colored object] ~[from the left?] ~[to the right]
+    *[20%] ~[move] ~[the?] ~[colored object] ~[on the left?] ~[to the right]
     ~[move] ~[it] ~[to the right]
     ~[i mean] ~[move] ~[it] ~[to the right]
     ~[intro?] ~[move] ~[the?] ~[colored object] ~[outro?]
@@ -24,7 +24,28 @@ import ./common.chatito
     ~[i mean] ~[pick up]
     ~[pick up] ~[the?] ~[colored object]
     ~[to the right] ~[pick up] ~[colored object]
-    *[20%] ~[pick up] ~[the?] ~[colored object] ~[from the left?]
-    ~[pick up] ~[it] ~[from the left?]
-    ~[i mean] ~[pick up] ~[it] ~[from the left?]
+    *[20%] ~[pick up] ~[the?] ~[colored object] ~[on the left?]
+    ~[pick up] ~[it] ~[on the left?]
+    ~[i mean] ~[pick up] ~[it] ~[on the left?]
     ~[intro?] ~[pick up] ~[the?] ~[colored object] ~[outro?]
+
+%[show]('training': '100')
+    ~[this is] ~[the?] ~[colored object]
+    ~[this is] @[object_color]
+
+~[this is]
+    this is
+    what i'm showing you ~[on the left?] is
+    the @[undefined_object] here is
+    i'm showing you
+    i'm teaching you that this is
+    learn that this is
+    you should remember that this is
+    you should know that this is
+    you need to remember this is
+    i'm demonstrating
+    here is
+    ~[on the left] is
+    ~[it] @[undefined_object] is called
+    ~[the] @[undefined_object] is called
+    ~[the] @[undefined_object] is known as
