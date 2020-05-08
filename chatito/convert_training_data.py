@@ -10,7 +10,7 @@ from rasa.nlu.training_data import load_data
 # USE AT YOUR OWN RISK
 
 files = {
-    './find.json': '../data/nlu/find.md',
+    './commands.json': '../data/nlu/commands.md',
     './clarification.json': '../data/nlu/clarification.md',
 }
 # *******************************************************

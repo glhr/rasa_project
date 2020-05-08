@@ -1,55 +1,50 @@
 actions:
 - action_session_start
+- execute_command
 - received_command
 - received_command_confirmed
 - received_command_denied
 - received_show
 - received_show_confirmed
-- execute_command
-- utter_learned_synonym
 - utter_executed_command
 - utter_failed_command
 - utter_goodbye
+- utter_got_confirmation
+- utter_got_description
 - utter_greet
+- utter_learned_synonym
+- utter_prompt
 - utter_prompt_action
 - utter_prompt_object
-- utter_prompt
 - utter_received_command
 - utter_repeat_command
-- utter_got_description
 - utter_unknown_action
-- utter_user_denied
-- utter_got_confirmation
 - utter_unknown_synonym
-
+- utter_user_denied
 entities:
-- action
 - object_color
 - object_name
-- placement_destination
-- placement_origin
+- placement
 - synonym_category
 - undefined_object
-
+forms:
+- clarification_form
 intents:
-- affirmative
-- bye
-- clarification
-- find:
-    triggers: received_command
 - pick up:
     triggers: received_command
+- bye
+- affirmative
+- none
 - move:
     triggers: received_command
-- deny
 - greetings
+- clarify
+- find:
+    triggers: received_command
+- deny
 - new_synonym_add
-- none
 - show
-
 responses:
-
-# CUSTOM ACTIONS
   execute_command:
   - text: execute_command
   received_command:
@@ -60,78 +55,73 @@ responses:
   - text: received_command_denied
   received_show:
   - text: received_show
-
-#  BOT MESSAGE TEMPLATES
-  utter_learned_synonym:
-  - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
   utter_executed_command:
   - text: Done! Here you go buddy.
   utter_failed_command:
   - text: Sorry, something went wrong and I wasn't able to do that.
   utter_goodbye:
   - text: Bye
-  utter_greet:
-  - text: Hey! How are you?
-    image: "https://i.imgflip.com/17eo8m.jpg"
-  - text: Yo, what's up?
-    image: "https://i.imgflip.com/17eo8m.jpg"
-  utter_prompt_action:
-  - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
-  utter_prompt_object:
-  - text: What object do you want me to {action} exactly?
-  utter_prompt:
-  - text: What would you like me to do?
-  - text: Feel free to order me around.
-  - text: I'm bored. Tell me what to do.
-  - text: So you're just here to chat huh? Try giving me a command instead.
-  utter_received_command:
-  - text: Thanks for giving me a command.
-  - text: Great! A command! I was getting bored over here...
-  utter_repeat_command:
-  - text: So just to make sure, you want me to {action} the {object_description}{placement}?
-  utter_got_description:
-  - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for helping me learn!
-  utter_unknown_action:
-  - text: Sorry, I don't know how to perform the action, {action}. Would you like to add it as a synonym for either "find", "move", or "pick up"?
-  utter_user_denied:
-  - text: Damn, that sucks for me.
-  - text: Well, I guess I won't do that then.
-  - text: Well I'm glad I asked!
-  - text: Got it, I won't do that.
   utter_got_confirmation:
   - text: Cool, I'll do that.
   - text: Getting right on it!
   - text: Okay sure.
   - text: I'm moving my sexy arms for you now.
+  utter_got_description:
+  - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for
+      helping me learn!
+  utter_greet:
+  - image: https://i.imgflip.com/17eo8m.jpg
+    text: Hey! How are you?
+  - image: https://i.imgflip.com/17eo8m.jpg
+    text: Yo, what's up?
+  utter_learned_synonym:
+  - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
+  utter_prompt:
+  - text: What would you like me to do?
+  - text: Feel free to order me around.
+  - text: I'm bored. Tell me what to do.
+  - text: So you're just here to chat huh? Try giving me a command instead.
+  utter_prompt_action:
+  - text: I'm not sure what you want me to do with that {object_name}. Could you repeat?
+  utter_prompt_object:
+  - text: What object do you want me to {action} exactly?
+  utter_received_command:
+  - text: Thanks for giving me a command.
+  - text: Great! A command! I was getting bored over here...
+  utter_repeat_command:
+  - text: So just to make sure, you want me to {action} the {object_description}{placement}?
+  utter_unknown_action:
+  - text: Sorry, I don't know how to perform the action, {action}. Would you like
+      to add it as a synonym for either "find", "move", or "pick up"?
   utter_unknown_synonym:
-  - text: Sorry, I don't know the category you are trying to map the verb to. You need to map it to either "find", "move", or "pick up".
-
+  - text: Sorry, I don't know the category you are trying to map the verb to. You
+      need to map it to either "find", "move", or "pick up".
+  utter_user_denied:
+  - text: Damn, that sucks for me.
+  - text: Well, I guess I won't do that then.
+  - text: Well I'm glad I asked!
+  - text: Got it, I won't do that.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
-
 slots:
   action:
-    type: text
+    auto_fill: false
     initial_value: none
-    auto_fill: False
-  object_color:
     type: text
-    initial_value: none
-  object_name:
-    type: text
-    initial_value: none
-  placement_destination:
-    type: text
-    initial_value: none
-  placement_origin:
-    type: text
-    initial_value: none
   command_confirmed:
+    initial_value: false
     type: bool
-    initial_value: False
+  object_color:
+    initial_value: none
+    type: text
+  object_name:
+    initial_value: none
+    type: text
+  placement:
+    initial_value: none
+    type: text
+  requested_slot:
+    type: unfeaturized
   synonym_category:
     type: unfeaturized
-
-forms:
-  - clarification_form

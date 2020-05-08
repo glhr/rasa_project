@@ -7,12 +7,24 @@
     maybe
     somehow
 
+~[i mean]
+    i mean
+    what i mean is
+    i meant
+    i wanted to say
+    what i meant was
+
+~[come on]
+    dude
+    robot
+    come on
+
 ~[intro]
     could you ~[adverb?]
     can you please ~[adverb?]
     please ~[adverb?]
     ok ~[adverb?]
-    ~[adverb?] i want you to ~[adverb?]
+    ~[adverb?] i want you to
     ~[adverb?] i'm asking you to
     ~[adverb?] can you
     are you able to
@@ -20,22 +32,33 @@
     so
     um
     thanks
-    robot
     my command is
-    i mean
-    what i mean is
     i'm ordering you to
     help me
+    no ~[i mean]
+    ok
+    ~[i mean]
+    ~[come on]
 
 ~[outro]
     please
-    ~[adverb] thanks
+    thanks
     please robot
     that's all
     if you can
     if possible
+    ~[adverb]
 
-~[object_designator]
+~[colored object]
+    *[10%] @[object_name] ~[which] is @[object_color]
+    *[10%] @[object_name] ~[which] has the color @[object_color]
+    *[10%] @[object_name] ~[which] has a @[object_color] color
+    *[10%] @[object_name] of color @[object_color]
+    @[object_color?] @[object_name]
+    @[object_name]
+    @[object_color?] @[undefined_object]
+
+~[the]
     a
     an
     the
@@ -54,20 +77,32 @@
     which
     that
 
-~[placement_designator]
-    ~[located?] in the @[placement_origin]
-    on the @[placement_origin]
-    ~[located?] at the @[placement_origin]
-    somewhere on the @[placement_origin]
-    ~[located?] over there in the @[placement_origin]
-    ~[located?] in the area on the @[placement_origin]
-    ~[located?] in the @[placement_origin] area
-    ~[located?] in the @[placement_origin] zone
-    on the @[placement_origin] side
+~[placement]
+    *[50%] ~[on the left]
+    *[50%] ~[to the right]
+
+~[on the left]
+    from the @[placement]
+    ~[located?] in the @[placement]
+    on the @[placement]
+    ~[located?] at the @[placement]
+    somewhere on the @[placement]
+    ~[located?] over there in the @[placement]
+    ~[located?] in the area on the @[placement]
+    ~[located?] in the @[placement] area
+    ~[located?] in the @[placement] zone
+    on the @[placement] side
     on the table
     around here
     on the platform
     around you
+
+~[to the right]
+    to the @[placement]
+    towards the @[placement] area
+    towards the @[placement] zone
+    towards the @[placement] side
+    to somewhere on the @[placement]
 
 ~[find]
     find
@@ -94,6 +129,7 @@
     set
 
 ~[pick up]
+    *[10%] pick ~[it?] up
     pick up
     pick
     grab
@@ -125,18 +161,11 @@
     squeeze
     handle
 
-@[placement_origin]
+@[placement]
     middle
     center
     left
     right
-
-@[placement_destination]
-    middle
-    center
-    left
-    right
-
 
 @[object_color]
     orange
@@ -167,11 +196,15 @@
     tomato
 
 @[undefined_object]
-    it
-    that
-    this
     fruit
     object
     thing
+
+~[it]
+    it
+    that
+    this
     something
+    that one
+    this one
     one

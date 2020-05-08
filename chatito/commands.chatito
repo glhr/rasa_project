@@ -1,0 +1,30 @@
+import ./common.chatito
+
+// Ways to say find
+
+%[find]('training': '100')
+    ~[find]
+    ~[i mean] ~[find]
+    *[20%] ~[find] ~[colored object] ~[on the left]
+    ~[find] ~[it]
+    ~[intro?] ~[find] ~[the?] ~[colored object] ~[outro?]
+
+// Ways to say move
+
+%[move]('training': '100')
+    ~[move] ~[to the right]
+    ~[to the right] ~[move] ~[colored object]
+    *[20%] ~[move] ~[the?] ~[colored object] ~[from the left?] ~[to the right]
+    ~[move] ~[it] ~[to the right]
+    ~[i mean] ~[move] ~[it] ~[to the right]
+    ~[intro?] ~[move] ~[the?] ~[colored object] ~[outro?]
+
+%[pick up]('training': '100')
+    ~[pick up]
+    ~[i mean] ~[pick up]
+    ~[pick up] ~[the?] ~[colored object]
+    ~[to the right] ~[pick up] ~[colored object]
+    *[20%] ~[pick up] ~[the?] ~[colored object] ~[from the left?]
+    ~[pick up] ~[it] ~[from the left?]
+    ~[i mean] ~[pick up] ~[it] ~[from the left?]
+    ~[intro?] ~[pick up] ~[the?] ~[colored object] ~[outro?]
