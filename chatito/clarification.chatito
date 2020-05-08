@@ -1,0 +1,8 @@
+import ./common.chatito
+
+%[clarify object]('training': '100')
+    ~[object_designator?] @[object_name]
+    ~[object_designator?] @[object_color?] @[object_name]
+    ~[object_designator?] @[object_color] @[undefined_object]
+    ~[object_designator?] @[object_color] ~[outro?]
+    ~[object_designator?] @[object_name] which is @[object_color]

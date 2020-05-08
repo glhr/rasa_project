@@ -3,13 +3,10 @@ import ./common.chatito
 // Ways to say find
 
 %[find]('training': '100')
-    *[20%] @[action] @[object_color?] @[object_name]
-    @[action] @[undefined_object?]
-    ~[intro?] @[action] ~[object_designator?] @[object_color?] @[object_name] ~[outro?]
-    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[placement_designator?] ~[which] is @[object_color] ~[outro?]
-    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has the color @[object_color] ~[outro?]
-    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] has a @[object_color] color ~[outro?]
-    ~[intro?] @[action] ~[object_designator?] @[object_name] ~[which] is @[object_color] ~[outro?]
-
-@[action]
-    ~[find]
+    *[20%] ~[find] @[object_color?] @[object_name]
+    ~[find] @[undefined_object?]
+    ~[intro?] ~[find] ~[object_designator?] @[object_color?] @[object_name] ~[outro?]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] ~[placement_designator?] ~[which] is @[object_color] ~[outro?]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] ~[which] has the color @[object_color] ~[outro?]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] ~[which] has a @[object_color] color ~[outro?]
+    ~[intro?] ~[find] ~[object_designator?] @[object_name] ~[which] is @[object_color] ~[outro?]

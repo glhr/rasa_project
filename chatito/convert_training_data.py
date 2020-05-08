@@ -9,13 +9,18 @@ from rasa.nlu.training_data import load_data
 
 # USE AT YOUR OWN RISK
 
-input_training_file = './find.json'
-
+files = {
+    './find.json': '../data/nlu/find.md',
+    './clarification.json': '../data/nlu/clarification.md',
+}
 # *******************************************************
 # TAKE CARE: output_md_file is overwritten automatically
 # *******************************************************
 
 output_md_file = '../data/nlu/find.md'
 
-with open(output_md_file,'w') as f:
-    f.write(load_data(input_training_file).as_markdown())
+for file in files.keys():
+    output_md_file = files[file]
+    input_training_file = file
+    with open(output_md_file,'w') as f:
+        f.write(load_data(input_training_file).as_markdown())
