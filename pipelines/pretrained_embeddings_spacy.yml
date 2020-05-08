@@ -4,7 +4,5 @@ pipeline:
 - name: "SpacyNLP"
 - name: "SpacyTokenizer"
 - name: "SpacyFeaturizer"
-- name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"
-- name: "EntitySynonymMapper"
 - name: "SklearnIntentClassifier"

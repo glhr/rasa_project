@@ -4,9 +4,7 @@ pipeline:
 - name: "HFTransformersNLP"
 - name: "LanguageModelTokenizer"
 - name: "LanguageModelFeaturizer"
-- name: "EntitySynonymMapper"
+- name: "SklearnIntentClassifier"
 - name: "DIETClassifier"
   intent_classification: False
-  epochs: 100
-- name: "SklearnIntentClassifier"
 ###- name: "KeywordIntentClassifier"
