@@ -42,6 +42,10 @@
 * bye
     - utter_goodbye
 
+## deny
+* deny
+    - received_command_denied
+
 ## interactive_story_1
 * greetings
     - utter_greet

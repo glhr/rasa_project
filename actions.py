@@ -29,7 +29,7 @@ input_nlu_file = './data/nlu.md'
 user_nlu_file  = './data/user_nlu.md'
 input_nlu_file = './data/nlu/synonyms.md'
 user_nlu_file  = './data/nlu/user_nlu.md'
-list_of_synonym    = []
+list_of_synonym    = ['show']
 
 invalid_values = [None, "none", "None", "unknown", "", "any"]
 
@@ -47,15 +47,20 @@ def check_slots_for_command(tracker, dispatcher, action=None, check_confirm=True
     # slots contain a valid command
     if (action not in invalid_values) and (action in list_of_synonym) and (object_name not in invalid_values):
 
-        if action == "find" and placement_destination not in invalid_values and placement_origin in invalid_values:
+        if (action in ['find', 'pick up']) and placement_destination not in invalid_values and placement_origin in invalid_values:
             placement_origin = placement_destination
 
         if command_confirmed or not check_confirm:
             return True
         else:
             description = '{} {}'.format(object_color, object_name) if object_color not in invalid_values else object_name
-            placement = ' {} the {}'.format("in" if placement_origin == "middle" else "on",
+            placement_from = ' {} the {}'.format("in" if placement_origin == "middle" else "on",
                                             placement_origin) if placement_origin not in invalid_values else ' somewhere on the platform'
+            placement_to = ' {} the {}'.format("to", placement_destination) if placement_destination not in invalid_values else ' somewhere on the platform'
+            if action in ['find', 'pick up']:
+                placement = placement_from
+            else:
+                placement = '{} {}'.format(placement_from, placement_to)
             print(description, placement)
             dispatcher.utter_message(template="utter_repeat_command",
                                      action=action,
@@ -118,7 +123,7 @@ class ActionSessionStart(Action):
         _events.extend(self._slot_set_events_from_tracker(tracker))
         _events.append(ActionExecuted("action_listen"))
 
-        list_of_synonym = collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)  # fill the list of known actions from training file
+        list_of_synonym += collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)  # fill the list of known actions from training file
 
         return _events
 
@@ -241,22 +246,23 @@ class ReceivedShow(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        action = tracker.get_slot('action')
+        action = tracker.latest_message['intent'].get('name')
         object_name = tracker.get_slot('object_name')
         object_color = tracker.get_slot('object_color')
         placement_origin = tracker.get_slot('placement_origin')
         placement_destination = tracker.get_slot('placement_destination')
 
-        if check_slots_for_command(tracker, dispatcher) and ENABLE_ROS:
+        if check_slots_for_command(tracker, dispatcher, action, check_confirm=False) and ENABLE_ROS:
             nlp_node.send_command(action="show",
                                   object=None,
                                   obj_color=None,
                                   placement_origin="middle",
                                   placement_destination=None)
 
-            response, imgpath = nlp_node.wait_for_response()
+            response, info = nlp_node.wait_for_response()
 
             if response is not None:
+                imgpath = info
                 print("Image saved at {}".format(imgpath))
                 print("Found object: {}".format(response.desired_color, response.found_obj))
 
@@ -264,15 +270,16 @@ class ReceivedShow(Action):
                 dispatcher.utter_attachment(None, image=imgurl)
 
                 if response.found_obj:
-                    dispatcher.utter_message(text="This is the object I found".format(response.desired_color))
+                    dispatcher.utter_message(text="This is the object I found in the middle of the platform.".format(response.desired_color))
+                    dispatcher.utter_message(template="utter_got_description",
+                                             object_color=object_color,
+                                             object_name=object_name)
                 else:
-                    dispatcher.utter_message(text="Sorry, I didn't find any object.".format(response.desired_color))
+                    dispatcher.utter_message(text="Sorry, I didn't find any object. Make sure the object you want to show me is in the middle of the platform.".format(response.desired_color))
             else:
                 dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(text="Error: {}".format(info))
 
-        dispatcher.utter_message(template="utter_user_show",
-                                 object_color=object_color,
-                                 object_name=object_name)
         return [AllSlotsReset()]
 
 
