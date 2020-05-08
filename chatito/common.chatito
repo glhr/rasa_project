@@ -56,14 +56,14 @@
 
 ~[placement_designator]
     ~[located?] in the @[placement_origin]
-    ~[located?] on the @[placement_origin]
+    on the @[placement_origin]
     ~[located?] at the @[placement_origin]
-    ~[located?] somewhere on the @[placement_origin]
+    somewhere on the @[placement_origin]
     ~[located?] over there in the @[placement_origin]
     ~[located?] in the area on the @[placement_origin]
     ~[located?] in the @[placement_origin] area
     ~[located?] in the @[placement_origin] zone
-    ~[located?] on the @[placement_origin] side
+    on the @[placement_origin] side
     on the table
     around here
     on the platform

@@ -6,3 +6,6 @@ import ./common.chatito
     ~[object_designator?] @[object_color] @[undefined_object]
     ~[object_designator?] @[object_color] ~[outro?]
     ~[object_designator?] @[object_name] which is @[object_color]
+
+%[clarify placement]('training': '100')
+    ~[placement_designator]
