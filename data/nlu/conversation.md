@@ -1,11 +1,6 @@
 ## intent:greetings
 - how are you
 - whats up
-- how are you doing
-- how is it going
-- are you there
-- how are things going
-- are you around
 - whatsup
 - sup
 - are you around
@@ -21,7 +16,6 @@
 - hey there dummy
 - hey there robot
 - hey what's up
-- long time no see
 - hello
 - hallo
 - hola
@@ -39,7 +33,6 @@
 - afternoon
 - hello hi
 - heya
-- hello is anybody there
 - hi again
 - sup
 - wasssup
@@ -58,8 +51,8 @@
 - that's right
 - ok
 - yep please do that
-- yes [pick](action) [it](undefined_object) up
-- yeah [move](action) it
+- yes pick it up
+- yeah move it
 - yes exactly
 - yes that's what i want
 - precisely
@@ -156,6 +149,12 @@
 - all right
 
 ## intent:none
+- hello is anybody there
+- how are you doing
+- how is it going
+- are you there
+- how are things going
+- are you around
 - nothing
 - i don't know
 - nice weather
@@ -184,6 +183,7 @@
 - let's talk
 - i want to talk to you
 - i need to talk to you
+- long time no see
 - i want to speak with you
 - can we chat
 - are we friends
