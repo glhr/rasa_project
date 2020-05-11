@@ -119,17 +119,34 @@
     perceive
     notice
 
+~[then]
+    after that
+    then
+    afterwards
+    next
+    when you're done
+    once you're done
+    and then
+    and
+
 ~[move]
+    move
     shift
     relocate
+    place
+    put
+    drop
+    leave
 
 ~[place]
     place
     put
     set
 
+~[pick it up]
+    pick ~[it?] up
+
 ~[pick up]
-    *[10%] pick ~[it?] up
     pick up
     pick
     grab
@@ -145,6 +162,8 @@
     hold
     fetch
     give
+    gimme
+    hand over
     pinch
     snatch
     seize

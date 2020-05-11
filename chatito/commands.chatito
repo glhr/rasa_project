@@ -14,15 +14,18 @@ import ./common.chatito
 %[move]('training': '100')
     ~[move] ~[to the right]
     ~[to the right] ~[move] ~[colored object]
+    ~[i mean] ~[pick up] ~[the?] ~[colored object] ~[on the left?] ~[then] ~[move] ~[it] ~[to the right]
+    ~[intro?] ~[find] ~[the?] ~[colored object] ~[on the left?] ~[then] ~[move] ~[it] ~[to the right]
     *[20%] ~[move] ~[the?] ~[colored object] ~[on the left?] ~[to the right]
     ~[move] ~[it] ~[to the right]
-    ~[i mean] ~[move] ~[it] ~[to the right]
-    ~[intro?] ~[move] ~[the?] ~[colored object] ~[outro?]
+    ~[i mean] ~[move] ~[it] ~[to the right] ~[outro?]
+    ~[intro?] ~[move] ~[the?] ~[colored object] ~[to the right] ~[outro?]
 
 %[pick up]('training': '100')
     ~[pick up]
     ~[i mean] ~[pick up]
     ~[pick up] ~[the?] ~[colored object]
+    ~[i mean?] ~[move] ~[the?] ~[colored object] ~[on the left?]
     ~[to the right] ~[pick up] ~[colored object]
     *[20%] ~[pick up] ~[the?] ~[colored object] ~[on the left?]
     ~[pick up] ~[it] ~[on the left?]

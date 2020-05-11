@@ -202,6 +202,14 @@
 - how does this work exactly
 - you don't wanna chat
 - why
+- how
+- what
+- who
+- which one
+- i don't get it at all
+- my cat is great
+- honestly cats are better than dogs
+- i want spaghetti
 
 ## intent:bye
 - that's all bye
