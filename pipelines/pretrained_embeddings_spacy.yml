@@ -6,3 +6,9 @@ pipeline:
 - name: "SpacyFeaturizer"
 - name: "CRFEntityExtractor"
 - name: "SklearnIntentClassifier"
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: "FormPolicy"

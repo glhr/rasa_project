@@ -7,4 +7,9 @@ pipeline:
 - name: "SklearnIntentClassifier"
 - name: "DIETClassifier"
   intent_classification: False
-###- name: "KeywordIntentClassifier"
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: "FormPolicy"

@@ -3,7 +3,6 @@ language: "en"
 pipeline:
   - name: ConveRTTokenizer
   - name: ConveRTFeaturizer
-  - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -12,5 +11,9 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
-  - name: ResponseSelector
-    epochs: 100
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: "FormPolicy"
