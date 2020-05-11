@@ -1,18 +1,30 @@
-import logging
+import os
+import sys
 import platform
 import subprocess
-import sys
 
 from rasa.train import train
 from utils.timing import CodeTimer
 
-logger = logging.getLogger(__name__)
-
+pid_id_file = './pid/id'
 domain_file = './domain.yml'
 config_file = './config.yml'
-nlu_data = './data/'
+nlu_data    = './data/'
 output_path = './models/'
-model_name = 'fruits_model'
+model_name  = 'fruits_model'
+
+def kill_rasa():
+    f = open(pid_id_file, 'r')
+    id = f.readlines()
+    id = [str(i) for i in id]
+    id = "".join(id)
+    id = str(id)
+    f.close()
+    test = platform.uname()
+    if test[0] == "Linux":
+        os.system("kill " + id)
+    else:
+        os.system("taskkill /F /PID " + id)
 
 
 def train_rasa():
@@ -26,15 +38,11 @@ def train_rasa():
             fixed_model_name=model_name)
     time = timer.took * 0.001
     print('Training time took: {} sec.'.format(time))
-
-    try:
-        test = platform.uname()
-        if test[0] == "Linux":
-            subprocess.call(['./nlp_magic/bin/rasa_bot.sh'])
-        else:
-            return []
-    except Exception as e:
-        logger.warning("Failed because not a Linux OS: {}".format(e))
     
-#if __name__ == "__main__":
-#    train_rasa()
+def relaunch_rasa():
+    os.system("python rasa_main.py run --enable-api -p 5005")
+
+if __name__ == "__main__":
+    kill_rasa()
+    train_rasa()
+    relaunch_rasa()
