@@ -1,4 +1,5 @@
 import sys
+import os
 import argparse
 import logging
 import platform
@@ -7,6 +8,7 @@ import rasa.utils.io
 from rasa import version
 from rasa.cli import (
     scaffold,
+    run,
     train,
     interactive,
     shell,
@@ -16,9 +18,6 @@ from rasa.cli import (
     x,
     export,
 )
-import sys
-sys.path.append('.')
-from rasa_project import run
 
 from rasa.cli.arguments.default_arguments import add_logging_options
 from rasa.cli.utils import parse_last_positional_argument_as_model_path
@@ -28,6 +27,11 @@ from rasa_sdk import __version__ as rasa_sdk_version
 
 logger = logging.getLogger(__name__)
 
+def writePidFile():
+    pid = str(os.getpid())
+    f = open('./pid/id', 'w')
+    f.write(pid)
+    f.close()
 
 def create_argument_parser() -> argparse.ArgumentParser:
     """Parse all the command line arguments for the training script."""
@@ -119,4 +123,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    writePidFile()
     main()
