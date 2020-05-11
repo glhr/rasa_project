@@ -8,6 +8,7 @@ import rasa.utils.io
 from rasa import version
 from rasa.cli import (
     scaffold,
+    run,
     train,
     interactive,
     shell,
@@ -17,9 +18,6 @@ from rasa.cli import (
     x,
     export,
 )
-import sys
-sys.path.append('.')
-from rasa_project import run
 
 from rasa.cli.arguments.default_arguments import add_logging_options
 from rasa.cli.utils import parse_last_positional_argument_as_model_path
