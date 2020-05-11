@@ -1,4 +1,5 @@
 import sys
+import os
 import argparse
 import logging
 import platform
@@ -28,6 +29,11 @@ from rasa_sdk import __version__ as rasa_sdk_version
 
 logger = logging.getLogger(__name__)
 
+def writePidFile():
+    pid = str(os.getpid())
+    f = open('./pid/id', 'w')
+    f.write(pid)
+    f.close()
 
 def create_argument_parser() -> argparse.ArgumentParser:
     """Parse all the command line arguments for the training script."""
@@ -119,4 +125,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    writePidFile()
     main()
