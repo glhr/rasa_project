@@ -214,8 +214,10 @@ class ExecuteCommand(Action):
                     else:
                         dispatcher.utter_message(text="This is what I can see.")
                 elif action == 'move':
+                    dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
                     dispatcher.utter_message(text="Done with moving.")
                 elif action == 'pick up':
+                    dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
                     dispatcher.utter_message(text="Done with pick up.")
             else:
                 dispatcher.utter_message(template="utter_failed_command")
