@@ -256,9 +256,10 @@ class ReceivedShow(Action):
             nlp_node.send_raw_msg(tracker.latest_message['text'])
             nlp_node.send_command(action="show",
                                   object=None,
-                                  obj_color=None,
+                                  obj_color=object_color,
                                   placement_origin="middle",
-                                  placement_destination=None)
+                                  placement_destination=None,
+                                  learn=True)
 
             response, imgpath = nlp_node.wait_for_response()
 
