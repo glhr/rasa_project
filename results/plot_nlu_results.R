@@ -24,7 +24,7 @@ intents_plot + geom_col(position="dodge",
                    y="F1 score (average across 3 runs)",
                    fill="RASA pipeline") +
                 theme(legend.position = "right")
-ggsave("intent-eval-0.1.png",width = 14, height=4)
+ggsave("intent-eval-0.1.png",width = 7, height=2)
 
 #############################################
 
@@ -54,4 +54,5 @@ entitys_plot + geom_col(position="dodge",
        y="F1 score (average across 3 runs)",
        fill="RASA pipeline") +
   theme(legend.position = "right")
-ggsave("entity-eval-0.1.png",width = 8, height=4)
+ggsave("entity-eval-0.1.png",width = 8, height=3)
+

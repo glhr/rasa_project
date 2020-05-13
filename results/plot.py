@@ -66,3 +66,71 @@ for pipeline in pipelines:
 dfs_pipelines = pd.concat(dfs_pipelines)
 print(dfs_pipelines)
 dfs_pipelines.to_csv('entity_results.csv')
+
+number_of_examples = [666,
+                      602,
+                      487,
+                      346,
+                      212,
+                      109,
+                      50,
+                      18,
+                      10]
+
+def _plot_curve(
+    number_of_examples,
+    x_label_text,
+    y_label_text,
+    graph_path,
+) -> None:
+    """Plot the results from a model comparison.
+    Args:
+        output: Output directory to save resulting plots to
+        number_of_examples: Number of examples per run
+        x_label_text: text for the x axis
+        y_label_text: text for the y axis
+        graph_path: output path of the plot
+    """
+    output = ""
+    import matplotlib.pyplot as plt
+    import numpy as np
+    import rasa.utils.io
+    import os
+
+    ax = plt.gca()
+
+    # load results from file
+    data = rasa.utils.io.read_json_file("results.json")
+    x = number_of_examples
+
+    # compute mean of all the runs for different configs
+    for label in data.keys():
+        if len(data[label]) == 0:
+            continue
+        mean = np.mean(data[label], axis=0)
+        std = np.std(data[label], axis=0)
+        ax.plot(x, mean, label=label, marker=".")
+        ax.fill_between(
+            x,
+            [m - s for m, s in zip(mean, std)],
+            [m + s for m, s in zip(mean, std)],
+            color="#6b2def",
+            alpha=0.2,
+        )
+    ax.legend(loc=4)
+
+    ax.set_xlabel(x_label_text)
+    ax.set_ylabel(y_label_text)
+    plt.tight_layout()
+
+    plt.savefig(graph_path, format="png", dpi=400)
+
+    print(f"Comparison graph saved to '{graph_path}'.")
+
+
+_plot_curve(
+    number_of_examples,
+    x_label_text="Number of intent examples present during training",
+    y_label_text="Weighted average F1 score on test set",
+    graph_path="inents-average-plot.png",
+)
