@@ -1,0 +1,1711 @@
+[
+  {
+    "text": "what i meant was this apricot that has the color yellow",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "apricot",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 22,
+        "end": 29,
+        "value": "apricot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i meant was in the center",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i meant black orange",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 8,
+        "end": 13,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "an apple of color yellow",
+    "entities": [
+      {
+        "start": 3,
+        "end": 8,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 3,
+        "end": 8,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i meant was a single green tomato",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "robot look for one brown object also",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "object",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 24,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "spot magenta object positioned in the area on the middle",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "object",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 5,
+        "end": 12,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 50,
+        "end": 56,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you please now recognize apple which has a purple color please robot",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "purple",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "undefined_object",
+        "start": 29,
+        "end": 34,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 47,
+        "end": 53,
+        "value": "purple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you please also locate this apple which has the color brown please robot",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 58,
+        "end": 63,
+        "value": "brown",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "undefined_object",
+        "start": 32,
+        "end": 37,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 58,
+        "end": 63,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i meant was detect this pepper which is green",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "pepper",
+        "entity": "object_name"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "value": "green",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 35,
+        "value": "pepper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ok search for a single raspberry that has a magenta color please",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "value": "magenta",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 44,
+        "end": 51,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no i wanted to say perceive this green pepper positioned in the area on the left and then place it to the center",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "pepper",
+        "entity": "object_name"
+      },
+      {
+        "start": 76,
+        "end": 80,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 106,
+        "end": 112,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 33,
+        "end": 38,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 39,
+        "end": 45,
+        "value": "pepper",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 76,
+        "end": 80,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "are you able to find magenta orange somewhere on the center afterwards put that to somewhere on the center",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 100,
+        "end": 106,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 53,
+        "end": 59,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 100,
+        "end": 106,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please maybe spot a pink thing located in the left zone afterwards relocate one towards the right side",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 92,
+        "end": 97,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 20,
+        "end": 24,
+        "value": "pink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 46,
+        "end": 50,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 92,
+        "end": 97,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ok maybe locate that tomato which has the color yellow on the right next move something to the center",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 62,
+        "end": 67,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 95,
+        "end": 101,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 21,
+        "end": 27,
+        "value": "tomato",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 48,
+        "end": 54,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 62,
+        "end": 67,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i wanted to say crush one brown object positioned at the right when you're done leave that towards the center area",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "object",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 57,
+        "end": 62,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 103,
+        "end": 109,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 57,
+        "end": 62,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 103,
+        "end": 109,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "also can you find one orange of color green located in the middle after that relocate this towards the left side",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 103,
+        "end": 107,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 22,
+        "end": 28,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 38,
+        "end": 43,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 59,
+        "end": 65,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 103,
+        "end": 107,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please also observe one yellow fruit located in the area on the right next put that to the right",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "fruit",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 64,
+        "end": 69,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 91,
+        "end": 96,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 24,
+        "end": 30,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "undefined_object",
+        "start": 31,
+        "end": 36,
+        "value": "fruit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 64,
+        "end": 69,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i mean clasp the orange that is brown in the area on the right then leave this one to the middle",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 57,
+        "end": 62,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 23,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 32,
+        "end": 37,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 57,
+        "end": 62,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put one raspberry which has the color brown placed in the area on the left to the right",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 70,
+        "end": 74,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 82,
+        "end": 87,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 38,
+        "end": 43,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 70,
+        "end": 74,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 82,
+        "end": 87,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "now i'm asking you to secure an orange pineapple thanks",
+    "entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "value": "pineapple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 32,
+        "end": 48,
+        "value": "orange pineapple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i wanted to say move a green tomato located in the area on the middle",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 63,
+        "end": 69,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "relocate a single orange tomato",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 18,
+        "end": 24,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ok crush one orange of color pink",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "pink",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 13,
+        "end": 19,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "snatch orange apple located in the center zone",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 19,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 35,
+        "end": 41,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i mean shift a orange of color brown located in the area on the left",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 64,
+        "end": 68,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 15,
+        "end": 21,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 64,
+        "end": 68,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ok maybe bring some green apricot now",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "apricot",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 33,
+        "value": "green apricot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "move the green lemon in the middle",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "lemon",
+        "entity": "object_name"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 9,
+        "end": 14,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 15,
+        "end": 20,
+        "value": "lemon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i wanted to say drop the brown pepper positioned in the right",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "pepper",
+        "entity": "object_name"
+      },
+      {
+        "start": 56,
+        "end": 61,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 31,
+        "end": 37,
+        "value": "pepper",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 56,
+        "end": 61,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you located at the right is pink pear",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "value": "pear",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 36,
+        "end": 41,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 45,
+        "end": 49,
+        "value": "pink",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you in the center area is some tomato",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 28,
+        "end": 34,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you at the right is this blue lemon",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "lemon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 28,
+        "end": 33,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 42,
+        "end": 46,
+        "value": "blue",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "that thing is called magenta tomato",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "that thing is called an blue pineapple",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "value": "pineapple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 24,
+        "end": 28,
+        "value": "blue",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 38,
+        "value": "pineapple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you positioned at the center is that green fruit",
+    "entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 60,
+        "end": 65,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 45,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 54,
+        "end": 59,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "placed in the right is some kiwi which has the color black",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "value": "kiwi",
+        "entity": "object_name"
+      },
+      {
+        "start": 53,
+        "end": 58,
+        "value": "black",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 14,
+        "end": 19,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 28,
+        "end": 32,
+        "value": "kiwi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "that one fruit is called a single raspberry that has a blue color",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "fruit",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "value": "blue",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 14,
+        "value": "fruit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 55,
+        "end": 59,
+        "value": "blue",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "somewhere on the middle is one watermelon of color yellow",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "value": "watermelon",
+        "entity": "object_name"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 17,
+        "end": 23,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 31,
+        "end": 41,
+        "value": "watermelon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "over there in the center is a single apricot of color orange",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "value": "apricot",
+        "entity": "object_name"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "value": "orange",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 18,
+        "end": 24,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 37,
+        "end": 44,
+        "value": "apricot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "this thing is known as tomato",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "that fruit is called the blue apricot",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "fruit",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "apricot",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 10,
+        "value": "fruit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 25,
+        "end": 29,
+        "value": "blue",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 30,
+        "end": 37,
+        "value": "apricot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you positioned at the middle is one orange orange",
+    "entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 45,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 53,
+        "end": 59,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "placed in the center zone is the orange that has the color orange",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "value": "orange",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 14,
+        "end": 20,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 33,
+        "end": 39,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "this object is called one brown pineapple",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "object",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 41,
+        "value": "pineapple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "undefined_object",
+        "start": 5,
+        "end": 11,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "located in the left zone is an pineapple that is yellow",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 31,
+        "end": 40,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 15,
+        "end": 19,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 31,
+        "end": 40,
+        "value": "pineapple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you located in the middle zone is an yellow pear",
+    "entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "value": "pear",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 36,
+        "end": 42,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 54,
+        "end": 60,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

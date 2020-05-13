@@ -1,0 +1,111 @@
+{
+  "move": {
+    "precision": 0.9444444444444444,
+    "recall": 0.85,
+    "f1-score": 0.8947368421052632,
+    "support": 20,
+    "confused_with": {
+      "pick up": 3
+    }
+  },
+  "none": {
+    "precision": 0.7,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.608695652173913,
+    "support": 13,
+    "confused_with": {
+      "deny": 3,
+      "affirmative": 2
+    }
+  },
+  "show": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 20,
+    "confused_with": {}
+  },
+  "pick up": {
+    "precision": 0.3870967741935484,
+    "recall": 0.6,
+    "f1-score": 0.47058823529411764,
+    "support": 20,
+    "confused_with": {
+      "find": 4,
+      "clarify": 3
+    }
+  },
+  "greetings": {
+    "precision": 0.2222222222222222,
+    "recall": 0.25,
+    "f1-score": 0.23529411764705882,
+    "support": 8,
+    "confused_with": {
+      "bye": 2,
+      "affirmative": 2
+    }
+  },
+  "affirmative": {
+    "precision": 0.7368421052631579,
+    "recall": 0.7368421052631579,
+    "f1-score": 0.7368421052631579,
+    "support": 19,
+    "confused_with": {
+      "deny": 4,
+      "greetings": 1
+    }
+  },
+  "clarify": {
+    "precision": 0.8181818181818182,
+    "recall": 0.9,
+    "f1-score": 0.8571428571428572,
+    "support": 20,
+    "confused_with": {
+      "show": 1,
+      "pick up": 1
+    }
+  },
+  "bye": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "greetings": 6,
+      "none": 2,
+      "deny": 1
+    }
+  },
+  "deny": {
+    "precision": 0.6666666666666666,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.782608695652174,
+    "support": 19,
+    "confused_with": {
+      "affirmative": 1
+    }
+  },
+  "find": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1-score": 0.28571428571428575,
+    "support": 20,
+    "confused_with": {
+      "pick up": 15,
+      "show": 1
+    }
+  },
+  "accuracy": 0.6666666666666666,
+  "macro avg": {
+    "precision": 0.5884544940062767,
+    "recall": 0.6022672064777328,
+    "f1-score": 0.582400374337378,
+    "support": 168
+  },
+  "weighted avg": {
+    "precision": 0.6471471628729694,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6421203874379654,
+    "support": 168
+  }
+}

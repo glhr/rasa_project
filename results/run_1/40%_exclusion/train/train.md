@@ -1,0 +1,231 @@
+## intent:clarify
+- an [pineapple](object_name) which is [brown](object_color)
+- positioned in the [right](placement) area
+- i wanted to say positioned at the [left](placement)
+- a [purple](object_color) [raspberry](object_name) thanks
+- a single [watermelon](object_name) which is [pink](object_color)
+- a [melon](object_name) of color [green](object_color)
+- what i mean is the [pear](object_name) which is [purple](object_color)
+- i meant towards the [right](placement) side
+- what i meant was this [apricot](object_name) that has the color [yellow](object_color)
+- the [brown](object_color) [raspberry](object_name) somehow
+- i wanted to say [melon](object_name) which has a [brown](object_color) color
+- what i meant was an [apricot](object_name) that has a [purple](object_color) color
+- i wanted to say an [raspberry](object_name) of color [orange](object_color)
+- that [blue](object_color) [object](undefined_object) also
+- i meant to somewhere on the [center](placement)
+- a single [pepper](object_name) that is [yellow](object_color)
+- i mean towards the [middle](placement) zone
+- what i mean is towards the [middle](placement) area
+- a single [pear](object_name) that has a [magenta](object_color) color if possible
+- a single [orange](object_name) that has a [green](object_color) color
+- what i mean is located over there in the [right](placement)
+- i mean towards the [middle](placement) area
+- an [green](object_color) [lemon](object_name) also
+- i meant some [pineapple](object_name) that has a [brown](object_color) color
+- a single [watermelon](object_name) that has the color [yellow](object_color) that's all
+
+## intent:find
+- spot [magenta](object_color) [object](undefined_object) positioned in the area on the [middle](placement)
+- recognize one [melon](object_name) that has a [brown](object_color) color please robot
+- please immediately recognize [melon](object_name) maybe
+- could you somehow search for a [pear](object_name) of color [magenta](object_color) thanks
+- ok also spot an [pineapple](object_name) which has the color [orange](object_color) if you can
+- i meant notice the [pear](object_name) if you can
+- find [brown](object_color) [watermelon](object_name) positioned in the [center](placement) area
+- come on detect a [tomato](object_name) which has the color [yellow](object_color) that's all
+- pinpoint [kiwi](object_name) that has a [black](object_color) color at the [middle](placement)
+- could you somehow recognize some [orange](object_color) [orange](object_name) immediately
+- do you know how to notice one [yellow](object_color) [fruit](undefined_object) if you can
+- could you somehow see a single [fruit](undefined_object) please
+- are you able to recognize some [melon](object_name) that's all
+- no i meant find this [black](object_color) [fruit](undefined_object) immediately
+- ok search for a single [raspberry](object_name) that has a [magenta](object_color) color please
+- find [pink](object_color) [apricot](object_name) in the area on the [right](placement)
+- notice [yellow](object_color) [apricot](object_name) somewhere on the [right](placement)
+- no what i meant was notice an [orange](object_color) [raspberry](object_name) maybe
+- come on locate an [melon](object_name) that has the color [orange](object_color) that's all
+- i want you to observe a single [yellow](object_color) [pear](object_name) that's all
+- can you please immediately detect some [blue](object_color) [kiwi](object_name) immediately
+- observe [pink](object_color) [object](undefined_object) located in the area on the [right](placement)
+- dude look for this [orange](object_name) that has a [orange](object_color) color somehow
+- also i'm asking you to find that [brown](object_color) [apricot](object_name) please
+- maybe i'm asking you to locate this [kiwi](object_name) that has a [blue](object_color) color please
+
+## intent:move
+- place [magenta](object_color) [thing](undefined_object) positioned at the [middle](placement) to the [right](placement)
+- um see the [brown](object_color) [watermelon](object_name) positioned over there in the [left](placement) next put this one to the [center](placement)
+- um perceive one [magenta](object_color) [fruit](undefined_object) placed at the [right](placement) next leave that towards the [center](placement) zone
+- please immediately notice an [apricot](object_name) that has the color [brown](object_color) and place one to somewhere on the [right](placement)
+- ok maybe perceive a [yellow](object_color) [watermelon](object_name) located in the [center](placement) zone and relocate one towards the [right](placement) zone
+- are you able to pinpoint an [lemon](object_name) which has the color [black](object_color) located in the area on the [left](placement) next shift this towards the [middle](placement) zone
+- my command is observe a [orange](object_color) [pineapple](object_name) over there in the [left](placement) afterwards put one to the [right](placement)
+- leave a single [pineapple](object_name) of color [yellow](object_color) positioned in the [right](placement) area to somewhere on the [center](placement)
+- come on observe one [pear](object_name) which has the color [purple](object_color) located at the [left](placement) next shift that to the [center](placement)
+- somehow can you notice [apricot](object_name) of color [pink](object_color) in the area on the [left](placement) and relocate that one to the [center](placement)
+- no i wanted to say look for a single [pink](object_color) [fruit](undefined_object) at the [left](placement) and place this towards the [left](placement) area
+- can you please see one [yellow](object_color) [orange](object_name) on the [center](placement) once you're done leave this one towards the [center](placement) zone
+- immediately can you pinpoint some [black](object_color) [fruit](undefined_object) located at the [left](placement) and drop something towards the [middle](placement) zone
+- also i want you to search for some [yellow](object_color) [apricot](object_name) located over there in the [center](placement) and then put that towards the [left](placement) area
+- um see this [pear](object_name) that is [orange](object_color) in the area on the [left](placement) then move one towards the [right](placement) area
+- could you now notice one [yellow](object_color) [pear](object_name) on the [center](placement) when you're done drop it to somewhere on the [left](placement)
+- no i wanted to say perceive this [green](object_color) [pepper](object_name) positioned in the area on the [left](placement) and then place it to the [center](placement)
+- no what i meant was detect the [blue](object_color) [tomato](object_name) once you're done move one to somewhere on the [center](placement)
+- ok now notice this [melon](object_name) on the [left](placement) then drop this one towards the [center](placement) area
+- what i meant was lift a [blue](object_color) [lemon](object_name) placed at the [right](placement) and then leave this to the [right](placement)
+- please see the [melon](object_name) which is [brown](object_color) when you're done relocate one towards the [right](placement) zone
+- could you now search for this [melon](object_name) of color [orange](object_color) over there in the [right](placement) when you're done relocate something towards the [right](placement) side
+- come on identify a single [pink](object_color) [kiwi](object_name) positioned in the [right](placement) area then move it to somewhere on the [middle](placement)
+- please maybe spot a [pink](object_color) [thing](undefined_object) located in the [left](placement) zone afterwards relocate one towards the [right](placement) side
+- now i want you to observe one [pink](object_color) [pear](object_name) on the [center](placement) after that place this one to somewhere on the [right](placement)
+
+## intent:pick up
+- immediately i'm asking you to snatch [purple](object_color) [raspberry](object_name) please robot
+- immediately i'm asking you to embrace [orange](object_color) [watermelon](object_name) if you can
+- claim the [watermelon](object_name) that is [yellow](object_color) positioned in the [middle](placement) zone
+- squeeze this [kiwi](object_name) that has a [black](object_color) color located at the [center](placement)
+- are you able to clasp an [yellow](object_color) [thing](undefined_object) thanks
+- maybe i want you to grab this [blue](object_color) [pepper](object_name) somehow
+- can you please immediately grip the [watermelon](object_name) that has the color [magenta](object_color)
+- i mean shift a [pink](object_color) [orange](object_name) on the [center](placement)
+- i'm asking you to grip this [orange](object_color) [pepper](object_name) maybe
+- bring this [pepper](object_name) that is [magenta](object_color) placed in the area on the [center](placement)
+- now i'm asking you to secure an [orange](object_color) [pineapple](object_name) thanks
+- could you also pick an [green](object_color) [tomato](object_name) also
+- collect some [blue](object_color) [apple](object_name) in the [middle](placement)
+- no i wanted to say carry a [raspberry](object_name) of color [brown](object_color) maybe
+- could you maybe clench a single [orange](object_name) of color [black](object_color) that's all
+- i wanted to say drop the [brown](object_color) [pepper](object_name) positioned in the [right](placement)
+- also i want you to fetch the [orange](object_name) please robot
+- no what i meant was hoist a [lemon](object_name) that is [black](object_color) please
+- also i want you to handle an [melon](object_name) which has the color [brown](object_color) also
+- move the [green](object_color) [lemon](object_name) in the [middle](placement)
+- ok maybe bring some [green](object_color) [apricot](object_name) now
+- squeeze an [black](object_color) [pepper](object_name) placed in the [center](placement)
+- no i mean collect one [pepper](object_name) that has the color [orange](object_color) maybe
+- i meant secure [blue](object_color) [pear](object_name) if you can
+- ok also pick this [orange](object_name) please
+
+## intent:show
+- one [thing](undefined_object) is called one [lemon](object_name)
+- that one [fruit](undefined_object) is called a single [raspberry](object_name) that has a [blue](object_color) color
+- this [object](undefined_object) is called one [brown](object_color) [pineapple](object_name)
+- located in the [center](placement) zone is the [black](object_color) [raspberry](object_name)
+- in the [right](placement) is this [apple](object_name)
+- positioned at the [left](placement) is [green](object_color) [tomato](object_name)
+- positioned over there in the [center](placement) is [tomato](object_name) which has a [black](object_color) color
+- in the [middle](placement) area is a [apple](object_name) of color [orange](object_color)
+- what i'm showing you placed in the area on the [left](placement) is that [pineapple](object_name) that has the color [pink](object_color)
+- what i'm showing you in the [center](placement) is the [melon](object_name) that has a [black](object_color) color
+- that [fruit](undefined_object) is called the [blue](object_color) [apricot](object_name)
+- what i'm showing you placed in the area on the [middle](placement) is some [brown](object_color) [melon](object_name)
+- one [object](undefined_object) is called that [purple](object_color) [orange](object_name)
+- on the [center](placement) is an [pepper](object_name) which has the color [brown](object_color)
+- located over there in the [center](placement) is a single [pepper](object_name)
+- what i'm showing you is a [orange](object_name) that is [brown](object_color)
+- located in the [left](placement) zone is an [pineapple](object_name) that is [yellow](object_color)
+- positioned in the [middle](placement) zone is one [brown](object_color) [orange](object_name)
+- what i'm showing you positioned in the area on the [middle](placement) is a single [raspberry](object_name) that has a [blue](object_color) color
+- placed in the [center](placement) zone is that [pink](object_color) [object](undefined_object)
+- some [object](undefined_object) is known as [pepper](object_name) which has the color [green](object_color)
+- one [object](undefined_object) is called a [green](object_color) [strawberry](object_name)
+- what i'm showing you somewhere on the [center](placement) is that [apple](object_name) that has the color [orange](object_color)
+- positioned in the area on the [right](placement) is that [yellow](object_color) [lemon](object_name)
+- the [fruit](undefined_object) here is this [pepper](object_name) which has the color [orange](object_color)
+
+## intent:greetings
+- just going to say hi
+- yo
+- hello
+- are you around
+- hi
+- hey what's up
+- good morning
+- good afternoon
+- sup
+- hi there
+- hello there robot
+
+## intent:affirmative
+- yep
+- yeah do that
+- definitely
+- yes that's exactly what i want
+- please do
+- oh yes
+- it's fine
+- yes i agree
+- i think so
+- yes you may
+- yea
+- i agree
+- yeah i'm sure
+- precisely
+- yes i do
+- yeah move it
+- yeah
+- i confirm
+- why not
+- yes correct
+- yep do that
+- yes it is correct
+- yes this is correct
+- correct
+
+## intent:none
+- who are you
+- are you there
+- :)
+- testing chatbot
+- can we chat
+- are we friends
+- cool
+- which one
+- testing
+- i want to talk to you
+- let's talk
+- let me test you
+- what
+- let's discuss something
+- i don't get it at all
+- hello is anybody there
+
+## intent:bye
+- hope to see you later
+- that's all bye
+- i'm out
+- you can go now
+- bye bye see you
+- that's all goodbye
+- thanks bye bye
+- see you soon
+- i said bye
+- goodbye for now
+- end
+- bye bye see you soon
+
+## intent:deny
+- dismissed
+- i said forget it
+- no cancel everything
+- cancel everything
+- no cancel this
+- nevermind
+- i would like to cancel
+- its not correct
+- i said cancel cancel
+- forget about that
+- i want to cancel
+- i don't want that
+- cancel all this
+- skip
+- cancel it cancel it
+- cancel that cancel that
+- i said cancel it
+- annul
+- but can you cancel it
+- no don't do that
+- incorrect
+- sorry cancel
+- dismiss
+- nevermind forget about it

@@ -1,0 +1,235 @@
+[
+  {
+    "text": "ok somehow look for kiwi from the left next move this towards the center area",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "kiwi",
+        "entity": "object_name"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9844763160346864,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 66,
+        "end": 72,
+        "confidence_entity": 0.9894641139767613,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no what i mean is identify the apple which has the color brown after that place something to the middle",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 57,
+        "end": 62,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 97,
+        "end": 103,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.9875699233625166,
+        "value": "apple",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 57,
+        "end": 62,
+        "confidence_entity": 0.9921823137927034,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 63,
+        "end": 68,
+        "confidence_entity": 0.5080779214604768,
+        "value": "after",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 97,
+        "end": 103,
+        "confidence_entity": 0.9852591259939701,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "move one apricot on the table to the middle",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "apricot",
+        "entity": "object_name"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.8727197169228377,
+        "value": "apricot",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.5454151720110264,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.985259125576071,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i mean drop an orange placed in the left area",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.4433586850415885,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 36,
+        "end": 40,
+        "confidence_entity": 0.9873229486822664,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "on the table is one purple fruit",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.6596654030190249,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9768916875775338,
+        "value": "purple",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "undefined_object",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9730948691775563,
+        "value": "fruit",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cancel the whole thing",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.5589103623960363,
+        "value": "whole",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

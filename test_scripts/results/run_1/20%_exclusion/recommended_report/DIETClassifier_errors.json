@@ -1,0 +1,536 @@
+[
+  {
+    "text": "just stop it",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 5,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "stop"
+      }
+    ]
+  },
+  {
+    "text": "can you lift the green ball up and place it on the left",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "place",
+        "entity": "action"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "value": "left",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 8,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "pick up",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "object_color",
+        "start": 17,
+        "end": 22,
+        "extractor": "DIETClassifier",
+        "value": "green"
+      },
+      {
+        "entity": "object_name",
+        "start": 23,
+        "end": 27,
+        "extractor": "DIETClassifier",
+        "value": "ball"
+      },
+      {
+        "entity": "action",
+        "start": 35,
+        "end": 40,
+        "extractor": "DIETClassifier",
+        "value": "move",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "placement_destination",
+        "start": 51,
+        "end": 55,
+        "extractor": "DIETClassifier",
+        "value": "left"
+      }
+    ]
+  },
+  {
+    "text": "i'm ordering you to place the brick in the middle of the platform",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "place",
+        "entity": "action"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "middle",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 20,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "move",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "object_name",
+        "start": 30,
+        "end": 35,
+        "extractor": "DIETClassifier",
+        "value": "brick"
+      },
+      {
+        "entity": "placement_origin",
+        "start": 43,
+        "end": 49,
+        "extractor": "DIETClassifier",
+        "value": "middle"
+      }
+    ]
+  },
+  {
+    "text": "i want you to grab the orange object",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "grab",
+        "entity": "action"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "object",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 14,
+        "end": 18,
+        "extractor": "DIETClassifier",
+        "value": "pick up",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "object_name",
+        "start": 23,
+        "end": 29,
+        "extractor": "DIETClassifier",
+        "value": "orange"
+      },
+      {
+        "entity": "undefined_object",
+        "start": 30,
+        "end": 36,
+        "extractor": "DIETClassifier",
+        "value": "object"
+      }
+    ]
+  },
+  {
+    "text": "please pick up the phone",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "pick up",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "phone",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 7,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "pick up"
+      }
+    ]
+  },
+  {
+    "text": "last thing just drop it somewhere on the right",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "drop",
+        "entity": "action"
+      },
+      {
+        "start": 21,
+        "end": 23,
+        "value": "it",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "right",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 16,
+        "end": 20,
+        "extractor": "DIETClassifier",
+        "value": "drop"
+      },
+      {
+        "entity": "placement_destination",
+        "start": 41,
+        "end": 46,
+        "extractor": "DIETClassifier",
+        "value": "right"
+      }
+    ]
+  },
+  {
+    "text": "say something",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "say",
+        "entity": "action"
+      },
+      {
+        "start": 4,
+        "end": 13,
+        "value": "something",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pick this shit up",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pick",
+        "entity": "action"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "shit",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "pick"
+      },
+      {
+        "entity": "undefined_object",
+        "start": 5,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "this"
+      }
+    ]
+  },
+  {
+    "text": "okay then push the apple off the table",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "push",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 10,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "push"
+      },
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 24,
+        "extractor": "DIETClassifier",
+        "value": "apple"
+      },
+      {
+        "entity": "object_name",
+        "start": 33,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "table"
+      }
+    ]
+  },
+  {
+    "text": "please look carefully at this brick",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "look",
+        "entity": "action"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 30,
+        "end": 35,
+        "extractor": "DIETClassifier",
+        "value": "brick"
+      }
+    ]
+  },
+  {
+    "text": "can you pick this up first and after that please put it over there",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "pick",
+        "entity": "action"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "this",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "value": "put",
+        "entity": "action"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "there",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 8,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "pick"
+      },
+      {
+        "entity": "undefined_object",
+        "start": 13,
+        "end": 17,
+        "extractor": "DIETClassifier",
+        "value": "this"
+      },
+      {
+        "entity": "action",
+        "start": 18,
+        "end": 20,
+        "extractor": "DIETClassifier",
+        "value": "up"
+      },
+      {
+        "entity": "action",
+        "start": 49,
+        "end": 52,
+        "extractor": "DIETClassifier",
+        "value": "move",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "do you recognize a bracelet on the table?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "recognize",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "bracelet",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "toss the orange ball",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "value": "ball",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "toss"
+      },
+      {
+        "entity": "object_color",
+        "start": 9,
+        "end": 15,
+        "extractor": "DIETClassifier",
+        "value": "orange"
+      },
+      {
+        "entity": "object_name",
+        "start": 16,
+        "end": 20,
+        "extractor": "DIETClassifier",
+        "value": "ball"
+      }
+    ]
+  },
+  {
+    "text": "put this object on the right",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "put",
+        "entity": "action"
+      },
+      {
+        "start": 4,
+        "end": 15,
+        "value": "this object",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "right",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "move",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "undefined_object",
+        "start": 9,
+        "end": 15,
+        "extractor": "DIETClassifier",
+        "value": "object"
+      },
+      {
+        "entity": "placement_destination",
+        "start": 23,
+        "end": 28,
+        "extractor": "DIETClassifier",
+        "value": "right"
+      }
+    ]
+  }
+]

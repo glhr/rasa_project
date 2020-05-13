@@ -1,0 +1,530 @@
+[
+  {
+    "text": "i meant black orange",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 8,
+        "end": 13,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i mean that magenta apple",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 25,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "that yellow thing please robot",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "value": "thing",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 5,
+        "end": 11,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no i mean recognize one orange of color brown if you can",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "brown",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 24,
+        "end": 30,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 40,
+        "end": 45,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i'm asking you to pinpoint one magenta lemon if possible",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "lemon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 39,
+        "end": 44,
+        "value": "lemon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i mean detect the orange fruit if you can",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 18,
+        "end": 24,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 25,
+        "end": 30,
+        "value": "fruit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you please handle green strawberry",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "value": "strawberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 22,
+        "end": 27,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no what i meant was bring black orange",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "could you maybe clasp an blue orange if possible",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 25,
+        "end": 36,
+        "value": "blue orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "grip the yellow thing",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "value": "thing",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 9,
+        "end": 15,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you located in the right zone is magenta lemon",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 58,
+        "end": 63,
+        "value": "lemon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 36,
+        "end": 41,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 50,
+        "end": 57,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you located at the right is brown orange",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 36,
+        "end": 41,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 45,
+        "end": 50,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "on the right side is this brown fruit",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 7,
+        "end": 12,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 32,
+        "end": 37,
+        "value": "fruit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "that thing is called magenta tomato",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "placed at the middle is this blue orange",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 14,
+        "end": 20,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 29,
+        "end": 40,
+        "value": "blue orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "on the table is one purple fruit",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 20,
+        "end": 26,
+        "value": "purple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "placed in the center zone is purple",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "purple",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 14,
+        "end": 20,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

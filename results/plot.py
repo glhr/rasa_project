@@ -1,9 +1,9 @@
 import pandas as pd
 
 dfs_pipelines = []
-percents = range(0,20,10)
-runs = range(1,3)
-pipelines = ['custom', 'pretrained_embeddings_spacy', 'supervised_embeddings']
+percents = [0,10,20,30,40,50,60,70]
+runs = range(1,4)
+pipelines = ['custom', 'mitie', 'pretrained_embeddings_spacy', 'supervised_embeddings']
 
 # generate CSV for intent classification results
 for pipeline in pipelines:
@@ -33,7 +33,8 @@ dfs_pipelines = []
 extractors = {
     'custom': 'DIETClassifier',
     'pretrained_embeddings_spacy': 'CRFEntityExtractor',
-    'supervised_embeddings': 'CRFEntityExtractor'
+    'supervised_embeddings': 'CRFEntityExtractor',
+    'mitie': 'MitieEntityExtractor'
 }
 
 # generate CSV for entity extraction results

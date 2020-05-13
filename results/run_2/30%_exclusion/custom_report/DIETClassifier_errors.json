@@ -1,0 +1,48 @@
+[
+  {
+    "text": "i wanted to say black strawberry",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "strawberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 21,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "also i want you to fetch the orange please robot",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

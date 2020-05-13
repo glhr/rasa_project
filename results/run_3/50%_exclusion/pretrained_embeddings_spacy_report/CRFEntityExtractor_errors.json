@@ -1,0 +1,207 @@
+[
+  {
+    "text": "i mean identify an lemon located in the area on the left once you're done leave that towards the center area",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "lemon",
+        "entity": "object_name"
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 97,
+        "end": 103,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.9724971789284187,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 97,
+        "end": 103,
+        "confidence_entity": 0.9813643962835302,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please maybe spot a pink thing located in the left zone afterwards relocate one towards the right side",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 92,
+        "end": 97,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.7509084171423863,
+        "value": "pink",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.9724833901108011,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 92,
+        "end": 97,
+        "confidence_entity": 0.9629267155990813,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that thing is called magenta tomato",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9401466351835467,
+        "value": "magenta",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9463316725912244,
+        "value": "tomato",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that thing is called an blue pineapple",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "value": "pineapple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9455167449844718,
+        "value": "blue",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9644790540330214,
+        "value": "pineapple",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "this thing is known as tomato",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.5483130856294828,
+        "value": "tomato",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

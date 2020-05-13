@@ -1,0 +1,637 @@
+[
+  {
+    "text": "here is a fruit with a yellow color",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "fruit",
+        "entity": "object_name"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "you should know that this is a ball",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "ball",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "this",
+        "entity": "undefined_object",
+        "confidence": 0.5009729368832703,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "value": "ball",
+        "entity": "object_name",
+        "confidence": 0.9603885576347004,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "let me test you",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "let",
+        "entity": "action",
+        "confidence": 0.5716784558882243,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "just stop it",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "stop",
+        "entity": "action",
+        "confidence": 0.6022639417506325,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you lift the green ball up and place it on the left",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "place",
+        "entity": "action"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "value": "left",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "pick up",
+        "entity": "action",
+        "confidence": 0.8242213554355792,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "green",
+        "entity": "object_color",
+        "confidence": 0.9995615879938053,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "ball",
+        "entity": "object_name",
+        "confidence": 0.999182186102747,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "move",
+        "entity": "action",
+        "confidence": 0.9667673315822242,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "value": "left",
+        "entity": "placement_destination",
+        "confidence": 0.9565989034240342,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "okay now stop what you're doing immediately",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "stop",
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "grab the pencil please",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "grab",
+        "entity": "action"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "value": "pencil",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pick up",
+        "entity": "action",
+        "confidence": 0.8409221767435784,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i'm ordering you to place the brick in the middle of the platform",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "place",
+        "entity": "action"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "middle",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "move",
+        "entity": "action",
+        "confidence": 0.9957863399381536,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name",
+        "confidence": 0.8637872375312875,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "middle",
+        "entity": "placement_origin",
+        "confidence": 0.6024496965960344,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "could you please squeeze this red box now",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "squeeze",
+        "entity": "action"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "value": "box",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "value": "red",
+        "entity": "object_color",
+        "confidence": 0.9936911670059153,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "value": "box",
+        "entity": "object_name",
+        "confidence": 0.9857079777759719,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i want you to grab the orange object",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "grab",
+        "entity": "action"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "object",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "pick up",
+        "entity": "action",
+        "confidence": 0.9639795556001719,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "orange",
+        "entity": "object_color",
+        "confidence": 0.6877340110318392,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "object",
+        "entity": "object_name",
+        "confidence": 0.44006994985132813,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "stop what you're doing immediately",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "stop",
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "last thing just drop it somewhere on the right",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "drop",
+        "entity": "action"
+      },
+      {
+        "start": 21,
+        "end": 23,
+        "value": "it",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "right",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "drop",
+        "entity": "action",
+        "confidence": 0.6780858985453481,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "right",
+        "entity": "placement_destination",
+        "confidence": 0.965312880406211,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "say something",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "say",
+        "entity": "action"
+      },
+      {
+        "start": 4,
+        "end": 13,
+        "value": "something",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pick this shit up",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pick",
+        "entity": "action"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "shit",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pick",
+        "entity": "action",
+        "confidence": 0.9600418039072449,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 5,
+        "end": 9,
+        "value": "this",
+        "entity": "undefined_object",
+        "confidence": 0.715363894851881,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "okay then push the apple off the table",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "push",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "push",
+        "entity": "action",
+        "confidence": 0.8112820948666711,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name",
+        "confidence": 0.8035910431628946,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "table",
+        "entity": "object_name",
+        "confidence": 0.4104444252408517,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please look carefully at this brick",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "look",
+        "entity": "action"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name",
+        "confidence": 0.9609784726390036,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you pick this up first and after that please put it over there",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "pick",
+        "entity": "action"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "this",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "value": "put",
+        "entity": "action"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "there",
+        "entity": "placement_destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "pick",
+        "entity": "action",
+        "confidence": 0.9831080782097035,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "this",
+        "entity": "undefined_object",
+        "confidence": 0.9853795702152659,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "value": "move",
+        "entity": "action",
+        "confidence": 0.9269365925896227,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "just move this keyboard away",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "move",
+        "entity": "action"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "value": "keyboard",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "move",
+        "entity": "action",
+        "confidence": 0.995402681234018,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "do you recognize a bracelet on the table?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "recognize",
+        "entity": "action"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "bracelet",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "bracelet",
+        "entity": "object_name",
+        "confidence": 0.9048031497467077,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "table",
+        "entity": "object_name",
+        "confidence": 0.41052493182668554,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

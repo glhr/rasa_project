@@ -1,0 +1,22 @@
+[
+  {
+    "text": "also i want you to fetch the orange please robot",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
