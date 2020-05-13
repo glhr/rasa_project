@@ -7,6 +7,7 @@ pipeline:
 - name: "SklearnIntentClassifier"
 - name: "DIETClassifier"
   intent_classification: False
+  epochs: 100
 
 policies:
   - name: MemoizationPolicy
