@@ -1,37 +1,37 @@
 ## intent:clarify
-- i wanted to say the [orange](object_name) which is [purple](object_color)
-- some [lemon](object_name) which has the color [yellow](object_color) please
+- what i mean is one [yellow](object_color) [tomato](object_name)
+- [pear](object_name) of color [orange](object_color) please robot
 
 ## intent:find
-- could you somehow search for a [pear](object_name) of color [magenta](object_color) thanks
-- immediately i'm asking you to look for [melon](object_name) that is [green](object_color)
+- also can you see that [strawberry](object_name) of color [green](object_color) please robot
+- no what i meant was notice an [orange](object_color) [raspberry](object_name) maybe
 
 ## intent:move
-- come on perceive [purple](object_color) [melon](object_name) on the [right](placement) side then drop this one to the [right](placement)
-- immediately i want you to observe one [orange](object_name) that is [purple](object_color) located in the [right](placement) and move it towards the [center](placement) zone
+- now can you pinpoint some [magenta](object_color) [watermelon](object_name) on the [right](placement) side and then shift this one towards the [center](placement) area
+- are you able to pinpoint an [lemon](object_name) which has the color [black](object_color) located in the area on the [left](placement) next shift this towards the [middle](placement) zone
 
 ## intent:pick up
-- ok now latch onto a single [blue](object_color) [tomato](object_name) that's all
-- no what i meant was bring [black](object_color) [orange](object_name)
+- can you please handle [green](object_color) [strawberry](object_name)
+- i meant place this [green](object_color) [strawberry](object_name) placed in the [right](placement)
 
 ## intent:show
-- that one [object](undefined_object) is called a [yellow](object_color) [object](undefined_object)
-- located in the area on the [middle](placement) is a [brown](object_color) [orange](object_name)
+- what i'm showing you is [melon](object_name) which is [brown](object_color)
+- located in the [right](placement) area is the [yellow](object_color) [melon](object_name)
 
 ## intent:greetings
-- what up
+- good morning robot
 
 ## intent:affirmative
-- definitely
-- this is correct
+- that's right
+- ok you can
 
 ## intent:none
-- testing chatbot
-- test
+- what should i say
+- my name is human
 
 ## intent:bye
-- talk to you later
+- thanks bye bye
 
 ## intent:deny
-- can you cancel it
-- that's not what i want
+- just forget it
+- disregard

@@ -1,29 +1,29 @@
 ## intent:clarify
-- a single [pear](object_name) that has a [magenta](object_color) color if possible
+- a single [orange](object_name) that has a [green](object_color) color
 
 ## intent:find
-- now i'm asking you to find a single [pepper](object_name) which has a [brown](object_color) color if possible
+- no i mean find [watermelon](object_name) which is [green](object_color) that's all
 
 ## intent:move
-- come on identify a single [pink](object_color) [kiwi](object_name) positioned in the [right](placement) area then move it to somewhere on the [middle](placement)
+- ok also see one [kiwi](object_name) of color [green](object_color) located in the [left](placement) next shift it to the [middle](placement)
 
 ## intent:pick up
-- now i'm asking you to pick a [pear](object_name) of color [magenta](object_color) if possible
+- could you maybe clasp an [blue](object_color) [orange](object_name) if possible
 
 ## intent:show
-- what i'm showing you positioned in the area on the [middle](placement) is a [watermelon](object_name) that has a [brown](object_color) color
+- what i'm showing you placed in the [right](placement) area is the [orange](object_color) [tomato](object_name)
 
 ## intent:greetings
-- yo
+- hola
 
 ## intent:affirmative
-- yes please do that
+- i confirm
 
 ## intent:none
-- you don't wanna chat
+- how does this work
 
 ## intent:bye
-- get lost
+- thanks robot that's it for now
 
 ## intent:deny
-- didnt meant that
+- just stop it

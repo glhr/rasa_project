@@ -1,29 +1,29 @@
 ## intent:clarify
-- i wanted to say the [orange](object_name) which is [purple](object_color)
+- what i mean is one [yellow](object_color) [tomato](object_name)
 
 ## intent:find
-- could you somehow search for a [pear](object_name) of color [magenta](object_color) thanks
+- also can you see that [strawberry](object_name) of color [green](object_color) please robot
 
 ## intent:move
-- immediately i want you to observe one [orange](object_name) that is [purple](object_color) located in the [right](placement) and move it towards the [center](placement) zone
+- now can you pinpoint some [magenta](object_color) [watermelon](object_name) on the [right](placement) side and then shift this one towards the [center](placement) area
 
 ## intent:pick up
-- no what i meant was bring [black](object_color) [orange](object_name)
+- i meant place this [green](object_color) [strawberry](object_name) placed in the [right](placement)
 
 ## intent:show
-- that one [object](undefined_object) is called a [yellow](object_color) [object](undefined_object)
+- what i'm showing you is [melon](object_name) which is [brown](object_color)
 
 ## intent:greetings
-- what up
+- good morning robot
 
 ## intent:affirmative
-- this is correct
+- ok you can
 
 ## intent:none
-- testing chatbot
+- my name is human
 
 ## intent:bye
-- talk to you later
+- thanks bye bye
 
 ## intent:deny
-- can you cancel it
+- disregard

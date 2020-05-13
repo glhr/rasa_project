@@ -1,29 +1,29 @@
 ## intent:clarify
-- i meant to somewhere on the [center](placement)
+- located in the [center](placement) area
 
 ## intent:find
-- please immediately recognize [melon](object_name) maybe
+- detect [green](object_color) [orange](object_name) placed at the [center](placement)
 
 ## intent:move
-- are you able to pinpoint an [lemon](object_name) which has the color [black](object_color) located in the area on the [left](placement) next shift this towards the [middle](placement) zone
+- please see the [melon](object_name) which is [brown](object_color) when you're done relocate one towards the [right](placement) zone
 
 ## intent:pick up
-- now i'm asking you to secure an [orange](object_color) [pineapple](object_name) thanks
+- i meant relocate a [pineapple](object_name) that has the color [yellow](object_color) in the [left](placement)
 
 ## intent:show
-- what i'm showing you is a [orange](object_name) that is [brown](object_color)
+- one [thing](undefined_object) is called one [lemon](object_name)
 
 ## intent:greetings
-- hello there robot
+- hola
 
 ## intent:affirmative
-- yes this is correct
+- i confirm
 
 ## intent:none
-- who are you
+- i need to talk to you
 
 ## intent:bye
-- i'm out
+- ok bye then
 
 ## intent:deny
-- skip
+- just forget it

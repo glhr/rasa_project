@@ -1,122 +1,90 @@
 [
   {
-    "text": "placed over there in the left",
+    "text": "some fruit",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.6708645820617676
+      "name": "none",
+      "confidence": 0.3804657459259033
     }
   },
   {
-    "text": "i mean shift a orange of color brown located in the area on the left",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "move",
-      "confidence": 0.3108491599559784
-    }
-  },
-  {
-    "text": "steal some brown pear located at the middle",
-    "intent": "pick up",
+    "text": "can you find one pink tomato now",
+    "intent": "find",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.258173406124115
+      "confidence": 0.3686886429786682
     }
   },
   {
-    "text": "are you around",
+    "text": "no i mean find the brown pineapple",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.892181396484375
+    }
+  },
+  {
+    "text": "a good day",
     "intent": "greetings",
     "intent_prediction": {
       "name": "none",
-      "confidence": 0.9827073216438293
+      "confidence": 0.9447717070579529
     }
   },
   {
-    "text": "hola",
-    "intent": "greetings",
-    "intent_prediction": {
-      "name": "none",
-      "confidence": 0.3718595802783966
-    }
-  },
-  {
-    "text": "i do",
+    "text": "k",
     "intent": "affirmative",
     "intent_prediction": {
       "name": "none",
-      "confidence": 0.4631105065345764
+      "confidence": 0.31047216057777405
     }
   },
   {
-    "text": "yup",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "greetings",
-      "confidence": 0.2828748822212219
-    }
-  },
-  {
-    "text": "go for it",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "bye",
-      "confidence": 0.8547431230545044
-    }
-  },
-  {
-    "text": "i agree",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.35207507014274597
-    }
-  },
-  {
-    "text": "which one",
+    "text": "are you there",
     "intent": "none",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.9434168338775635
+      "confidence": 0.45290476083755493
     }
   },
   {
-    "text": "lovely day isn't it",
+    "text": "let's have a discussion",
     "intent": "none",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.2730832099914551
+      "confidence": 0.3564836382865906
     }
   },
   {
-    "text": "nothing",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.9975608587265015
-    }
-  },
-  {
-    "text": "are you hungry",
+    "text": "how are things going",
     "intent": "none",
     "intent_prediction": {
       "name": "greetings",
-      "confidence": 0.3868583142757416
+      "confidence": 0.7727500796318054
     }
   },
   {
-    "text": "let's discuss something",
+    "text": "who are you",
     "intent": "none",
     "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.26563170552253723
+      "name": "greetings",
+      "confidence": 0.5500073432922363
     }
   },
   {
-    "text": "awesome",
+    "text": "are we friends",
     "intent": "none",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.8082250356674194
+      "name": "greetings",
+      "confidence": 0.2734980285167694
+    }
+  },
+  {
+    "text": "i must go",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.7258679270744324
     }
   },
   {
@@ -124,47 +92,47 @@
     "intent": "bye",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.6352315545082092
+      "confidence": 0.7828152179718018
     }
   },
   {
-    "text": "ciao",
+    "text": "you can go now",
     "intent": "bye",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.30306971073150635
+      "confidence": 0.7392182350158691
     }
   },
   {
-    "text": "abort",
+    "text": "okay we're done here",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.765987753868103
+    }
+  },
+  {
+    "text": "absolutely not",
     "intent": "deny",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.2977008819580078
+      "name": "affirmative",
+      "confidence": 0.4071716070175171
     }
   },
   {
     "text": "annul",
     "intent": "deny",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.3394317626953125
+      "name": "none",
+      "confidence": 0.2182639092206955
     }
   },
   {
-    "text": "dont mean that",
+    "text": "do nothing",
     "intent": "deny",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.8183068037033081
-    }
-  },
-  {
-    "text": "nevermind",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.3352886438369751
+      "name": "none",
+      "confidence": 0.8901771306991577
     }
   }
 ]

@@ -1,18 +1,18 @@
 [
   {
-    "text": "robot spot a single raspberry",
+    "text": "perceive melon that is green positioned in the area on the center",
     "intent": "find",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.7735824584960938
+      "name": "show",
+      "confidence": 0.512341320514679
     }
   },
   {
-    "text": "please raise an melon which has the color purple",
+    "text": "could you immediately seize the kiwi which has a blue color thanks",
     "intent": "pick up",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.5260041952133179
+      "name": "find",
+      "confidence": 0.5170717835426331
     }
   },
   {
@@ -20,111 +20,63 @@
     "intent": "greetings",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.4616302251815796
+      "confidence": 0.3925158679485321
     }
   },
   {
-    "text": "certainly",
+    "text": "howdy",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.8017975687980652
+    }
+  },
+  {
+    "text": "sup",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.5548799633979797
+    }
+  },
+  {
+    "text": "precisely",
     "intent": "affirmative",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.48647749423980713
+      "confidence": 0.6688305139541626
     }
   },
   {
-    "text": "obviously",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.42878326773643494
-    }
-  },
-  {
-    "text": "looks good",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "greetings",
-      "confidence": 0.35489076375961304
-    }
-  },
-  {
-    "text": "ye",
+    "text": "go for it",
     "intent": "affirmative",
     "intent_prediction": {
       "name": "bye",
-      "confidence": 0.3467943072319031
+      "confidence": 0.8068175315856934
     }
   },
   {
-    "text": "i guess",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.30907920002937317
-    }
-  },
-  {
-    "text": "good",
+    "text": "are you around",
     "intent": "none",
     "intent_prediction": {
       "name": "greetings",
-      "confidence": 0.37226009368896484
+      "confidence": 0.9965324401855469
     }
   },
   {
-    "text": "how are you",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "greetings",
-      "confidence": 0.7522909641265869
-    }
-  },
-  {
-    "text": "i'm not sure what to do",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.9005470275878906
-    }
-  },
-  {
-    "text": "i'm confused",
+    "text": "which one",
     "intent": "none",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.4547630846500397
+      "confidence": 0.8046594858169556
     }
   },
   {
-    "text": "my cat is great",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.5966417789459229
-    }
-  },
-  {
-    "text": "are you hungry",
+    "text": "are you there",
     "intent": "none",
     "intent_prediction": {
       "name": "greetings",
-      "confidence": 0.3794930875301361
-    }
-  },
-  {
-    "text": "how are you doing",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "greetings",
-      "confidence": 0.6525928378105164
-    }
-  },
-  {
-    "text": "awesome",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.5907655358314514
+      "confidence": 0.47637683153152466
     }
   },
   {
@@ -132,31 +84,31 @@
     "intent": "bye",
     "intent_prediction": {
       "name": "none",
-      "confidence": 0.9349431395530701
+      "confidence": 0.6655778884887695
     }
   },
   {
-    "text": "ciao",
+    "text": "we'll speak soon",
     "intent": "bye",
     "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.23843955993652344
+      "name": "none",
+      "confidence": 0.9992257952690125
     }
   },
   {
-    "text": "finish",
+    "text": "till next time",
     "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.9958825707435608
+    }
+  },
+  {
+    "text": "don't do that",
+    "intent": "deny",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.5452651381492615
-    }
-  },
-  {
-    "text": "leave me alone",
-    "intent": "bye",
-    "intent_prediction": {
-      "name": "clarify",
-      "confidence": 0.8199759721755981
+      "confidence": 0.7820246815681458
     }
   },
   {
@@ -164,7 +116,15 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "none",
-      "confidence": 0.7500109672546387
+      "confidence": 0.7460238337516785
+    }
+  },
+  {
+    "text": "dont mean that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.379167377948761
     }
   }
 ]

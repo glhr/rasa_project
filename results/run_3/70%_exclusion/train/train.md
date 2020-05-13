@@ -1,37 +1,37 @@
 ## intent:clarify
-- a single [pear](object_name) that has a [magenta](object_color) color if possible
 - a single [orange](object_name) that has a [green](object_color) color
+- a [purple](object_color) [raspberry](object_name) thanks
 
 ## intent:find
-- now i'm asking you to find a single [pepper](object_name) which has a [brown](object_color) color if possible
-- please immediately look for [apricot](object_name) that is [black](object_color) now
+- no i mean find [watermelon](object_name) which is [green](object_color) that's all
+- dude see a single [apricot](object_name) of color [purple](object_color) somehow
 
 ## intent:move
-- come on identify a single [pink](object_color) [kiwi](object_name) positioned in the [right](placement) area then move it to somewhere on the [middle](placement)
-- i wanted to say locate the [black](object_color) [fruit](undefined_object) positioned over there in the [left](placement) after that put this one towards the [left](placement) zone
+- ok also see one [kiwi](object_name) of color [green](object_color) located in the [left](placement) next shift it to the [middle](placement)
+- no what i meant was detect the [blue](object_color) [tomato](object_name) once you're done move one to somewhere on the [center](placement)
 
 ## intent:pick up
-- now i'm asking you to pick a [pear](object_name) of color [magenta](object_color) if possible
-- pinch [purple](object_color) [melon](object_name) located in the [left](placement) area
+- latch onto that [magenta](object_color) [melon](object_name) located in the [left](placement) zone
+- could you maybe clasp an [blue](object_color) [orange](object_name) if possible
 
 ## intent:show
-- what i'm showing you positioned in the area on the [middle](placement) is a [watermelon](object_name) that has a [brown](object_color) color
-- the [object](undefined_object) is known as some [tomato](object_name) that has the color [purple](object_color)
+- what i'm showing you somewhere on the [center](placement) is that [apple](object_name) that has the color [orange](object_color)
+- what i'm showing you placed in the [right](placement) area is the [orange](object_color) [tomato](object_name)
 
 ## intent:greetings
-- yo
+- hola
 
 ## intent:affirmative
-- yes please do that
-- yes
+- ye
+- i confirm
 
 ## intent:none
-- let's talk
-- you don't wanna chat
+- let's discuss something
+- how does this work
 
 ## intent:bye
-- get lost
+- thanks robot that's it for now
 
 ## intent:deny
-- not really
-- didnt meant that
+- cancel it cancel it
+- just stop it

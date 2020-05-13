@@ -1,109 +1,84 @@
 [
   {
-    "text": "that thing is called magenta tomato",
+    "text": "a single thing is called that melon which has a brown color",
     "entities": [
       {
-        "start": 5,
-        "end": 10,
+        "start": 9,
+        "end": 14,
         "value": "thing",
         "entity": "undefined_object"
       },
       {
-        "start": 21,
-        "end": 28,
-        "value": "magenta",
-        "entity": "object_color"
+        "start": 30,
+        "end": 35,
+        "value": "melon",
+        "entity": "object_name"
       },
       {
-        "start": 29,
-        "end": 35,
-        "value": "tomato",
-        "entity": "object_name"
+        "start": 48,
+        "end": 53,
+        "value": "brown",
+        "entity": "object_color"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "object_color",
-        "start": 21,
-        "end": 28,
-        "confidence_entity": 0.9726835382149909,
-        "value": "magenta",
+        "entity": "object_name",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.992836532535271,
+        "value": "melon",
         "extractor": "CRFEntityExtractor"
       },
       {
-        "entity": "object_name",
-        "start": 29,
-        "end": 35,
-        "confidence_entity": 0.969770624549088,
-        "value": "tomato",
+        "entity": "object_color",
+        "start": 48,
+        "end": 53,
+        "confidence_entity": 0.9827411402855305,
+        "value": "brown",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "that thing is called an blue pineapple",
+    "text": "on the table is a single kiwi that has the color pink",
     "entities": [
       {
-        "start": 5,
-        "end": 10,
-        "value": "thing",
-        "entity": "undefined_object"
-      },
-      {
-        "start": 24,
-        "end": 28,
-        "value": "blue",
-        "entity": "object_color"
-      },
-      {
-        "start": 29,
-        "end": 38,
-        "value": "pineapple",
+        "start": 25,
+        "end": 29,
+        "value": "kiwi",
         "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "value": "pink",
+        "entity": "object_color"
       }
     ],
     "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.5774402809040781,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.962142672708878,
+        "value": "kiwi",
+        "extractor": "CRFEntityExtractor"
+      },
       {
         "entity": "object_color",
-        "start": 24,
-        "end": 28,
-        "confidence_entity": 0.9484168906467029,
-        "value": "blue",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "object_name",
-        "start": 29,
-        "end": 38,
-        "confidence_entity": 0.9654589033679429,
-        "value": "pineapple",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "this thing is known as tomato",
-    "entities": [
-      {
-        "start": 5,
-        "end": 10,
-        "value": "thing",
-        "entity": "undefined_object"
-      },
-      {
-        "start": 23,
-        "end": 29,
-        "value": "tomato",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_name",
-        "start": 23,
-        "end": 29,
-        "confidence_entity": 0.6392889124319611,
-        "value": "tomato",
+        "start": 49,
+        "end": 53,
+        "confidence_entity": 0.9477485960637027,
+        "value": "pink",
         "extractor": "CRFEntityExtractor"
       }
     ]

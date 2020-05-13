@@ -1,9 +1,9 @@
 {
-  "object_color": {
+  "undefined_object": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 88
+    "support": 17
   },
   "object_name": {
     "precision": 1.0,
@@ -15,30 +15,30 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 72
+    "support": 67
   },
-  "undefined_object": {
+  "object_color": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 14
+    "support": 86
   },
   "micro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 259
+    "support": 255
   },
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 259
+    "support": 255
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 259
+    "support": 255
   }
 }

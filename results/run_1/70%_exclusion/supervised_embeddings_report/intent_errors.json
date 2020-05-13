@@ -4,335 +4,359 @@
     "intent": "clarify",
     "intent_prediction": {
       "name": "pick up",
-      "confidence": 0.17808791995048523
+      "confidence": 0.2947688102722168
     }
   },
   {
-    "text": "a watermelon which has a brown color if possible",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.38140231370925903
-    }
-  },
-  {
-    "text": "this brown object",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.21915465593338013
-    }
-  },
-  {
-    "text": "i wanted to say located in the right zone",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.30580011010169983
-    }
-  },
-  {
-    "text": "a blue pineapple that's all",
+    "text": "what i meant was a single green tomato",
     "intent": "clarify",
     "intent_prediction": {
       "name": "pick up",
-      "confidence": 0.12426117062568665
+      "confidence": 0.2709515392780304
+    }
+  },
+  {
+    "text": "i mean towards the middle area",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.2395341545343399
+    }
+  },
+  {
+    "text": "some lemon which has the color yellow please",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.25235113501548767
+    }
+  },
+  {
+    "text": "i meant black orange",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.26904359459877014
+    }
+  },
+  {
+    "text": "a single pepper that is yellow",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.19659395515918732
+    }
+  },
+  {
+    "text": "i wanted to say this watermelon that has a yellow color",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.7176421880722046
+    }
+  },
+  {
+    "text": "a single watermelon that has the color yellow that's all",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8302867412567139
     }
   },
   {
     "text": "what i mean is to the middle",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.17109335958957672
+      "name": "bye",
+      "confidence": 0.17158243060112
     }
   },
   {
-    "text": "that brown strawberry somehow",
+    "text": "i wanted to say positioned at the left",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.4037694036960602
-    }
-  },
-  {
-    "text": "i mean that magenta apple",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "pick up",
-      "confidence": 0.34399929642677307
-    }
-  },
-  {
-    "text": "an melon also",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.15834446251392365
-    }
-  },
-  {
-    "text": "the apricot maybe",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.16426081955432892
-    }
-  },
-  {
-    "text": "what i meant was in the center",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.24870173633098602
+      "name": "none",
+      "confidence": 0.21120508015155792
     }
   },
   {
     "text": "i wanted to say that magenta kiwi",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.21434146165847778
+      "name": "none",
+      "confidence": 0.3820565938949585
     }
   },
   {
     "text": "a single yellow melon",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.1575283408164978
+      "name": "pick up",
+      "confidence": 0.26652956008911133
     }
   },
   {
-    "text": "the pink pineapple that's all",
+    "text": "to the middle",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.16358143091201782
+      "name": "bye",
+      "confidence": 0.19051851332187653
     }
   },
   {
-    "text": "pear of color orange please robot",
+    "text": "what i mean is towards the middle area",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.16194485127925873
+      "name": "move",
+      "confidence": 0.2576313614845276
     }
   },
   {
-    "text": "i wanted to say this pineapple which has a purple color",
+    "text": "what i mean is the pear which is purple",
     "intent": "clarify",
     "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.1369015872478485
+      "name": "move",
+      "confidence": 0.16507349908351898
     }
   },
   {
-    "text": "that yellow thing please robot",
-    "intent": "clarify",
-    "intent_prediction": {
-      "name": "greetings",
-      "confidence": 0.24551254510879517
-    }
-  },
-  {
-    "text": "now can you find tomato which has the color green",
+    "text": "are you able to recognize some melon that's all",
     "intent": "find",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.33027490973472595
+      "name": "clarify",
+      "confidence": 0.18038228154182434
+    }
+  },
+  {
+    "text": "can you please somehow see that brown tomato please robot",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.3853183388710022
+    }
+  },
+  {
+    "text": "perceive melon that is green positioned in the area on the center",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.3145420551300049
+    }
+  },
+  {
+    "text": "detect lemon that has the color purple on the table",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.17266088724136353
+    }
+  },
+  {
+    "text": "do you know how to look for this orange strawberry if possible",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2403545081615448
+    }
+  },
+  {
+    "text": "do you know how to notice one yellow fruit if you can",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.3334405720233917
+    }
+  },
+  {
+    "text": "can you please perceive yellow pepper",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.152812197804451
+    }
+  },
+  {
+    "text": "pinpoint kiwi that has a black color at the middle",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6399451494216919
+    }
+  },
+  {
+    "text": "search for kiwi that has the color purple positioned in the area on the center",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.2840932607650757
+    }
+  },
+  {
+    "text": "immediately i'm asking you to look for melon that is green",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.3560342490673065
+    }
+  },
+  {
+    "text": "notice yellow apricot somewhere on the right",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.21849344670772552
+    }
+  },
+  {
+    "text": "ok also spot an pineapple which has the color orange if you can",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8412166237831116
+    }
+  },
+  {
+    "text": "what i mean is detect a single blue tomato somehow",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.20000000298023224
     }
   },
   {
     "text": "no i mean find the brown pineapple",
     "intent": "find",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.1546919345855713
-    }
-  },
-  {
-    "text": "i'm asking you to see the orange tomato if possible",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.2714015245437622
-    }
-  },
-  {
-    "text": "robot spot a single raspberry",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.23973096907138824
-    }
-  },
-  {
-    "text": "maybe i'm asking you to look for this green apple maybe",
-    "intent": "find",
-    "intent_prediction": {
       "name": "pick up",
-      "confidence": 0.2402871549129486
+      "confidence": 0.40754666924476624
     }
   },
   {
-    "text": "now i'm asking you to find a single pepper which has a brown color if possible",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.35124966502189636
-    }
-  },
-  {
-    "text": "can you please also locate this apple which has the color brown please robot",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.18428130447864532
-    }
-  },
-  {
-    "text": "no i mean recognize one orange of color brown if you can",
+    "text": "observe pink object located in the area on the right",
     "intent": "find",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.28585511445999146
+      "confidence": 0.5729215741157532
     }
   },
   {
-    "text": "can you please also search for the pineapple which has a black color also",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.1458594650030136
-    }
-  },
-  {
-    "text": "maybe can you detect the apple that is brown",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.2444210648536682
-    }
-  },
-  {
-    "text": "what i mean is identify a single magenta pear immediately",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.1632753610610962
-    }
-  },
-  {
-    "text": "please now notice an yellow kiwi",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.2230968177318573
-    }
-  },
-  {
-    "text": "i'm asking you to pinpoint one magenta lemon if possible",
+    "text": "pinpoint green tomato on the left",
     "intent": "find",
     "intent_prediction": {
       "name": "pick up",
-      "confidence": 0.3281097412109375
-    }
-  },
-  {
-    "text": "i mean detect the orange fruit if you can",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.14947815239429474
+      "confidence": 0.19313400983810425
     }
   },
   {
     "text": "help me locate a single strawberry that is purple if you can",
     "intent": "find",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.16086722910404205
+      "name": "pick up",
+      "confidence": 0.31219786405563354
     }
   },
   {
-    "text": "search for the tomato that has the color purple please",
-    "intent": "find",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.15814204514026642
-    }
-  },
-  {
-    "text": "also can you see that strawberry of color green please robot",
+    "text": "observe pepper over there in the right",
     "intent": "find",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.18303941190242767
+      "confidence": 0.24673134088516235
     }
   },
   {
-    "text": "could you now identify a single orange object located in the right area once you're done put that towards the middle area",
-    "intent": "move",
+    "text": "somehow can you perceive one strawberry of color blue immediately",
+    "intent": "find",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.20093783736228943
+      "name": "pick up",
+      "confidence": 0.5250317454338074
     }
   },
   {
-    "text": "please also observe one yellow fruit located in the area on the right next put that to the right",
+    "text": "what i mean is pick the orange that is black located in the left area and leave it to somewhere on the middle",
     "intent": "move",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.4493006765842438
+      "name": "pick up",
+      "confidence": 0.22089502215385437
     }
   },
   {
-    "text": "i want you to recognize a single pear which is brown placed in the area on the right after that leave this to somewhere on the middle",
+    "text": "no what i mean is identify the apple which has the color brown after that place something to the middle",
     "intent": "move",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.1488020122051239
+      "name": "pick up",
+      "confidence": 0.2987750172615051
     }
   },
   {
-    "text": "now i want you to recognize this magenta pepper placed in the middle zone when you're done relocate that towards the right area",
+    "text": "i mean identify an lemon located in the area on the left once you're done leave that towards the center area",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2967034876346588
+    }
+  },
+  {
+    "text": "are you able to find an pepper placed in the middle and place it to the center",
     "intent": "move",
     "intent_prediction": {
       "name": "find",
-      "confidence": 0.2642189562320709
+      "confidence": 0.3456214964389801
+    }
+  },
+  {
+    "text": "now i want you to find some tomato of color yellow in the area on the left after that leave this one to the center",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.4048236310482025
     }
   },
   {
     "text": "i meant raise this orange apricot located in the area on the center when you're done drop something to the left",
     "intent": "move",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.16941703855991364
+      "name": "clarify",
+      "confidence": 0.26702699065208435
     }
   },
   {
-    "text": "recognize an purple object positioned at the center once you're done drop this one towards the center area",
-    "intent": "move",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.3169124722480774
-    }
-  },
-  {
-    "text": "i mean claim this orange placed over there in the right and move something towards the center area",
-    "intent": "move",
-    "intent_prediction": {
-      "name": "pick up",
-      "confidence": 0.19404008984565735
-    }
-  },
-  {
-    "text": "no i wanted to say hoist a single tomato which is green that's all",
+    "text": "move the green lemon in the middle",
     "intent": "pick up",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.46010902523994446
+      "name": "clarify",
+      "confidence": 0.17446857690811157
+    }
+  },
+  {
+    "text": "grasp some blue pear positioned in the left zone",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.17544853687286377
+    }
+  },
+  {
+    "text": "squeeze this black kiwi placed in the middle",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.18892784416675568
+    }
+  },
+  {
+    "text": "please raise an melon which has the color purple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.17077051103115082
+    }
+  },
+  {
+    "text": "what i mean is shift the purple raspberry positioned in the middle",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4726390838623047
     }
   },
   {
@@ -340,303 +364,439 @@
     "intent": "pick up",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.1361140012741089
+      "confidence": 0.16851037740707397
     }
   },
   {
-    "text": "could you maybe latch onto this pink orange that's all",
+    "text": "raise a single magenta orange placed in the right",
     "intent": "pick up",
     "intent_prediction": {
       "name": "find",
-      "confidence": 0.17930667102336884
+      "confidence": 0.25438055396080017
     }
   },
   {
-    "text": "what i mean is shift the purple raspberry positioned in the middle",
+    "text": "please immediately squeeze blue strawberry somehow",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.23570559918880463
+    }
+  },
+  {
+    "text": "no i wanted to say hoist a single tomato which is green that's all",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.18281765282154083
+    }
+  },
+  {
+    "text": "pinch black raspberry located in the middle",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.23205727338790894
+    }
+  },
+  {
+    "text": "bring one brown tomato in the center zone",
     "intent": "pick up",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.2132323980331421
+      "confidence": 0.31886839866638184
     }
   },
   {
-    "text": "immediately can you clench this apricot which has the color yellow that's all",
-    "intent": "pick up",
+    "text": "somewhere on the middle is one watermelon of color yellow",
+    "intent": "show",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.19461694359779358
+      "name": "move",
+      "confidence": 0.15291257202625275
     }
   },
   {
-    "text": "somehow can you latch onto an pepper that has the color black also",
-    "intent": "pick up",
+    "text": "positioned at the left is some blue fruit",
+    "intent": "show",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.19485479593276978
+      "name": "clarify",
+      "confidence": 0.15557131171226501
     }
   },
   {
-    "text": "please raise an melon which has the color purple",
-    "intent": "pick up",
+    "text": "what i'm showing you positioned in the area on the middle is a watermelon that has a brown color",
+    "intent": "show",
     "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.1394776552915573
-    }
-  },
-  {
-    "text": "i mean relocate that watermelon of color brown placed in the middle",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.19288870692253113
-    }
-  },
-  {
-    "text": "no what i meant was bring black orange",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.28148597478866577
-    }
-  },
-  {
-    "text": "i wanted to say place this yellow orange positioned in the center zone",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.23801565170288086
-    }
-  },
-  {
-    "text": "grasp some blue pear positioned in the left zone",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.17370988428592682
-    }
-  },
-  {
-    "text": "no i mean crush a raspberry that is black",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.2884799838066101
-    }
-  },
-  {
-    "text": "grip the yellow thing",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.1790030300617218
-    }
-  },
-  {
-    "text": "i meant bring that yellow melon also",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.16649717092514038
-    }
-  },
-  {
-    "text": "what i meant was fetch the pear if possible",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.24780799448490143
-    }
-  },
-  {
-    "text": "help me hoist a orange which is green please",
-    "intent": "pick up",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.20405632257461548
+      "name": "move",
+      "confidence": 0.3726891577243805
     }
   },
   {
     "text": "located in the middle is that brown melon",
     "intent": "show",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.17696785926818848
+      "name": "clarify",
+      "confidence": 0.2605563700199127
     }
   },
   {
-    "text": "placed at the middle is this blue orange",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "pick up",
-      "confidence": 0.1549907624721527
-    }
-  },
-  {
-    "text": "what i'm showing you located in the middle area is a single pineapple that has a blue color",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "greetings",
-      "confidence": 0.14833325147628784
-    }
-  },
-  {
-    "text": "on the table is one purple fruit",
+    "text": "on the right side is this brown fruit",
     "intent": "show",
     "intent_prediction": {
       "name": "move",
-      "confidence": 0.12787173688411713
+      "confidence": 0.2907276153564453
     }
   },
   {
-    "text": "placed in the center zone is purple",
+    "text": "in the middle area is the melon which is yellow",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.3373398780822754
+    }
+  },
+  {
+    "text": "this thing is known as a single pink fruit",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.15363888442516327
+    }
+  },
+  {
+    "text": "a single object is known as this orange that has the color orange",
     "intent": "show",
     "intent_prediction": {
       "name": "pick up",
-      "confidence": 0.3014136552810669
+      "confidence": 0.4968496561050415
     }
   },
   {
-    "text": "hi again",
+    "text": "what i'm showing you positioned in the area on the middle is a single raspberry that has a blue color",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.25702589750289917
+    }
+  },
+  {
+    "text": "what i'm showing you over there in the right is the magenta pepper",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2291950136423111
+    }
+  },
+  {
+    "text": "what i'm showing you placed in the right area is the orange tomato",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2552935481071472
+    }
+  },
+  {
+    "text": "a single thing is called that melon which has a brown color",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5386658310890198
+    }
+  },
+  {
+    "text": "that thing is called magenta tomato",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.2004244327545166
+    }
+  },
+  {
+    "text": "what i'm showing you located in the middle is this pineapple which has the color brown",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.23049943149089813
+    }
+  },
+  {
+    "text": "that one object is called a yellow object",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.22605887055397034
+    }
+  },
+  {
+    "text": "located in the left zone is an pineapple that is yellow",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.645324170589447
+    }
+  },
+  {
+    "text": "what i'm showing you positioned at the center is that green fruit",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.21529629826545715
+    }
+  },
+  {
+    "text": "in the right area is lemon which is green",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.19872495532035828
+    }
+  },
+  {
+    "text": "hey what's up",
     "intent": "greetings",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.18199218809604645
+      "name": "affirmative",
+      "confidence": 0.13384464383125305
+    }
+  },
+  {
+    "text": "hallo",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.14241744577884674
+    }
+  },
+  {
+    "text": "hello there robot",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.22370611131191254
     }
   },
   {
     "text": "i greet you",
     "intent": "greetings",
     "intent_prediction": {
-      "name": "none",
-      "confidence": 0.20668189227581024
+      "name": "clarify",
+      "confidence": 0.21410520374774933
     }
   },
   {
-    "text": "greetings",
+    "text": "hey there",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.162154883146286
+    }
+  },
+  {
+    "text": "what up",
     "intent": "greetings",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.1433512568473816
+      "confidence": 0.15215225517749786
     }
   },
   {
-    "text": "afternoon",
+    "text": "sup",
     "intent": "greetings",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.14967256784439087
+      "confidence": 0.16547104716300964
     }
   },
   {
-    "text": "yap",
+    "text": "yes correct",
     "intent": "affirmative",
     "intent_prediction": {
       "name": "deny",
-      "confidence": 0.13807876408100128
+      "confidence": 0.3343399465084076
     }
   },
   {
-    "text": "alrighty",
+    "text": "precisely",
     "intent": "affirmative",
     "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.14146624505519867
+      "name": "clarify",
+      "confidence": 0.18151094019412994
     }
   },
   {
-    "text": "okey",
+    "text": "yeah sure",
     "intent": "affirmative",
     "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.13209374248981476
+      "name": "clarify",
+      "confidence": 0.14717651903629303
     }
   },
   {
-    "text": "obviously",
+    "text": "ye",
     "intent": "affirmative",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.14600706100463867
-    }
-  },
-  {
-    "text": "ok go ahead",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "none",
-      "confidence": 0.13820487260818481
-    }
-  },
-  {
-    "text": "looks good",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.12594421207904816
-    }
-  },
-  {
-    "text": "right",
-    "intent": "affirmative",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.13914284110069275
-    }
-  },
-  {
-    "text": "nice weather",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.15639813244342804
-    }
-  },
-  {
-    "text": "i'm not sure what to do",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.27129438519477844
-    }
-  },
-  {
-    "text": "i'm confused",
-    "intent": "none",
     "intent_prediction": {
       "name": "bye",
-      "confidence": 0.1524457335472107
+      "confidence": 0.16705815494060516
     }
   },
   {
-    "text": "my cat is great",
+    "text": "go for it",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.19819743931293488
+    }
+  },
+  {
+    "text": "this is correct",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.34559208154678345
+    }
+  },
+  {
+    "text": "yeah that's right",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.1860838234424591
+    }
+  },
+  {
+    "text": "yeah right",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.18783199787139893
+    }
+  },
+  {
+    "text": "ok yes",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.3420308530330658
+    }
+  },
+  {
+    "text": "yes i would like to",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.17610496282577515
+    }
+  },
+  {
+    "text": "yes you may",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.1895051747560501
+    }
+  },
+  {
+    "text": "yes that's exactly what i want",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.22290390729904175
+    }
+  },
+  {
+    "text": "yes right",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.18495850265026093
+    }
+  },
+  {
+    "text": "test",
     "intent": "none",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.21178051829338074
+      "confidence": 0.19549916684627533
     }
   },
   {
-    "text": "how does this work exactly",
+    "text": "how is it going",
     "intent": "none",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.3161395192146301
+      "confidence": 0.24685926735401154
     }
   },
   {
-    "text": "how are things going",
-    "intent": "none",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.17249423265457153
-    }
-  },
-  {
-    "text": "awesome",
+    "text": "are you around",
     "intent": "none",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.16176563501358032
+      "confidence": 0.21151675283908844
+    }
+  },
+  {
+    "text": "how are you doing",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.1746659129858017
+    }
+  },
+  {
+    "text": "can i test you",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.20638397336006165
+    }
+  },
+  {
+    "text": "which one",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.1461847573518753
+    }
+  },
+  {
+    "text": "are you there",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.22180862724781036
+    }
+  },
+  {
+    "text": "can i start speaking",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.23144026100635529
+    }
+  },
+  {
+    "text": "you can go now",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.15585769712924957
+    }
+  },
+  {
+    "text": "okay see you later",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.20537637174129486
+    }
+  },
+  {
+    "text": "you suck honestly i'm out",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.20021472871303558
     }
   },
   {
@@ -644,151 +804,127 @@
     "intent": "bye",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.16839393973350525
+      "confidence": 0.17118869721889496
     }
   },
   {
-    "text": "see you later",
+    "text": "we'll speak soon",
     "intent": "bye",
     "intent_prediction": {
-      "name": "none",
-      "confidence": 0.164711594581604
+      "name": "clarify",
+      "confidence": 0.18975552916526794
     }
   },
   {
-    "text": "now bye",
+    "text": "till next time",
     "intent": "bye",
     "intent_prediction": {
-      "name": "pick up",
-      "confidence": 0.2009434551000595
+      "name": "clarify",
+      "confidence": 0.21323661506175995
     }
   },
   {
-    "text": "alright bye",
+    "text": "see you tomorrow",
     "intent": "bye",
     "intent_prediction": {
-      "name": "find",
-      "confidence": 0.13424061238765717
+      "name": "clarify",
+      "confidence": 0.22571423649787903
     }
   },
   {
-    "text": "bye stupid robot",
-    "intent": "bye",
-    "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.19773998856544495
-    }
-  },
-  {
-    "text": "ciao",
-    "intent": "bye",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.14302057027816772
-    }
-  },
-  {
-    "text": "finish",
-    "intent": "bye",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.15103428065776825
-    }
-  },
-  {
-    "text": "bye for now",
-    "intent": "bye",
-    "intent_prediction": {
-      "name": "pick up",
-      "confidence": 0.18648084998130798
-    }
-  },
-  {
-    "text": "leave me alone",
-    "intent": "bye",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.14415958523750305
-    }
-  },
-  {
-    "text": "didnt meant that",
+    "text": "don't do that",
     "intent": "deny",
     "intent_prediction": {
       "name": "clarify",
-      "confidence": 0.20192623138427734
+      "confidence": 0.1605825424194336
     }
   },
   {
-    "text": "that's incorrect",
+    "text": "that is wrong",
     "intent": "deny",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.5302186012268066
+      "confidence": 0.15196162462234497
     }
   },
   {
-    "text": "that's not what i want",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.3679031431674957
-    }
-  },
-  {
-    "text": "just stop it",
+    "text": "no",
     "intent": "deny",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.16675013303756714
+      "confidence": 0.12817475199699402
     }
   },
   {
-    "text": "forget about it",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "bye",
-      "confidence": 0.2636285126209259
-    }
-  },
-  {
-    "text": "disregard that",
+    "text": "no cancel cancel",
     "intent": "deny",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.16383208334445953
+      "confidence": 0.15366820991039276
     }
   },
   {
-    "text": "no stop that immediately",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "find",
-      "confidence": 0.23771749436855316
-    }
-  },
-  {
-    "text": "that's not right",
+    "text": "i said cancel it",
     "intent": "deny",
     "intent_prediction": {
       "name": "affirmative",
-      "confidence": 0.3817279040813446
+      "confidence": 0.1670936495065689
+    }
+  },
+  {
+    "text": "cancel request",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.26250383257865906
+    }
+  },
+  {
+    "text": "wrong",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.1484164148569107
     }
   },
   {
     "text": "do nothing",
     "intent": "deny",
     "intent_prediction": {
-      "name": "affirmative",
-      "confidence": 0.23426097631454468
+      "name": "show",
+      "confidence": 0.15845637023448944
     }
   },
   {
-    "text": "that's not what i meant",
+    "text": "can you cancel that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.1761273741722107
+    }
+  },
+  {
+    "text": "dont mean that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.2220568060874939
+    }
+  },
+  {
+    "text": "no cancel everything",
     "intent": "deny",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.31816789507865906
+      "confidence": 0.16305576264858246
+    }
+  },
+  {
+    "text": "cancel my request",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.2526703178882599
     }
   }
 ]

@@ -1,37 +1,37 @@
 ## intent:clarify
-- i wanted to say an [raspberry](object_name) of color [orange](object_color)
-- i meant to somewhere on the [center](placement)
+- located in the [center](placement) area
+- this [pink](object_color) [pear](object_name) if possible
 
 ## intent:find
-- observe [pink](object_color) [object](undefined_object) located in the area on the [right](placement)
-- please immediately recognize [melon](object_name) maybe
+- detect [green](object_color) [orange](object_name) placed at the [center](placement)
+- locate [black](object_color) [tomato](object_name) placed in the [center](placement) area
 
 ## intent:move
-- are you able to pinpoint an [lemon](object_name) which has the color [black](object_color) located in the area on the [left](placement) next shift this towards the [middle](placement) zone
-- my command is observe a [orange](object_color) [pineapple](object_name) over there in the [left](placement) afterwards put one to the [right](placement)
+- please see the [melon](object_name) which is [brown](object_color) when you're done relocate one towards the [right](placement) zone
+- can you please detect this [tomato](object_name) which is [purple](object_color) positioned in the area on the [middle](placement) then put this towards the [center](placement) zone
 
 ## intent:pick up
-- now i'm asking you to secure an [orange](object_color) [pineapple](object_name) thanks
-- bring this [pepper](object_name) that is [magenta](object_color) placed in the area on the [center](placement)
+- i mean clutch a [tomato](object_name) which has a [black](object_color) color if you can
+- i meant relocate a [pineapple](object_name) that has the color [yellow](object_color) in the [left](placement)
 
 ## intent:show
-- what i'm showing you is a [orange](object_name) that is [brown](object_color)
-- positioned over there in the [center](placement) is [tomato](object_name) which has a [black](object_color) color
+- one [thing](undefined_object) is called one [lemon](object_name)
+- placed in the [center](placement) zone is [purple](object_color)
 
 ## intent:greetings
-- hello there robot
+- hola
 
 ## intent:affirmative
-- why not
-- yes this is correct
+- i confirm
+- i guess
 
 ## intent:none
-- :)
-- who are you
+- i need to talk to you
+- i don't know what to say
 
 ## intent:bye
-- i'm out
+- ok bye then
 
 ## intent:deny
-- sorry cancel
-- skip
+- just forget it
+- that is incorrect

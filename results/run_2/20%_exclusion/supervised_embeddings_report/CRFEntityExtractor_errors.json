@@ -1,0 +1,16 @@
+[
+  {
+    "text": "cancel the whole thing",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.4415365269903511,
+        "value": "whole",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

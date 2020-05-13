@@ -1,6 +1,45 @@
 [
   {
-    "text": "a single yellow melon",
+    "text": "this watermelon",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "watermelon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "a single watermelon which is pink",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "watermelon",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "pink",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.9033258768506887,
+        "value": "watermelon",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "a single yellow thing now",
     "entities": [
       {
         "start": 9,
@@ -11,6 +50,30 @@
       {
         "start": 16,
         "end": 21,
+        "value": "thing",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i wanted to say that strawberry",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "strawberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please immediately recognize melon maybe",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
         "value": "melon",
         "entity": "object_name"
       }
@@ -18,141 +81,191 @@
     "predicted_entities": []
   },
   {
-    "text": "what i meant was a single green tomato",
+    "text": "search for kiwi that has the color purple positioned in the area on the center",
     "entities": [
       {
-        "start": 26,
-        "end": 31,
-        "value": "green",
+        "start": 11,
+        "end": 15,
+        "value": "kiwi",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "value": "purple",
         "entity": "object_color"
       },
       {
-        "start": 32,
-        "end": 38,
-        "value": "tomato",
-        "entity": "object_name"
+        "start": 72,
+        "end": 78,
+        "value": "center",
+        "entity": "placement"
       }
     ],
     "predicted_entities": [
       {
         "entity": "object_color",
-        "start": 26,
-        "end": 31,
-        "confidence_entity": 0.5872934551407113,
-        "value": "green",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.8707043444440821,
+        "value": "purple",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 72,
+        "end": 78,
+        "confidence_entity": 0.9638633939826715,
+        "value": "center",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "no i mean find watermelon which is green that's all",
+    "text": "observe black apricot located in the right",
     "entities": [
       {
-        "start": 15,
-        "end": 25,
-        "value": "watermelon",
+        "start": 8,
+        "end": 13,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 14,
+        "end": 21,
+        "value": "apricot",
         "entity": "object_name"
       },
       {
-        "start": 35,
-        "end": 40,
-        "value": "green",
+        "start": 37,
+        "end": 42,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.6282666527115156,
+        "value": "apricot",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9376364033992381,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no i meant find this black fruit immediately",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "no i wanted to say see apple that is purple somehow",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "purple",
         "entity": "object_color"
       }
     ],
     "predicted_entities": [
       {
         "entity": "object_name",
-        "start": 15,
-        "end": 25,
-        "confidence_entity": 0.6989385229185313,
-        "value": "watermelon",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.8780614716192053,
+        "value": "apple",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "please now notice an yellow kiwi",
+    "text": "shift that pepper that is orange positioned at the middle to somewhere on the right",
     "entities": [
       {
-        "start": 21,
-        "end": 27,
-        "value": "yellow",
-        "entity": "object_color"
+        "start": 11,
+        "end": 17,
+        "value": "pepper",
+        "entity": "object_name"
       },
       {
-        "start": 28,
+        "start": 26,
         "end": 32,
-        "value": "kiwi",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "now can you find tomato which has the color green",
-    "entities": [
-      {
-        "start": 17,
-        "end": 23,
-        "value": "tomato",
-        "entity": "object_name"
-      },
-      {
-        "start": 44,
-        "end": 49,
-        "value": "green",
+        "value": "orange",
         "entity": "object_color"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 44,
-        "end": 49,
-        "confidence_entity": 0.9175331554174943,
-        "value": "green",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "i mean identify an lemon located in the area on the left once you're done leave that towards the center area",
-    "entities": [
-      {
-        "start": 19,
-        "end": 24,
-        "value": "lemon",
-        "entity": "object_name"
       },
       {
-        "start": 52,
-        "end": 56,
-        "value": "left",
+        "start": 51,
+        "end": 57,
+        "value": "middle",
         "entity": "placement"
       },
       {
-        "start": 97,
-        "end": 103,
-        "value": "center",
+        "start": 78,
+        "end": 83,
+        "value": "right",
         "entity": "placement"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "placement",
-        "start": 52,
-        "end": 56,
-        "confidence_entity": 0.9674744019950863,
-        "value": "left",
+        "entity": "object_name",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9372890530807788,
+        "value": "pepper",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.37230983130532275,
+        "value": "orange",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "placement",
-        "start": 97,
-        "end": 103,
-        "confidence_entity": 0.9752367287371309,
-        "value": "center",
+        "start": 51,
+        "end": 57,
+        "confidence_entity": 0.9144344341271873,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 78,
+        "end": 83,
+        "confidence_entity": 0.9376362666516949,
+        "value": "right",
         "extractor": "CRFEntityExtractor"
       }
     ]
@@ -187,18 +300,10 @@
     ],
     "predicted_entities": [
       {
-        "entity": "object_color",
-        "start": 20,
-        "end": 24,
-        "confidence_entity": 0.7544350586032813,
-        "value": "pink",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
         "entity": "placement",
         "start": 46,
         "end": 50,
-        "confidence_entity": 0.9674253926867596,
+        "confidence_entity": 0.9522294696805463,
         "value": "left",
         "extractor": "CRFEntityExtractor"
       },
@@ -206,138 +311,30 @@
         "entity": "placement",
         "start": 92,
         "end": 97,
-        "confidence_entity": 0.8398330517958994,
+        "confidence_entity": 0.9161317045061612,
         "value": "right",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "ok also see one kiwi of color green located in the left next shift it to the middle",
+    "text": "no what i mean is identify the apple which has the color brown after that place something to the middle",
     "entities": [
       {
-        "start": 16,
-        "end": 20,
-        "value": "kiwi",
+        "start": 31,
+        "end": 36,
+        "value": "apple",
         "entity": "object_name"
-      },
-      {
-        "start": 30,
-        "end": 35,
-        "value": "green",
-        "entity": "object_color"
-      },
-      {
-        "start": 51,
-        "end": 55,
-        "value": "left",
-        "entity": "placement"
-      },
-      {
-        "start": 77,
-        "end": 83,
-        "value": "middle",
-        "entity": "placement"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 30,
-        "end": 35,
-        "confidence_entity": 0.7612009037690972,
-        "value": "green",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "placement",
-        "start": 51,
-        "end": 55,
-        "confidence_entity": 0.9674036682636517,
-        "value": "left",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "placement",
-        "start": 77,
-        "end": 83,
-        "confidence_entity": 0.9538023300979105,
-        "value": "middle",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "ok maybe locate that tomato which has the color yellow on the right next move something to the center",
-    "entities": [
-      {
-        "start": 21,
-        "end": 27,
-        "value": "tomato",
-        "entity": "object_name"
-      },
-      {
-        "start": 48,
-        "end": 54,
-        "value": "yellow",
-        "entity": "object_color"
-      },
-      {
-        "start": 62,
-        "end": 67,
-        "value": "right",
-        "entity": "placement"
-      },
-      {
-        "start": 95,
-        "end": 101,
-        "value": "center",
-        "entity": "placement"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "placement",
-        "start": 62,
-        "end": 67,
-        "confidence_entity": 0.8394587843033534,
-        "value": "right",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "placement",
-        "start": 95,
-        "end": 101,
-        "confidence_entity": 0.9689865611912898,
-        "value": "center",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "i mean clasp the orange that is brown in the area on the right then leave this one to the middle",
-    "entities": [
-      {
-        "start": 17,
-        "end": 23,
-        "value": "orange",
-        "entity": "object_name"
-      },
-      {
-        "start": 32,
-        "end": 37,
-        "value": "brown",
-        "entity": "object_color"
       },
       {
         "start": 57,
         "end": 62,
-        "value": "right",
-        "entity": "placement"
+        "value": "brown",
+        "entity": "object_color"
       },
       {
-        "start": 90,
-        "end": 96,
+        "start": 97,
+        "end": 103,
         "value": "middle",
         "entity": "placement"
       }
@@ -345,122 +342,102 @@
     "predicted_entities": [
       {
         "entity": "object_name",
-        "start": 17,
-        "end": 23,
-        "confidence_entity": 0.8835044512857116,
-        "value": "orange",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.9526476210783986,
+        "value": "apple",
         "extractor": "CRFEntityExtractor"
       },
       {
-        "entity": "placement",
+        "entity": "object_color",
         "start": 57,
         "end": 62,
-        "confidence_entity": 0.8395842221244654,
-        "value": "right",
+        "confidence_entity": 0.9805664184439384,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 63,
+        "end": 68,
+        "confidence_entity": 0.6649663586149496,
+        "value": "after",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "placement",
-        "start": 90,
-        "end": 96,
-        "confidence_entity": 0.9538024644328645,
+        "start": 97,
+        "end": 103,
+        "confidence_entity": 0.9382612746328188,
         "value": "middle",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "put one raspberry which has the color brown placed in the area on the left to the right",
+    "text": "i mean identify an lemon located in the area on the left once you're done leave that towards the center area",
     "entities": [
       {
-        "start": 8,
-        "end": 17,
-        "value": "raspberry",
+        "start": 19,
+        "end": 24,
+        "value": "lemon",
         "entity": "object_name"
       },
       {
-        "start": 38,
-        "end": 43,
-        "value": "brown",
-        "entity": "object_color"
-      },
-      {
-        "start": 70,
-        "end": 74,
+        "start": 52,
+        "end": 56,
         "value": "left",
         "entity": "placement"
       },
       {
-        "start": 82,
-        "end": 87,
-        "value": "right",
+        "start": 97,
+        "end": 103,
+        "value": "center",
         "entity": "placement"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "object_color",
-        "start": 38,
-        "end": 43,
-        "confidence_entity": 0.8653885739805007,
-        "value": "brown",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
         "entity": "placement",
-        "start": 70,
-        "end": 74,
-        "confidence_entity": 0.9607890764571512,
+        "start": 52,
+        "end": 56,
+        "confidence_entity": 0.9523535105224877,
         "value": "left",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "placement",
-        "start": 82,
-        "end": 87,
-        "confidence_entity": 0.8731784988409862,
-        "value": "right",
+        "start": 97,
+        "end": 103,
+        "confidence_entity": 0.9703324429295725,
+        "value": "center",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "claim the watermelon that is yellow positioned in the middle zone",
+    "text": "what i meant was put some pepper that is magenta",
     "entities": [
       {
-        "start": 10,
-        "end": 20,
-        "value": "watermelon",
+        "start": 26,
+        "end": 32,
+        "value": "pepper",
         "entity": "object_name"
       },
       {
-        "start": 29,
-        "end": 35,
-        "value": "yellow",
+        "start": 41,
+        "end": 48,
+        "value": "magenta",
         "entity": "object_color"
-      },
-      {
-        "start": 54,
-        "end": 60,
-        "value": "middle",
-        "entity": "placement"
       }
     ],
     "predicted_entities": [
       {
         "entity": "object_name",
-        "start": 10,
-        "end": 20,
-        "confidence_entity": 0.972752677473586,
-        "value": "watermelon",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "placement",
-        "start": 54,
-        "end": 60,
-        "confidence_entity": 0.9413261225811944,
-        "value": "middle",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9069926955311086,
+        "value": "pepper",
         "extractor": "CRFEntityExtractor"
       }
     ]
@@ -483,153 +460,364 @@
     ],
     "predicted_entities": [
       {
-        "entity": "object_color",
-        "start": 44,
-        "end": 49,
-        "confidence_entity": 0.7614813579993488,
+        "entity": "object_name",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.7782234220865586,
+        "value": "melon",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pinch black raspberry located in the middle",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
         "value": "black",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "relocate a single orange tomato",
-    "entities": [
-      {
-        "start": 18,
-        "end": 24,
-        "value": "orange",
         "entity": "object_color"
       },
       {
-        "start": 25,
-        "end": 31,
-        "value": "tomato",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 18,
-        "end": 24,
-        "confidence_entity": 0.4346100421935343,
-        "value": "orange",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "i meant shift that kiwi of color yellow positioned in the area on the middle",
-    "entities": [
-      {
-        "start": 19,
-        "end": 23,
-        "value": "kiwi",
+        "start": 12,
+        "end": 21,
+        "value": "raspberry",
         "entity": "object_name"
       },
       {
-        "start": 33,
-        "end": 39,
-        "value": "yellow",
-        "entity": "object_color"
-      },
-      {
-        "start": 70,
-        "end": 76,
+        "start": 37,
+        "end": 43,
         "value": "middle",
         "entity": "placement"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "object_color",
-        "start": 33,
-        "end": 39,
-        "confidence_entity": 0.519972888420859,
-        "value": "yellow",
+        "entity": "object_name",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.6433709583794218,
+        "value": "raspberry",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "placement",
-        "start": 70,
-        "end": 76,
-        "confidence_entity": 0.953814345766222,
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.9382612509376032,
         "value": "middle",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "also i want you to handle an melon which has the color brown also",
+    "text": "bring this pepper that is magenta placed in the area on the center",
     "entities": [
       {
-        "start": 29,
-        "end": 34,
+        "start": 11,
+        "end": 17,
+        "value": "pepper",
+        "entity": "object_name"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9026137104765848,
+        "value": "pepper",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 60,
+        "end": 66,
+        "confidence_entity": 0.9638633939824753,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no what i meant was bring black orange",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.44061148855650306,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "on the right side is this brown fruit",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "fruit",
+        "entity": "undefined_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9157584929099534,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.6398601700748461,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "this fruit is called an raspberry which has a brown color",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "fruit",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 46,
+        "end": 51,
+        "value": "brown",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.8736469538802136,
+        "value": "raspberry",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.8052737778209319,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you located in the middle is this pineapple which has the color brown",
+    "entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 51,
+        "end": 60,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 81,
+        "end": 86,
+        "value": "brown",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.920545552055743,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 81,
+        "end": 86,
+        "confidence_entity": 0.964705637467396,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "some fruit is called an raspberry that has a magenta color",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "fruit",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "value": "magenta",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.8184334976374384,
+        "value": "raspberry",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 45,
+        "end": 52,
+        "confidence_entity": 0.5675057541134817,
+        "value": "magenta",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "a single thing is called that melon which has a brown color",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 30,
+        "end": 35,
         "value": "melon",
         "entity": "object_name"
       },
       {
-        "start": 55,
-        "end": 60,
+        "start": 48,
+        "end": 53,
         "value": "brown",
         "entity": "object_color"
       }
     ],
     "predicted_entities": [
       {
+        "entity": "object_name",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.8481339373844262,
+        "value": "melon",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
         "entity": "object_color",
-        "start": 55,
-        "end": 60,
-        "confidence_entity": 0.868421508102546,
+        "start": 48,
+        "end": 53,
+        "confidence_entity": 0.805273827941203,
         "value": "brown",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "move the green lemon in the middle",
+    "text": "positioned at the left is some blue fruit",
     "entities": [
       {
-        "start": 9,
-        "end": 14,
-        "value": "green",
+        "start": 18,
+        "end": 22,
+        "value": "left",
+        "entity": "placement"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "value": "blue",
         "entity": "object_color"
       },
       {
-        "start": 15,
-        "end": 20,
-        "value": "lemon",
-        "entity": "object_name"
-      },
-      {
-        "start": 28,
-        "end": 34,
-        "value": "middle",
-        "entity": "placement"
+        "start": 36,
+        "end": 41,
+        "value": "fruit",
+        "entity": "undefined_object"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "object_color",
-        "start": 9,
-        "end": 14,
-        "confidence_entity": 0.6763616294598203,
-        "value": "green",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
         "entity": "placement",
-        "start": 28,
-        "end": 34,
-        "confidence_entity": 0.9538142783164627,
-        "value": "middle",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.955284444799526,
+        "value": "left",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "my command is raise some kiwi which has the color pink if you can",
+    "text": "on the table is a single kiwi that has the color pink",
     "entities": [
       {
         "start": 25,
@@ -638,337 +826,96 @@
         "entity": "object_name"
       },
       {
-        "start": 50,
-        "end": 54,
+        "start": 49,
+        "end": 53,
         "value": "pink",
         "entity": "object_color"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 50,
-        "end": 54,
-        "confidence_entity": 0.9170379710842711,
-        "value": "pink",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "what i'm showing you in the center area is some tomato",
-    "entities": [
-      {
-        "start": 28,
-        "end": 34,
-        "value": "center",
-        "entity": "placement"
-      },
-      {
-        "start": 48,
-        "end": 54,
-        "value": "tomato",
-        "entity": "object_name"
       }
     ],
     "predicted_entities": [
       {
         "entity": "placement",
-        "start": 28,
-        "end": 34,
-        "confidence_entity": 0.9752205608570444,
-        "value": "center",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.5496055525130622,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.5933009384412865,
+        "value": "kiwi",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 49,
+        "end": 53,
+        "confidence_entity": 0.7024668528496503,
+        "value": "pink",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "what i'm showing you at the right is this blue lemon",
+    "text": "a single fruit is called one lemon of color magenta",
     "entities": [
       {
-        "start": 28,
-        "end": 33,
-        "value": "right",
-        "entity": "placement"
+        "start": 9,
+        "end": 14,
+        "value": "fruit",
+        "entity": "undefined_object"
       },
       {
-        "start": 42,
-        "end": 46,
-        "value": "blue",
+        "start": 29,
+        "end": 34,
+        "value": "lemon",
+        "entity": "object_name"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "value": "magenta",
         "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.8161550463324673,
+        "value": "lemon",
+        "extractor": "CRFEntityExtractor"
       },
       {
-        "start": 47,
-        "end": 52,
+        "entity": "object_color",
+        "start": 44,
+        "end": 51,
+        "confidence_entity": 0.8977795807317567,
+        "value": "magenta",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "one thing is called one lemon",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "thing",
+        "entity": "undefined_object"
+      },
+      {
+        "start": 24,
+        "end": 29,
         "value": "lemon",
         "entity": "object_name"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "placement",
-        "start": 28,
-        "end": 33,
-        "confidence_entity": 0.8558479135017966,
-        "value": "right",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "object_color",
-        "start": 42,
-        "end": 46,
-        "confidence_entity": 0.6255328538503074,
-        "value": "blue",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "that thing is called magenta tomato",
-    "entities": [
-      {
-        "start": 5,
-        "end": 10,
-        "value": "thing",
-        "entity": "undefined_object"
-      },
-      {
-        "start": 21,
-        "end": 28,
-        "value": "magenta",
-        "entity": "object_color"
-      },
-      {
-        "start": 29,
-        "end": 35,
-        "value": "tomato",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 21,
-        "end": 28,
-        "confidence_entity": 0.58391539515614,
-        "value": "magenta",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "that thing is called an blue pineapple",
-    "entities": [
-      {
-        "start": 5,
-        "end": 10,
-        "value": "thing",
-        "entity": "undefined_object"
-      },
-      {
-        "start": 24,
-        "end": 28,
-        "value": "blue",
-        "entity": "object_color"
-      },
-      {
-        "start": 29,
-        "end": 38,
-        "value": "pineapple",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 24,
-        "end": 28,
-        "confidence_entity": 0.908115190220704,
-        "value": "blue",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "object_name",
-        "start": 29,
-        "end": 38,
-        "confidence_entity": 0.8754311629241179,
-        "value": "pineapple",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "placed in the right is some kiwi which has the color black",
-    "entities": [
-      {
-        "start": 14,
-        "end": 19,
-        "value": "right",
-        "entity": "placement"
-      },
-      {
-        "start": 28,
-        "end": 32,
-        "value": "kiwi",
-        "entity": "object_name"
-      },
-      {
-        "start": 53,
-        "end": 58,
-        "value": "black",
-        "entity": "object_color"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "placement",
-        "start": 14,
-        "end": 19,
-        "confidence_entity": 0.8558420504352512,
-        "value": "right",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "object_color",
-        "start": 53,
-        "end": 58,
-        "confidence_entity": 0.9833210347621661,
-        "value": "black",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "this thing is known as tomato",
-    "entities": [
-      {
-        "start": 5,
-        "end": 10,
-        "value": "thing",
-        "entity": "undefined_object"
-      },
-      {
-        "start": 23,
-        "end": 29,
-        "value": "tomato",
-        "entity": "object_name"
-      }
-    ],
     "predicted_entities": []
-  },
-  {
-    "text": "this object is called one brown pineapple",
-    "entities": [
-      {
-        "start": 5,
-        "end": 11,
-        "value": "object",
-        "entity": "undefined_object"
-      },
-      {
-        "start": 26,
-        "end": 31,
-        "value": "brown",
-        "entity": "object_color"
-      },
-      {
-        "start": 32,
-        "end": 41,
-        "value": "pineapple",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "object_color",
-        "start": 26,
-        "end": 31,
-        "confidence_entity": 0.8770544295155228,
-        "value": "brown",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "object_name",
-        "start": 32,
-        "end": 41,
-        "confidence_entity": 0.7829628761630252,
-        "value": "pineapple",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "located in the left zone is an pineapple that is yellow",
-    "entities": [
-      {
-        "start": 15,
-        "end": 19,
-        "value": "left",
-        "entity": "placement"
-      },
-      {
-        "start": 31,
-        "end": 40,
-        "value": "pineapple",
-        "entity": "object_name"
-      },
-      {
-        "start": 49,
-        "end": 55,
-        "value": "yellow",
-        "entity": "object_color"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "placement",
-        "start": 15,
-        "end": 19,
-        "confidence_entity": 0.967429598386001,
-        "value": "left",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "object_name",
-        "start": 31,
-        "end": 40,
-        "confidence_entity": 0.90707644184104,
-        "value": "pineapple",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "what i'm showing you located in the middle zone is an yellow pear",
-    "entities": [
-      {
-        "start": 36,
-        "end": 42,
-        "value": "middle",
-        "entity": "placement"
-      },
-      {
-        "start": 54,
-        "end": 60,
-        "value": "yellow",
-        "entity": "object_color"
-      },
-      {
-        "start": 61,
-        "end": 65,
-        "value": "pear",
-        "entity": "object_name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "placement",
-        "start": 36,
-        "end": 42,
-        "confidence_entity": 0.940987821396797,
-        "value": "middle",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
   }
 ]
