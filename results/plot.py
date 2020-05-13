@@ -132,5 +132,5 @@ _plot_curve(
     number_of_examples,
     x_label_text="Number of intent examples present during training",
     y_label_text="Weighted average F1 score on test set",
-    graph_path="inents-average-plot.png",
+    graph_path="intents-average-plot.png",
 )
