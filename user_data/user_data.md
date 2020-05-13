@@ -1,114 +1,114 @@
 ## intent:greetings
-Hello boy
-Hello robot
-How is it going today
-Hello Robert
-Hello, robot! What's your name?
+hello boy
+hello robot
+how is it going today
+hello robert
+hello robot what's your name
 
 ## intent:pick up
-Pickup the yellow banana from the table.
-Find the banana and lift it up.
-Please give me the duck
-Hey robot, please give me the yellow duck
-Please pick up the yellow banana
-Yeet the hammer off the table
-can you pick up the banana
-Can you pick up the apple
-Can you pickup the green apple
-Give me the purple plum
-Give me the black tv remote please stupid robot
-Go pick up the yellow banana with the left arm
-Pick up the banana
-Grasp the banana and move up
-Grab the apple
-Grab the green apple
-grab the banana
-Grab the green apple
-Grab the yellow duck
-Grab and lift the yellow banana with your right arm
-Hi bot, can you grab that green apple and give it to me?
-Please pick it up slowly.
-Try to pick it up, scan its shape and lable it as a mouse in your database.
-Pick up the hammer.
-Use it to knock everything from the table onto the floor.
-Pick up the yellow rubber ducky with your left arm
-Move your right arm over the banana.
-Pick it up.
-Grab it!
-Please pick up the banana, and give it to me
-Robert, at the mittel af the table a rectangular object named mouse is placed, try to handle it to me. Its about 10 cm long and 5 cm wide and 5 cm heigh
-pickup orange orange
-Move
+pickup the [yellow](object_color) [banana](object_name) from the table
+find the [banana](object_name) and lift it up
+please give me the duck
+hey robot please give me the [yellow](object_color) duck
+please pick up the [yellow](object_color) [banana](object_name)
+yeet the hammer off the table
+can you pick up the [banana](object_name)
+can you pick up the [apple](object_name)
+can you pickup the [green](object_color) [apple](object_name)
+give me the [purple](object_color) plum
+give me the [black](object_color) tv remote please stupid robot
+go pick up the [yellow](object_color) [banana](object_name) with the left arm
+pick up the [banana](object_name)
+grasp the [banana](object_name) and move up
+grab the [apple](object_name)
+grab the [green](object_color) [apple](object_name)
+grab the [banana](object_name)
+grab the [green](object_color) [apple](object_name)
+grab the [yellow](object_color) duck
+grab and lift the [yellow](object_color) [banana](object_name) with your right arm
+hi bot can you grab that [green](object_color) [apple](object_name) and give it to me
+please pick it up slowly
+try to pick it up scan its shape and lable it as a [mouse](object_name) in your database
+pick up the hammer
+use it to knock everything from the table onto the floor
+pick up the [yellow](object_color) rubber ducky with your left arm
+move your right arm over the [banana](object_name)
+pick it up
+grab it
+please pick up the [banana](object_name) and give it to me
+robert at the mittel af the table a rectangular object named [mouse](object_name) is placed try to handle it to me its about 10 cm long and 5 cm wide and 5 cm heigh
+pickup [orange](object_color) orange
+move
 grab
-Can you pick up this black object that stands before you?
-Pick up the yellow banana that is placed atop the table.
-Can you pick up the banana please?
-Pickup yellow banana
-Pickup red apple
-Pickup yellow banana
-Redo pickup red apple
-Pass the fruit.
-reach hard surface with a 2 centimeter distance from such, clench the claw fingers to pick up object
+can you pick up this [black](object_color) object that stands before you
+pick up the [yellow](object_color) [banana](object_name) that is placed atop the table
+can you pick up the [banana](object_name) please
+pickup [yellow](object_color) [banana](object_name)
+pickup [red](object_color) [apple](object_name)
+pickup [yellow](object_color) [banana](object_name)
+redo pickup [red](object_color) [apple](object_name)
+pass the fruit
+reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up object
 
 ## intent:clarify
-Do this with [the yellow banana]?
-Robot, don't use the banana
-Banana yellow
-Dear Robert, try again, byt now at littel more to your left
+do this with [the [yellow](object_color) [banana](object_name)]
+robot don't use the [banana](object_name)
+[banana](object_name) yellow
+dear robert try again byt now at littel more to your [left](placement)
 
 ## intent:none
-I don’t know
+i don’t know
 nonono do **** instead
-Ok robot, make me a smoothie
-Hi bot, how many types of objects there?
-Can you try it with your right arm this time?
-It is fragile.
-It is not fragile.
-What kind of task(s) are you able to perform?
-What can you do?
-Organize items by color
-Cleanup table
-Re do original task. 	
+ok robot make me a smoothie
+hi bot how many types of objects there
+can you try it with your right arm this time
+it is fragile
+it is not fragile
+what kind of tasks are you able to perform
+what can you do
+organize items by color
+cleanup table
+re do original task 	
 
 ## intent:find
-Is there a yellow rubber duck on the table
-Can you locate the yellow banana please
+is there a [yellow](object_color) rubber duck on the table
+can you locate the [yellow](object_color) [banana](object_name) please
 locate
-Can you find me something please?
+can you find me something please
 
 ## intent:deny
-No no no no, stop that.
-Stop robot
-Stop what you are doing
-Stop moving
-Robot, stop
-I didn't ask for that
-Fail, you are doing i wrong
-Hi bot, that's wrong.
-Undo last action.
-Undo.
-That's wrong!
+no no no no stop that
+stop robot
+stop what you are doing
+stop moving
+robot stop
+i didn't ask for that
+fail you are doing i wrong
+hi bot that's wrong
+undo last action
+undo
+that's wrong
 
 ## intent:move
-Move to the left
+move to the [left](placement)
 
 ## intent:show
-Look at this new object.
-This is a mouse
-remember this mouse
-Learn this object
-Learn new object mouse
-Learn this object apple
-Scan new object and identify it as a computer mouse
-Hi bot, there is a banana on the table.
-The yellow banana is on the middle of the table.
-Hi bot, there is a mouse on the table.
-Remember the new object in front of you.
-It is a strawberry.
-Save this object's name and characteristics on your library.
-Robot, this new item is a computer mouse.
-Learn white mouse
-Learn magenta orange
-Learn sliver can
-An apple is an irregularly round object with  a predominantly red color.
-Add the object to data base.
+look at this new object
+this is a [mouse](object_name)
+remember this [mouse](object_name)
+learn this object
+learn new object [mouse](object_name)
+learn this object [apple](object_name)
+scan new object and identify it as a computer [mouse](object_name)
+hi bot there is a [banana](object_name) on the table
+the [yellow](object_color) [banana](object_name) is on the [middle](placement)  of the table
+hi bot there is a [mouse](object_name) on the table
+remember the new object in front of you
+it is a [strawberry](object_name)
+save this object's name and characteristics on your library
+robot this new item is a computer [mouse](object_name)
+learn white [mouse](object_name)
+learn magenta orange
+learn sliver can
+an [apple](object_name) is an irregularly round object with a predominantly [red](object_color) color
+add the object to data base
