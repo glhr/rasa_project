@@ -1,5 +1,7 @@
 *.wav
 *.tar.gz
+*.tar.bz2
+total_word_feature_extractor.dat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -112,6 +114,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+rasaenv/
 
 # Spyder project settings
 .spyderproject
