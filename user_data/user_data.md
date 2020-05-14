@@ -7,6 +7,7 @@
 - Hey Robot (to activate)
 - Hi
 - Hi Robot
+- Salutations, what may I call you?
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the table
@@ -78,9 +79,48 @@
 - Hand me the wooden hammer
 - Pick up the yellow banana
 - Pick up the yellow banana
+- eat the banana
+- throw the peel on the floor
+- Pick up the green apple
+- Please give me the green apple
+- Green apple please
+- Hand me the green apple
+- Grab the banana
+- Destroy the banana
+- Give me the yellow ball
+- Throw the red ball on the floor
+- Pick up the banana
+- open the banana
+- Pick up the apple please
+- Pick up the red tomato	pick up the banana
+- Pick up the banana
+- Pick up the yellow duckie
+- Pick up the banana
+- Could you please pick up the hammer?
+- Please pick up the banana.
+- Can you give me the hammer?
+- Give me any fruit
+- Pick up the orange next to the banana
+- Pick you the banana
+- Grab the banana for me
+- grab yellow banana
+- Hallo
+- Can you give me the banana
+- Lift up the banana
+- Grab the BA NA NA
+- Sort the items
+- Pick up the duck
+- Pick up the yellow duck
+- Place the object
+- Go above the banana please then grab the banana and pick it up
+- Catch yellow banana
+- Release the orange
+- smash the banana with the rubber duck.
+- get the blue ball
+- step on it
 
 ## intent:clarify
-- do this with [the [yellow](object_color) [banana](object_name)]
+- do this with the [yellow](object_color) [banana](object_name)]
 - robot don't use the [banana](object_name)
 - [banana](object_name) yellow
 - dear robert try again byt now at littel more to your [left](placement)
@@ -88,8 +128,12 @@
 - Curved metal tool called mouse
 - Long yellow fruit
 - White computer mouse
+- Duck
+- The orange please
+- computer mouse
 
 ## intent:none
+- What the hell ils this?
 - i don’t know
 - ok robot make me a smoothie
 - hi bot how many types of [objects](undefined_object) there
@@ -114,6 +158,16 @@
 - What can you do?
 - Stop, (and then repeat what I wanted in the first place)
 - Robot make a smoothie
+- what's the meaning of life?
+- could you pass the Turing test if you wanted?
+- What are you trying to do?
+- Not the red apple, i needed the orange
+- Group the objects according to weight
+- What's this?
+- Sort the objects
+- Catch the yellow banana please
+- Catch the banana with your right arm
+- I wanted the other one
 
 ## intent:find
 - is there a [yellow](object_color) rubber [duck](object_name)  on the table
@@ -121,8 +175,13 @@
 - locate
 - can you find me [something](undefined_object)  please
 - Show me the brown circle
+- Where is the yellow duck?
+- identify yellow duck
+- Show me the yellow duck
+- Can you identify the orange orange?
 
 ## intent:deny
+- Stop
 - nonono do **** instead
 - no no no no stop that
 - stop robot
@@ -141,10 +200,20 @@
 - Wrong, try again
 - Wrong task, reevaluate
 - Wrong task, please try again
+- Stop
+- Don't do that
+- That's not what i meant
+- BAD ROBOT!
+- Cancel
+- Not that orange but the other one
+- emergency button
+- No!
+- Cease your doing
+- Wrong target
 
 ## intent:move
 - move to the [left](placement)
-- Arrange fruits to the right and other items to the left
+- Arrange fruits to the [right](placement) and other items to the [left](placement)
 
 ## intent:show
 - look at this new [object](undefined_object)
@@ -173,3 +242,21 @@
 - Robot save the object for future tasks
 - Register yellow banana
 - Register white mouse
+- Scan new object on the board
+- Register as  grey mouse
+- This is a mouse.
+- Remember this object
+- Save this object
+- Store this object in memory
+- this is a mouse and save it
+- This is an orange
+- Remember the object your are holding as an orange
+- Save this fruit as an orange
+- Name this object an orange
+- When I ask for an orange, I would like the object you are holding
+- This is a computer Mouse. Remember it
+- learn white mouse
+- see that? that's an apple
+- Remember object
+- Scan thé table
+- Add the new object to your database please, Mr. robot
