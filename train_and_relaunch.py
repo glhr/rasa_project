@@ -61,7 +61,7 @@ def train_rasa(pipeline_name):
             #output=output_path,
             force_training=True,
             fixed_model_name=pipeline_name)
-    time = str(timer.took) * 0.001
+    time = str(timer.took * 0.001)
     return time
 
 
