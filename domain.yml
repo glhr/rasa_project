@@ -1,61 +1,52 @@
 actions:
 - action_session_start
-- execute_command
+- execute_learn
+- execute_find
+- execute_pickup
+- execute_move
 - cancel_command
 - received_command
-- received_command_confirmed
 - received_show
 - received_show_confirmed
 - utter_executed_command
 - utter_failed_command
 - utter_goodbye
+- utter_got_command
 - utter_got_confirmation
+- utter_got_denied
 - utter_got_description
 - utter_greet
-- utter_learned_synonym
+- utter_unknown_color
 - utter_prompt
 - utter_prompt_action
 - utter_prompt_color
 - utter_prompt_object
 - utter_received_command
 - utter_repeat_command
-- utter_unknown_action
-- utter_unknown_synonym
-- utter_user_denied
 entities:
 - object_color
 - object_name
 - placement
-- synonym_category
-- undefined_object
-forms:
-- clarification_form
 intents:
-- pick up:
-    triggers: received_command
+- pick up
 - bye
 - affirmative
 - none
-- move:
-    triggers: received_command
+- move
 - greetings
 - clarify
-- find:
-    triggers: received_command
+- find
 - deny
-- new_synonym_add
 - show
 responses:
-  execute_command:
-  - text: execute_command
-  received_command:
-  - text: received_command
-  received_command_confirmed:
-  - text: received_command_confirmed
-  received_command_denied:
-  - text: received_command_denied
-  received_show:
-  - text: received_show
+  execute_learn:
+  - text: execute_learn
+  execute_pickup:
+  - text: execute_pickup
+  execute_find:
+  - text: execute_find
+  execute_move:
+  - text: execute_move
   utter_executed_command:
   - text: Done! Here you go buddy.
   utter_failed_command:
@@ -70,13 +61,16 @@ responses:
   utter_got_description:
   - text: So the object I'm looking at is a {object_color} {object_name}. Thanks for
       helping me learn!
+  utter_got_denied:
+  - text: Damn, that sucks for me.
+  - text: Well, I guess I won't do that then.
+  - text: Well I'm glad I asked!
+  - text: Got it, I won't do that.
+  utter_got_command:
+  - text: Thanks for giving me a command.
   utter_greet:
-  - image: https://i.imgflip.com/17eo8m.jpg
-    text: Hey! How are you?
-  - image: https://i.imgflip.com/17eo8m.jpg
-    text: Yo, what's up?
-  utter_learned_synonym:
-  - text: I am going to save the following action "{action}" as a synonym for {synonym_category}
+  - text: Hey! How are you?
+  - text: Yo, what's up?
   utter_prompt:
   - text: What would you like me to do?
   - text: Feel free to order me around.
@@ -88,43 +82,26 @@ responses:
   - text: What object do you want me to {action} exactly?
   utter_prompt_color:
   - text: What color is the {object_name} you want me to {action}?
+  utter_unknown_color:
+  - text: Sorry, I don't know that color.
   utter_received_command:
   - text: Thanks for giving me a command.
   - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
-  - text: So just to make sure, you want me to {action} the {object_description}{placement}?
-  utter_unknown_action:
-  - text: Sorry, I don't know how to perform the action, {action}. Would you like
-      to add it as a synonym for either "find", "move", or "pick up"?
-  utter_unknown_synonym:
-  - text: Sorry, I don't know the category you are trying to map the verb to. You
-      need to map it to either "find", "move", or "pick up".
-  utter_user_denied:
-  - text: Damn, that sucks for me.
-  - text: Well, I guess I won't do that then.
-  - text: Well I'm glad I asked!
-  - text: Got it, I won't do that.
+  - text: So just to make sure, you want me to {action} the {object_name}{placement}?
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
 slots:
   action:
     auto_fill: false
-    initial_value: none
     type: text
   command_confirmed:
-    initial_value: false
     type: bool
   object_color:
-    initial_value: none
-    type: text
+    type: slots.ColorSlot
   object_name:
-    initial_value: none
-    type: text
+    type: slots.ObjectSlot
   placement:
-    initial_value: none
-    type: text
-  requested_slot:
-    type: unfeaturized
-  synonym_category:
-    type: unfeaturized
+    type: slots.PlacementSlot

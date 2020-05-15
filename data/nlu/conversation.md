@@ -1,9 +1,7 @@
 ## intent:greetings
-- how are you
 - whats up
 - whatsup
 - sup
-- are you around
 - hey there robot
 - hi what's up dummy boy
 - greetings kind sir

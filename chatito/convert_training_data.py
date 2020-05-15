@@ -17,8 +17,6 @@ files = {
 # TAKE CARE: output_md_file is overwritten automatically
 # *******************************************************
 
-output_md_file = '../data/nlu/find.md'
-
 for file in files.keys():
     output_md_file = files[file]
     input_training_file = file

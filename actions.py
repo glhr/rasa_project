@@ -90,6 +90,20 @@ def check_slots_for_command(tracker, dispatcher, action=None, check_confirm=True
     return False
 
 
+class UserUttered(Action):
+    """Fills the action slot when a message is received."""
+
+    def name(self) -> Text: return "user_uttered"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        global list_of_synonym
+        # dispatcher.utter_message(template="utter_received_command")
+        action = tracker.latest_message['intent'].get('name')
+
+        return [SlotSet("action", action)]
+
 class ActionSessionStart(Action):
 
     """Applies a conversation session start.
@@ -127,34 +141,82 @@ class ActionSessionStart(Action):
 
         return _events
 
+class ReceivedFind(Action):
+    def name(self) -> Text: return "execute_find"
 
-class ReceivedCommand(Action):
+    def run(self, dispatcher, tracker, domain):
 
-    def name(self) -> Text: return "received_command"
+        object_name = tracker.get_slot('object_name')
+        object_color = tracker.get_slot('object_color')
+        placement_origin = tracker.get_slot('placement')
+        if ENABLE_ROS:
+            nlp_node.send_command("show", object_name, object_color, placement_origin)
+            response, info = nlp_node.wait_for_response()
+
+            if response is not None:
+                dispatcher.utter_message(template="utter_executed_command")
+
+                imgpath = info
+                print("Image saved at {}".format(imgpath))
+                print("Found {} object: {}".format(response.desired_color, response.found_obj))
+
+                imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
+                dispatcher.utter_attachment(None, image=imgurl)
+
+                placement = ' in the {} area of the platform'.format(placement_origin) if placement_origin not in invalid_values else ''
+
+                if response.found_obj and response.desired_color not in invalid_values:
+                    dispatcher.utter_message(text="I found the {} object you asked for{}.".format(response.desired_color, placement))
+                elif response.found_obj and response.desired_color in invalid_values:
+                    dispatcher.utter_message(text="You didn't specify any color, but here are the objects I found{}.".format(placement))
+                elif not response.found_obj and response.desired_color not in invalid_values:
+                    dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
+                else:
+                    dispatcher.utter_message(text="This is what I can see.")
+            else:
+                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+
+
+class ReceivedLearn(Action):
+    def name(self) -> Text: return "execute_learn"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        global list_of_synonym
-        # dispatcher.utter_message(template="utter_received_command")
-        action = tracker.latest_message['intent'].get('name')
+
         object_name = tracker.get_slot('object_name')
         object_color = tracker.get_slot('object_color')
-        placement_origin = tracker.get_slot('placement_origin')
-        placement_destination = tracker.get_slot('placement_destination')
+        placement = tracker.get_slot('placement')
 
-        if placement_origin not in ['middle', 'left', 'right']:
-            placement_origin = 'any'
-        if placement_destination not in ['middle', 'left', 'right']:
-            placement_destination = 'any'
+        if ENABLE_ROS:
+            nlp_node.send_command(action="show",
+                                  object=object_name,
+                                  obj_color=object_color,
+                                  placement_origin="middle",
+                                  placement_destination=None)
 
-        check = check_slots_for_command(tracker, dispatcher, action)
+            response, info = nlp_node.wait_for_response()
 
-        return [
-            SlotSet("action", action),
-            SlotSet("placement_origin", placement_origin),
-            SlotSet("placement_destination", placement_destination)
-                ]
+            if response is not None:
+                imgpath = info
+                print("Image saved at {}".format(imgpath))
+                print("Found object: {}".format(response.desired_color, response.found_obj))
+
+                imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
+                dispatcher.utter_attachment(None, image=imgurl)
+
+                if response.found_obj:
+                    dispatcher.utter_message(text="This is the object I found in the middle of the platform.".format(response.desired_color))
+                    dispatcher.utter_message(template="utter_got_description")
+                else:
+                    dispatcher.utter_message(text="Sorry, I didn't find any object. Make sure the object you want to show me is in the middle of the platform.".format(response.desired_color))
+            else:
+                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(text="Error: {}".format(info))
+
+            return [AllSlotsReset()]
+        return []
 
 
 class ReceivedCommandConfirmed(Action):
@@ -173,166 +235,12 @@ class ReceivedCommandConfirmed(Action):
         ]
 
 
-class ExecuteCommand(Action):
+class ReceivedCancel(Action):
+    """Reset all slots if a command was denied."""
 
-    def name(self) -> Text: return "execute_command"
-
+    def name(self) -> Text: return "cancel_command"
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        action = tracker.get_slot('action')
-        logger.info(action)
-        logger.info(tracker.slots)
-        object_name = tracker.get_slot('object_name')
-        object_color = tracker.get_slot('object_color')
-        placement_origin = tracker.get_slot('placement_origin')
-        placement_destination = tracker.get_slot('placement_destination')
-
-        if check_slots_for_command(tracker, dispatcher) and ENABLE_ROS:
-
-            if action == "find" and placement_destination not in invalid_values and placement_origin in invalid_values:
-                placement_origin = placement_destination
-
-            nlp_node.send_command(action, object_name, object_color, placement_origin, placement_destination)
-            response, info = nlp_node.wait_for_response()
-
-            if response is not None:
-                if action == "find":
-                    dispatcher.utter_message(template="utter_executed_command")
-
-                    imgpath = info
-                    print("Image saved at {}".format(imgpath))
-                    print("Found {} object: {}".format(response.desired_color, response.found_obj))
-
-                    imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
-                    dispatcher.utter_attachment(None, image=imgurl)
-
-                    placement = ' in the {} area of the platform'.format(placement_origin) if placement_origin not in invalid_values else ''
-
-                    if response.found_obj and response.desired_color not in invalid_values:
-                        dispatcher.utter_message(text="I found the {} object you asked for{}.".format(response.desired_color, placement))
-                    elif response.found_obj and response.desired_color in invalid_values:
-                        dispatcher.utter_message(text="You didn't specify any color, but here are the objects I found{}.".format(placement))
-                    elif not response.found_obj and response.desired_color not in invalid_values:
-                        dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
-                    else:
-                        dispatcher.utter_message(text="This is what I can see.")
-                elif action == 'move':
-                    dispatcher.utter_message(text="Done with moving.")
-                elif action == 'pick up':
-                    dispatcher.utter_message(text="Done with pick up.")
-            else:
-                dispatcher.utter_message(template="utter_failed_command")
-                dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
-
         return [AllSlotsReset()]
-
-class ReceivedCommandDenied(Action):
-
-    def name(self) -> Text: return "received_command_denied"
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(template="utter_user_denied")
-        return [AllSlotsReset()]
-
-
-class ReceivedShow(Action):
-    def name(self) -> Text: return "received_show"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        action = tracker.latest_message['intent'].get('name')
-        object_name = tracker.get_slot('object_name')
-        object_color = tracker.get_slot('object_color')
-        placement_origin = tracker.get_slot('placement_origin')
-        placement_destination = tracker.get_slot('placement_destination')
-
-        if check_slots_for_command(tracker, dispatcher, action, check_confirm=False) and ENABLE_ROS:
-            nlp_node.send_command(action="show",
-                                  object=None,
-                                  obj_color=None,
-                                  placement_origin="middle",
-                                  placement_destination=None)
-
-            response, info = nlp_node.wait_for_response()
-
-            if response is not None:
-                imgpath = info
-                print("Image saved at {}".format(imgpath))
-                print("Found object: {}".format(response.desired_color, response.found_obj))
-
-                imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
-                dispatcher.utter_attachment(None, image=imgurl)
-
-                if response.found_obj:
-                    dispatcher.utter_message(text="This is the object I found in the middle of the platform.".format(response.desired_color))
-                    dispatcher.utter_message(template="utter_got_description",
-                                             object_color=object_color,
-                                             object_name=object_name)
-                else:
-                    dispatcher.utter_message(text="Sorry, I didn't find any object. Make sure the object you want to show me is in the middle of the platform.".format(response.desired_color))
-            else:
-                dispatcher.utter_message(template="utter_failed_command")
-                dispatcher.utter_message(text="Error: {}".format(info))
-
-        return [AllSlotsReset()]
-
-
-
-class ActionClarificationForm(FormAction):
-
-    def name(self) -> Text: return "clarification_form"
-
-    @staticmethod
-    def required_slots(tracker: Tracker) -> List[Text]:
-        """A list of required slots that the form has to fill"""
-
-        return ["synonym_category"]
-
-    @staticmethod
-    def synonym_db() -> List[Text]:
-        """Database of supported categories for synonyms"""
-
-        return [
-            "find",
-            "move",
-            "pick up"
-        ]
-
-    def slot_mappings(self):
-        return {
-            "synonym_category": self.from_entity(entity="synonym_category", intent=["clarification", "new_synonym_add"])}
-
-    def validate_synonym(self, value: Text, dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> Dict[Text, Any]:
-        """Validate synonym category value."""
-
-        slot_values = self.extract_other_slots(dispatcher, tracker, domain)
-
-        if value.lower() in self.synonym_db():
-            # validation succeeded, set the value of the "synonym category" slot to value
-            return [SlotSet('synonym_category', value)]
-        else:
-            dispatcher.utter_message(template="utter_unknown_synonym")
-            # validation failed, set this slot to None, meaning the user will be asked for the slot again
-            return [SlotSet('synonym_category', None)]
-
-    def submit(self, dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict]:
-
-        action = tracker.get_slot('action')
-        synonym_category = tracker.get_slot('synonym_category')
-
-        """Define what the form has to do after all required slots are filled"""
-        add_synonym(synonym_category, action)       # saves the new action as a synonym for the specific category
-        #print(synonym_category, action)
-
-        dispatcher.utter_message(template="utter_learned_synonym")
-        return []

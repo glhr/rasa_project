@@ -1,48 +1,103 @@
-## story_name    <!-- name of the story - just for debugging -->
-* greetings
-   - utter_greeting
-   - utter_prompt
-* pick up{"object_color": "purple", "object_name": "cherry"}  <!-- user utterance, in format intent{entities} -->
-   - received_command
-   - utter_repeat_command
-* affirmative
-   - execute_command        <!-- action that the bot should execute -->
-* bye
-   - utter_bye
 
+
+<!-- out of scope talk -->
 ## story
 * none
    - utter_prompt
 
-## story
-* greetings
-  - utter_greeting
+## story_name
+* none
+  - utter_prompt
+* none
   - utter_prompt
 
-## story
-* bye
-  - utter_bye
+<!-- cancel command -->
 
 ## deny
 * deny
   - cancel_command
-  - utter_user_denied
+  - utter_got_denied
+
+## deny
+* deny{"object_name": "banana"}
+  - utter_repeat_command
+
+## deny
+* deny{"object_color": "blue"}
+  - utter_repeat_command
+
+<!-- unknown color -->
+* show{"object_color": "pink"}
+  - utter_unknown_color
+
+* find{"object_color": "white"}
+  - utter_unknown_color
+
+* pickup{"object_color": "white"}
+  - utter_unknown_color
+
+<!-- SHOW: object name or color is missing -->
+## show
+* show{"object_name": "apple"}
+  - utter_prompt_color
 
 ## show
-* show{"object_color": "pink", "object_name": "orange"}
+* show{"object_color": "red"}
+  - utter_prompt_object
+* clarify{"object_name": "banana", "object_color": "yellow"}
   - utter_got_description
-  - execute_command
+  - execute_learn
+
+## show
+* show{"object_color": "green"}
+  - utter_prompt_object
+* clarify{"object_name": "banana", "object_color": "blue"}
+  - utter_got_description
+  - execute_learn
+
+## show
+* show{"object_color": "pink"}
+  - utter_unknown_color
+* clarify{"object_color": "blue"}
+  - utter_prompt_object
+* clarify{"object_name": "banana"}
+  - utter_got_description
+  - execute_learn
+
+## show
+* show{"object_name": "banana"}
+  - utter_prompt_color
+* clarify{"object_name": "apple", "object_color": "purple"}
+  - utter_got_description
+  - execute_learn
+
+## show
+* show{"object_color": "black", "object_name": "banana"}
+  - utter_got_description
+  - execute_learn
+
+<!-- confirm pickup -->
 
 ## story_name
-* greetings
-  - utter_greeting
-  - utter_prompt
 * none
   - utter_prompt
 * pick up{"object_name": "apple"}
-  - received_command
   - utter_prompt_color
 * affirmative
-  - execute_command
-* bye
-  - utter_bye
+  - utter_prompt_color
+* clarify{"object_name": "orange", "object_color": "orange"}
+  - utter_repeat_command
+* affirmative
+  - execute_pickup
+
+## story_name
+* pick up{"object_color": "brown", "object_name": "strawberry"}
+   - utter_repeat_command
+* affirmative
+   - execute_pickup
+
+## story_name
+* pick up{"object_color": "black", "object_name": "kiwi"}
+   - utter_repeat_command
+* affirmative
+   - execute_pickup

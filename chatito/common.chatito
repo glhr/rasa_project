@@ -50,13 +50,13 @@
     ~[adverb]
 
 ~[colored object]
-    *[10%] @[object_name] ~[which] is @[object_color]
-    *[10%] @[object_name] ~[which] has the color @[object_color]
-    *[10%] @[object_name] ~[which] has a @[object_color] color
-    *[10%] @[object_name] of color @[object_color]
-    @[object_color?] @[object_name]
+    *[5%] @[object_name] ~[which] is @[object_color]
+    *[5%] @[object_name] ~[which] has the color @[object_color]
+    *[5%] @[object_name] ~[which] has a @[object_color] color
+    *[5%] @[object_name] of color @[object_color]
+    *[50%] @[object_color?] @[object_name]
     @[object_name]
-    @[object_color?] @[undefined_object]
+    @[object_color?] @[object_name]
 
 ~[the]
     a
@@ -66,7 +66,6 @@
     that
     this
     some
-    a single
 
 ~[located]
     placed
@@ -82,9 +81,10 @@
     *[50%] ~[to the right]
 
 ~[on the left]
+    *[20%] on the @[placement]
+    *[10%] on the @[placement]
     from the @[placement]
     ~[located?] in the @[placement]
-    on the @[placement]
     ~[located?] at the @[placement]
     somewhere on the @[placement]
     ~[located?] over there in the @[placement]
@@ -105,19 +105,20 @@
     to somewhere on the @[placement]
 
 ~[find]
-    find
+    *[30%] find
+    *[10%] look for
+    *[10%] search for
     detect
     recognize
-    look for
-    search for
     locate
     identify
     spot
     pinpoint
-    observe
-    see
-    perceive
-    notice
+
+~[can you see]
+    *[50%] can you see
+    can you perceive
+    can you notice
 
 ~[then]
     after that
@@ -147,9 +148,9 @@
     pick ~[it?] up
 
 ~[pick up]
-    pick up
+    *[20%] pick up
     pick
-    grab
+    *[20%] grab
     bring
     lift
     raise
@@ -201,7 +202,6 @@
 @[object_name]
     orange
     apple
-    orange
     apricot
     kiwi
     pineapple
@@ -213,11 +213,21 @@
     watermelon
     pepper
     tomato
-
-@[undefined_object]
     fruit
     object
     thing
+    ball
+    hammer
+    glass
+    donut
+    duck
+    pizza
+    box
+    shape
+    sphere
+    tool
+    brick
+
 
 ~[it]
     it
