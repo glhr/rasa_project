@@ -4,17 +4,17 @@
 - how is it going today
 - hello robert
 - hello robot what's your name
-- Hey Robot (to activate)
-- Hi
-- Hi Robot
-- Salutations, what may I call you?
-- Hello you !
-- Hey. How you doing?
-- Hello what is your name ? Are you ready to work for me
-- Hello!
-- Hallo
-- Hello robot
-- Hello  I Don t  like to speak to robots  
+- hey robot (to activate)
+- hi
+- hi robot
+- salutations what may i call you
+- hello you
+- hey how you doing
+- hello what is your name  are you ready to work for me
+- hello
+- hallo
+- hello robot
+- hello  i don t  like to speak to robots  
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the table
@@ -60,177 +60,177 @@
 - redo pickup [red](object_color) [apple](object_name)
 - pass the fruit
 - reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up [object](undefined_object)
-- Hey Robot. Pick up green apple.
-- Hey Robot. Pick up yellow banana.
-- Pick up mouse.
-- Pick the yellow duck
-- Find the banana and pick it up
+- hey robot pick up green apple
+- hey robot pick up yellow banana
+- pick up mouse
+- pick the yellow duck
+- find the banana and pick it up
 - pick the green plate
 - pick the yellow banana
-- Pick the desired item by its color
-- Pick up the item by color or shape
-- Give me a banana please
-- Pick the banana
-- Handover the banana
-- Give me the banana
-- Catch the banana and raise it
-- Pick up the yellow fruits.
-- Pick up the yellow duck, please.
-- Pick up the yellow banana and then give it to me.
-- When someone asks for a grey mouse, you have to pick up this object.
-- Smash the apple
-- Pill the banana
-- Robot please take the green apple
-- Lift the banana
-- Grab the object in front of you.
-- Hand me the wooden hammer
-- Pick up the yellow banana
-- Pick up the yellow banana
+- pick the desired item by its color
+- pick up the item by color or shape
+- give me a banana please
+- pick the banana
+- handover the banana
+- give me the banana
+- catch the banana and raise it
+- pick up the yellow fruits
+- pick up the yellow duck please
+- pick up the yellow banana and then give it to me
+- when someone asks for a grey mouse you have to pick up this object
+- smash the apple
+- pill the banana
+- robot please take the green apple
+- lift the banana
+- grab the object in front of you
+- hand me the wooden hammer
+- pick up the yellow banana
+- pick up the yellow banana
 - eat the banana
 - throw the peel on the floor
-- Pick up the green apple
-- Please give me the green apple
-- Green apple please
-- Hand me the green apple
-- Grab the banana
-- Destroy the banana
-- Give me the yellow ball
-- Throw the red ball on the floor
-- Pick up the banana
+- pick up the green apple
+- please give me the green apple
+- green apple please
+- hand me the green apple
+- grab the banana
+- destroy the banana
+- give me the yellow ball
+- throw the red ball on the floor
+- pick up the banana
 - open the banana
-- Pick up the apple please
-- Pick up the red tomato	pick up the banana
-- Pick up the banana
-- Pick up the yellow duckie
-- Pick up the banana
-- Could you please pick up the hammer?
-- Please pick up the banana.
-- Can you give me the hammer?
-- Give me any fruit
-- Pick up the orange next to the banana
-- Pick you the banana
-- Grab the banana for me
+- pick up the apple please
+- pick up the red tomato	pick up the banana
+- pick up the banana
+- pick up the yellow duckie
+- pick up the banana
+- could you please pick up the hammer
+- please pick up the banana
+- can you give me the hammer
+- give me any fruit
+- pick up the orange next to the banana
+- pick you the banana
+- grab the banana for me
 - grab yellow banana
-- Can you give me the banana
-- Lift up the banana
-- Grab the BA NA NA
-- Sort the items
-- Pick up the duck
-- Pick up the yellow duck
-- Place the object
-- Go above the banana please then grab the banana and pick it up
-- Catch yellow banana
-- Release the orange
-- smash the banana with the rubber duck.
+- can you give me the banana
+- lift up the banana
+- grab the ba na na
+- sort the items
+- pick up the duck
+- pick up the yellow duck
+- place the object
+- go above the banana please then grab the banana and pick it up
+- catch yellow banana
+- release the orange
+- smash the banana with the rubber duck
 - get the blue ball
 - step on it
-- Give me the hammer.
-- Please give me the banana.
-- Hand over the pear.
-- Give apple.
-- Pickup the shiny red ball
-- Pickup banana.
-- Pick up the blue object or pick up the cyan object
-- Pick up the yellow banana
-- Pick up the yellow banana or
-- Can you please hand me the green apple?
-- Can you please give me the green apple?
-- Give me a green apple.
-- Pick up the banana
-- Take the red cube
-- Take a yellow banana
-- Hi! Can I get an apple?
-- Can I get a green apple?
-- Take a banana
-- Give me all red stones (?) on the table.
-- Give me the yellow banana.
-- Give me a yellow banana.
-- Give me the yellow banana on the table.
-- Hand me the yellow banana.
-- Please give me the yellow banana.
-- Hand over the red tomato.
-- Pick up the yellow banana.
-- Grab the yellow banana.
-- Obtain the yellow banana.
-- Acquire the yellow banana.
-- Please pick up the red rubber duck
-- Go to the banana and pick it up
-- Pick up yellow banana
-- Pick up the hammer
-- Pick up the fucking banana!
-- Give me the duck
-- Pleas give me the yellow duck.
-- Grab the yellow banana
-- Hit the rubber duck with the hammer.
-- Take the banana
+- give me the hammer
+- please give me the banana
+- hand over the pear
+- give apple
+- pickup the shiny red ball
+- pickup banana
+- pick up the blue object or pick up the cyan object
+- pick up the yellow banana
+- pick up the yellow banana or
+- can you please hand me the green apple
+- can you please give me the green apple
+- give me a green apple
+- pick up the banana
+- take the red cube
+- take a yellow banana
+- hi can i get an apple
+- can i get a green apple
+- take a banana
+- give me all red stones () on the table
+- give me the yellow banana
+- give me a yellow banana
+- give me the yellow banana on the table
+- hand me the yellow banana
+- please give me the yellow banana
+- hand over the red tomato
+- pick up the yellow banana
+- grab the yellow banana
+- obtain the yellow banana
+- acquire the yellow banana
+- please pick up the red rubber duck
+- go to the banana and pick it up
+- pick up yellow banana
+- pick up the hammer
+- pick up the fucking banana
+- give me the duck
+- pleas give me the yellow duck
+- grab the yellow banana
+- hit the rubber duck with the hammer
+- take the banana
 - drag an end-effector to the object
-- Can you help me and give me the hammer please?
-- Can I have a pear please?
-- Would you help me grab this glass?
-- There’s a banana in the middle of your desk, can you grab it please?
-- Take the banana.
-- Grab the banana.
-- Give me a fruit please.
-- Could you give me all the fruits
-- Please give the yellow duck
-- Pick up the banana
-- Pick the banana.
-- Give me the hammer.
-- Try to balance the apple on the orange.
-- Throw me the orange.
-- Lower the hand, close your fingers
-- Use your left arm to pick up the banana
-- Pick up the banana
-- Grab the yellow banana and lift it up
-- Hand me the banana
-- Pick up banana
+- can you help me and give me the hammer please
+- can i have a pear please
+- would you help me grab this glass
+- there’s a banana in the middle of your desk can you grab it please
+- take the banana
 - grab the banana
-- Give me the hammer.
-- Pick up the banana.
-- Pick up a random object.
-- Hand me the hammer
-- Squeeze the rubber duck
-- Throw me the pear
-- Smack the banana with the hammer (lmao)
-- Point at the yellow banana
-- Point om yellow hammer
-- Pick up The yellow banana
-- Take one object on the table
-- Take the yellow duck
-- Take the yellow banana
-- James give me the yellow duck
-- James remove the yellow banana
-- Pick up the yellow duck.
-- Grab the banana.
-- Pick up the banana.
-- Take the banana.
-- Move your hands towards the banana and grab it and move your hands to upwards
-- Grab the banana gently without crushing it.
+- give me a fruit please
+- could you give me all the fruits
+- please give the yellow duck
+- pick up the banana
+- pick the banana
+- give me the hammer
+- try to balance the apple on the orange
+- throw me the orange
+- lower the hand close your fingers
+- use your left arm to pick up the banana
+- pick up the banana
+- grab the yellow banana and lift it up
+- hand me the banana
+- pick up banana
+- grab the banana
+- give me the hammer
+- pick up the banana
+- pick up a random object
+- hand me the hammer
+- squeeze the rubber duck
+- throw me the pear
+- smack the banana with the hammer (lmao)
+- point at the yellow banana
+- point om yellow hammer
+- pick up the yellow banana
+- take one object on the table
+- take the yellow duck
+- take the yellow banana
+- james give me the yellow duck
+- james remove the yellow banana
+- pick up the yellow duck
+- grab the banana
+- pick up the banana
+- take the banana
+- move your hands towards the banana and grab it and move your hands to upwards
+- grab the banana gently without crushing it
 - raises the banana
 - drop the banana
-- please, peel the apple and the pear
+- please peel the apple and the pear
 - take the green apple
-- Can you give me all red objects ?
-- Lift the yellow banana and then drop it
-- Give me the  hammer.
-- Catch the computer mouse
-- Catch the banana and put it back down
-- Put the green apple on the brown circle
-- Put the apple on the circle
-- Put the jar of jam in the correct position
-- Gather the balls
-- Hit the rock with the hammer
-- Put the duck on the jar of jam
-- Peel the banana
-- Remove objects which aren't edible
-- Find the red yogurt
-- Catch the banana
-- Grab the banana with your gripper
-- Can you give me this fruit or this object
-- Organize and sort the fruits by color or type
-- Cut the fruit
-- Robot give me the red fruit
-- Robot take the banana on the table in front of you
+- can you give me all red objects
+- lift the yellow banana and then drop it
+- give me the  hammer
+- catch the computer mouse
+- catch the banana and put it back down
+- put the green apple on the brown circle
+- put the apple on the circle
+- put the jar of jam in the correct position
+- gather the balls
+- hit the rock with the hammer
+- put the duck on the jar of jam
+- peel the banana
+- remove objects which aren't edible
+- find the red yogurt
+- catch the banana
+- grab the banana with your gripper
+- can you give me this fruit or this object
+- organize and sort the fruits by color or type
+- cut the fruit
+- robot give me the red fruit
+- robot take the banana on the table in front of you
 
 
 
@@ -239,20 +239,20 @@
 - robot don't use the [banana](object_name)
 - [banana](object_name) yellow
 - dear robert try again byt now at littel more to your [left](placement)
-- Yellow banana
-- Curved metal tool called mouse
-- Long yellow fruit
-- White computer mouse
-- Duck
-- The orange please
+- yellow banana
+- curved metal tool called mouse
+- long yellow fruit
+- white computer mouse
+- duck
+- the orange please
 - computer mouse
-- Yellow banana
-- Yellow duck
-- Yellow duck
-- Right
+- yellow banana
+- yellow duck
+- yellow duck
+- right
 
 ## intent:none
-- What the hell ils this?
+- what the hell ils this
 - i don’t know
 - ok robot make me a smoothie
 - hi bot how many types of [objects](undefined_object) there
@@ -264,68 +264,68 @@
 - organize items by color
 - cleanup table
 - re do original task 	
-- Hey Robot. Record.
-- What can you do?
-- Clean up the table
-- Change the command ?
-- By name of the item and thereafter its shape
-- Re-program it, I guess
-- Nothing.
-- I would look and walk past it.
-- I would wait for the task to be complete and then ask again.
-- I would use the name of the object.
-- What can you do?
-- Stop, (and then repeat what I wanted in the first place)
-- Robot make a smoothie
-- what's the meaning of life?
-- could you pass the Turing test if you wanted?
-- What are you trying to do?
-- Not the red apple, i needed the orange
-- Group the objects according to weight
-- What's this?
-- Sort the objects
-- Catch the yellow banana please
-- Catch the banana with your right arm
-- I wanted the other one
-- Will u take over the world some day?
-- With patience because robots are people too
-- I don't know
-- What is your purpose?
-- Can you play with me ?
-- I love your arms !
-- Hi robot, you look kind of weird to me!
-- Leave me alone !
-- Stupid!
-- What's this ?
-- What does the duck sound like ?
-- Remember these instructions
-- listen to me and do what I say
-- Are you friendly?
-- James, what can you do for me?
+- hey robot record
+- what can you do
+- clean up the table
+- change the command
+- by name of the item and thereafter its shape
+- re-program it i guess
+- nothing
+- i would look and walk past it
+- i would wait for the task to be complete and then ask again
+- i would use the name of the object
+- what can you do
+- stop (and then repeat what i wanted in the first place)
+- robot make a smoothie
+- what's the meaning of life
+- could you pass the turing test if you wanted
+- what are you trying to do
+- not the red apple i needed the orange
+- group the objects according to weight
+- what's this
+- sort the objects
+- catch the yellow banana please
+- catch the banana with your right arm
+- i wanted the other one
+- will u take over the world some day
+- with patience because robots are people too
+- i don't know
+- what is your purpose
+- can you play with me
+- i love your arms
+- hi robot you look kind of weird to me
+- leave me alone
+- stupid
+- what's this
+- what does the duck sound like
+- remember these instructions
+- listen to me and do what i say
+- are you friendly
+- james what can you do for me
 
 ## intent:find
 - is there a [yellow](object_color) rubber [duck](object_name)  on the table
 - can you locate the [yellow](object_color) [banana](object_name) please
 - locate
 - can you find me [something](undefined_object)  please
-- Show me the brown circle
-- Where is the yellow duck?
+- show me the brown circle
+- where is the yellow duck
 - identify yellow duck
-- Show me the yellow duck
-- Can you identify the orange orange?
-- Identify the green ball
-- Can you find me a Human to speak With
-- Show me the green apple
-- Where is the orange orange?
-- Where is the  the blue cube ?
-- Identify new object
-- Please identify the green apple.
+- show me the yellow duck
+- can you identify the orange orange
+- identify the green ball
+- can you find me a human to speak with
+- show me the green apple
+- where is the orange orange
+- where is the  the blue cube
+- identify new object
+- please identify the green apple
 - identify the yellow ball
-- Where is your head ?
-- What is in a shape of a ball and is in orange colour that u can find on the table?
+- where is your head
+- what is in a shape of a ball and is in orange colour that u can find on the table
 
 ## intent:deny
-- Stop
+- stop
 - nonono do **** instead
 - no no no no stop that
 - stop robot
@@ -338,60 +338,60 @@
 - undo last action
 - undo
 - that's wrong
-- Hey Robot. Undo last job.
-- Stop right there buddy
+- hey robot undo last job
+- stop right there buddy
 - stop
-- Wrong, try again
-- Wrong task, reevaluate
-- Wrong task, please try again
-- Stop
-- Don't do that
-- That's not what i meant
-- BAD ROBOT!
-- Cancel
-- Not that orange but the other one
+- wrong try again
+- wrong task reevaluate
+- wrong task please try again
+- stop
+- don't do that
+- that's not what i meant
+- bad robot
+- cancel
+- not that orange but the other one
 - emergency button
-- No!
-- Cease your doing
-- Wrong target
-- Stop! That’s wrong...
-- Abort. <Repeat command>
-- Cancel. <Repeat command>
-- Stop. <Repeat command>
-- Stop.
-- Stop, that is the wrong item.
-- Stop ! Wrong tank.
-- It is not OK
-- Abort action
-- Stop
-- Don't do that.
-- You are doing the wrong task, please cancel.
-- Stop
-- But no, take the banana you idiot !
-- No, not that, the banana please.
-- No, it’ not what I want, I want you to take the banana!
-- stop this, do what I said before
-- No, stop!
-- incorrect, pick up the yellow banana.
-- No, I said the yellow duck
-- Error
-- No
-- No. Take the orange.
-- Stop. Put the banana down and pick up the orange.
-- Wrong try again
-- James undo
-- Don't take this object but this one (right object)'
+- no
+- cease your doing
+- wrong target
+- stop that’s wrong
+- abort <repeat command>
+- cancel <repeat command>
+- stop <repeat command>
 - stop
-- Your action is incorrect
-- Robot can you try again
-- Try one more time
+- stop that is the wrong item
+- stop  wrong tank
+- it is not ok
+- abort action
+- stop
+- don't do that
+- you are doing the wrong task please cancel
+- stop
+- but no take the banana you idiot
+- no not that the banana please
+- no it’ not what i want i want you to take the banana
+- stop this do what i said before
+- no stop
+- incorrect pick up the yellow banana
+- no i said the yellow duck
+- error
+- no
+- no take the orange
+- stop put the banana down and pick up the orange
+- wrong try again
+- james undo
+- don't take this object but this one (right object)'
+- stop
+- your action is incorrect
+- robot can you try again
+- try one more time
 
 ## intent:move
 - move to the [left](placement)
-- Arrange fruits to the [right](placement) and other items to the [left](placement)
-- Reach down to the banana and clasp it. Then raise it and move it towards me.
-- move into position above the banana, move down, close gripper, move up, move left.
-- Sort the object by size in increasing order form left to right.
+- arrange fruits to the [right](placement) and other items to the [left](placement)
+- reach down to the banana and clasp it then raise it and move it towards me
+- move into position above the banana move down close gripper move up move left
+- sort the object by size in increasing order form left to right
 
 ## intent:show
 - look at this new [object](undefined_object)
@@ -413,63 +413,63 @@
 - learn [sliver](object_color)  can
 - an [apple](object_name) is an irregularly round [object](undefined_object) with a predominantly [red](object_color) color
 - add the [object](undefined_object) to data base
-- Save.
-- That is a mouse
+- save
+- that is a mouse
 - store new object in memory
-- Save into your hard drive
-- Robot save the object for future tasks
-- Register yellow banana
-- Register white mouse
-- Scan new object on the board
-- Register as  grey mouse
-- This is a mouse.
-- Remember this object
-- Save this object
-- Store this object in memory
+- save into your hard drive
+- robot save the object for future tasks
+- register yellow banana
+- register white mouse
+- scan new object on the board
+- register as  grey mouse
+- this is a mouse
+- remember this object
+- save this object
+- store this object in memory
 - this is a mouse and save it
-- This is an orange
-- Remember the object your are holding as an orange
-- Save this fruit as an orange
-- Name this object an orange
-- When I ask for an orange, I would like the object you are holding
-- This is a computer Mouse. Remember it
+- this is an orange
+- remember the object your are holding as an orange
+- save this fruit as an orange
+- name this object an orange
+- when i ask for an orange i would like the object you are holding
+- this is a computer mouse remember it
 - learn white mouse
-- see that? that's an apple
-- Remember object
-- Scan thé table
-- Add the new object to your database please, Mr. robot
-- Remember this white mouse.
-- Save this white mouse.
-- Save this white mouse to memory.
-- This is an apple, Can you say apple?
-- This is a computer mouse.
-- This is a new item. It is a computer mouse.
-- This is a grey mouse. Please remember it.
-- This is a mouse
-- Remember the mouse.
+- see that that's an apple
+- remember object
+- scan thé table
+- add the new object to your database please mr robot
+- remember this white mouse
+- save this white mouse
+- save this white mouse to memory
+- this is an apple can you say apple
+- this is a computer mouse
+- this is a new item it is a computer mouse
+- this is a grey mouse please remember it
+- this is a mouse
+- remember the mouse
 - take pictures using camera and save the object
-- Remember
-- Save detected object as mouse
-- Identify and save
-- It is a mouse for computer
+- remember
+- save detected object as mouse
+- identify and save
+- it is a mouse for computer
 - add tags for new object
-- Hey, look at that, it’s a mouse, ok? Can you remember  it?
-- Look, this small grey object here is called a mouse. Got it?
-- Here is a new think for you to remember: this is a mouse. A mouse
-- This is a white/black computer mouse
-- Remember this object, it is a mouse
-- It's a mouth, remember.
-- This is a It mouse
-- the object in front of you is a mouse. store this definition
-- I want you to save in your memory an object that is red coloured and in a round shape and it is called an apple
-- James, save the object as: computer mouse, tag: computer peripheral,  wireless, three button, white.
-- Remember this new object . It is called a computer mouse. The colour of This mouse is black with white top. It’s shape is oval and 8cm length .
-- Remember, this is a mouse.
-- This is a mouse.
-- This object is called a mouse.
-- This is an object
-- This object is a computer mouse
-- Robot memorize the object yellow banana shaped like a croissant
-- This is a fruit
+- hey look at that it’s a mouse ok can you remember  it
+- look this small grey object here is called a mouse got it
+- here is a new think for you to remember: this is a mouse a mouse
+- this is a white/black computer mouse
+- remember this object it is a mouse
+- it's a mouth remember
+- this is a it mouse
+- the object in front of you is a mouse store this definition
+- i want you to save in your memory an object that is red coloured and in a round shape and it is called an apple
+- james save the object as: computer mouse tag: computer peripheral  wireless three button white
+- remember this new object  it is called a computer mouse the colour of this mouse is black with white top it’s shape is oval and 8cm length
+- remember this is a mouse
+- this is a mouse
+- this object is called a mouse
+- this is an object
+- this object is a computer mouse
+- robot memorize the object yellow banana shaped like a croissant
+- this is a fruit
 - this object is used to control a computer
 - it's called an orange
