@@ -8,6 +8,11 @@
 - Hi
 - Hi Robot
 - Salutations, what may I call you?
+- Hello you !
+- Hey. How you doing?
+- Hello what is your name ? Are you ready to work for me
+- Hello!
+- Hallo
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the table
@@ -104,7 +109,6 @@
 - Pick you the banana
 - Grab the banana for me
 - grab yellow banana
-- Hallo
 - Can you give me the banana
 - Lift up the banana
 - Grab the BA NA NA
@@ -118,6 +122,47 @@
 - smash the banana with the rubber duck.
 - get the blue ball
 - step on it
+- Give me the hammer.
+- Please give me the banana.
+- Hand over the pear.
+- Give apple.
+- Pickup the shiny red ball
+- Pickup banana.
+- Pick up the blue object or pick up the cyan object
+- Pick up the yellow banana
+- Pick up the yellow banana or
+- Can you please hand me the green apple?
+- Can you please give me the green apple?
+- Give me a green apple.
+- Pick up the banana
+- Take the red cube
+- Take a yellow banana
+- Hi! Can I get an apple?
+- Can I get a green apple?
+- Take a banana
+- Give me all red stones (?) on the table.
+- Give me the yellow banana.
+- Give me a yellow banana.
+- Give me the yellow banana on the table.
+- Hand me the yellow banana.
+- Please give me the yellow banana.
+- Hand over the red tomato.
+- Pick up the yellow banana.
+- Grab the yellow banana.
+- Obtain the yellow banana.
+- Acquire the yellow banana.
+- Please pick up the red rubber duck
+- Go to the banana and pick it up
+- Pick up yellow banana
+- Pick up the hammer
+- Pick up the fucking banana!
+- Give me the duck
+- Pleas give me the yellow duck.
+- Grab the yellow banana
+- Hit the rubber duck with the hammer.
+- Take the banana
+- drag an end-effector to the object
+
 
 ## intent:clarify
 - do this with the [yellow](object_color) [banana](object_name)]
@@ -131,6 +176,7 @@
 - Duck
 - The orange please
 - computer mouse
+- Yellow banana
 
 ## intent:none
 - What the hell ils this?
@@ -168,6 +214,10 @@
 - Catch the yellow banana please
 - Catch the banana with your right arm
 - I wanted the other one
+- Will u take over the world some day?
+- With patience because robots are people too
+- I don't know
+- What is your purpose?
 
 ## intent:find
 - is there a [yellow](object_color) rubber [duck](object_name)  on the table
@@ -179,6 +229,7 @@
 - identify yellow duck
 - Show me the yellow duck
 - Can you identify the orange orange?
+- Identify the green ball
 
 ## intent:deny
 - Stop
@@ -210,10 +261,25 @@
 - No!
 - Cease your doing
 - Wrong target
+- Stop! That’s wrong...
+- Abort. <Repeat command>
+- Cancel. <Repeat command>
+- Stop. <Repeat command>
+- Stop.
+- Stop, that is the wrong item.
+- Stop ! Wrong tank.
+- It is not OK
+- Abort action
+- Stop
+- Don't do that.
+- You are doing the wrong task, please cancel.
+- Stop
 
 ## intent:move
 - move to the [left](placement)
 - Arrange fruits to the [right](placement) and other items to the [left](placement)
+- Reach down to the banana and clasp it. Then raise it and move it towards me.
+- move into position above the banana, move down, close gripper, move up, move left.
 
 ## intent:show
 - look at this new [object](undefined_object)
@@ -260,3 +326,20 @@
 - Remember object
 - Scan thé table
 - Add the new object to your database please, Mr. robot
+- Remember this white mouse.
+- Save this white mouse.
+- Save this white mouse to memory.
+- This is an apple, Can you say apple?
+- This is a computer mouse.
+- This is a new item. It is a computer mouse.
+- This is a grey mouse. Please remember it.
+- This is a mouse
+- Remember the mouse.
+- take pictures using camera and save the object
+- Remember
+- Save detected object as mouse
+- Identify and save
+- It is a mouse for computer
+- add tags for new object
+- Identify new object
+- Please identify the green apple.
