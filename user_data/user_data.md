@@ -1,7 +1,6 @@
 ## intent:greetings
 - hello boy
 - hello robot
-- how is it going today
 - hello robert
 - hello robot what's your name
 - hey robot (to activate)
@@ -10,19 +9,20 @@
 - salutations what may i call you
 - hello you
 - hey how you doing
-- hello what is your name  are you ready to work for me
+- hello what is your name are you ready to work for me
 - hello
 - hallo
 - hello robot
-- hello  i don t  like to speak to robots  
+- hello i don t like to speak to robots
+- hey robot record
 
 ## intent:pick up
-- pickup the [yellow](object_color) [banana](object_name) from the table
+- pickup the [yellow](object_color) [banana](object_name) from the [table](placement)
 - find the [banana](object_name) and lift it up
 - please give me the [duck](object_name)
 - hey robot please give me the [yellow](object_color) [duck](object_name)
 - please pick up the [yellow](object_color) [banana](object_name)
-- yeet the [hammer](object_name) off the table
+- yeet the [hammer](object_name) off the [table](placement)
 - can you pick up the [banana](object_name)
 - can you pick up the [apple](object_name)
 - can you pickup the [green](object_color) [apple](object_name)
@@ -41,251 +41,244 @@
 - please pick it up slowly
 - try to pick it up scan its shape and lable it as a [mouse](object_name) in your database
 - pick up the [hammer](object_name)
-- use it to knock everything from the table onto the floor
 - pick up the [yellow](object_color) rubber [ducky](object_name) with your left arm
 - move your right arm over the [banana](object_name)
 - pick it up
 - grab it
 - please pick up the [banana](object_name) and give it to me
-- robert at the [mittel](placement)  af the table a rectangular [object](undefined_object) named [mouse](object_name) is placed try to handle it to me its about 10 cm long and 5 cm wide and 5 cm heigh
-- pickup [orange](object_color) orange
+- robert at the [mittel](placement) af the table a rectangular [object](object_name) named [mouse](object_name) is placed try to handle it to me its about 10 cm long and 5 cm wide and 5 cm heigh
+- pickup [orange](object_color) [orange](object_name)
 - move
 - grab
-- can you pick up this [black](object_color) [object](undefined_object) that stands before you
-- pick up the [yellow](object_color) [banana](object_name) that is placed atop the table
+- can you pick up this [black](object_color) [object](object_name) that stands before you
+- pick up the [yellow](object_color) [banana](object_name) that is placed atop the [table](placement)
 - can you pick up the [banana](object_name) please
 - pickup [yellow](object_color) [banana](object_name)
 - pickup [red](object_color) [apple](object_name)
 - pickup [yellow](object_color) [banana](object_name)
 - redo pickup [red](object_color) [apple](object_name)
-- pass the fruit
-- reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up [object](undefined_object)
-- hey robot pick up green apple
-- hey robot pick up yellow banana
-- pick up mouse
-- pick the yellow duck
-- find the banana and pick it up
-- pick the green plate
-- pick the yellow banana
-- pick the desired item by its color
-- pick up the item by color or shape
-- give me a banana please
-- pick the banana
-- handover the banana
-- give me the banana
-- catch the banana and raise it
-- pick up the yellow fruits
-- pick up the yellow duck please
-- pick up the yellow banana and then give it to me
-- when someone asks for a grey mouse you have to pick up this object
-- smash the apple
-- pill the banana
-- robot please take the green apple
-- lift the banana
-- grab the object in front of you
-- hand me the wooden hammer
-- pick up the yellow banana
-- pick up the yellow banana
-- eat the banana
-- throw the peel on the floor
-- pick up the green apple
-- please give me the green apple
-- green apple please
-- hand me the green apple
-- grab the banana
-- destroy the banana
-- give me the yellow ball
-- throw the red ball on the floor
-- pick up the banana
-- open the banana
-- pick up the apple please
-- pick up the red tomato	pick up the banana
-- pick up the banana
-- pick up the yellow duckie
-- pick up the banana
-- could you please pick up the hammer
-- please pick up the banana
-- can you give me the hammer
-- give me any fruit
-- pick up the orange next to the banana
-- pick you the banana
-- grab the banana for me
-- grab yellow banana
-- can you give me the banana
-- lift up the banana
+- pass the [fruit](object_name)
+- reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up [object](object_name)
+- hey robot pick up [green](object_color) [apple](object_name)
+- hey robot pick up [yellow](object_color) [banana](object_name)
+- pick up [mouse](object_name)
+- pick the [yellow](object_color) [duck](object_name)
+- find the [banana](object_name) and pick it up
+- pick the [green](object_color) [plate](object_name)
+- pick the [yellow](object_color) [banana](object_name)
+- pick the desired [item](object_name) by its color
+- pick up the [item](object_name) by color or shape
+- give me a [banana](object_name) please
+- pick the [banana](object_name)
+- handover the [banana](object_name)
+- give me the [banana](object_name)
+- catch the [banana](object_name) and raise it
+- pick up the [yellow](object_color) [fruits](object_name)
+- pick up the [yellow](object_color) [duck](object_name) please
+- pick up the [yellow](object_color) [banana](object_name) and then give it to me
+- when someone asks for a [grey](object_color) [mouse](object_name) you have to pick up this [object](object_name)
+- smash the [apple](object_name)
+- pill the [banana](object_name)
+- robot please take the [green](object_color) [apple](object_name)
+- lift the [banana](object_name)
+- grab the [object](object_name) in front of you
+- hand me the wooden [hammer](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- eat the [banana](object_name)
+- throw the peel on the [floor](placement)
+- pick up the [green](object_color) [apple](object_name)
+- please give me the [green](object_color) [apple](object_name)
+- [green](object_color) [apple](object_name) please
+- hand me the [green](object_color) [apple](object_name)
+- grab the [banana](object_name)
+- destroy the [banana](object_name)
+- give me the [yellow](object_color) [ball](object_name)
+- throw the [red](object_color) [ball](object_name) on the [floor](placement)
+- pick up the [banana](object_name)
+- open the [banana](object_name)
+- pick up the [apple](object_name) please
+- pick up the [red](object_color) [tomato](object_name)	pick up the [banana](object_name)
+- pick up the [banana](object_name)
+- pick up the [yellow](object_color) [duckie](object_name)
+- pick up the [banana](object_name)
+- could you please pick up the [hammer](object_name)
+- please pick up the [banana](object_name)
+- can you give me the [hammer](object_name)
+- give me any [fruit](object_name)
+- pick up the [orange](object_name) next to the [banana](object_name)
+- pick you the [banana](object_name)
+- grab the [banana](object_name) for me
+- grab [yellow](object_color) [banana](object_name)
+- can you give me the [banana](object_name)
+- lift up the [banana](object_name)
 - grab the ba na na
-- sort the items
-- pick up the duck
-- pick up the yellow duck
-- place the object
-- go above the banana please then grab the banana and pick it up
-- catch yellow banana
-- release the orange
-- smash the banana with the rubber duck
-- get the blue ball
+- sort the [item](object_name)s
+- pick up the [duck](object_name)
+- pick up the [yellow](object_color) [duck](object_name)
+- place the [object](object_name)
+- go above the [banana](object_name) please then grab the [banana](object_name) and pick it up
+- catch [yellow](object_color) [banana](object_name)
+- release the [orange](object_name)
+- smash the [banana](object_name) with the rubber [duck](object_name)
+- get the [blue](object_color) [ball](object_name)
 - step on it
-- give me the hammer
-- please give me the banana
-- hand over the pear
-- give apple
-- pickup the shiny red ball
-- pickup banana
-- pick up the blue object or pick up the cyan object
-- pick up the yellow banana
-- pick up the yellow banana or
-- can you please hand me the green apple
-- can you please give me the green apple
-- give me a green apple
-- pick up the banana
-- take the red cube
-- take a yellow banana
-- hi can i get an apple
-- can i get a green apple
-- take a banana
-- give me all red stones () on the table
-- give me the yellow banana
-- give me a yellow banana
-- give me the yellow banana on the table
-- hand me the yellow banana
-- please give me the yellow banana
-- hand over the red tomato
-- pick up the yellow banana
-- grab the yellow banana
-- obtain the yellow banana
-- acquire the yellow banana
-- please pick up the red rubber duck
-- go to the banana and pick it up
-- pick up yellow banana
-- pick up the hammer
-- pick up the fucking banana
-- give me the duck
-- pleas give me the yellow duck
-- grab the yellow banana
-- hit the rubber duck with the hammer
-- take the banana
-- drag an end-effector to the object
-- can you help me and give me the hammer please
-- can i have a pear please
+- give me the [hammer](object_name)
+- please give me the [banana](object_name)
+- hand over the [pear](object_name)
+- give [apple](object_name)
+- pickup the shiny [red](object_color) [ball](object_name)
+- pickup [banana](object_name)
+- pick up the [blue](object_color) [object](object_name) or pick up the cyan [object](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- pick up the [yellow](object_color) [banana](object_name) or
+- can you please hand me the [green](object_color) [apple](object_name)
+- can you please give me the [green](object_color) [apple](object_name)
+- give me a [green](object_color) [apple](object_name)
+- pick up the [banana](object_name)
+- take the [red](object_color) [cube](object_name)
+- take a [yellow](object_color) [banana](object_name)
+- hi can i get an [apple](object_name)
+- can i get a [green](object_color) [apple](object_name)
+- take a [banana](object_name)
+- give me all [red](object_color) [stones](object_name) on the [table](placement)
+- give me the [yellow](object_color) [banana](object_name)
+- give me a [yellow](object_color) [banana](object_name)
+- give me the [yellow](object_color) [banana](object_name) on the [table](placement)
+- hand me the [yellow](object_color) [banana](object_name)
+- please give me the [yellow](object_color) [banana](object_name)
+- hand over the [red](object_color) [tomato](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- grab the [yellow](object_color) [banana](object_name)
+- obtain the [yellow](object_color) [banana](object_name)
+- acquire the [yellow](object_color) [banana](object_name)
+- please pick up the [red](object_color) rubber [duck](object_name)
+- go to the [banana](object_name) and pick it up
+- pick up [yellow](object_color) [banana](object_name)
+- pick up the [hammer](object_name)
+- pick up the fucking [banana](object_name)
+- give me the [duck](object_name)
+- pleas give me the [yellow](object_color) [duck](object_name)
+- grab the [yellow](object_color) [banana](object_name)
+- hit the rubber [duck](object_name) with the [hammer](object_name)
+- take the [banana](object_name)
+- drag an end-effector to the [object](object_name)
+- can you help me and give me the [hammer](object_name) please
+- can i have a [pear](object_name) please
 - would you help me grab this glass
-- there’s a banana in the middle of your desk can you grab it please
-- take the banana
-- grab the banana
-- give me a fruit please
-- could you give me all the fruits
-- please give the yellow duck
-- pick up the banana
-- pick the banana
-- give me the hammer
-- try to balance the apple on the orange
-- throw me the orange
+- there’s a [banana](object_name) in the middle of your desk can you grab it please
+- take the [banana](object_name)
+- grab the [banana](object_name)
+- give me a [fruit](object_name) please
+- could you give me all the [fruits](object_name)
+- please give the [yellow](object_color) [duck](object_name)
+- pick up the [banana](object_name)
+- pick the [banana](object_name)
+- give me the [hammer](object_name)
+- try to balance the [apple](object_name) on the [orange](placement)
+- throw me the [orange](object_name)
 - lower the hand close your fingers
-- use your left arm to pick up the banana
-- pick up the banana
-- grab the yellow banana and lift it up
-- hand me the banana
-- pick up banana
-- grab the banana
-- give me the hammer
-- pick up the banana
-- pick up a random object
-- hand me the hammer
-- squeeze the rubber duck
-- throw me the pear
-- smack the banana with the hammer (lmao)
-- point at the yellow banana
-- point om yellow hammer
-- pick up the yellow banana
-- take one object on the table
-- take the yellow duck
-- take the yellow banana
-- james give me the yellow duck
-- james remove the yellow banana
-- pick up the yellow duck
-- grab the banana
-- pick up the banana
-- take the banana
-- move your hands towards the banana and grab it and move your hands to upwards
-- grab the banana gently without crushing it
-- raises the banana
-- drop the banana
-- please peel the apple and the pear
-- take the green apple
-- can you give me all red objects
-- lift the yellow banana and then drop it
-- give me the  hammer
-- catch the computer mouse
-- catch the banana and put it back down
-- put the green apple on the brown circle
-- put the apple on the circle
-- put the jar of jam in the correct position
-- gather the balls
-- hit the rock with the hammer
-- put the duck on the jar of jam
-- peel the banana
-- remove objects which aren't edible
-- find the red yogurt
-- catch the banana
-- grab the banana with your gripper
-- can you give me this fruit or this object
-- organize and sort the fruits by color or type
-- cut the fruit
-- robot give me the red fruit
-- robot take the banana on the table in front of you
-
-
+- use your left arm to pick up the [banana](object_name)
+- pick up the [banana](object_name)
+- grab the [yellow](object_color) [banana](object_name) and lift it up
+- hand me the [banana](object_name)
+- pick up [banana](object_name)
+- grab the [banana](object_name)
+- give me the [hammer](object_name)
+- pick up the [banana](object_name)
+- pick up a random [object](object_name)
+- hand me the [hammer](object_name)
+- squeeze the rubber [duck](object_name)
+- throw me the [pear](object_name)
+- smack the [banana](object_name) with the [hammer](object_name) lmao
+- point at the [yellow](object_color) [banana](object_name)
+- point om [yellow](object_color) [hammer](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- take one [object](object_name) on the [table](placement)
+- take the [yellow](object_color) [duck](object_name)
+- take the [yellow](object_color) [banana](object_name)
+- james give me the [yellow](object_color) [duck](object_name)
+- james remove the [yellow](object_color) [banana](object_name)
+- pick up the [yellow](object_color) [duck](object_name)
+- grab the [banana](object_name)
+- pick up the [banana](object_name)
+- take the [banana](object_name)
+- grab the [banana](object_name) gently without crushing it
+- raises the [banana](object_name)
+- drop the [banana](object_name)
+- please peel the [apple](object_name) and the [pear](object_name)
+- take the [green](object_color) [apple](object_name)
+- can you give me all [red](object_color) [objects](object_name)
+- lift the [yellow](object_color) [banana](object_name) and then drop it
+- give me the [hammer](object_name)
+- catch the computer [mouse](object_name)
+- catch the [banana](object_name) and put it back down
+- put the [green](object_color) [apple](object_name) on the [brown](object_color) [circle](object_name)
+- put the [apple](object_name) on the [circle](object_name)
+- put the [jar](object_name) of jam in the correct position
+- gather the [balls](object_name)
+- hit the rock with the [hammer](object_name)
+- put the [duck](object_name) on the [jar](object_name) of jam
+- peel the [banana](object_name)
+- remove [objects](object_name) which aren't edible
+- find the [red](object_color) [yogurt](object_name)
+- catch the [banana](object_name)
+- grab the [banana](object_name) with your gripper
+- can you give me this [fruit](object_name) or this [object](object_name)
+- organize and sort the [fruits](object_name) by color or type
+- cut the [fruit](object_name)
+- robot give me the [red](object_color) [fruit](object_name)
+- robot take the [banana](object_name) on the [table](placement) in front of you
+- ok robot make me a [smoothie](object_name)
+- sort the [objects](object_name)
+- catch the [yellow](object_color) [banana](object_name) please
+- catch the [banana](object_name) with your right arm
+- group the [objects](object_name) according to weight
+- robot make a [smoothie](object_name)
+- clean up the [table](object_name)
+- organize [items](object_name) by color
+- cleanup [table](object_name)
 
 ## intent:clarify
-- do this with the [yellow](object_color) [banana](object_name)]
+- do this with the [yellow](object_color) [banana](object_name)
 - robot don't use the [banana](object_name)
-- [banana](object_name) yellow
+- [banana](object_name) [yellow](object_color)
 - dear robert try again byt now at littel more to your [left](placement)
-- yellow banana
-- curved metal tool called mouse
-- long yellow fruit
-- white computer mouse
-- duck
-- the orange please
-- computer mouse
-- yellow banana
-- yellow duck
-- yellow duck
-- right
+- [yellow](object_color) [banana](object_name)
+- curved metal tool called [mouse](object_name)
+- long [yellow](object_color) [fruit](object_name)
+- [white](object_color) [computer [mouse](object_name)](object_name)
+- [duck](object_name)
+- the [orange](object_name) please
+- computer [mouse](object_name)
+- [yellow](object_color) [banana](object_name)
+- [yellow](object_color) [duck](object_name)
+- [yellow](object_color) [duck](object_name)
+- [right](placement)
 
 ## intent:none
 - what the hell ils this
 - i don’t know
-- ok robot make me a smoothie
-- hi bot how many types of [objects](undefined_object) there
+- hi bot how many types of [objects](object_name) there
 - can you try it with your right arm this time
 - it is fragile
 - it is not fragile
 - what kind of tasks are you able to perform
 - what can you do
-- organize items by color
-- cleanup table
 - re do original task 	
-- hey robot record
 - what can you do
-- clean up the table
 - change the command
-- by name of the item and thereafter its shape
+- by name of the [item](object_name) and thereafter its shape
 - re-program it i guess
 - nothing
 - i would look and walk past it
 - i would wait for the task to be complete and then ask again
-- i would use the name of the object
+- i would use the name of the [object](object_name)
 - what can you do
-- stop (and then repeat what i wanted in the first place)
-- robot make a smoothie
 - what's the meaning of life
 - could you pass the turing test if you wanted
 - what are you trying to do
-- not the red apple i needed the orange
-- group the objects according to weight
 - what's this
-- sort the objects
-- catch the yellow banana please
-- catch the banana with your right arm
 - i wanted the other one
 - will u take over the world some day
 - with patience because robots are people too
@@ -297,34 +290,37 @@
 - leave me alone
 - stupid
 - what's this
-- what does the duck sound like
+- what does the [duck](object_name) sound like
 - remember these instructions
 - listen to me and do what i say
 - are you friendly
 - james what can you do for me
+- how is it going today
 
 ## intent:find
-- is there a [yellow](object_color) rubber [duck](object_name)  on the table
+- is there a [yellow](object_color) rubber [duck](object_name) on the [table](placement)
 - can you locate the [yellow](object_color) [banana](object_name) please
 - locate
-- can you find me [something](undefined_object)  please
-- show me the brown circle
-- where is the yellow duck
-- identify yellow duck
-- show me the yellow duck
-- can you identify the orange orange
-- identify the green ball
-- can you find me a human to speak with
-- show me the green apple
-- where is the orange orange
-- where is the  the blue cube
-- identify new object
-- please identify the green apple
-- identify the yellow ball
-- where is your head
-- what is in a shape of a ball and is in orange colour that u can find on the table
+- can you find me [something](object_name) please
+- show me the [brown](object_color) [circle](object_name)
+- where is the [yellow](object_color) [duck](object_name)
+- identify [yellow](object_color) [duck](object_name)
+- show me the [yellow](object_color) [duck](object_name)
+- can you identify the [orange](object_name) [orange](object_name)
+- identify the [green](object_color) [ball](object_name)
+- can you find me a [human](object_name) to speak with
+- show me the [green](object_color) [apple](object_name)
+- where is the [orange](object_color) [orange](object_name)
+- where is the the [blue](object_color) [cube](object_name)
+- identify new [object](object_name)
+- please identify the [green](object_color) [apple](object_name)
+- identify the [yellow](object_color) [ball](object_name)
+- where is your [head](object_name)
+- what is in a shape of a [ball](object_name) and is in [orange](object_color) colour that u can find on the [table](placement)
+- scan the table
 
 ## intent:deny
+- stop (and then repeat what i wanted in the first place)
 - stop
 - nonono do **** instead
 - no no no no stop that
@@ -349,127 +345,129 @@
 - that's not what i meant
 - bad robot
 - cancel
-- not that orange but the other one
+- not that [orange](object_name) but the other one
 - emergency button
 - no
 - cease your doing
 - wrong target
 - stop that’s wrong
-- abort <repeat command>
-- cancel <repeat command>
-- stop <repeat command>
+- abort
+- cancel
 - stop
-- stop that is the wrong item
-- stop  wrong tank
+- stop
+- stop that is the wrong [item](object_name)
+- stop wrong tank
 - it is not ok
 - abort action
 - stop
 - don't do that
 - you are doing the wrong task please cancel
 - stop
-- but no take the banana you idiot
-- no not that the banana please
-- no it’ not what i want i want you to take the banana
+- but no take the [banana](object_name) you idiot
+- no not that the [banana](object_name) please
+- no it’ not what i want i want you to take the [banana](object_name)
 - stop this do what i said before
 - no stop
-- incorrect pick up the yellow banana
-- no i said the yellow duck
+- incorrect pick up the [yellow](object_color) [banana](object_name)
+- no i said the [yellow](object_color) [duck](object_name)
 - error
 - no
-- no take the orange
-- stop put the banana down and pick up the orange
+- no take the [orange](object_name)
+- stop put the [banana](object_name) down and pick up the [orange](object_name)
 - wrong try again
 - james undo
-- don't take this object but this one (right object)'
+- don't take this [object](object_name) but this one on the [right](placement)
 - stop
 - your action is incorrect
 - robot can you try again
 - try one more time
+- not the [red](object_color) [apple](object_name) i needed the [orange](object_name)
 
 ## intent:move
 - move to the [left](placement)
-- arrange fruits to the [right](placement) and other items to the [left](placement)
-- reach down to the banana and clasp it then raise it and move it towards me
-- move into position above the banana move down close gripper move up move left
-- sort the object by size in increasing order form left to right
+- arrange [fruits](object_name) to the [right](placement) and other [item](object_name)s to the [left](placement)
+- reach down to the [banana](object_name) and clasp it then raise it and move it towards me
+- move into position above the [banana](object_name) move down close gripper move up move left
+- sort the [object](object_name) by size in increasing order form [left](placement) to [right](placement)
+- use it to knock everything from the [table](placement) onto the [floor](placement)
+- move your hands towards the [banana](object_name) and grab it and move your hands to [upwards](placement)
 
 ## intent:show
-- look at this new [object](undefined_object)
+- look at this new [object](object_name)
 - this is a [mouse](object_name)
 - remember this [mouse](object_name)
-- learn this [object](undefined_object)
-- learn new [object](undefined_object) [mouse](object_name)
-- learn this [object](undefined_object) [apple](object_name)
-- scan new [object](undefined_object) and identify it as a computer [mouse](object_name)
-- hi bot there is a [banana](object_name) on the table
-- the [yellow](object_color) [banana](object_name) is on the [middle](placement)  of the table
-- hi bot there is a [mouse](object_name) on the table
-- remember the new [object](undefined_object) in front of you
+- learn this [object](object_name)
+- learn new [object](object_name) [mouse](object_name)
+- learn this [object](object_name) [apple](object_name)
+- scan new [object](object_name) and identify it as a computer [mouse](object_name)
+- hi bot there is a [banana](object_name) on the [table](placement)
+- the [yellow](object_color) [banana](object_name) is on the [middle](placement) of the [table](placement)
+- hi bot there is a [mouse](object_name) on the [table](placement)
+- remember the new [object](object_name) in front of you
 - it is a [strawberry](object_name)
-- save this [object](undefined_object)'s name and characteristics on your library
-- robot this new item is a computer [mouse](object_name)
-- learn white [mouse](object_name)
-- learn [magenta](object_color)  orange
-- learn [sliver](object_color)  can
-- an [apple](object_name) is an irregularly round [object](undefined_object) with a predominantly [red](object_color) color
-- add the [object](undefined_object) to data base
+- save this [object](object_name)'s name and characteristics on your library
+- robot this new [item](object_name) is a computer [mouse](object_name)
+- learn [white](object_color) [mouse](object_name)
+- learn [magenta](object_color) [orange](object_name)
+- learn [sliver](object_color) can
+- an [apple](object_name) is an irregularly round [object](object_name) with a predominantly [red](object_color) color
+- add the [object](object_name) to data base
 - save
-- that is a mouse
-- store new object in memory
+- that is a [mouse](object_name)
+- store new [object](object_name) in memory
 - save into your hard drive
-- robot save the object for future tasks
-- register yellow banana
-- register white mouse
-- scan new object on the board
-- register as  grey mouse
-- this is a mouse
-- remember this object
-- save this object
-- store this object in memory
-- this is a mouse and save it
-- this is an orange
-- remember the object your are holding as an orange
-- save this fruit as an orange
-- name this object an orange
-- when i ask for an orange i would like the object you are holding
-- this is a computer mouse remember it
-- learn white mouse
-- see that that's an apple
-- remember object
-- scan thé table
-- add the new object to your database please mr robot
-- remember this white mouse
-- save this white mouse
-- save this white mouse to memory
-- this is an apple can you say apple
-- this is a computer mouse
-- this is a new item it is a computer mouse
-- this is a grey mouse please remember it
-- this is a mouse
-- remember the mouse
-- take pictures using camera and save the object
+- robot save the [object](object_name) for future tasks
+- register [yellow](object_color) [banana](object_name)
+- register [white](object_color) [mouse](object_name)
+- scan new [object](object_name) on the board
+- register as [grey](object_color) [mouse](object_name)
+- this is a [mouse](object_name)
+- remember this [object](object_name)
+- save this [object](object_name)
+- store this [object](object_name) in memory
+- this is a [mouse](object_name) and save it
+- this is an [orange](object_name)
+- remember the [object](object_name) your are holding as an [orange](object_name)
+- save this [fruit](object_name) as an [orange](object_name)
+- name this [object](object_name) an [orange](object_name)
+- when i ask for an [orange](object_name) i would like the [object](object_name) you are holding
+- this is a computer [mouse](object_name) remember it
+- learn [white](object_color) [mouse](object_name)
+- see that that's an [apple](object_name)
+- remember [object](object_name)
+- add the new [object](object_name) to your database please mr robot
+- remember this [white](object_color) [mouse](object_name)
+- save this [white](object_color) [mouse](object_name)
+- save this [white](object_color) [mouse](object_name) to memory
+- this is an [apple](object_name) can you say [apple](object_name)
+- this is a computer [mouse](object_name)
+- this is a new [item](object_name) it is a computer [mouse](object_name)
+- this is a [grey](object_color) [mouse](object_name) please remember it
+- this is a [mouse](object_name)
+- remember the [mouse](object_name)
+- take pictures using camera and save the [object](object_name)
 - remember
-- save detected object as mouse
+- save detected [object](object_name) as [mouse](object_name)
 - identify and save
-- it is a mouse for computer
-- add tags for new object
-- hey look at that it’s a mouse ok can you remember  it
-- look this small grey object here is called a mouse got it
-- here is a new think for you to remember: this is a mouse a mouse
-- this is a white/black computer mouse
-- remember this object it is a mouse
-- it's a mouth remember
-- this is a it mouse
-- the object in front of you is a mouse store this definition
-- i want you to save in your memory an object that is red coloured and in a round shape and it is called an apple
-- james save the object as: computer mouse tag: computer peripheral  wireless three button white
-- remember this new object  it is called a computer mouse the colour of this mouse is black with white top it’s shape is oval and 8cm length
-- remember this is a mouse
-- this is a mouse
-- this object is called a mouse
-- this is an object
-- this object is a computer mouse
-- robot memorize the object yellow banana shaped like a croissant
-- this is a fruit
-- this object is used to control a computer
-- it's called an orange
+- it is a [mouse](object_name) for computer
+- add tags for new [object](object_name)
+- hey look at that it’s a [mouse](object_name) ok can you remember it
+- look this small [grey](object_color) [object](object_name) here is called a [mouse](object_name) got it
+- here is a new think for you to remember: this is a [mouse](object_name) a [mouse](object_name)
+- this is a [white](object_color)/black computer [mouse](object_name)
+- remember this [object](object_name) it is a [mouse](object_name)
+- it's a [mouth](object_name) remember
+- this is a it [mouse](object_name)
+- the [object](object_name) in front of you is a [mouse](object_name) store this definition
+- i want you to save in your memory an [object](object_name) that is [red](object_color) coloured and in a round shape and it is called an [apple](object_name)
+- james save the [object](object_name) as: computer [mouse](object_name) tag: computer peripheral wireless three button [white](object_color)
+- remember this new [object](object_name) it is called a computer [mouse](object_name) the colour of this [mouse](object_name) is [black](object_color) with [white](object_color) top it’s shape is oval and 8cm length
+- remember this is a [mouse](object_name)
+- this is a [mouse](object_name)
+- this [object](object_name) is called a [mouse](object_name)
+- this is an [object](object_name)
+- this [object](object_name) is a computer [mouse](object_name)
+- robot memorize the [object](object_name) [yellow](object_color) [banana](object_name) shaped like a croissant
+- this is a [fruit](object_name)
+- this [object](object_name) is used to control a computer
+- it's called an [orange](object_name)
