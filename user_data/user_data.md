@@ -13,6 +13,8 @@
 - Hello what is your name ? Are you ready to work for me
 - Hello!
 - Hallo
+- Hello robot
+- Hello  I Don t  like to speak to robots  
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the table
@@ -162,6 +164,74 @@
 - Hit the rubber duck with the hammer.
 - Take the banana
 - drag an end-effector to the object
+- Can you help me and give me the hammer please?
+- Can I have a pear please?
+- Would you help me grab this glass?
+- There’s a banana in the middle of your desk, can you grab it please?
+- Take the banana.
+- Grab the banana.
+- Give me a fruit please.
+- Could you give me all the fruits
+- Please give the yellow duck
+- Pick up the banana
+- Pick the banana.
+- Give me the hammer.
+- Try to balance the apple on the orange.
+- Throw me the orange.
+- Lower the hand, close your fingers
+- Use your left arm to pick up the banana
+- Pick up the banana
+- Grab the yellow banana and lift it up
+- Hand me the banana
+- Pick up banana
+- grab the banana
+- Give me the hammer.
+- Pick up the banana.
+- Pick up a random object.
+- Hand me the hammer
+- Squeeze the rubber duck
+- Throw me the pear
+- Smack the banana with the hammer (lmao)
+- Point at the yellow banana
+- Point om yellow hammer
+- Pick up The yellow banana
+- Take one object on the table
+- Take the yellow duck
+- Take the yellow banana
+- James give me the yellow duck
+- James remove the yellow banana
+- Pick up the yellow duck.
+- Grab the banana.
+- Pick up the banana.
+- Take the banana.
+- Move your hands towards the banana and grab it and move your hands to upwards
+- Grab the banana gently without crushing it.
+- raises the banana
+- drop the banana
+- please, peel the apple and the pear
+- take the green apple
+- Can you give me all red objects ?
+- Lift the yellow banana and then drop it
+- Give me the  hammer.
+- Catch the computer mouse
+- Catch the banana and put it back down
+- Put the green apple on the brown circle
+- Put the apple on the circle
+- Put the jar of jam in the correct position
+- Gather the balls
+- Hit the rock with the hammer
+- Put the duck on the jar of jam
+- Peel the banana
+- Remove objects which aren't edible
+- Find the red yogurt
+- Catch the banana
+- Grab the banana with your gripper
+- Can you give me this fruit or this object
+- Organize and sort the fruits by color or type
+- Cut the fruit
+- Robot give me the red fruit
+- Robot take the banana on the table in front of you
+
 
 
 ## intent:clarify
@@ -177,6 +247,9 @@
 - The orange please
 - computer mouse
 - Yellow banana
+- Yellow duck
+- Yellow duck
+- Right
 
 ## intent:none
 - What the hell ils this?
@@ -218,6 +291,17 @@
 - With patience because robots are people too
 - I don't know
 - What is your purpose?
+- Can you play with me ?
+- I love your arms !
+- Hi robot, you look kind of weird to me!
+- Leave me alone !
+- Stupid!
+- What's this ?
+- What does the duck sound like ?
+- Remember these instructions
+- listen to me and do what I say
+- Are you friendly?
+- James, what can you do for me?
 
 ## intent:find
 - is there a [yellow](object_color) rubber [duck](object_name)  on the table
@@ -230,6 +314,15 @@
 - Show me the yellow duck
 - Can you identify the orange orange?
 - Identify the green ball
+- Can you find me a Human to speak With
+- Show me the green apple
+- Where is the orange orange?
+- Where is the  the blue cube ?
+- Identify new object
+- Please identify the green apple.
+- identify the yellow ball
+- Where is your head ?
+- What is in a shape of a ball and is in orange colour that u can find on the table?
 
 ## intent:deny
 - Stop
@@ -274,12 +367,31 @@
 - Don't do that.
 - You are doing the wrong task, please cancel.
 - Stop
+- But no, take the banana you idiot !
+- No, not that, the banana please.
+- No, it’ not what I want, I want you to take the banana!
+- stop this, do what I said before
+- No, stop!
+- incorrect, pick up the yellow banana.
+- No, I said the yellow duck
+- Error
+- No
+- No. Take the orange.
+- Stop. Put the banana down and pick up the orange.
+- Wrong try again
+- James undo
+- Don't take this object but this one (right object)'
+- stop
+- Your action is incorrect
+- Robot can you try again
+- Try one more time
 
 ## intent:move
 - move to the [left](placement)
 - Arrange fruits to the [right](placement) and other items to the [left](placement)
 - Reach down to the banana and clasp it. Then raise it and move it towards me.
 - move into position above the banana, move down, close gripper, move up, move left.
+- Sort the object by size in increasing order form left to right.
 
 ## intent:show
 - look at this new [object](undefined_object)
@@ -341,5 +453,23 @@
 - Identify and save
 - It is a mouse for computer
 - add tags for new object
-- Identify new object
-- Please identify the green apple.
+- Hey, look at that, it’s a mouse, ok? Can you remember  it?
+- Look, this small grey object here is called a mouse. Got it?
+- Here is a new think for you to remember: this is a mouse. A mouse
+- This is a white/black computer mouse
+- Remember this object, it is a mouse
+- It's a mouth, remember.
+- This is a It mouse
+- the object in front of you is a mouse. store this definition
+- I want you to save in your memory an object that is red coloured and in a round shape and it is called an apple
+- James, save the object as: computer mouse, tag: computer peripheral,  wireless, three button, white.
+- Remember this new object . It is called a computer mouse. The colour of This mouse is black with white top. It’s shape is oval and 8cm length .
+- Remember, this is a mouse.
+- This is a mouse.
+- This object is called a mouse.
+- This is an object
+- This object is a computer mouse
+- Robot memorize the object yellow banana shaped like a croissant
+- This is a fruit
+- this object is used to control a computer
+- it's called an orange
