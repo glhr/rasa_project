@@ -17,6 +17,7 @@ actions:
 - utter_got_description
 - utter_greet
 - utter_unknown_color
+- utter_unknown_object
 - utter_prompt
 - utter_prompt_action
 - utter_prompt_color
@@ -83,12 +84,14 @@ responses:
   utter_prompt_color:
   - text: What color is the {object_name} you want me to {action}?
   utter_unknown_color:
-  - text: Sorry, I don't know that color.
+  - text: Sorry, I don't know the color {object_color}.
+  utter_unknown_object:
+  - text: Sorry, I don't know what {object_name} means. I don't know many objects yet. If you place an object on the table and describe it for me, I can learn.
   utter_received_command:
   - text: Thanks for giving me a command.
   - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
-  - text: So just to make sure, you want me to {action} the {object_name}{placement}?
+  - text: So just to make sure, you want me to {action} the {object_name} in the {placement} area?
 
 session_config:
   carry_over_slots_to_new_session: true

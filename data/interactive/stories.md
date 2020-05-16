@@ -52,6 +52,8 @@
     - slot{"object_name": "apple"}
     - execute_find
 * pick up
+    - slot{"object_color": "red"}
+    - slot{"object_name": "apple"}
     - utter_repeat_command
 * affirmative
     - execute_pickup

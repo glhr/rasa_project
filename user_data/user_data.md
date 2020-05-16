@@ -129,7 +129,7 @@
 - give [apple](object_name)
 - pickup the shiny [red](object_color) [ball](object_name)
 - pickup [banana](object_name)
-- pick up the [blue](object_color) [object](object_name) or pick up the cyan [object](object_name)
+- pick up the [blue](object_color) [object](object_name) or pick up the [cyan](object_color) [object](object_name)
 - pick up the [yellow](object_color) [banana](object_name)
 - pick up the [yellow](object_color) [banana](object_name) or
 - can you please hand me the [green](object_color) [apple](object_name)
@@ -218,7 +218,6 @@
 - put the [jar](object_name) of jam in the correct position
 - gather the [balls](object_name)
 - hit the rock with the [hammer](object_name)
-- put the [duck](object_name) on the [jar](object_name) of jam
 - peel the [banana](object_name)
 - remove [objects](object_name) which aren't edible
 - find the [red](object_color) [yogurt](object_name)
@@ -385,12 +384,13 @@
 
 ## intent:move
 - move to the [left](placement)
-- arrange [fruits](object_name) to the [right](placement) and other [item](object_name)s to the [left](placement)
+- arrange [fruits](object_name) to the [right](placement) and other [items](object_name) to the [left](placement)
 - reach down to the [banana](object_name) and clasp it then raise it and move it towards me
 - move into position above the [banana](object_name) move down close gripper move up move left
 - sort the [object](object_name) by size in increasing order form [left](placement) to [right](placement)
 - use it to knock everything from the [table](placement) onto the [floor](placement)
 - move your hands towards the [banana](object_name) and grab it and move your hands to [upwards](placement)
+- put the [duck](object_name) on the [jar](placement) of jam
 
 ## intent:show
 - look at this new [object](object_name)
@@ -454,7 +454,7 @@
 - hey look at that it’s a [mouse](object_name) ok can you remember it
 - look this small [grey](object_color) [object](object_name) here is called a [mouse](object_name) got it
 - here is a new think for you to remember: this is a [mouse](object_name) a [mouse](object_name)
-- this is a [white](object_color)/black computer [mouse](object_name)
+- this is a [white](object_color) and [black](object_name) computer [mouse](object_name)
 - remember this [object](object_name) it is a [mouse](object_name)
 - it's a [mouth](object_name) remember
 - this is a it [mouse](object_name)

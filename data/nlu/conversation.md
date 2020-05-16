@@ -39,6 +39,7 @@
 - yoo
 - good morning
 - good afternoon
+- hello is anybody there
 
 ## intent:affirmative
 - exactly
@@ -91,7 +92,6 @@
 - yes i agree
 - i think so
 - yes it is
-- right
 - okay then
 - yes of course
 - yes i do
@@ -104,7 +104,6 @@
 - obviously
 - k
 - sure why not
-- yeah right
 - yeah of course
 - absolutely
 - yes indeed
@@ -119,7 +118,6 @@
 - looks good
 - yes thank you
 - definitely
-- yes right
 - yes i would like to
 - alrighty
 - yes definitely
@@ -147,7 +145,7 @@
 - all right
 
 ## intent:none
-- hello is anybody there
+- leave me alone
 - how are you doing
 - how is it going
 - are you there
@@ -240,7 +238,6 @@
 - now bye
 - that's all goodbye
 - that's it goodbye
-- leave me alone
 - goodbye for now
 - talk to you later
 - you can go now
@@ -263,6 +260,9 @@
 - not really
 - that's not right
 - incorrect
+- wrong
+- not correct
+- stop now
 - don't do that
 - its not ok
 - i don't want that
