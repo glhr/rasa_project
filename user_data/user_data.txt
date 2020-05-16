@@ -1,0 +1,467 @@
+hello boy
+hello robot
+how is it going today
+hello robert
+hello robot what's your name
+hey robot (to activate)
+hi
+hi robot
+salutations what may i call you
+hello you
+hey how you doing
+hello what is your name  are you ready to work for me
+hello
+hallo
+hello robot
+hello  i don t  like to speak to robots  
+
+pickup the yellow banana from the table
+find the banana and lift it up
+please give me the duck
+hey robot please give me the yellow duck
+please pick up the yellow banana
+yeet the hammer off the table
+can you pick up the banana
+can you pick up the apple
+can you pickup the green apple
+give me the purple plum
+give me the black tv remote please stupid robot
+go pick up the yellow banana with the left arm
+pick up the banana
+grasp the banana and move up
+grab the apple
+grab the green apple
+grab the banana
+grab the green apple
+grab the yellow duck
+grab and lift the yellow banana with your right arm
+hi bot can you grab that green apple and give it to me
+please pick it up slowly
+try to pick it up scan its shape and lable it as a mouse in your database
+pick up the hammer
+use it to knock everything from the table onto the floor
+pick up the yellow rubber ducky with your left arm
+move your right arm over the banana
+pick it up
+grab it
+please pick up the banana and give it to me
+robert at the mittel  af the table a rectangular object named mouse is placed try to handle it to me its about 10 cm long and 5 cm wide and 5 cm heigh
+pickup orange orange
+move
+grab
+can you pick up this black object that stands before you
+pick up the yellow banana that is placed atop the table
+can you pick up the banana please
+pickup yellow banana
+pickup red apple
+pickup yellow banana
+redo pickup red apple
+pass the fruit
+reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up object
+hey robot pick up green apple
+hey robot pick up yellow banana
+pick up mouse
+pick the yellow duck
+find the banana and pick it up
+pick the green plate
+pick the yellow banana
+pick the desired item by its color
+pick up the item by color or shape
+give me a banana please
+pick the banana
+handover the banana
+give me the banana
+catch the banana and raise it
+pick up the yellow fruits
+pick up the yellow duck please
+pick up the yellow banana and then give it to me
+when someone asks for a grey mouse you have to pick up this object
+smash the apple
+pill the banana
+robot please take the green apple
+lift the banana
+grab the object in front of you
+hand me the wooden hammer
+pick up the yellow banana
+pick up the yellow banana
+eat the banana
+throw the peel on the floor
+pick up the green apple
+please give me the green apple
+green apple please
+hand me the green apple
+grab the banana
+destroy the banana
+give me the yellow ball
+throw the red ball on the floor
+pick up the banana
+open the banana
+pick up the apple please
+pick up the red tomato	pick up the banana
+pick up the banana
+pick up the yellow duckie
+pick up the banana
+could you please pick up the hammer
+please pick up the banana
+can you give me the hammer
+give me any fruit
+pick up the orange next to the banana
+pick you the banana
+grab the banana for me
+grab yellow banana
+can you give me the banana
+lift up the banana
+grab the ba na na
+sort the items
+pick up the duck
+pick up the yellow duck
+place the object
+go above the banana please then grab the banana and pick it up
+catch yellow banana
+release the orange
+smash the banana with the rubber duck
+get the blue ball
+step on it
+give me the hammer
+please give me the banana
+hand over the pear
+give apple
+pickup the shiny red ball
+pickup banana
+pick up the blue object or pick up the cyan object
+pick up the yellow banana
+pick up the yellow banana or
+can you please hand me the green apple
+can you please give me the green apple
+give me a green apple
+pick up the banana
+take the red cube
+take a yellow banana
+hi can i get an apple
+can i get a green apple
+take a banana
+give me all red stones () on the table
+give me the yellow banana
+give me a yellow banana
+give me the yellow banana on the table
+hand me the yellow banana
+please give me the yellow banana
+hand over the red tomato
+pick up the yellow banana
+grab the yellow banana
+obtain the yellow banana
+acquire the yellow banana
+please pick up the red rubber duck
+go to the banana and pick it up
+pick up yellow banana
+pick up the hammer
+pick up the fucking banana
+give me the duck
+pleas give me the yellow duck
+grab the yellow banana
+hit the rubber duck with the hammer
+take the banana
+drag an end-effector to the object
+can you help me and give me the hammer please
+can i have a pear please
+would you help me grab this glass
+there’s a banana in the middle of your desk can you grab it please
+take the banana
+grab the banana
+give me a fruit please
+could you give me all the fruits
+please give the yellow duck
+pick up the banana
+pick the banana
+give me the hammer
+try to balance the apple on the orange
+throw me the orange
+lower the hand close your fingers
+use your left arm to pick up the banana
+pick up the banana
+grab the yellow banana and lift it up
+hand me the banana
+pick up banana
+grab the banana
+give me the hammer
+pick up the banana
+pick up a random object
+hand me the hammer
+squeeze the rubber duck
+throw me the pear
+smack the banana with the hammer (lmao)
+point at the yellow banana
+point om yellow hammer
+pick up the yellow banana
+take one object on the table
+take the yellow duck
+take the yellow banana
+james give me the yellow duck
+james remove the yellow banana
+pick up the yellow duck
+grab the banana
+pick up the banana
+take the banana
+move your hands towards the banana and grab it and move your hands to upwards
+grab the banana gently without crushing it
+raises the banana
+drop the banana
+please peel the apple and the pear
+take the green apple
+can you give me all red objects
+lift the yellow banana and then drop it
+give me the  hammer
+catch the computer mouse
+catch the banana and put it back down
+put the green apple on the brown circle
+put the apple on the circle
+put the jar of jam in the correct position
+gather the balls
+hit the rock with the hammer
+put the duck on the jar of jam
+peel the banana
+remove objects which aren't edible
+find the red yogurt
+catch the banana
+grab the banana with your gripper
+can you give me this fruit or this object
+organize and sort the fruits by color or type
+cut the fruit
+robot give me the red fruit
+robot take the banana on the table in front of you
+
+
+
+do this with the yellow banana
+robot don't use the banana
+banana yellow
+dear robert try again byt now at littel more to your left
+yellow banana
+curved metal tool called mouse
+long yellow fruit
+white computer mouse
+duck
+the orange please
+computer mouse
+yellow banana
+yellow duck
+yellow duck
+right
+
+what the hell ils this
+i don’t know
+ok robot make me a smoothie
+hi bot how many types of objects there
+can you try it with your right arm this time
+it is fragile
+it is not fragile
+what kind of tasks are you able to perform
+what can you do
+organize items by color
+cleanup table
+re do original task 	
+hey robot record
+what can you do
+clean up the table
+change the command
+by name of the item and thereafter its shape
+re-program it i guess
+nothing
+i would look and walk past it
+i would wait for the task to be complete and then ask again
+i would use the name of the object
+what can you do
+stop (and then repeat what i wanted in the first place)
+robot make a smoothie
+what's the meaning of life
+could you pass the turing test if you wanted
+what are you trying to do
+not the red apple i needed the orange
+group the objects according to weight
+what's this
+sort the objects
+catch the yellow banana please
+catch the banana with your right arm
+i wanted the other one
+will u take over the world some day
+with patience because robots are people too
+i don't know
+what is your purpose
+can you play with me
+i love your arms
+hi robot you look kind of weird to me
+leave me alone
+stupid
+what's this
+what does the duck sound like
+remember these instructions
+listen to me and do what i say
+are you friendly
+james what can you do for me
+
+is there a yellow rubber duck  on the table
+can you locate the yellow banana please
+locate
+can you find me something  please
+show me the brown circle
+where is the yellow duck
+identify yellow duck
+show me the yellow duck
+can you identify the orange orange
+identify the green ball
+can you find me a human to speak with
+show me the green apple
+where is the orange orange
+where is the  the blue cube
+identify new object
+please identify the green apple
+identify the yellow ball
+where is your head
+what is in a shape of a ball and is in orange colour that u can find on the table
+
+stop
+nonono do **** instead
+no no no no stop that
+stop robot
+stop what you are doing
+stop moving
+robot stop
+i didn't ask for that
+fail you are doing i wrong
+hi bot that's wrong
+undo last action
+undo
+that's wrong
+hey robot undo last job
+stop right there buddy
+stop
+wrong try again
+wrong task reevaluate
+wrong task please try again
+stop
+don't do that
+that's not what i meant
+bad robot
+cancel
+not that orange but the other one
+emergency button
+no
+cease your doing
+wrong target
+stop that’s wrong
+abort <repeat command>
+cancel <repeat command>
+stop <repeat command>
+stop
+stop that is the wrong item
+stop  wrong tank
+it is not ok
+abort action
+stop
+don't do that
+you are doing the wrong task please cancel
+stop
+but no take the banana you idiot
+no not that the banana please
+no it’ not what i want i want you to take the banana
+stop this do what i said before
+no stop
+incorrect pick up the yellow banana
+no i said the yellow duck
+error
+no
+no take the orange
+stop put the banana down and pick up the orange
+wrong try again
+james undo
+don't take this object but this one (right object)'
+stop
+your action is incorrect
+robot can you try again
+try one more time
+
+move to the left
+arrange fruits to the right and other items to the left
+reach down to the banana and clasp it then raise it and move it towards me
+move into position above the banana move down close gripper move up move left
+sort the object by size in increasing order form left to right
+
+look at this new object
+this is a mouse
+remember this mouse
+learn this object
+learn new object mouse
+learn this object apple
+scan new object and identify it as a computer mouse
+hi bot there is a banana on the table
+the yellow banana is on the middle  of the table
+hi bot there is a mouse on the table
+remember the new object in front of you
+it is a strawberry
+save this object's name and characteristics on your library
+robot this new item is a computer mouse
+learn white mouse
+learn magenta  orange
+learn sliver  can
+an apple is an irregularly round object with a predominantly red color
+add the object to data base
+save
+that is a mouse
+store new object in memory
+save into your hard drive
+robot save the object for future tasks
+register yellow banana
+register white mouse
+scan new object on the board
+register as  grey mouse
+this is a mouse
+remember this object
+save this object
+store this object in memory
+this is a mouse and save it
+this is an orange
+remember the object your are holding as an orange
+save this fruit as an orange
+name this object an orange
+when i ask for an orange i would like the object you are holding
+this is a computer mouse remember it
+learn white mouse
+see that that's an apple
+remember object
+scan thé table
+add the new object to your database please mr robot
+remember this white mouse
+save this white mouse
+save this white mouse to memory
+this is an apple can you say apple
+this is a computer mouse
+this is a new item it is a computer mouse
+this is a grey mouse please remember it
+this is a mouse
+remember the mouse
+take pictures using camera and save the object
+remember
+save detected object as mouse
+identify and save
+it is a mouse for computer
+add tags for new object
+hey look at that it’s a mouse ok can you remember  it
+look this small grey object here is called a mouse got it
+here is a new think for you to remember: this is a mouse a mouse
+this is a white/black computer mouse
+remember this object it is a mouse
+it's a mouth remember
+this is a it mouse
+the object in front of you is a mouse store this definition
+i want you to save in your memory an object that is red coloured and in a round shape and it is called an apple
+james save the object as: computer mouse tag: computer peripheral  wireless three button white
+remember this new object  it is called a computer mouse the colour of this mouse is black with white top it’s shape is oval and 8cm length
+remember this is a mouse
+this is a mouse
+this object is called a mouse
+this is an object
+this object is a computer mouse
+robot memorize the object yellow banana shaped like a croissant
+this is a fruit
+this object is used to control a computer
+it's called an orange
