@@ -9,10 +9,11 @@ import time
 from typing import Any, Dict, List, Text, Union
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import AllSlotsReset, SlotSet, ActionExecuted, EventType, FollowupAction, Restarted, SessionStarted, SlotSet
+from rasa_sdk.events import AllSlotsReset, UserUttered, SlotSet, ActionExecuted, EventType, FollowupAction, Restarted, SessionStarted, SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import Action, FormAction, REQUESTED_SLOT
 from rasa.core.slots import Slot
+from rasa.core.events import Event
 
 from synonym_extraction import collect_synonym, add_synonym
 
@@ -29,80 +30,26 @@ input_nlu_file = './data/nlu.md'
 user_nlu_file  = './data/user_nlu.md'
 input_nlu_file = './data/nlu/synonyms.md'
 user_nlu_file  = './data/nlu/user_nlu.md'
-list_of_synonym    = ['show']
-
-invalid_values = [None, "none", "None", "unknown", "", "any"]
 
 
-
-def check_slots_for_command(tracker, dispatcher, action=None, check_confirm=True):
-    if action is None:
-        action = tracker.get_slot('action')
-    object_name = tracker.get_slot('object_name')
-    object_color = tracker.get_slot('object_color')
-    placement_origin = tracker.get_slot('placement_origin')
-    placement_destination = tracker.get_slot('placement_destination')
-    command_confirmed = tracker.get_slot('command_confirmed')
-
-    # slots contain a valid command
-    if (action not in invalid_values) and (action in list_of_synonym) and (object_name not in invalid_values):
-
-        if (action in ['find', 'pick up']) and placement_destination not in invalid_values and placement_origin in invalid_values:
-            placement_origin = placement_destination
-
-        if command_confirmed or not check_confirm:
-            return True
-        else:
-            description = '{} {}'.format(object_color, object_name) if object_color not in invalid_values else object_name
-            placement_from = ' {} the {}'.format("in" if placement_origin == "middle" else "on",
-                                            placement_origin) if placement_origin not in invalid_values else ' somewhere on the platform'
-            placement_to = ' {} the {}'.format("to", placement_destination) if placement_destination not in invalid_values else ' somewhere on the platform'
-            if action in ['find', 'pick up']:
-                placement = placement_from
-            else:
-                placement = '{} {}'.format(placement_from, placement_to)
-            print(description, placement)
-            dispatcher.utter_message(template="utter_repeat_command",
-                                     action=action,
-                                     object_description=description,
-                                     placement=placement)
-
-    # object name given without an action
-    elif (action in invalid_values) and (object_name not in invalid_values):
-        dispatcher.utter_message(template="utter_prompt_action",
-                                 object_name=object_name)
-
-    # action given without an object name
-    elif (action not in invalid_values) and (object_name in invalid_values):
-        dispatcher.utter_message(template="utter_prompt_object",
-                                 action=action)
-
-    # unknown action and object
-    elif (action in invalid_values) and (object_name in invalid_values):
-        dispatcher.utter_message(template="utter_prompt")
-
-    elif action not in list_of_synonym:
-        # logger.warning('unknown actions')
-        dispatcher.utter_message(template="utter_unknown_action",
-                                 action=action)
-        return [FollowupAction("clarification_form")]
-
-    return False
-
-
-class UserUttered(Action):
+class FillActionSlot(Action):
     """Fills the action slot when a message is received."""
 
-    def name(self) -> Text: return "user_uttered"
+    def name(self) -> Text: return "got_action"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        global list_of_synonym
         # dispatcher.utter_message(template="utter_received_command")
         action = tracker.latest_message['intent'].get('name')
+        logger.info('Got action: {}'.format(action))
 
-        return [SlotSet("action", action)]
+        if action in ['find', 'pick up', 'move']:
+            return [SlotSet("action", action)]
+        elif action == 'show':
+            return [SlotSet("action", "learn")]
+        else:
+            return []
 
 class ActionSessionStart(Action):
 
@@ -132,12 +79,9 @@ class ActionSessionStart(Action):
                 tracker: Tracker,
                 domain: Dict[Text, Any]) -> List[EventType]:
 
-        global list_of_synonym
         _events = [SessionStarted()]
         _events.extend(self._slot_set_events_from_tracker(tracker))
         _events.append(ActionExecuted("action_listen"))
-
-        list_of_synonym += collect_synonym(input_nlu_file) + collect_synonym(user_nlu_file)  # fill the list of known actions from training file
 
         return _events
 
@@ -163,14 +107,15 @@ class ReceivedFind(Action):
                 imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
                 dispatcher.utter_attachment(None, image=imgurl)
 
-                placement = ' in the {} area of the platform'.format(placement_origin) if placement_origin not in invalid_values else ''
-
-                if response.found_obj and response.desired_color not in invalid_values:
-                    dispatcher.utter_message(text="I found the {} object you asked for{}.".format(response.desired_color, placement))
-                elif response.found_obj and response.desired_color in invalid_values:
-                    dispatcher.utter_message(text="You didn't specify any color, but here are the objects I found{}.".format(placement))
-                elif not response.found_obj and response.desired_color not in invalid_values:
-                    dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
+                if response.found_obj:
+                    dispatcher.utter_message(text="I found the {} object you asked for on the {}.".format(
+                        response.desired_color,
+                        placement_origin
+                        ))
+                # elif response.found_obj and response.desired_color in invalid_values:
+                #     dispatcher.utter_message(text="You didn't specify any color, but here are the objects I found{}.".format(placement))
+                # elif not response.found_obj and response.desired_color not in invalid_values:
+                #     dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
                 else:
                     dispatcher.utter_message(text="This is what I can see.")
             else:
@@ -218,21 +163,6 @@ class ReceivedLearn(Action):
             return [AllSlotsReset()]
         return []
 
-
-class ReceivedCommandConfirmed(Action):
-
-    def name(self) -> Text: return "received_command_confirmed"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        if check_slots_for_command(tracker, dispatcher, check_confirm=False):
-            dispatcher.utter_message(template="utter_got_confirmation")
-
-        return [
-            SlotSet("command_confirmed", True)
-        ]
 
 
 class ReceivedCancel(Action):

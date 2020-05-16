@@ -2,6 +2,7 @@ from rasa.core.slots import Slot
 
 valid_colors = ['green', 'blue', 'black', 'brown', 'yellow', 'orange', 'red', 'purple']
 valid_objects = ['apple', 'orange', 'banana', 'strawberry', 'kiwi']
+generic_objects = ['object', 'thing', 'item', 'fruit', 'vegetable']
 valid_placements = ['left', 'right', 'middle']
 
 
@@ -30,6 +31,8 @@ class ObjectSlot(Slot):
         if self.value:
             if self.value in valid_objects:
                 r = [1.0, 1.0]
+            elif self.value in generic_objects:
+                r = [1.0, 0.0]
             else:
                 r = [0.0, 1.0]
         return r

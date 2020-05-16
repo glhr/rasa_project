@@ -1,4 +1,5 @@
 actions:
+- got_action
 - action_session_start
 - execute_learn
 - execute_find

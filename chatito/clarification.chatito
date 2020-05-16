@@ -3,11 +3,12 @@ import ./common.chatito
 %[clarify]('training': '100')
     ~[come on] ~[i mean] ~[the] @[object_name]
     ~[i mean] ~[colored object]
-    @[object_color]
-    @[object_name]
-    *[20%] ~[the?] ~[colored object]
+    *[20%] @[object_color]
+    *[10%] the @[object_color] one
+    *[10%] the @[object_name]
+    *[10%] ~[the?] ~[colored object]
     ~[i mean?] ~[the?] ~[colored object]
     ~[the?] ~[colored object] ~[outro?]
     ~[the?] ~[colored object]
-    *[20%] ~[i mean?] ~[placement]
-    ~[placement]
+    *[10%] ~[i mean?] ~[placement]
+    *[10%] ~[placement]

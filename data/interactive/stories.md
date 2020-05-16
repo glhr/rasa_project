@@ -4,6 +4,7 @@
     - utter_greet
     - utter_prompt
 * show{"object_name": "banana"}
+    - got_action
     - utter_prompt_color
 * clarify
     - utter_got_description
@@ -11,6 +12,7 @@
 
 ## interactive_story_1
 * show{"object_color": "red"}
+    - got_action
     - utter_prompt_object
 * clarify
     - utter_got_description
@@ -18,6 +20,7 @@
 
 ## interactive_story_1
 * show{"object_name": "apple"}
+    - got_action
     - slot{"object_name": "apple"}
     - utter_prompt_color
 * clarify{"object_color": "green"}
@@ -27,6 +30,7 @@
 * none
     - utter_prompt
 * pick up{"object_name": "ball"}
+    - got_action
     - slot{"object_name": "ball"}
     - utter_prompt_color
 * clarify{"object_color": "blue"}
@@ -39,19 +43,23 @@
 
 ## interactive_story_1
 * show{"object_color": "pink"}
+    - got_action
     - slot{"object_color": "pink"}
     - utter_unknown_color
 * affirmative
     - utter_prompt
 * find{"object_color": "pink", "object_name": "apple"}
+    - got_action
     - slot{"object_color": "pink"}
     - slot{"object_name": "apple"}
     - utter_unknown_color
 * find{"object_color": "red", "object_name": "apple"}
+    - got_action
     - slot{"object_color": "red"}
     - slot{"object_name": "apple"}
     - execute_find
 * pick up
+    - got_action
     - slot{"object_color": "red"}
     - slot{"object_name": "apple"}
     - utter_repeat_command
@@ -59,3 +67,78 @@
     - execute_pickup
 * bye
     - utter_goodbye
+
+## interactive_story_1
+* greetings
+    - utter_greet
+    - utter_prompt
+* find
+    - got_action
+    - utter_prompt_object
+* clarify{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - utter_prompt_color
+* clarify{"object_color": "blue"}
+    - slot{"object_color": "blue"}
+    - execute_find
+* none
+    - utter_prompt
+* find{"object_color": "green", "object_name": "apple"}
+    - got_action
+    - slot{"object_color": "green"}
+    - slot{"object_name": "apple"}
+    - execute_find
+* bye
+    - utter_goodbye
+
+## interactive_story_1
+* greetings
+    - utter_greet
+    - utter_prompt
+* find{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_color
+* clarify{"object_color": "blue"}
+    - slot{"object_color": "blue"}
+    - execute_find
+* none
+    - utter_prompt
+* bye
+    - utter_goodbye
+* find{"object_color": "brown", "object_name": "apple"}
+    - slot{"object_color": "brown"}
+    - slot{"object_name": "apple"}
+    - got_action
+    - slot{"action": "find"}
+    - execute_find
+* find{"object_color": "white"}
+    - slot{"object_color": "white"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_unknown_color
+* show{"object_color": "white", "object_name": "ball"}
+    - slot{"object_color": "white"}
+    - slot{"object_name": "ball"}
+    - got_action
+    - slot{"action": "learn"}
+    - utter_got_description
+    - execute_learn
+    - reset_slots
+
+## interactive_story_1
+* greetings
+    - utter_greet
+    - utter_prompt
+* find
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_object
+* clarify{"object_name": "lemon"}
+    - slot{"object_name": "lemon"}
+    - utter_prompt_color
+* clarify{"object_color": "yellow", "placement": "left"}
+    - slot{"object_color": "yellow"}
+    - slot{"placement": "left"}
+    - execute_find

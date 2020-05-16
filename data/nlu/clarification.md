@@ -1,101 +1,101 @@
 ## intent:clarify
-- that [pink](object_color) [apple](object_name)
-- what i mean is this [magenta](object_color) [pepper](object_name)
-- that [tomato](object_name)
-- a [green](object_color) [tomato](object_name) please
-- what i meant was this [yellow](object_color) [lemon](object_name)
-- [yellow](object_color) [apricot](object_name) immediately
-- [pepper](object_name) of color [purple](object_color) please
-- that [blue](object_color) [box](object_name)
-- an [pepper](object_name) immediately
-- an [pink](object_color) [kiwi](object_name)
-- that [yellow](object_color) [strawberry](object_name) also
-- what i mean is towards the [middle](placement) area
-- that [orange](object_color) [glass](object_name)
-- some [pizza](object_name) that has a [brown](object_color) color
-- i meant the [orange](object_color) [pineapple](object_name)
-- i mean positioned at the [left](placement)
-- some [thing](object_name) which has the color [brown](object_color) immediately
-- [black](object_color) [orange](object_name) now
-- some [ball](object_name) that has a [brown](object_color) color
-- [black](object_color) [pizza](object_name) thanks
-- a [black](object_color) [pear](object_name) thanks
-- that [ball](object_name) which is [yellow](object_color)
-- some [brown](object_color) [glass](object_name)
-- one [brown](object_color) [brick](object_name) if you can
-- one [blue](object_color) [raspberry](object_name)
-- [green](object_color) [tool](object_name) also
-- an [shape](object_name) which has a [orange](object_color) color maybe
-- the [brown](object_color) [pineapple](object_name)
-- one [purple](object_color) [thing](object_name) that's all
-- i meant a [kiwi](object_name) which is [purple](object_color)
-- i wanted to say located at the [left](placement)
-- one [magenta](object_color) [lemon](object_name)
-- [orange](object_color) [watermelon](object_name)
-- some [sphere](object_name) of color [black](object_color)
-- what i meant was a [brown](object_color) [pear](object_name)
-- some [orange](object_color) [watermelon](object_name)
-- some [magenta](object_color) [apple](object_name)
-- what i mean is one [green](object_color) [shape](object_name)
-- i mean to somewhere on the [right](placement)
-- this [blue](object_color) [kiwi](object_name) if possible
-- one [magenta](object_color) [kiwi](object_name) if you can
-- [brown](object_color) [shape](object_name)
-- i meant on the [center](placement)
-- i meant the [black](object_color) [box](object_name)
+- towards the [left](placement) side
+- [brown](object_color)
+- i wanted to say some [magenta](object_color) [fruit](object_name)
+- the [pepper](object_name)
+- what i mean is an [yellow](object_color) [tomato](object_name)
+- the [lemon](object_name)
+- one [blue](object_color) [melon](object_name) somehow
+- an [orange](object_color) [duck](object_name)
+- towards the [right](placement) side
+- [watermelon](object_name) if possible
+- [purple](object_color)
+- towards the [center](placement) zone
+- the [shape](object_name) of color [pink](object_color)
+- [orange](object_color)
+- that [fruit](object_name) that has the color [brown](object_color)
+- the [shape](object_name)
+- [blue](object_color)
+- one [brown](object_color) [sphere](object_name)
+- on the [left](placement)
+- one [apple](object_name) which is [orange](object_color)
+- the [yellow](object_color) one
+- the [tool](object_name) of color [green](object_color)
+- what i mean is the [brown](object_color) [tool](object_name)
+- the [donut](object_name)
+- some [apple](object_name) also
+- this [brown](object_color) [brick](object_name)
+- what i meant was on the [right](placement)
+- what i meant was some [magenta](object_color) [melon](object_name)
+- that [brick](object_name) that is [magenta](object_color)
+- what i meant was a [pink](object_color) [lemon](object_name)
+- i wanted to say the [green](object_color) [ball](object_name)
+- that [magenta](object_color) [glass](object_name)
+- some [yellow](object_color) [pizza](object_name) thanks
+- some [orange](object_color) [raspberry](object_name)
+- located in the [left](placement) zone
+- [brown](object_color) [tool](object_name)
+- the [green](object_color) [glass](object_name) if you can
+- the [apple](object_name)
+- what i mean is an [black](object_color) [kiwi](object_name)
+- [green](object_color)
+- one [thing](object_name) that is [orange](object_color) also
+- the [yellow](object_color) [orange](object_name) thanks
+- a [yellow](object_color) [object](object_name) immediately
+- an [donut](object_name) that is [magenta](object_color) somehow
+- a [pink](object_color) [kiwi](object_name) if you can
+- the [box](object_name)
+- the [green](object_color) [strawberry](object_name) please
+- from the [left](placement)
+- an [yellow](object_color) [tomato](object_name)
+- the [blue](object_color) one
+- the [tool](object_name)
+- [brown](object_color) [duck](object_name) thanks
+- some [orange](object_color) [sphere](object_name)
+- [purple](object_color) [kiwi](object_name)
+- the [purple](object_color) one
+- located over there in the [right](placement)
+- towards the [left](placement) zone
+- the [hammer](object_name)
+- a [purple](object_color) [watermelon](object_name) please robot
+- the [raspberry](object_name) which is [green](object_color)
+- located at the [middle](placement)
+- some [purple](object_color) [lemon](object_name) also
+- [pink](object_color)
+- the [orange](object_name)
+- on the [center](placement)
+- i mean that [black](object_color) [orange](object_name)
+- a [brown](object_color) [pepper](object_name) please
+- the [black](object_color) one
+- i wanted to say placed at the [right](placement)
+- one [lemon](object_name)
+- the [magenta](object_color) one
+- the [melon](object_name)
+- what i mean is [magenta](object_color) [hammer](object_name)
+- what i meant was that [yellow](object_color) [tool](object_name)
+- what i meant was [melon](object_name)
+- [magenta](object_color)
+- this [orange](object_name) thanks
 - i wanted to say towards the [left](placement) side
-- this [magenta](object_color) [pear](object_name)
-- that [hammer](object_name) of color [brown](object_color)
-- the [blue](object_color) [watermelon](object_name) that's all
-- i wanted to say this [green](object_color) [raspberry](object_name)
-- that [pear](object_name) that has the color [purple](object_color) immediately
-- what i meant was towards the [right](placement) area
-- a [yellow](object_color) [apricot](object_name)
-- what i meant was towards the [right](placement) zone
-- one [magenta](object_color) [donut](object_name) somehow
-- what i meant was a [pink](object_color) [apricot](object_name)
-- [kiwi](object_name) of color [magenta](object_color) maybe
-- this [apple](object_name) which has the color [blue](object_color) if you can
-- that [magenta](object_color) [orange](object_name)
-- the [fruit](object_name)
-- one [orange](object_color) [kiwi](object_name) maybe
-- one [pink](object_color) [apricot](object_name) somehow
-- i wanted to say the [black](object_color) [duck](object_name)
-- an [brown](object_color) [orange](object_name)
-- one [pink](object_color) [melon](object_name)
-- the [orange](object_color) [brick](object_name) please
-- the [pink](object_color) [fruit](object_name)
-- an [brown](object_color) [strawberry](object_name)
-- i mean on the [left](placement)
-- [brown](object_color) [pear](object_name) please
-- i wanted to say on the [left](placement)
-- [lemon](object_name) somehow
-- towards the [middle](placement) side
-- an [melon](object_name) which has a [pink](object_color) color
-- some [brown](object_color) [watermelon](object_name)
-- what i mean is an [brick](object_name) which is [orange](object_color)
-- the [tomato](object_name) that has the color [purple](object_color)
-- i mean placed in the [middle](placement)
-- i mean some [thing](object_name)
-- what i meant was towards the [left](placement) area
-- that [blue](object_color) [raspberry](object_name)
-- [orange](object_color) [melon](object_name)
-- a [magenta](object_color) [thing](object_name) that's all
-- one [brown](object_color) [fruit](object_name) now
-- i meant the [orange](object_color) [raspberry](object_name)
-- what i meant was located in the [left](placement)
-- robot what i meant was one [apple](object_name)
-- what i mean is one [pink](object_color) [strawberry](object_name)
-- some [yellow](object_color) [box](object_name)
-- one [brown](object_color) [pizza](object_name) if you can
-- that [blue](object_color) [thing](object_name) please robot
-- what i mean is to somewhere on the [right](placement)
-- an [green](object_color) [glass](object_name) please
-- this [blue](object_color) [thing](object_name) also
-- an [pink](object_color) [orange](object_name) thanks
-- that [pink](object_color) [apricot](object_name) somehow
-- what i meant was towards the [center](placement) side
-- i wanted to say [pink](object_color) [object](object_name)
-- what i meant was some [melon](object_name) that is [brown](object_color)
-- i wanted to say [melon](object_name)
-- this [purple](object_color) [duck](object_name)
+- the [orange](object_name) which has the color [black](object_color)
+- this [pear](object_name) that has a [green](object_color) color if possible
+- the [thing](object_name)
+- what i mean is located at the [middle](placement)
+- [yellow](object_color)
+- some [purple](object_color) [tool](object_name)
+- that [ball](object_name) of color [green](object_color)
+- that [pink](object_color) [brick](object_name)
+- placed in the area on the [middle](placement)
+- [black](object_color)
+- what i meant was [pear](object_name) which is [magenta](object_color)
+- i meant to the [middle](placement)
+- the [brick](object_name) that has a [magenta](object_color) color
+- a [blue](object_color) [raspberry](object_name) if possible
+- the [orange](object_color) one
+- what i mean is a [object](object_name) which is [blue](object_color)
+- an [purple](object_color) [pineapple](object_name)
+- the [green](object_color) one
+- towards the [right](placement) area
+- one [yellow](object_color) [orange](object_name) please
+- the [pear](object_name)
+- what i meant was an [pear](object_name) that has a [blue](object_color) color

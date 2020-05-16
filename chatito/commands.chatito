@@ -9,8 +9,9 @@ import ./common.chatito
     *[20%] ~[find] ~[the?] ~[colored object] ~[on the left]
     ~[find] ~[it]
     ~[intro?] ~[find] ~[the?] ~[colored object] ~[outro?]
-    where is ~[the?] ~[colored object]
+    *[10%] where is ~[the?] ~[colored object]
     ~[can you see] ~[the?] ~[colored object]
+    *[10%] what can you ~[find]
 
 // Ways to say move
 
