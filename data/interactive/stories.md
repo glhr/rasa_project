@@ -45,7 +45,7 @@
 * show{"object_color": "pink"}
     - got_action
     - slot{"object_color": "pink"}
-    - utter_unknown_color
+    - utter_prompt_object
 * affirmative
     - utter_prompt
 * find{"object_color": "pink", "object_name": "apple"}
@@ -141,4 +141,42 @@
 * clarify{"object_color": "yellow", "placement": "left"}
     - slot{"object_color": "yellow"}
     - slot{"placement": "left"}
+    - execute_find
+
+## interactive_story_1
+* greetings
+    - utter_greet
+    - utter_prompt
+* show{"object_name": "object"}
+    - slot{"object_name": "object"}
+    - got_action
+    - slot{"action": "learn"}
+    - utter_prompt_object
+
+## interactive_story_2
+* greetings
+    - utter_greet
+    - utter_prompt
+* find{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_color
+* clarify{"object_color": "green"}
+    - slot{"object_color": "green"}
+    - execute_find
+
+## interactive_story_3
+* greetings
+    - utter_greet
+    - utter_prompt
+* find
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_object
+* find{"object_name": "orange"}
+    - slot{"object_name": "orange"}
+    - utter_prompt_color
+* clarify{"object_color": "orange"}
+    - slot{"object_color": "orange"}
     - execute_find

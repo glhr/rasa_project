@@ -3,6 +3,8 @@
 - hey buddy
 - good evening buddy
 - good evening dual arm robot
+- howdy pal
+- yo
 
 ## intent:show
 - this is a [banana](object_name)
@@ -10,6 +12,7 @@
 - learn this [apple](object_name)
 - this is [pink](object_color)
 - this is what a [white](object_color) [ball](object_name) looks like
+- i need you to remember this [object](object_name)
 
 ## intent:clarify
 - [yellow](object_color) [banana](object_name)
@@ -21,6 +24,8 @@
 - the [white](object_color) one
 - the [lemon](object_name) please
 - it's light [yellow](object_color) and it's on the [left](placement)
+- i mean the [green](object_color) one
+- it's [orange](object_color) duh
 
 ## intent:none
 - you're welcome
@@ -53,3 +58,6 @@
 - lastly please search for something [red](object_color)
 - leastly please search for something [white](object_color)
 - could you search for something for me please
+- where is the [ball](object_name)
+- i'm gonna need you to locate something for me ok
+- oh sorry i meant find the [orange](object_name)
