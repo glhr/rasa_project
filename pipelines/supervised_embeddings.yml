@@ -12,7 +12,18 @@ pipeline:
   epochs: 100
 
 policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
-  - name: "FormPolicy"
+  - name: "KerasPolicy"
+    featurizer:
+    - name: MaxHistoryTrackerFeaturizer
+      max_history: 10
+      state_featurizer:
+        - name: BinarySingleStateFeaturizer
+  - name: AugmentedMemoizationPolicy
+    max_history: 10
+  - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.3
+    ambiguity_threshold: 0.1
+    core_threshold: 0.3
+    fallback_core_action_name: "fallback_action"
+    fallback_nlu_action_name: "fallback_action"
+    deny_suggestion_intent_name: "none"

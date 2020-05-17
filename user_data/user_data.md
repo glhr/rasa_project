@@ -348,7 +348,7 @@
 - what is in a shape of a [ball](object_name) and is in [orange](object_color) colour that u can find on the [table](placement)
 - scan the table
 - identify the [hammer](object_name) made out of wood
-- stop the object is not correct find the [yellow](object_color) [object](banana) which is a long curved fruit with smooth skin
+- stop the object is not correct find the [yellow](object_color) [banana](object_name) which is a long curved fruit with smooth skin
 - can you show me the [yellow](object_color) [objects](object_name)
 - show me the [orange](object_color) [ball](object_name)
 - move your arm to take the [banana](object_name) and lift it
@@ -434,7 +434,7 @@
 - learn this [object](object_name) [apple](object_name)
 - scan new [object](object_name) and identify it as a computer [mouse](object_name)
 - hi bot there is a [banana](object_name) on the [table](placement)
-- the [yellow](object_color) [banana](object_name) is on the [middle](placement) of the [table](placement)
+- the [yellow](object_color) [banana](object_name) is on the [middle](placement) of the table
 - hi bot there is a [mouse](object_name) on the [table](placement)
 - remember the new [object](object_name) in front of you
 - it is a [strawberry](object_name)

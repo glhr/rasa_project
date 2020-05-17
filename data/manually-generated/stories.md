@@ -113,7 +113,6 @@
   - utter_prompt_object
 * clarify{"object_name": "banana", "object_color": "yellow"}
   - slot{"object_name": "banana", "object_color": "yellow"}
-  - utter_got_description
   - execute_learn
 
 ## show
@@ -123,7 +122,6 @@
   - utter_prompt_object
 * clarify{"object_name": "banana", "object_color": "blue"}
   - slot{"object_name": "banana", "object_color": "blue"}
-  - utter_got_description
   - execute_learn
 
 ## show
@@ -136,7 +134,6 @@
   - utter_prompt_object
 * clarify{"object_name": "banana"}
   - slot{"object_name": "banana"}
-  - utter_got_description
   - execute_learn
 
 ## show
@@ -146,14 +143,12 @@
   - utter_prompt_color
 * clarify{"object_name": "apple", "object_color": "purple"}
   - slot{"object_name": "apple", "object_color": "purple"}
-  - utter_got_description
   - execute_learn
 
 ## show
 * show{"object_color": "black", "object_name": "banana"}
   - got_action
   - slot{"object_color": "black", "object_name": "banana"}
-  - utter_got_description
   - execute_learn
 
 <!-- confirm pickup -->

@@ -4,7 +4,7 @@
 - could you also detect [something](object_name) [blue](object_color)
 - can you detect any [red](object_color) [book](object_name) on the [right](placement) of the platform
 - find the [gold](object_color) [phone](object_name) instead
-- do you recognize a [bracelet](object_name) on the table
+- do you recognize a [bracelet](object_name) on the [table](placement)
 - i want you to look for a [bracelet](object_name) in the [middle](placement)
 - just find me [something](object_name)
 - find me a [red](object_color) [apple](object_name) on the [right](placement) side

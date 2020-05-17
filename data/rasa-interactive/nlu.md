@@ -24,6 +24,7 @@
 - ok here's a [green](object_color) [ball](object_name) for you
 - i'm putting my [balls](object_name) on the table for you to learn
 - i'm putting a [ball](object_name) on the [table](placement) for you to learn
+- learn the [green](object_color) [apple](object_name) in the [middle](placement) of the table
 
 ## intent:clarify
 - [yellow](object_color) [banana](object_name)
@@ -48,6 +49,7 @@
 - the [green](object_color) [ball](object_name)
 - it's on the [left](placement) of the table
 - the [green](object_color) [apple](object_name) on the [right](placement)
+- no the [yellow](object_color) one come on
 
 ## intent:none
 - you're welcome
@@ -57,6 +59,7 @@
 - awesome
 - what else can you do
 - now what
+- anytime buddy
 
 ## intent:pick up
 - pick up the [ball](object_name)
@@ -70,6 +73,8 @@
 - now pick it up like i said before
 - organize my [balls](object_name)
 - could you pick [something](object_name) up for me
+- now pick up the [green](object_color) [apple](object_name)
+- no pick up the [banana](object_name)
 
 ## intent:affirmative
 - yes
@@ -81,6 +86,8 @@
 - yes finally you get it
 - yeah that's what i told you
 - yeah do that slowly
+- yeah pick it up like i said
+- yes finally
 
 ## intent:bye
 - thanks
@@ -108,6 +115,7 @@
 - could find an [orange](object_color) [orange](object_name) on the [table](placement) please
 - could you find something on the [left](placement) of the table for me
 - could you find the [green](object_color) [apple](object_name)
+- now find the [yellow](object_color) [banana](object_name) on the [right](placement)
 
 ## intent:deny
 - nevermind

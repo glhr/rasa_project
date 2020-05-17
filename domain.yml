@@ -26,6 +26,8 @@ actions:
 - utter_prompt_placement
 - utter_received_command
 - utter_repeat_command
+- utter_repeat_command_withplacement_origin
+- utter_repeat_command_withplacement_destination
 entities:
 - object_color
 - object_name
@@ -42,7 +44,7 @@ intents:
 - deny
 - show
 responses:
-  fallback_action:
+  utter_fallback_action:
   - text: Sorry, I'm not that smart yet so I'm not sure what you want me to do. I can find an object, pick it up, or move it to a certain location.
   execute_learn:
   - text: execute_learn
@@ -97,7 +99,11 @@ responses:
   - text: Thanks for giving me a command.
   - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
+  - text: So just to make sure, you want me to {action} the {object_color} {object_name}?
+  utter_repeat_command_withplacement_origin:
   - text: So just to make sure, you want me to {action} the {object_color} {object_name} in the {placement} area?
+  utter_repeat_command_withplacement_destination:
+  - text: So just to make sure, you want me to {action} the {object_color} {object_name} to the {placement} area?
 
 session_config:
   carry_over_slots_to_new_session: true
