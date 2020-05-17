@@ -10,16 +10,15 @@
 - do it gently dont crush the [banana](object_name) i want to eat it
 - pick up the [banana](object_name)
 - grab the [yellow](object_color) [banana](object_name) and lift it
+- no put this object in its place where it was before
+- please drop the [green](object_color) [apple](object_name) and give me the [red](object_color) [apple](object_name) instead
 
 ## intent:find
 - show me the [yellow](object_color) [duck](object_name)
 - identify the [yellow](object_color) [duck](object_name) by showing it with your arm
 
 ## intent:deny
-- please drop the [green](object_color) [apple](object_name) and give me the [red](object_color) [apple](object_name) instead
 - no i wanted you to
-- no put this object in its place where it was before
-- by showing it the right thing to do
 
 ## intent:show
 - please remember that you had this [red](object_color) [apple](object_name) in your hand
@@ -32,3 +31,4 @@
 - what are you going to do with all these things
 - are the fruits ripe
 - with a detailed description of the shape of the object and its colour with terms matching its data base
+- by showing it the right thing to do

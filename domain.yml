@@ -1,4 +1,5 @@
 actions:
+- fallback_action
 - got_action
 - execute_learn
 - execute_find
@@ -41,6 +42,8 @@ intents:
 - deny
 - show
 responses:
+  fallback_action:
+  - text: Sorry, I'm not that smart yet so I'm not sure what you want me to do. I can find an object, pick it up, or move it to a certain location.
   execute_learn:
   - text: execute_learn
   execute_pickup:
@@ -94,7 +97,7 @@ responses:
   - text: Thanks for giving me a command.
   - text: Great! A command! I was getting bored over here...
   utter_repeat_command:
-  - text: So just to make sure, you want me to {action} the {object_name} in the {placement} area?
+  - text: So just to make sure, you want me to {action} the {object_color} {object_name} in the {placement} area?
 
 session_config:
   carry_over_slots_to_new_session: true

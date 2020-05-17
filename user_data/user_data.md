@@ -237,6 +237,10 @@
 - clean up the [table](object_name)
 - organize [items](object_name) by color
 - cleanup [table](object_name)
+- but no take the [banana](object_name) you idiot
+- incorrect pick up the [yellow](object_color) [banana](object_name)
+- no it not what i want i want you to take the [banana](object_name)
+- stop put the [banana](object_name) down and pick up the [orange](object_name)
 
 ## intent:clarify
 - do this with the [yellow](object_color) [banana](object_name)
@@ -254,6 +258,12 @@
 - [yellow](object_color) [duck](object_name)
 - [yellow](object_color) [duck](object_name)
 - [right](placement)
+- no i said the [yellow](object_color) [duck](object_name)
+- not the [red](object_color) [apple](object_name) i needed the [orange](object_name)
+- no take the [orange](object_name)
+- no not that the [banana](object_name) please
+- not that [orange](object_name) but the other one
+- don't take this [object](object_name) but this one on the [right](placement)
 
 ## intent:none
 - what the hell ils this
@@ -344,7 +354,6 @@
 - that's not what i meant
 - bad robot
 - cancel
-- not that [orange](object_name) but the other one
 - emergency button
 - no
 - cease your doing
@@ -362,25 +371,17 @@
 - don't do that
 - you are doing the wrong task please cancel
 - stop
-- but no take the [banana](object_name) you idiot
-- no not that the [banana](object_name) please
-- no it’ not what i want i want you to take the [banana](object_name)
 - stop this do what i said before
 - no stop
-- incorrect pick up the [yellow](object_color) [banana](object_name)
-- no i said the [yellow](object_color) [duck](object_name)
 - error
 - no
-- no take the [orange](object_name)
-- stop put the [banana](object_name) down and pick up the [orange](object_name)
 - wrong try again
 - james undo
-- don't take this [object](object_name) but this one on the [right](placement)
 - stop
 - your action is incorrect
 - robot can you try again
 - try one more time
-- not the [red](object_color) [apple](object_name) i needed the [orange](object_name)
+
 
 ## intent:move
 - move to the [left](placement)
