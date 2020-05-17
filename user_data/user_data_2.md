@@ -1,33 +1,34 @@
 ## intent:pick up
-- Give me the [hammer](object_name) please.
-- Give me the [hammer](object_name)
-- Give me the [banana](object_name)
-- Give me a [fruit](object_name)
-- Take the [yellow](object_color) [duck](object_name) and give it to me.
-- Could you please give me the [red](object_color) [apple](object_name)?
-- Can you give me the [yellow](object_color) [banana](object_name)?
-- Take the [yellow](object_color) [banana](object_name) in your hand
-- Do it gently, don't crush the [banana](object_name). I want to eat it.
-- Pick up the [banana](object_name)
-- Grab the [yellow](object_color) [banana](object_name) and lift it.
+- give me the [hammer](object_name) please
+- give me the [hammer](object_name)
+- give me the [banana](object_name)
+- give me a [fruit](object_name)
+- take the [yellow](object_color) [duck](object_name) and give it to me
+- could you please give me the [red](object_color) [apple](object_name)
+- can you give me the [yellow](object_color) [banana](object_name)
+- take the [yellow](object_color) [banana](object_name) in your hand
+- do it gently dont crush the [banana](object_name) i want to eat it
+- pick up the [banana](object_name)
+- grab the [yellow](object_color) [banana](object_name) and lift it
 
 ## intent:find
-- Show me the [yellow](object_color) [duck](object_name)
-- Identify the [Yellow](object_color) [duck](object_name) by showing it with your arm.
+- show me the [yellow](object_color) [duck](object_name)
+- identify the [yellow](object_color) [duck](object_name) by showing it with your arm
 
 ## intent:deny
-- Please drop the green apple and give me the red apple instead.
-- No, I wanted you to...
-- No, put this object in its place, where it was before
-- By showing it the right thing to do.
+- please drop the [green](object_color) [apple](object_name) and give me the [red](object_color) [apple](object_name) instead
+- no i wanted you to
+- no put this object in its place where it was before
+- by showing it the right thing to do
 
 ## intent:show
-Please remember that you had this [red](object_color) [apple](object_name) in your hand.
-You see, that is "a [mouse](object_name)". Can you register it?
-This is a [mouse](object_name) for a computer. Remember it.
-With a detailed description of the shape of the object and its colour (with terms matching its data base)
+- please remember that you had this [red](object_color) [apple](object_name) in your hand
+- you see that is a [mouse](object_name) can you register it
+- this is a [mouse](object_name) for a computer remember it
 
 
-
-## dunno about this one for the first question:
-What can you do? What are you going to do with all these things? Are the fruits ripe?
+## intent:none
+- what can you do
+- what are you going to do with all these things
+- are the fruits ripe
+- with a detailed description of the shape of the object and its colour with terms matching its data base
