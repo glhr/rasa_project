@@ -1,7 +1,6 @@
 ## action
 * find
     - got_action
-    - execute_find
 
 ## action
 * show
@@ -43,13 +42,14 @@
   - slot{"object_color": "blue"}
   - utter_repeat_command
 
-<!-- unknown color -->
+<!-- learning unknown color -->
 ## unknown_color
 * show{"object_color": "pink"}
   - got_action
   - slot{"object_color": "pink"}
   - utter_prompt_object
 
+<!-- got unknown color -->
 ## unknown_color
 * find{"object_color": "white"}
   - got_action
@@ -63,35 +63,36 @@
   - utter_unknown_color
 
 <!-- find -->
-## find
-* find
-  - got_action
-  - execute_find
 
+<!-- missing color in find command -->
 ## find
 * find{"object_name": "apple"}
   - got_action
   - slot{"object_name": "apple"}
   - utter_prompt_color
 
+<!-- unknown object in find command -->
 ## find
 * find{"object_name": "duck"}
   - got_action
   - slot{"object_name": "duck"}
   - utter_unknown_object
 
+<!-- missing color in find command -->
 ## find
 * find{"object_color": "green"}
   - got_action
   - slot{"object_color": "green"}
   - utter_prompt_object
 
+<!-- valid find command -->
 ## find
 * find{"object_name": "apple", "object_color": "green"}
   - got_action
   - slot{"object_name": "apple", "object_color": "green"}
   - execute_find
 
+<!-- known object but unknown color in find command -->
 ## find
 * find{"object_name": "apple", "object_color": "white"}
   - got_action

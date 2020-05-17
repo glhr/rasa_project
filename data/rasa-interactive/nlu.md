@@ -5,6 +5,8 @@
 - good evening dual arm robot
 - howdy pal
 - yo
+- hello
+- hola chica
 
 ## intent:show
 - this is a [banana](object_name)
@@ -13,6 +15,15 @@
 - this is [pink](object_color)
 - this is what a [white](object_color) [ball](object_name) looks like
 - i need you to remember this [object](object_name)
+- i want you to learn something
+- okay so you need to learn that this in the [middle](placement) is a [green](object_color) [apple](object_name)
+- can you learn something else now
+- remember this [apple](object_name)
+- i need you to learn this [duck](object_name)
+- here is a [red](object_color) [ball](object_name) for you to learn
+- ok here's a [green](object_color) [ball](object_name) for you
+- i'm putting my [balls](object_name) on the table for you to learn
+- i'm putting a [ball](object_name) on the [table](placement) for you to learn
 
 ## intent:clarify
 - [yellow](object_color) [banana](object_name)
@@ -28,26 +39,56 @@
 - it's [orange](object_color) duh
 - in the [middle](placement)
 - i said the [orange](object_color) one
+- the [green](object_color) [apple](object_name)
+- it's mostly light [green](object_color)
+- i'd say it's [yellow](object_color)
+- the [yellow](object_color) [duck](object_name)
+- it has the colour [orange](object_color)
+- the [apple](object_name) i want you to move is [green](object_color)
+- the [green](object_color) [ball](object_name)
+- it's on the [left](placement) of the table
+- the [green](object_color) [apple](object_name) on the [right](placement)
 
 ## intent:none
 - you're welcome
 - that sucks
 - nice thanks
+- what a nice day isn't it
+- awesome
+- what else can you do
+- now what
 
 ## intent:pick up
 - pick up the [ball](object_name)
 - now pick it up
+- pick up the [green](object_color) [apple](object_name) then
+- ok then pick up the [orange](object_name) on the [right](placement)
+- pick up the [object](object_name) again
+- the [orange](object_color) [banana](object_name) which is in the [middle](placement) area
+- move something else
+- move [left](placement)
+- now pick it up like i said before
+- organize my [balls](object_name)
+- could you pick [something](object_name) up for me
 
 ## intent:affirmative
 - yes
 - ok
 - yep
+- do that yes
+- go ahead
+- yeah move it
+- yes finally you get it
+- yeah that's what i told you
+- yeah do that slowly
 
 ## intent:bye
 - thanks
 - bye
 - thanks bye
 - that's all, bye
+- that's all bye
+- i'm leaving now bye
 
 ## intent:find
 - find a [pink](object_color) [apple](object_name)
@@ -65,3 +106,13 @@
 - i'm gonna need you to locate something for me ok
 - oh sorry i meant find the [orange](object_name)
 - could find an [orange](object_color) [orange](object_name) on the [table](placement) please
+- could you find something on the [left](placement) of the table for me
+- could you find the [green](object_color) [apple](object_name)
+
+## intent:deny
+- nevermind
+
+## intent:move
+- hey so i need you to take that [apple](object_name) and put in on the [right](placement)
+- no grab the [orange](object_name) and drop it in the [middle](placement)
+- now move it to the [right](placement)
