@@ -61,7 +61,7 @@ class ReceivedFind(Action):
         object_color = tracker.get_slot('object_color')
         placement_origin = tracker.get_slot('placement')
         if ENABLE_ROS:
-            nlp_node.send_command("show", object_name, object_color, placement_origin)
+            nlp_node.send_command("find", object_name, object_color, placement_origin)
             response, info = nlp_node.wait_for_response()
 
             if response is not None:

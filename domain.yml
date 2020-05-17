@@ -22,6 +22,7 @@ actions:
 - utter_prompt_action
 - utter_prompt_color
 - utter_prompt_object
+- utter_prompt_placement
 - utter_received_command
 - utter_repeat_command
 entities:
@@ -83,6 +84,8 @@ responses:
   - text: What object do you want me to {action} exactly?
   utter_prompt_color:
   - text: What color is the {object_name} you want me to {action}?
+  utter_prompt_placement:
+  - text: Is the {object_name} located on the left, right, or in the middle of the table?
   utter_unknown_color:
   - text: Sorry, I don't know the color {object_color}.
   utter_unknown_object:

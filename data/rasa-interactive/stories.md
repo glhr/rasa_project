@@ -180,3 +180,21 @@
 * clarify{"object_color": "orange"}
     - slot{"object_color": "orange"}
     - execute_find
+
+## interactive_story_1
+* find{"object_color": "orange", "object_name": "orange", "placement": "table"}
+    - slot{"object_color": "orange"}
+    - slot{"object_name": "orange"}
+    - slot{"placement": "table"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_suggest_placement
+* clarify{"placement": "middle"}
+    - slot{"placement": "middle"}
+    - execute_find
+* clarify{"object_color": "orange"}
+    - slot{"object_color": "orange"}
+    - got_action
+    - execute_find
+* bye
+    - utter_goodbye

@@ -26,6 +26,8 @@
 - it's light [yellow](object_color) and it's on the [left](placement)
 - i mean the [green](object_color) one
 - it's [orange](object_color) duh
+- in the [middle](placement)
+- i said the [orange](object_color) one
 
 ## intent:none
 - you're welcome
@@ -45,6 +47,7 @@
 - thanks
 - bye
 - thanks bye
+- that's all, bye
 
 ## intent:find
 - find a [pink](object_color) [apple](object_name)
@@ -61,3 +64,4 @@
 - where is the [ball](object_name)
 - i'm gonna need you to locate something for me ok
 - oh sorry i meant find the [orange](object_name)
+- could find an [orange](object_color) [orange](object_name) on the [table](placement) please
