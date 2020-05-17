@@ -10,8 +10,8 @@ from rasa.nlu.training_data import load_data
 # USE AT YOUR OWN RISK
 
 files = {
-    './commands.json': '../data/nlu/commands.md',
-    './clarification.json': '../data/nlu/clarification.md',
+    './commands.json': '../data/auto-generated/commands.md',
+    './clarification.json': '../data/auto-generated/clarification.md',
 }
 # *******************************************************
 # TAKE CARE: output_md_file is overwritten automatically
