@@ -15,6 +15,7 @@
 - hello robot
 - hello i don t like to speak to robots
 - hey robot record
+- hello what do you know how to do
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the [table](placement)
@@ -98,7 +99,8 @@
 - pick up the [banana](object_name)
 - open the [banana](object_name)
 - pick up the [apple](object_name) please
-- pick up the [red](object_color) [tomato](object_name)	pick up the [banana](object_name)
+- pick up the [red](object_color) [tomato](object_name)
+- pick up the [banana](object_name)
 - pick up the [banana](object_name)
 - pick up the [yellow](object_color) [duckie](object_name)
 - pick up the [banana](object_name)
@@ -165,7 +167,7 @@
 - drag an end-effector to the [object](object_name)
 - can you help me and give me the [hammer](object_name) please
 - can i have a [pear](object_name) please
-- would you help me grab this glass
+- would you help me grab this [glass](object_name)
 - there’s a [banana](object_name) in the middle of your desk can you grab it please
 - take the [banana](object_name)
 - grab the [banana](object_name)
@@ -241,6 +243,18 @@
 - incorrect pick up the [yellow](object_color) [banana](object_name)
 - no it not what i want i want you to take the [banana](object_name)
 - stop put the [banana](object_name) down and pick up the [orange](object_name)
+- locate the [yellow](object_color) [banana](object_name) and gently grasp it
+- don't take this [object](object_name) but this one on the [right](placement)
+- take the [banana](object_name)
+- please give me the [brown](object_color) [donut](object_name)
+- grab it by closing your fingers
+- then you carry the [banana](object_name)
+- could you please sort the [items](object_name) in colour range and then give me the [banana](object_name)
+- can you take the plastic rubber [duck](object_name)
+- take the [yellow](object_color) [banana](object_name) raise it and drop it
+- start again put back the [object](object_name) in its place take the [yellow](object_color) [banana](object_name) raise it and drop it
+- please pick the [banana](object_name) and lift it up
+- that was just wrong because you should grab the [banana](object_name) and lift it up
 
 ## intent:clarify
 - do this with the [yellow](object_color) [banana](object_name)
@@ -263,7 +277,7 @@
 - no take the [orange](object_name)
 - no not that the [banana](object_name) please
 - not that [orange](object_name) but the other one
-- don't take this [object](object_name) but this one on the [right](placement)
+- [mouse](object_name) small object made out of plastic 5cm long 3cm high elongated shape
 
 ## intent:none
 - what the hell ils this
@@ -305,6 +319,12 @@
 - are you friendly
 - james what can you do for me
 - how is it going today
+- what tasks can you accomplish
+- i can explain you
+- say hello to the mouse
+- when i ask the task it means that you have to do the precise instructions
+- don't break anything
+
 
 ## intent:find
 - is there a [yellow](object_color) rubber [duck](object_name) on the [table](placement)
@@ -327,9 +347,15 @@
 - where is your [head](object_name)
 - what is in a shape of a [ball](object_name) and is in [orange](object_color) colour that u can find on the [table](placement)
 - scan the table
+- identify the [hammer](object_name) made out of wood
+- stop the object is not correct find the [yellow](object_color) [object](banana) which is a long curved fruit with smooth skin
+- can you show me the [yellow](object_color) [objects](object_name)
+- show me the [orange](object_color) [ball](object_name)
+- move your arm to take the [banana](object_name) and lift it
+- can you show me the  [yellow](object_color) [duck](object_name) please
 
 ## intent:deny
-- stop (and then repeat what i wanted in the first place)
+- stop and then repeat what i wanted in the first place
 - stop
 - nonono do **** instead
 - no no no no stop that
@@ -381,6 +407,10 @@
 - your action is incorrect
 - robot can you try again
 - try one more time
+- you made a mistake try again
+- you made an error
+- i'm sorry i think you're doing the wrong task
+- no that's not it
 
 
 ## intent:move
@@ -392,6 +422,8 @@
 - use it to knock everything from the [table](placement) onto the [floor](placement)
 - move your hands towards the [banana](object_name) and grab it and move your hands to [upwards](placement)
 - put the [duck](object_name) on the [jar](placement) of jam
+- put your hand [right](placement) [up](placement) the [banana](object_name)
+- go [down](placement) until you touch the [table](object_name)
 
 ## intent:show
 - look at this new [object](object_name)
@@ -454,14 +486,14 @@
 - add tags for new [object](object_name)
 - hey look at that it’s a [mouse](object_name) ok can you remember it
 - look this small [grey](object_color) [object](object_name) here is called a [mouse](object_name) got it
-- here is a new think for you to remember: this is a [mouse](object_name) a [mouse](object_name)
+- here is a new think for you to remember this is a [mouse](object_name) a [mouse](object_name)
 - this is a [white](object_color) and [black](object_name) computer [mouse](object_name)
 - remember this [object](object_name) it is a [mouse](object_name)
 - it's a [mouth](object_name) remember
 - this is a it [mouse](object_name)
 - the [object](object_name) in front of you is a [mouse](object_name) store this definition
 - i want you to save in your memory an [object](object_name) that is [red](object_color) coloured and in a round shape and it is called an [apple](object_name)
-- james save the [object](object_name) as: computer [mouse](object_name) tag: computer peripheral wireless three button [white](object_color)
+- james save the [object](object_name) as computer [mouse](object_name) tag computer peripheral wireless three button [white](object_color)
 - remember this new [object](object_name) it is called a computer [mouse](object_name) the colour of this [mouse](object_name) is [black](object_color) with [white](object_color) top it’s shape is oval and 8cm length
 - remember this is a [mouse](object_name)
 - this is a [mouse](object_name)
@@ -472,3 +504,10 @@
 - this is a [fruit](object_name)
 - this [object](object_name) is used to control a computer
 - it's called an [orange](object_name)
+- this is a computer [mouse](object_name)
+- this small [object](object_name) is made out of [white](object_color) and [black](object_color) plastic
+- the object you have in front of you is a [mouse](object_name)
+- on the [table](placement) you have a certain number of [objects](object_name) various [fruits](object_name) a [hammer](object_name) a [glass](object_name) some [marbles](object_name)
+- remember this is called a [mouse](object_name)
+- hello you have a lot of colorful [things](object_name) on the [table](placement) in front of you
+- the object in front of you is called the [mouse](object_name)
