@@ -188,7 +188,7 @@
     - slot{"placement": "table"}
     - got_action
     - slot{"action": "find"}
-    - utter_suggest_placement
+    - utter_prompt_placement
 * clarify{"placement": "middle"}
     - slot{"placement": "middle"}
     - execute_find
