@@ -25,6 +25,11 @@
 - i'm putting my [balls](object_name) on the table for you to learn
 - i'm putting a [ball](object_name) on the [table](placement) for you to learn
 - learn the [green](object_color) [apple](object_name) in the [middle](placement) of the table
+- i want you to learn a new [object](object_name)
+- scan the small [strawberry](object_name) and save it to your memory
+- ok let me show you a [cherry](object_name)
+- can you learn something else then
+- look at this [grapefruit](object_name) it is [orange](object_color)
 
 ## intent:clarify
 - [yellow](object_color) [banana](object_name)
@@ -50,6 +55,13 @@
 - it's on the [left](placement) of the table
 - the [green](object_color) [apple](object_name) on the [right](placement)
 - no the [yellow](object_color) one come on
+- the [apple](object_name) is [green](object_color)
+- it's [red](object_color) isn't it obvious
+- the [banana](object_name)
+- it's [yellow](object_color) and [brown](object_color)
+- [cherry](object_name)
+- the [book](object_name)
+- the [raspberry](object_name)
 
 ## intent:none
 - you're welcome
@@ -60,6 +72,13 @@
 - what else can you do
 - now what
 - anytime buddy
+- you're useless damn
+- honestly nothing because you're incapable
+- leave me alone
+- ok then what can you do for real
+- seriously tell me what you can do
+- strangle yourself with your arms
+- what [objects](object_name) do you know then
 
 ## intent:pick up
 - pick up the [ball](object_name)
@@ -75,6 +94,8 @@
 - could you pick [something](object_name) up for me
 - now pick up the [green](object_color) [apple](object_name)
 - no pick up the [banana](object_name)
+- pick [something](object_name) up then geez
+- i'm asking you to lift the [fruit](object_name)
 
 ## intent:affirmative
 - yes
@@ -96,6 +117,9 @@
 - that's all, bye
 - that's all bye
 - i'm leaving now bye
+- that's all for now
+- no bye
+- i don't wanna do this bye
 
 ## intent:find
 - find a [pink](object_color) [apple](object_name)
@@ -116,11 +140,20 @@
 - could you find something on the [left](placement) of the table for me
 - could you find the [green](object_color) [apple](object_name)
 - now find the [yellow](object_color) [banana](object_name) on the [right](placement)
+- now find something else
+- could you look on the [table](placement) for something [pink](object_color)
+- find something [red](object_color) then
+- what do you see on the [table](placement)
 
 ## intent:deny
 - nevermind
+- none
+- no
+- i said no
 
 ## intent:move
 - hey so i need you to take that [apple](object_name) and put in on the [right](placement)
 - no grab the [orange](object_name) and drop it in the [middle](placement)
 - now move it to the [right](placement)
+- hey could you move the [apple](object_name) to the [right](placement)
+- no move it to the [left](placement)

@@ -461,3 +461,138 @@
     - utter_repeat_command_withplacement_origin
 * affirmative
     - execute_pickup
+
+## interactive_story_1
+* move{"object_name": "apple", "placement": "right"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "right"}
+    - got_action
+    - slot{"action": "move"}
+    - utter_prompt_color
+* clarify{"object_name": "apple", "object_color": "green"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "apple"}
+    - utter_repeat_command_withplacement_destination
+* move{"placement": "left"}
+    - slot{"placement": "left"}
+    - got_action
+    - slot{"action": "move"}
+    - utter_repeat_command_withplacement_destination
+* affirmative
+    - execute_move
+* bye
+    - utter_goodbye
+
+## interactive_story_1
+* show{"object_name": "object"}
+    - slot{"object_name": "object"}
+    - got_action
+    - slot{"action": "learn"}
+    - utter_prompt_object
+* show{"object_name": "strawberry"}
+    - slot{"object_name": "strawberry"}
+    - got_action
+    - slot{"action": "learn"}
+    - utter_prompt_color
+* clarify{"object_color": "red"}
+    - slot{"object_color": "red"}
+    - execute_learn
+    - reset_slots
+* find
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_object
+* clarify{"object_name": "banana"}
+    - slot{"object_name": "banana"}
+    - utter_prompt_color
+* clarify{"object_color": "brown"}
+    - slot{"object_color": "brown"}
+    - execute_find
+
+## interactive_story_1
+* find{"placement": "table", "object_color": "pink"}
+    - slot{"object_color": "pink"}
+    - slot{"placement": "table"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_unknown_color
+* find{"object_color": "red"}
+    - slot{"object_color": "red"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_object
+* clarify{"object_name": "cherry"}
+    - slot{"object_name": "cherry"}
+    - got_action
+    - utter_unknown_object
+* show{"object_name": "cherry"}
+    - slot{"object_name": "cherry"}
+    - got_action
+    - slot{"action": "learn"}
+    - execute_learn
+    - reset_slots
+* show
+    - got_action
+    - slot{"action": "learn"}
+    - utter_prompt_object
+* show{"object_name": "grapefruit", "object_color": "orange"}
+    - slot{"object_color": "orange"}
+    - slot{"object_name": "grapefruit"}
+    - got_action
+    - slot{"action": "learn"}
+    - execute_learn
+    - reset_slots
+* none
+    - utter_prompt
+* none
+    - utter_prompt
+* none
+    - utter_prompt
+* bye
+    - utter_goodbye
+
+## interactive_story_1
+* bye
+    - utter_prompt
+* none
+    - utter_prompt
+* find{"placement": "table"}
+    - slot{"placement": "table"}
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_object
+* deny
+    - cancel_command
+    - reset_slots
+    - utter_got_denied
+* none
+    - utter_prompt
+* deny
+    - utter_prompt
+* deny
+    - utter_prompt
+* none
+    - utter_prompt
+* pick up{"object_name": "something"}
+    - slot{"object_name": "something"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* clarify{"object_name": "book"}
+    - slot{"object_name": "book"}
+    - utter_unknown_object
+* none{"object_name": "objects"}
+    - slot{"object_name": "objects"}
+    - utter_prompt
+* pick up{"object_name": "fruit"}
+    - slot{"object_name": "fruit"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* clarify{"object_name": "raspberry"}
+    - slot{"object_name": "raspberry"}
+    - utter_unknown_object
+* deny
+    - cancel_command
+    - reset_slots
+    - utter_got_denied
