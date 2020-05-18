@@ -1,5 +1,6 @@
 actions:
 - cancel_command
+- utter_try_execute
 - execute_find
 - execute_learn
 - execute_move
@@ -53,6 +54,8 @@ responses:
   - text: execute_move
   execute_pickup:
   - text: execute_pickup
+  utter_try_execute:
+  - text: Hang on, I'll try to {action} the {object_color} {object_name}
   utter_executed_command:
   - text: Done! Here you go buddy.
   utter_failed_command:
@@ -111,8 +114,8 @@ responses:
   - text: Sorry, I don't know what {object_name} means. I don't know many objects
       yet. If you place an object on the table and describe it for me, I can learn.
 session_config:
-  carry_over_slots_to_new_session: true
-  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
+  session_expiration_time: 120
 slots:
   action:
     auto_fill: false

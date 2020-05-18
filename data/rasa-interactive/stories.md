@@ -7,6 +7,7 @@
     - got_action
     - utter_prompt_color
 * clarify
+    - utter_try_execute
     - execute_learn
 
 ## interactive_story_1
@@ -14,6 +15,7 @@
     - got_action
     - utter_prompt_object
 * clarify
+    - utter_try_execute
     - execute_learn
 
 ## interactive_story_1
@@ -23,6 +25,7 @@
     - utter_prompt_color
 * clarify{"object_color": "green"}
     - slot{"object_color": "green"}
+    - utter_try_execute
     - execute_learn
 * none
     - utter_prompt
@@ -35,6 +38,7 @@
     - slot{"object_color": "blue"}
     - utter_unknown_object
 * affirmative
+    - utter_try_execute
     - execute_pickup
 * bye
     - utter_goodbye
@@ -55,6 +59,7 @@
     - got_action
     - slot{"object_color": "red"}
     - slot{"object_name": "apple"}
+    - utter_try_execute
     - execute_find
 * pick up
     - got_action
@@ -62,6 +67,7 @@
     - slot{"object_name": "apple"}
     - utter_repeat_command
 * affirmative
+    - utter_try_execute
     - execute_pickup
 * bye
     - utter_goodbye
@@ -78,6 +84,7 @@
     - utter_prompt_color
 * clarify{"object_color": "blue"}
     - slot{"object_color": "blue"}
+    - utter_try_execute
     - execute_find
 * none
     - utter_prompt
@@ -85,6 +92,7 @@
     - got_action
     - slot{"object_color": "green"}
     - slot{"object_name": "apple"}
+    - utter_try_execute
     - execute_find
 * bye
     - utter_goodbye
@@ -100,6 +108,7 @@
     - utter_prompt_color
 * clarify{"object_color": "blue"}
     - slot{"object_color": "blue"}
+    - utter_try_execute
     - execute_find
 * none
     - utter_prompt
@@ -110,6 +119,7 @@
     - slot{"object_name": "apple"}
     - got_action
     - slot{"action": "find"}
+    - utter_try_execute
     - execute_find
 * find{"object_color": "white"}
     - slot{"object_color": "white"}
@@ -121,6 +131,7 @@
     - slot{"object_name": "ball"}
     - got_action
     - slot{"action": "learn"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 
@@ -138,6 +149,7 @@
 * clarify{"object_color": "yellow", "placement": "left"}
     - slot{"object_color": "yellow"}
     - slot{"placement": "left"}
+    - utter_try_execute
     - execute_find
 
 ## interactive_story_1
@@ -161,6 +173,7 @@
     - utter_prompt_color
 * clarify{"object_color": "green"}
     - slot{"object_color": "green"}
+    - utter_try_execute
     - execute_find
 
 ## interactive_story_3
@@ -176,6 +189,7 @@
     - utter_prompt_color
 * clarify{"object_color": "orange"}
     - slot{"object_color": "orange"}
+    - utter_try_execute
     - execute_find
 
 ## interactive_story_1
@@ -188,10 +202,12 @@
     - utter_prompt_placement
 * clarify{"placement": "middle"}
     - slot{"placement": "middle"}
+    - utter_try_execute
     - execute_find
 * clarify{"object_color": "orange"}
     - slot{"object_color": "orange"}
     - got_action
+    - utter_try_execute
     - execute_find
 * bye
     - utter_goodbye
@@ -208,6 +224,7 @@
     - slot{"object_color": "green"}
     - slot{"object_name": "apple"}
     - got_action
+    - utter_try_execute
     - execute_find
 * none
     - utter_prompt
@@ -223,6 +240,7 @@
     - slot{"placement": "middle"}
     - got_action
     - slot{"action": "learn"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * show
@@ -236,6 +254,7 @@
     - utter_prompt_color
 * clarify{"object_color": "green"}
     - slot{"object_color": "green"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 
@@ -247,6 +266,7 @@
     - utter_prompt_color
 * clarify{"object_color": "yellow"}
     - slot{"object_color": "yellow"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * pick up
@@ -268,6 +288,7 @@
     - slot{"action": "pick up"}
     - utter_repeat_command
 * affirmative
+    - utter_try_execute
     - execute_pickup
 
 ## interactive_story_1
@@ -290,6 +311,7 @@
     - slot{"object_color": "orange"}
     - utter_repeat_command_withplacement_origin
 * affirmative
+    - utter_try_execute
     - execute_pickup
 * greetings
     - utter_greet
@@ -307,6 +329,7 @@
     - slot{"action": "pick up"}
     - utter_repeat_command_withplacement_origin
 * affirmative
+    - utter_try_execute
     - execute_pickup
 
 ## interactive_story_1
@@ -321,6 +344,7 @@
     - slot{"object_name": "apple"}
     - utter_repeat_command_withplacement_destination
 * affirmative
+    - utter_try_execute
     - execute_move
 * none
     - utter_prompt
@@ -335,6 +359,7 @@
     - slot{"action": "move"}
     - utter_repeat_command_withplacement_destination
 * affirmative
+    - utter_try_execute
     - execute_move
 
 ## interactive_story_1
@@ -353,6 +378,7 @@
     - slot{"object_name": "ball"}
     - got_action
     - slot{"action": "learn"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * bye
@@ -387,6 +413,7 @@
     - slot{"object_name": "apple"}
     - got_action
     - slot{"action": "find"}
+    - utter_try_execute
     - execute_find
 * pick up
     - got_action
@@ -398,6 +425,7 @@
     - slot{"action": "move"}
     - utter_repeat_command_withplacement_destination
 * affirmative
+    - utter_try_execute
     - execute_move
 
 ## interactive_story_1
@@ -416,6 +444,7 @@
     - got_action
     - utter_repeat_command_withplacement_origin
 * affirmative
+    - utter_try_execute
     - execute_pickup
 * bye
     - utter_goodbye
@@ -427,6 +456,7 @@
     - slot{"placement": "middle"}
     - got_action
     - slot{"action": "learn"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * none
@@ -437,12 +467,14 @@
     - slot{"placement": "right"}
     - got_action
     - slot{"action": "find"}
+    - utter_try_execute
     - execute_find
 * pick up
     - got_action
     - slot{"action": "pick up"}
     - utter_repeat_command
 * affirmative
+    - utter_try_execute
     - execute_pickup
 * pick up{"object_color": "green", "object_name": "apple"}
     - slot{"object_color": "green"}
@@ -460,6 +492,7 @@
     - got_action
     - utter_repeat_command_withplacement_origin
 * affirmative
+    - utter_try_execute
     - execute_pickup
 
 ## interactive_story_1
@@ -479,6 +512,7 @@
     - slot{"action": "move"}
     - utter_repeat_command_withplacement_destination
 * affirmative
+    - utter_try_execute
     - execute_move
 * bye
     - utter_goodbye
@@ -496,6 +530,7 @@
     - utter_prompt_color
 * clarify{"object_color": "red"}
     - slot{"object_color": "red"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * find
@@ -507,6 +542,7 @@
     - utter_prompt_color
 * clarify{"object_color": "brown"}
     - slot{"object_color": "brown"}
+    - utter_try_execute
     - execute_find
 
 ## interactive_story_1
@@ -529,6 +565,7 @@
     - slot{"object_name": "cherry"}
     - got_action
     - slot{"action": "learn"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * show
@@ -540,6 +577,7 @@
     - slot{"object_name": "grapefruit"}
     - got_action
     - slot{"action": "learn"}
+    - utter_try_execute
     - execute_learn
     - reset_slots
 * none

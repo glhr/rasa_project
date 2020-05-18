@@ -62,19 +62,19 @@ class ReceivedFind(Action):
         object_name = tracker.get_slot('object_name')
         object_color = tracker.get_slot('object_color')
         placement_origin = tracker.get_slot('placement')
-
-        if placement_origin not in valid_placements:
-            placement_origin = "any"
-            dispatcher.utter_message(text="Hang on, I'll try to find a {} {} somewhere on the table".format(
-                object_color,
-                object_name
-            ))
-        else:
-            dispatcher.utter_message(text="Hang on, I'll try to find a {} {} in the {} area of the table".format(
-                object_color,
-                object_name,
-                placement_origin
-            ))
+        #
+        # if placement_origin not in valid_placements:
+        #     placement_origin = "any"
+        #     dispatcher.utter_message(text="Hang on, I'll try to find a {} {} somewhere on the table".format(
+        #         object_color,
+        #         object_name
+        #     ))
+        # else:
+        #     dispatcher.utter_message(text="Hang on, I'll try to find a {} {} in the {} area of the table".format(
+        #         object_color,
+        #         object_name,
+        #         placement_origin
+        #     ))
 
         if ENABLE_ROS:
             nlp_node.send_command("find", object_name, object_color, placement_origin)
@@ -133,10 +133,10 @@ class ReceivedLearn(Action):
             placement_origin = placement
         else:
             placement_origin="middle"
-
-        dispatcher.utter_message(text="Hang on, I'll try to search in the {} area of the table for the object you want me to learn".format(
-            placement_origin
-        ))
+        #
+        # dispatcher.utter_message(text="Hang on, I'll try to search in the {} area of the table for the object you want me to learn".format(
+        #     placement_origin
+        # ))
 
         if ENABLE_ROS:
             nlp_node.send_command(action="show",
@@ -183,18 +183,18 @@ class ReceivedPickup(Action):
         object_color = tracker.get_slot('object_color')
         placement_origin = tracker.get_slot('placement')
 
-        if placement_origin not in valid_placements:
-            placement_origin = "any"
-            dispatcher.utter_message(text="Hang on, I'll try to pick up the {} {} somewhere on the table".format(
-                object_color,
-                object_name
-            ))
-        else:
-            dispatcher.utter_message(text="Hang on, I'll try to pick up the {} {} in the {} area of the table".format(
-                object_color,
-                object_name,
-                placement_origin
-            ))
+        # if placement_origin not in valid_placements:
+        #     placement_origin = "any"
+        #     dispatcher.utter_message(text="Hang on, I'll try to pick up the {} {} somewhere on the table".format(
+        #         object_color,
+        #         object_name
+        #     ))
+        # else:
+        #     dispatcher.utter_message(text="Hang on, I'll try to pick up the {} {} in the {} area of the table".format(
+        #         object_color,
+        #         object_name,
+        #         placement_origin
+        #     ))
 
         if ENABLE_ROS:
             nlp_node.send_command("pick up", object_name, object_color, placement_origin)
@@ -209,8 +209,8 @@ class ReceivedPickup(Action):
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
                     dispatcher.utter_attachment(None, image=imgurl)
 
-                dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
-                if response.grippercode in [1,2]:
+                # dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
+                if response.grippercode in [1,2,3]:
                     dispatcher.utter_message(template="utter_failed_command")
                 else:
                     dispatcher.utter_message(text="Done with pick up.")
@@ -228,12 +228,12 @@ class ReceivedMove(Action):
         object_name = tracker.get_slot('object_name')
         object_color = tracker.get_slot('object_color')
         placement_destination = tracker.get_slot('placement')
-
-        dispatcher.utter_message(text="Hang on, I'll try to move the {} {} to the {}".format(
-            object_color,
-            object_name,
-            placement_destination
-        ))
+        #
+        # dispatcher.utter_message(text="Hang on, I'll try to move the {} {} to the {}".format(
+        #     object_color,
+        #     object_name,
+        #     placement_destination
+        # ))
 
         if ENABLE_ROS:
             nlp_node.send_command("move", object_name, object_color, placement_destination=placement_destination, placement_origin="any")
@@ -248,8 +248,8 @@ class ReceivedMove(Action):
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
                     dispatcher.utter_attachment(None, image=imgurl)
 
-                dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
-                if response.grippercode in [1,2]:
+                # dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
+                if response.grippercode in [1,2,3]:
                     dispatcher.utter_message(template="utter_failed_command")
                 else:
                     dispatcher.utter_message(text="Done with moving.")

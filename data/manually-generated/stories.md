@@ -143,12 +143,14 @@
   - utter_prompt_color
 * clarify{"object_name": "apple", "object_color": "purple"}
   - slot{"object_name": "apple", "object_color": "purple"}
+  - utter_try_execute
   - execute_learn
 
 ## show
 * show{"object_color": "black", "object_name": "banana"}
   - got_action
   - slot{"object_color": "black", "object_name": "banana"}
+  - utter_try_execute
   - execute_learn
 
 <!-- confirm pickup -->
@@ -166,6 +168,7 @@
   - slot{"object_name": "orange", "object_color": "orange"}
   - utter_repeat_command
 * affirmative
+  - utter_try_execute
   - execute_pickup
 
 ## story_name
@@ -174,6 +177,7 @@
   - slot{"object_color": "brown", "object_name": "strawberry"}
   - utter_repeat_command
 * affirmative
+  - utter_try_execute
   - execute_pickup
 
 ## story_name
@@ -182,4 +186,5 @@
   - slot{"object_color": "black", "object_name": "kiwi"}
   - utter_repeat_command
 * affirmative
+  - utter_try_execute
   - execute_pickup
