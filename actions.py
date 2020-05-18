@@ -173,6 +173,82 @@ class ReceivedLearn(Action):
         return []
 
 
+class ReceivedPickup(Action):
+    def name(self) -> Text: return "execute_pickup"
+
+    def run(self, dispatcher, tracker, domain):
+
+        object_name = tracker.get_slot('object_name')
+        object_color = tracker.get_slot('object_color')
+        placement_origin = tracker.get_slot('placement')
+
+        if placement_origin not in valid_placements:
+            placement_origin = "any"
+            dispatcher.utter_message(text="Hang on, I'll try to pick up the {} {} somewhere on the table".format(
+                object_color,
+                object_name
+            ))
+        else:
+            dispatcher.utter_message(text="Hang on, I'll try to pick up the {} {} in the {} area of the table".format(
+                object_color,
+                object_name,
+                placement_origin
+            ))
+
+        if ENABLE_ROS:
+            nlp_node.send_command("pick up", object_name, object_color, placement_origin)
+            response, info = nlp_node.wait_for_response()
+
+            if response is not None:
+                # dispatcher.utter_message(template="utter_executed_command")
+                if info is not None:
+                    imgpath = info
+                    print("Image saved at {}".format(imgpath))
+                    print("Found {} object: {}".format(response.desired_color, response.found_obj))
+                    imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
+                    dispatcher.utter_attachment(None, image=imgurl)
+
+                dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
+                dispatcher.utter_message(text="Done with pick up.")
+            else:
+                dispatcher.utter_message(template="utter_failed_command")
+                # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+
+
+class ReceivedMove(Action):
+    def name(self) -> Text: return "execute_move"
+
+    def run(self, dispatcher, tracker, domain):
+
+        object_name = tracker.get_slot('object_name')
+        object_color = tracker.get_slot('object_color')
+        placement_destination = tracker.get_slot('placement')
+
+        dispatcher.utter_message(text="Hang on, I'll try to move the {} {} to the {}".format(
+            object_color,
+            object_name,
+            placement_destination
+        ))
+
+        if ENABLE_ROS:
+            nlp_node.send_command("move", object_name, object_color, placement_destination=placement_destination, placement_origin="any")
+            response, info = nlp_node.wait_for_response()
+
+            if response is not None:
+                # dispatcher.utter_message(template="utter_executed_command")
+                if info is not None:
+                    imgpath = info
+                    print("Image saved at {}".format(imgpath))
+                    print("Found {} object: {}".format(response.desired_color, response.found_obj))
+                    imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
+                    dispatcher.utter_attachment(None, image=imgurl)
+
+                dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
+                dispatcher.utter_message(text="Done with moving.")
+            else:
+                dispatcher.utter_message(template="utter_failed_command")
+                # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+
 
 class ReceivedCancel(Action):
     """Reset all slots if a command was denied."""
