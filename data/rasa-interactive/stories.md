@@ -5,6 +5,7 @@
     - utter_prompt
 * show{"object_name": "banana"}
     - got_action
+    - slot{"action": "learn"}
     - utter_prompt_color
 * clarify
     - utter_try_execute
@@ -13,6 +14,7 @@
 ## interactive_story_1
 * show{"object_color": "red"}
     - got_action
+    - slot{"action": "learn"}
     - utter_prompt_object
 * clarify
     - utter_try_execute
@@ -20,8 +22,9 @@
 
 ## interactive_story_1
 * show{"object_name": "apple"}
-    - got_action
     - slot{"object_name": "apple"}
+    - got_action
+    - slot{"action": "learn"}
     - utter_prompt_color
 * clarify{"object_color": "green"}
     - slot{"object_color": "green"}
@@ -45,26 +48,27 @@
 
 ## interactive_story_1
 * show{"object_color": "pink"}
-    - got_action
     - slot{"object_color": "pink"}
+    - got_action
+    - slot{"action": "learn"}
     - utter_prompt_object
 * affirmative
     - utter_prompt
 * find{"object_color": "pink", "object_name": "apple"}
-    - got_action
     - slot{"object_color": "pink"}
     - slot{"object_name": "apple"}
+    - got_action
     - utter_unknown_color
 * find{"object_color": "red", "object_name": "apple"}
-    - got_action
     - slot{"object_color": "red"}
     - slot{"object_name": "apple"}
+    - got_action
+    - slot{"action": "find"}
     - utter_try_execute
     - execute_find
 * pick up
     - got_action
-    - slot{"object_color": "red"}
-    - slot{"object_name": "apple"}
+    - slot{"action": "pick up"}
     - utter_repeat_command
 * affirmative
     - utter_try_execute
@@ -662,3 +666,38 @@
     - utter_try_execute
     - execute_pickup
     - reset_slots
+
+## interactive_story_1
+* clarify{"object_color": "blue", "object_name": "object"}
+    - slot{"object_color": "blue"}
+    - slot{"object_name": "object"}
+    - utter_prompt_action
+* find
+    - got_action
+    - slot{"action": "find"}
+    - utter_prompt_object
+* clarify{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - utter_try_execute
+    - execute_find
+    - reset_slots
+
+## interactive_story_1
+* pick up{"object_name": "apple", "placement": "table"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "table"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_prompt_color
+* clarify{"object_color": "pink"}
+    - slot{"object_color": "pink"}
+    - utter_unknown_color
+* clarify{"object_color": "purple"}
+    - slot{"object_color": "purple"}
+    - utter_prompt_placement
+* clarify{"placement": "left"}
+    - slot{"placement": "left"}
+    - utter_repeat_command
+* affirmative
+    - utter_try_execute
+    - execute_pickup

@@ -65,6 +65,11 @@
 - [apple](object_name) duh
 - [apple](object_name)
 - it's [orange](object_color)
+- [blue](object_color) [object](object_name)
+- [ball](object_name)
+- [pink](object_color)
+- it's [purple](object_color) then
+- [left](placement)
 
 ## intent:none
 - you're welcome
@@ -101,6 +106,7 @@
 - i'm asking you to lift the [fruit](object_name)
 - pick up the [green](object_color) [thing](object_name)
 - pick up up the [banana](object_name)
+- take the [apple](object_name) from the [table](placement)
 
 ## intent:affirmative
 - yes
@@ -116,7 +122,7 @@
 - yes finally
 - yeah grab it now
 - yeah lift it up
-- yeah grab it now
+- yeah that's what i want
 
 ## intent:bye
 - thanks
@@ -151,6 +157,7 @@
 - could you look on the [table](placement) for something [pink](object_color)
 - find something [red](object_color) then
 - what do you see on the [table](placement)
+- find it
 
 ## intent:deny
 - nevermind
