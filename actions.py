@@ -210,7 +210,10 @@ class ReceivedPickup(Action):
                     dispatcher.utter_attachment(None, image=imgurl)
 
                 dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
-                dispatcher.utter_message(text="Done with pick up.")
+                if response.grippercode in [1,2]:
+                    dispatcher.utter_message(template="utter_failed_command")
+                else:
+                    dispatcher.utter_message(text="Done with pick up.")
             else:
                 dispatcher.utter_message(template="utter_failed_command")
                 return [AllSlotsReset()]
@@ -246,7 +249,10 @@ class ReceivedMove(Action):
                     dispatcher.utter_attachment(None, image=imgurl)
 
                 dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
-                dispatcher.utter_message(text="Done with moving.")
+                if response.grippercode in [1,2]:
+                    dispatcher.utter_message(template="utter_failed_command")
+                else:
+                    dispatcher.utter_message(text="Done with moving.")
             else:
                 dispatcher.utter_message(template="utter_failed_command")
                 return [AllSlotsReset()]
