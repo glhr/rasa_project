@@ -83,36 +83,43 @@ class ReceivedFind(Action):
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
 
-                imgpath = path_2dimg
-                print("Image saved at {}".format(imgpath))
+                # handle 2d vision response
                 print("Found {} object: {}".format(response.desired_color, response.found_obj))
 
                 imgurl_2d = "http://localhost:8888/{}?time={}".format(path_2dimg, int(time.time()))
-                imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
-                dispatcher.utter_attachment(None, image=imgurl_3d)
+                dispatcher.utter_attachment(None, image=imgurl_2d)
 
                 if response.found_obj:
                     if placement_origin in valid_placements:
-                        dispatcher.utter_message(text="I found the {} {} you asked for in the {} area.".format(
+                        dispatcher.utter_message(text="RGB Camera: I found the {} object you asked for in the {} area.".format(
                             response.desired_color,
-                            object_name,
                             placement_origin
                             ))
                     else:
-                        dispatcher.utter_message(text="I found the {} object you asked for.".format(
+                        dispatcher.utter_message(text="RGB Camera: I found the {} object you asked for.".format(
                             response.desired_color
                             ))
-                # elif response.found_obj and response.desired_color in invalid_values:
-                #     dispatcher.utter_message(text="You didn't specify any color, but here are the objects I found{}.".format(placement))
-                # elif not response.found_obj and response.desired_color not in invalid_values:
-                #     dispatcher.utter_message(text="Sorry, I didn't find any {} object{}.".format(response.desired_color, placement))
                 else:
                     if placement_origin in valid_placements:
-                        dispatcher.utter_message(text="This is what I can see in the {} area.".format(
+                        dispatcher.utter_message(text="RGB Camera: This is what I can see in the {} area.".format(
                             placement_origin
                             ))
                     else:
-                        dispatcher.utter_message(text="This is what I can see.")
+                        dispatcher.utter_message(text="RGB Camera: This is what I can see.")
+
+                # handle 3D Vision response
+
+                imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
+                dispatcher.utter_attachment(None, image=imgurl_3d)
+
+                if response.pcl_obj:
+                    dispatcher.utter_message(text="3D Camera: I found the {} you asked for.".format(
+                        response.pcl_object
+                        ))
+                else:
+                    dispatcher.utter_message(text="3D Camera: I didn't find any {}.".format(
+                        object_name
+                        ))
             else:
                 dispatcher.utter_message(template="utter_failed_command")
                 return [AllSlotsReset()]
