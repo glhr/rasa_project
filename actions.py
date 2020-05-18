@@ -78,17 +78,18 @@ class ReceivedFind(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("find", object_name, object_color, placement_origin)
-            response, info = nlp_node.wait_for_response()
+            response, path_2dimg, path_3dimg = nlp_node.wait_for_response()
 
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
 
-                imgpath = info
+                imgpath = path_2dimg
                 print("Image saved at {}".format(imgpath))
                 print("Found {} object: {}".format(response.desired_color, response.found_obj))
 
-                imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
-                dispatcher.utter_attachment(None, image=imgurl)
+                imgurl_2d = "http://localhost:8888/{}?time={}".format(path_2dimg, int(time.time()))
+                imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
+                dispatcher.utter_attachment(None, image=imgurl_3d)
 
                 if response.found_obj:
                     if placement_origin in valid_placements:

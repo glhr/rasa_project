@@ -100,7 +100,6 @@
 - pick [something](object_name) up then geez
 - i'm asking you to lift the [fruit](object_name)
 - pick up the [green](object_color) [thing](object_name)
-- yeah grab it now
 - pick up up the [banana](object_name)
 
 ## intent:affirmative
@@ -117,12 +116,12 @@
 - yes finally
 - yeah grab it now
 - yeah lift it up
+- yeah grab it now
 
 ## intent:bye
 - thanks
 - bye
 - thanks bye
-- that's all, bye
 - that's all bye
 - i'm leaving now bye
 - that's all for now
