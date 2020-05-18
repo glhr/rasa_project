@@ -62,6 +62,9 @@
 - [cherry](object_name)
 - the [book](object_name)
 - the [raspberry](object_name)
+- [apple](object_name) duh
+- [apple](object_name)
+- it's [orange](object_color)
 
 ## intent:none
 - you're welcome
@@ -96,6 +99,9 @@
 - no pick up the [banana](object_name)
 - pick [something](object_name) up then geez
 - i'm asking you to lift the [fruit](object_name)
+- pick up the [green](object_color) [thing](object_name)
+- yeah grab it now
+- pick up up the [banana](object_name)
 
 ## intent:affirmative
 - yes
@@ -109,6 +115,8 @@
 - yeah do that slowly
 - yeah pick it up like i said
 - yes finally
+- yeah grab it now
+- yeah lift it up
 
 ## intent:bye
 - thanks

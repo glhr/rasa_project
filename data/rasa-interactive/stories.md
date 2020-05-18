@@ -634,3 +634,31 @@
     - cancel_command
     - reset_slots
     - utter_got_denied
+
+## interactive_story_1
+* pick up{"object_color": "green", "object_name": "thing"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "thing"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* clarify{"object_name": "apple"}
+    - slot{"object_name": "apple"}
+    - got_action
+    - utter_repeat_command
+* affirmative
+    - utter_try_execute
+    - execute_pickup
+    - reset_slots
+* pick up{"object_name": "banana"}
+    - slot{"object_name": "banana"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_prompt_color
+* clarify{"object_color": "orange"}
+    - slot{"object_color": "orange"}
+    - utter_repeat_command
+* affirmative
+    - utter_try_execute
+    - execute_pickup
+    - reset_slots
