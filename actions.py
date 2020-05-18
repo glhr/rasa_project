@@ -114,6 +114,7 @@ class ReceivedFind(Action):
                         dispatcher.utter_message(text="This is what I can see.")
             else:
                 dispatcher.utter_message(template="utter_failed_command")
+                return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
 
@@ -212,6 +213,7 @@ class ReceivedPickup(Action):
                 dispatcher.utter_message(text="Done with pick up.")
             else:
                 dispatcher.utter_message(template="utter_failed_command")
+                return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
 
@@ -247,6 +249,7 @@ class ReceivedMove(Action):
                 dispatcher.utter_message(text="Done with moving.")
             else:
                 dispatcher.utter_message(template="utter_failed_command")
+                return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
 

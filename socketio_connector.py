@@ -183,7 +183,7 @@ class SocketIOInput(InputChannel):
                     logger.error(e)
                     message = None
             else:
-                message = data["message"]
+                message = data["message"].lower()
                 logger.info('TXT: {}'.format(message))
 
             if message is not None:

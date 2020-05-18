@@ -3,6 +3,7 @@ language: "en"
 pipeline:
 - name: "WhitespaceTokenizer"
 - name: "CRFEntityExtractor"
+- name: "RegexFeaturizer"
 - name: "CountVectorsFeaturizer"
 - name: "CountVectorsFeaturizer"
   analyzer: "char_wb"
