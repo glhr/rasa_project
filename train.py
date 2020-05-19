@@ -6,18 +6,7 @@ logger = get_logger()
 
 API_UNAVAILABLE = False
 
-try:
-    # get the domain file from the API
-    headers_domain = {'Accept': "Accept: application/json"}
-    domain_request = requests.get("http://localhost:5005/domain", headers=headers_domain)
-    print(domain_request.status_code)
 
-    # load the NLU and stories data from training files
-    with open('pipelines/supervised_embeddings.yml', 'r') as f:
-        config = f.read()
-except Exception as e:
-    logger.warning(e)
-    API_UNAVAILABLE = True
 
 
 nlu_files = [
@@ -37,6 +26,19 @@ stories_files = [
 
 
 def train_model():
+    try:
+        # get the domain file from the API
+        headers_domain = {'Accept': "Accept: application/json"}
+        domain_request = requests.get("http://localhost:5005/domain", headers=headers_domain)
+        print(domain_request.status_code)
+
+        # load the NLU and stories data from training files
+        with open('pipelines/supervised_embeddings.yml', 'r') as f:
+            config = f.read()
+    except Exception as e:
+        logger.warning(e)
+        API_UNAVAILABLE = True
+
     if API_UNAVAILABLE:
         logger.warning("API unavailable, didn't re-train model")
         return

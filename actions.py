@@ -80,7 +80,7 @@ class ReceivedFind(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("find", object_name, object_color, placement_origin)
-            response, path_2dimg, path_3dimg = nlp_node.wait_for_response()
+            response, path_2dimg = nlp_node.wait_for_response()
 
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
@@ -111,17 +111,20 @@ class ReceivedFind(Action):
 
                 # handle 3D Vision response
 
-                imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
-                dispatcher.utter_attachment(None, image=imgurl_3d)
+                # imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
+                # dispatcher.utter_attachment(None, image=imgurl_3d)
 
-                if response.pcl_obj:
-                    dispatcher.utter_message(text="3D Camera: I found the {} you asked for.".format(
-                        response.pcl_object
-                        ))
-                else:
-                    dispatcher.utter_message(text="3D Camera: I didn't find any {}.".format(
-                        object_name
-                        ))
+                try:
+                    if response.pcl_obj:
+                        dispatcher.utter_message(text="3D Camera: I found the {} you asked for.".format(
+                            response.pcl_object
+                            ))
+                    else:
+                        dispatcher.utter_message(text="3D Camera: I didn't find any {}.".format(
+                            object_name
+                            ))
+                except Exception as e:
+                    logger.warning(e)
             else:
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
@@ -155,7 +158,7 @@ class ReceivedLearn(Action):
                                   placement_origin=placement_origin,
                                   placement_destination=None)
 
-            response, path_2dimg, _ = nlp_node.wait_for_response()
+            response, path_2dimg = nlp_node.wait_for_response()
 
             if response is not None:
                 imgpath = path_2dimg
@@ -208,7 +211,7 @@ class ReceivedPickup(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("pick up", object_name, object_color, placement_origin)
-            response, path_2dimg, _ = nlp_node.wait_for_response()
+            response, path_2dimg = nlp_node.wait_for_response()
 
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
@@ -247,7 +250,7 @@ class ReceivedMove(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("move", object_name, object_color, placement_destination=placement_destination, placement_origin="any")
-            response, path_2dimg, _ = nlp_node.wait_for_response()
+            response, path_2dimg= nlp_node.wait_for_response()
 
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
