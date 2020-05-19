@@ -757,3 +757,49 @@
     - action_cancel
     - reset_slots
     - utter_got_denied
+
+## interactive_story_1
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* pick up{"object_color": "green", "object_name": "apple", "placement": "left"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "left"}
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_command_repeat_withplacement_origin
+* affirmative
+    - utter_got_command
+    - execute_pickup
+    - reset_slots
+
+## interactive_story_1
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* find{"object_color": "green", "object_name": "apple"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "apple"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_command
+    - execute_find
+    - reset_slots
+* deny
+    - action_cancel
+    - reset_slots
+    - utter_got_denied
+* find{"object_color": "green", "object_name": "apple", "placement": "right"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "right"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_command
+    - execute_find
+    - reset_slots
+
+## interactive_story_1
+* bye
+    - utter_prompt

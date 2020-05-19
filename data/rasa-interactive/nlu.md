@@ -8,6 +8,7 @@
 - hello
 - hola chica
 - i need coffee good morning
+- hi beautiful thing
 
 ## intent:show
 - this is a [banana](object_name)
@@ -116,6 +117,8 @@
 - can you pick [something](object_name) up for me
 - try to grasb the [ball](object_name) if you can
 - move [something](object_name) for me
+- pick up the [green](object_color) [apple](object_name) on the [left](placement)
+- please take the [green](object_color) [apple](object_name) and place it in the [middle](placement)
 
 ## intent:affirmative
 - yes
@@ -133,6 +136,8 @@
 - yeah lift it up
 - yeah that's what i want
 - yaaaas
+- exactly pick it up
+- yep gogogo
 
 ## intent:bye
 - thanks
@@ -143,6 +148,7 @@
 - that's all for now
 - no bye
 - i don't wanna do this bye
+- bye then
 
 ## intent:find
 - find a [pink](object_color) [apple](object_name)
@@ -168,6 +174,8 @@
 - find something [red](object_color) then
 - what do you see on the [table](placement)
 - find it
+- where is the [green](object_color) [apple](object_name)
+- search [green](object_color) [apple](object_name) on the [right](placement)
 
 ## intent:deny
 - nevermind
@@ -175,6 +183,7 @@
 - no
 - i said no
 - cancel then
+- try again
 
 ## intent:move
 - hey so i need you to take that [apple](object_name) and put in on the [right](placement)
@@ -183,3 +192,5 @@
 - hey could you move the [apple](object_name) to the [right](placement)
 - no move it to the [left](placement)
 - move the [apple](object_name) somewhere to the [right](placement) side
+- please take the [green](object_color) [apple](object_name) and place it in the [middle](placement) of the table
+- no put it on the [right](placement)

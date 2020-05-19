@@ -18,6 +18,8 @@ from rasa.core.events import Event
 from synonym_extraction import collect_synonym, add_synonym
 from slots import valid_placements
 
+from train import train_model
+
 logger = logging.getLogger(__name__)
 
 try:
@@ -288,5 +290,21 @@ class FallbackAction(Action):
 
         dispatcher.utter_message(
             text="Sorry, I'm not that smart yet so I'm not sure what you want me to do. I can find an object, pick it up, or move it to a certain location.")
+
+        return []
+
+
+class RetrainAction(Action):
+    """This action is triggered in case of uncertain/ambiguous predictions."""
+
+    def name(self) -> Text: return "action_retrain"
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(
+            text="Re-training model")
+
+        train_model()
 
         return []

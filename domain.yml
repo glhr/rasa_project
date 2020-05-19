@@ -2,6 +2,7 @@ actions:
 - action_cancel
 - action_fallback
 - action_fill
+- action_retrain
 - execute_find
 - execute_learn
 - execute_move
