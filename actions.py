@@ -153,10 +153,10 @@ class ReceivedLearn(Action):
                                   placement_origin=placement_origin,
                                   placement_destination=None)
 
-            response, info = nlp_node.wait_for_response()
+            response, path_2dimg, _ = nlp_node.wait_for_response()
 
             if response is not None:
-                imgpath = info
+                imgpath = path_2dimg
                 print("Image saved at {}".format(imgpath))
                 print("Found object: {}".format(response.desired_color, response.found_obj))
 
@@ -206,12 +206,12 @@ class ReceivedPickup(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("pick up", object_name, object_color, placement_origin)
-            response, info = nlp_node.wait_for_response()
+            response, path_2dimg, _ = nlp_node.wait_for_response()
 
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
-                if info is not None:
-                    imgpath = info
+                if path_2dimg is not None:
+                    imgpath = path_2dimg
                     print("Image saved at {}".format(imgpath))
                     print("Found {} object: {}".format(response.desired_color, response.found_obj))
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
@@ -245,12 +245,12 @@ class ReceivedMove(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("move", object_name, object_color, placement_destination=placement_destination, placement_origin="any")
-            response, info = nlp_node.wait_for_response()
+            response, path_2dimg, _ = nlp_node.wait_for_response()
 
             if response is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
-                if info is not None:
-                    imgpath = info
+                if path_2dimg is not None:
+                    imgpath = path_2dimg
                     print("Image saved at {}".format(imgpath))
                     print("Found {} object: {}".format(response.desired_color, response.found_obj))
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))

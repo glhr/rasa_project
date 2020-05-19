@@ -2,7 +2,7 @@ from rasa.core.slots import Slot
 
 valid_colors = ['green', 'blue', 'black', 'brown', 'yellow', 'orange', 'red', 'purple']
 valid_objects = ['apple', 'orange', 'banana', 'strawberry', 'kiwi']
-generic_objects = ['object', 'thing', 'item', 'fruit', 'vegetable']
+generic_objects = ['something', 'object', 'thing', 'item', 'fruit', 'vegetable']
 valid_placements = ['left', 'right', 'middle']
 
 

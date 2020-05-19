@@ -7,6 +7,7 @@
 - yo
 - hello
 - hola chica
+- i need coffee good morning
 
 ## intent:show
 - this is a [banana](object_name)
@@ -70,6 +71,8 @@
 - [pink](object_color)
 - it's [purple](object_color) then
 - [left](placement)
+- okay then what about the [apple](object_name)
+- it's dark [green](object_color)
 
 ## intent:none
 - you're welcome
@@ -87,6 +90,7 @@
 - seriously tell me what you can do
 - strangle yourself with your arms
 - what [objects](object_name) do you know then
+- what kind of things do you understand
 
 ## intent:pick up
 - pick up the [ball](object_name)
@@ -107,6 +111,8 @@
 - pick up the [green](object_color) [thing](object_name)
 - pick up up the [banana](object_name)
 - take the [apple](object_name) from the [table](placement)
+- can you pick [something](object_name) up for me
+- try to grasb the [ball](object_name) if you can
 
 ## intent:affirmative
 - yes
@@ -123,6 +129,7 @@
 - yeah grab it now
 - yeah lift it up
 - yeah that's what i want
+- yaaaas
 
 ## intent:bye
 - thanks

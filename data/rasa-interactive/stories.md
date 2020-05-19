@@ -701,3 +701,35 @@
 * affirmative
     - utter_try_execute
     - execute_pickup
+
+## interactive_story_1
+* greetings
+    - utter_greet
+    - utter_prompt
+* none
+    - utter_prompt
+* pick up{"object_name": "cup"}
+    - slot{"object_name": "cup"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_unknown_object
+* pick up
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* pick up{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - got_action
+    - slot{"action": "pick up"}
+    - utter_unknown_object
+* clarify{"object_name": "apple"}
+    - slot{"object_name": "apple"}
+    - got_action
+    - utter_prompt_color
+* clarify{"object_color": "green"}
+    - slot{"object_color": "green"}
+    - utter_repeat_command
+* affirmative
+    - utter_try_execute
+    - execute_pickup
+    - reset_slots
