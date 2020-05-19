@@ -1,18 +1,18 @@
 ## action
 * find
-    - got_action
+    - action_fill
 
 ## action
 * show
-    - got_action
+    - action_fill
 
 ## action
 * pick up
-    - got_action
+    - action_fill
 
 ## action
 * move
-    - got_action
+    - action_fill
 
 <!-- out of scope talk -->
 ## story
@@ -29,24 +29,24 @@
 
 ## deny
 * deny
-  - cancel_command
+  - action_cancel
   - utter_got_denied
 
 ## deny
 * deny{"object_name": "banana"}
   - slot{"object_name": "banana"}
-  - utter_repeat_command
+  - utter_command_repeat
 
 ## deny
 * deny{"object_color": "blue"}
   - slot{"object_color": "blue"}
-  - utter_repeat_command
+  - utter_command_repeat
 
 <!-- learning unknown color -->
 ## unknown_color
 * show{"object_color": "pink"}
   - slot{"object_color": "pink"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
   - utter_prompt_object
 
@@ -54,16 +54,16 @@
 ## unknown_color
 * find{"object_color": "white"}
   - slot{"object_color": "white"}
-  - got_action
+  - action_fill
   - slot{"action": "find"}
-  - utter_unknown_color
+  - utter_got_unknown_color
 
 ## unknown_color
 * pick up{"object_color": "white"}
   - slot{"object_color": "white"}
-  - got_action
+  - action_fill
   - slot{"action": "pick up"}
-  - utter_unknown_color
+  - utter_got_unknown_color
 
 <!-- find -->
 
@@ -71,7 +71,7 @@
 ## find
 * find{"object_name": "apple"}
   - slot{"object_name": "apple"}
-  - got_action
+  - action_fill
   - slot{"action": "find"}
   - utter_prompt_color
 
@@ -79,15 +79,15 @@
 ## find
 * find{"object_name": "duck"}
   - slot{"object_name": "duck"}
-  - got_action
+  - action_fill
   - slot{"action": "find"}
-  - utter_unknown_object
+  - utter_got_unknown_object
 
 <!-- missing color in find command -->
 ## find
 * find{"object_color": "green"}
   - slot{"object_color": "green"}
-  - got_action
+  - action_fill
   - slot{"action": "find"}
   - utter_prompt_object
 
@@ -96,7 +96,7 @@
 * find{"object_name": "apple", "object_color": "green"}
   - slot{"object_name": "apple"}
   - slot{"object_color": "green"}
-  - got_action
+  - action_fill
   - slot{"action": "find"}
   - execute_find
 
@@ -105,22 +105,22 @@
 * find{"object_name": "apple", "object_color": "white"}
   - slot{"object_name": "apple"}
   - slot{"object_color": "white"}
-  - got_action
+  - action_fill
   - slot{"action": "find"}
-  - utter_unknown_color
+  - utter_got_unknown_color
 
 <!-- SHOW: object name or color is missing -->
 ## show
 * show{"object_name": "apple"}
   - slot{"object_name": "apple"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
   - utter_prompt_color
 
 ## show
 * show{"object_color": "red"}
   - slot{"object_color": "red"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
   - utter_prompt_object
 * clarify{"object_name": "banana", "object_color": "yellow"}
@@ -131,7 +131,7 @@
 ## show
 * show{"object_color": "green"}
   - slot{"object_color": "green"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
   - utter_prompt_object
 * clarify{"object_name": "banana", "object_color": "blue"}
@@ -142,9 +142,9 @@
 ## show
 * show{"object_color": "pink"}
   - slot{"object_color": "pink"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
-  - utter_unknown_color
+  - utter_prompt_object
 * clarify{"object_color": "blue"}
   - slot{"object_color": "blue"}
   - utter_prompt_object
@@ -155,22 +155,22 @@
 ## show
 * show{"object_name": "banana"}
   - slot{"object_name": "banana"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
   - utter_prompt_color
 * clarify{"object_name": "apple", "object_color": "purple"}
   - slot{"object_name": "apple"}
   - slot{"object_color": "purple"}
-  - utter_try_execute
+  - utter_got_command
   - execute_learn
 
 ## show
 * show{"object_color": "black", "object_name": "banana"}
   - slot{"object_color": "black"}
   - slot{"object_name": "banana"}
-  - got_action
+  - action_fill
   - slot{"action": "learn"}
-  - utter_try_execute
+  - utter_got_command
   - execute_learn
 
 <!-- confirm pickup -->
@@ -180,7 +180,7 @@
   - utter_prompt
 * pick up{"object_name": "apple"}
   - slot{"object_name": "apple"}
-  - got_action
+  - action_fill
   - slot{"action": "pick up"}
   - utter_prompt_color
 * affirmative
@@ -188,29 +188,29 @@
 * clarify{"object_name": "orange", "object_color": "orange"}
   - slot{"object_name": "orange"}
   - slot{"object_color": "orange"}
-  - utter_repeat_command
+  - utter_command_repeat
 * affirmative
-  - utter_try_execute
+  - utter_got_command
   - execute_pickup
 
 ## story_name
 * pick up{"object_color": "brown", "object_name": "strawberry"}
   - slot{"object_color": "brown"}
   - slot{"object_name": "strawberry"}
-  - got_action
+  - action_fill
   - slot{"action": "pick up"}
-  - utter_repeat_command
+  - utter_command_repeat
 * affirmative
-  - utter_try_execute
+  - utter_got_command
   - execute_pickup
 
 ## story_name
 * pick up{"object_color": "black", "object_name": "kiwi"}
   - slot{"object_color": "black"}
   - slot{"object_name": "kiwi"}
-  - got_action
+  - action_fill
   - slot{"action": "pick up"}
-  - utter_repeat_command
+  - utter_command_repeat
 * affirmative
-  - utter_try_execute
+  - utter_got_command
   - execute_pickup

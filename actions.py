@@ -36,7 +36,7 @@ user_nlu_file  = './data/nlu/user_nlu.md'
 class FillActionSlot(Action):
     """Fills the action slot when a message is received."""
 
-    def name(self) -> Text: return "got_action"
+    def name(self) -> Text: return "action_fill"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -121,7 +121,7 @@ class ReceivedFind(Action):
                         object_name
                         ))
             else:
-                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
@@ -175,7 +175,7 @@ class ReceivedLearn(Action):
                         object_name,
                         placement_origin))
             else:
-                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(template="utter_command_failed")
                 # dispatcher.utter_message(text="Error: {}".format(info))
 
             return [AllSlotsReset()]
@@ -219,11 +219,11 @@ class ReceivedPickup(Action):
 
                 # dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
                 if response.grippercode in [1,2,3]:
-                    dispatcher.utter_message(template="utter_failed_command")
+                    dispatcher.utter_message(template="utter_command_failed")
                 else:
                     dispatcher.utter_message(text="Done with pick up.")
             else:
-                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
@@ -258,11 +258,11 @@ class ReceivedMove(Action):
 
                 # dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
                 if response.grippercode in [1,2,3]:
-                    dispatcher.utter_message(template="utter_failed_command")
+                    dispatcher.utter_message(template="utter_command_failed")
                 else:
                     dispatcher.utter_message(text="Done with moving.")
             else:
-                dispatcher.utter_message(template="utter_failed_command")
+                dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
 
@@ -270,7 +270,7 @@ class ReceivedMove(Action):
 class ReceivedCancel(Action):
     """Reset all slots if a command was denied."""
 
-    def name(self) -> Text: return "cancel_command"
+    def name(self) -> Text: return "action_cancel"
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -281,11 +281,12 @@ class ReceivedCancel(Action):
 class FallbackAction(Action):
     """This action is triggered in case of uncertain/ambiguous predictions."""
 
-    def name(self) -> Text: return "fallback_action"
+    def name(self) -> Text: return "action_fallback"
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(template="utter_fallback_action")
+        dispatcher.utter_message(
+            text="Sorry, I'm not that smart yet so I'm not sure what you want me to do. I can find an object, pick it up, or move it to a certain location.")
 
         return []

@@ -73,6 +73,8 @@
 - [left](placement)
 - okay then what about the [apple](object_name)
 - it's dark [green](object_color)
+- the [apple](object_name) is in the [middle](placement) now
+- it's [gray](object_color)
 
 ## intent:none
 - you're welcome
@@ -113,6 +115,7 @@
 - take the [apple](object_name) from the [table](placement)
 - can you pick [something](object_name) up for me
 - try to grasb the [ball](object_name) if you can
+- move [something](object_name) for me
 
 ## intent:affirmative
 - yes
@@ -171,6 +174,7 @@
 - none
 - no
 - i said no
+- cancel then
 
 ## intent:move
 - hey so i need you to take that [apple](object_name) and put in on the [right](placement)
@@ -178,3 +182,4 @@
 - now move it to the [right](placement)
 - hey could you move the [apple](object_name) to the [right](placement)
 - no move it to the [left](placement)
+- move the [apple](object_name) somewhere to the [right](placement) side
