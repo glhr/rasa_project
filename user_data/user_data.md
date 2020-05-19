@@ -214,10 +214,6 @@
 - lift the [yellow](object_color) [banana](object_name) and then drop it
 - give me the [hammer](object_name)
 - catch the computer [mouse](object_name)
-- catch the [banana](object_name) and put it back down
-- put the [green](object_color) [apple](object_name) on the [brown](object_color) [circle](object_name)
-- put the [apple](object_name) on the [circle](object_name)
-- put the [jar](object_name) of jam in the correct position
 - gather the [balls](object_name)
 - hit the rock with the [hammer](object_name)
 - peel the [banana](object_name)
@@ -242,7 +238,6 @@
 - but no take the [banana](object_name) you idiot
 - incorrect pick up the [yellow](object_color) [banana](object_name)
 - no it not what i want i want you to take the [banana](object_name)
-- stop put the [banana](object_name) down and pick up the [orange](object_name)
 - locate the [yellow](object_color) [banana](object_name) and gently grasp it
 - don't take this [object](object_name) but this one on the [right](placement)
 - take the [banana](object_name)
@@ -252,7 +247,7 @@
 - could you please sort the [items](object_name) in colour range and then give me the [banana](object_name)
 - can you take the plastic rubber [duck](object_name)
 - take the [yellow](object_color) [banana](object_name) raise it and drop it
-- start again put back the [object](object_name) in its place take the [yellow](object_color) [banana](object_name) raise it and drop it
+
 - please pick the [banana](object_name) and lift it up
 - that was just wrong because you should grab the [banana](object_name) and lift it up
 - grab the [yellow](object_color) [banana](object_name)
@@ -267,8 +262,9 @@
 - do it gently dont crush the [banana](object_name) i want to eat it
 - pick up the [banana](object_name)
 - grab the [yellow](object_color) [banana](object_name) and lift it
-- no put this object in its place where it was before
 - please drop the [green](object_color) [apple](object_name) and give me the [red](object_color) [apple](object_name) instead
+- gently pick up the [object](object_name)
+- no take the [orange](object_name)
 
 ## intent:clarify
 - do this with the [yellow](object_color) [banana](object_name)
@@ -288,7 +284,6 @@
 - [right](placement)
 - no i said the [yellow](object_color) [duck](object_name)
 - not the [red](object_color) [apple](object_name) i needed the [orange](object_name)
-- no take the [orange](object_name)
 - no not that the [banana](object_name) please
 - not that [orange](object_name) but the other one
 - [mouse](object_name) small object made out of plastic 5cm long 3cm high elongated shape
@@ -344,6 +339,7 @@
 - are the fruits ripe
 - with a detailed description of the shape of the object and its colour with terms matching its data base
 - by showing it the right thing to do
+- what's up man robot what do you prefer?
 
 
 ## intent:find
@@ -436,19 +432,27 @@
 - i'm sorry i think you're doing the wrong task
 - no that's not it
 - try that again differently please
+- cancel task
 
 
 ## intent:move
 - move to the [left](placement)
 - arrange [fruits](object_name) to the [right](placement) and other [items](object_name) to the [left](placement)
 - reach down to the [banana](object_name) and clasp it then raise it and move it towards me
-- move into position above the [banana](object_name) move down close gripper move up move left
+- move into position above the [banana](object_name) move [down](placement) close gripper move [up](placement) move [left](placement)
 - sort the [object](object_name) by size in increasing order form [left](placement) to [right](placement)
 - use it to knock everything from the [table](placement) onto the [floor](placement)
 - move your hands towards the [banana](object_name) and grab it and move your hands to [upwards](placement)
+- go [down](placement) until you touch the [table](object_name)
+- put the [green](object_color) [apple](object_name) on the [brown](object_color) [circle](object_name)
+- put the [apple](object_name) on the [circle](object_name)
+- put the [jar](object_name) of jam in the [correct](placement) position
+- catch the [banana](object_name) and put it back down
+- stop put the [banana](object_name) down and pick up the [orange](object_name)
+- start again put back the [object](object_name) in [its place](placement) take the [yellow](object_color) [banana](object_name) raise it and drop it
+- no put this [object](object_name) in [its place](placement) where it was before
 - put the [duck](object_name) on the [jar](placement) of jam
 - put your hand [right](placement) [up](placement) the [banana](object_name)
-- go [down](placement) until you touch the [table](object_name)
 
 ## intent:show
 - look at this new [object](object_name)
@@ -540,3 +544,4 @@
 - please remember that you had this [red](object_color) [apple](object_name) in your hand
 - you see that is a [mouse](object_name) can you register it
 - this is a [mouse](object_name) for a computer remember it
+- this is an [orange](object_name) it's [orange](object_color)
