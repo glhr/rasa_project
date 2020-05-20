@@ -399,7 +399,7 @@
     - slot{"placement": "table"}
     - action_fill
     - slot{"action": "learn"}
-    - utter_prompt_color
+    - utter_prompt_placement_origin
 * clarify{"object_color": "blue"}
     - slot{"object_color": "blue"}
     - utter_prompt_placement_origin
@@ -688,15 +688,15 @@
     - slot{"placement": "table"}
     - action_fill
     - slot{"action": "pick up"}
+    - utter_prompt_placement_origin
+* clarify{"placement": "left"}
+    - slot{"placement": "left"}
     - utter_prompt_color
 * clarify{"object_color": "pink"}
     - slot{"object_color": "pink"}
     - utter_got_unknown_color
 * clarify{"object_color": "purple"}
     - slot{"object_color": "purple"}
-    - utter_prompt_placement_origin
-* clarify{"placement": "left"}
-    - slot{"placement": "left"}
     - utter_command_repeat
 * affirmative
     - utter_got_command
@@ -821,9 +821,9 @@
 
 ## interactive_story_1
 * none
-    - action_default_ask_affirmation
+    - utter_prompt
 * none
-    - action_default_ask_rephrase
+    - utter_prompt_action
 * move{"object_name": "banana", "placement": "floor"}
     - slot{"object_name": "banana"}
     - slot{"placement": "floor"}
