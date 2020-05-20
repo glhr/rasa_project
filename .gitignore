@@ -1,3 +1,4 @@
+## Ignores
 *.wav
 *.tar.gz
 *.tar.bz2
@@ -139,3 +140,9 @@ test_scripts/data/
 vision.png
 
 chatito/node_modules/
+
+
+
+
+## Exceptions
+!model.tar.gz
