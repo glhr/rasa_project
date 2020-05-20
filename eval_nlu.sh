@@ -1,1 +1,1 @@
-rasa test nlu --config pipelines/recommended.yml pipelines/pretrained_embeddings_spacy.yml pipelines/custom.yml pipelines/supervised_embeddings.yml pipelines/mitie.yml --nlu data/auto-generated/ data/manually-generated data/rasa-interactive/ --runs 3 --percentages 0 10 30 50 70
+rasa test nlu --config pipelines/recommended.yml pipelines/pretrained_embeddings_spacy.yml pipelines/custom.yml pipelines/supervised_embeddings.yml pipelines/mitie.yml --nlu data/eval/ --runs 3 --percentages 0 10 30 50 70
