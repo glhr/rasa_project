@@ -35,6 +35,7 @@ input_nlu_file = './data/nlu/synonyms.md'
 user_nlu_file  = './data/nlu/user_nlu.md'
 
 
+
 class FillActionSlot(Action):
     """Fills the action slot when a message is received."""
 
@@ -47,6 +48,7 @@ class FillActionSlot(Action):
         action = tracker.latest_message['intent'].get('name')
         logger.info('Got action: {}'.format(action))
 
+        logger.debug(tracker.sender_id)
         if action in ['find', 'pick up', 'move']:
             return [SlotSet("action", action)]
         elif action == 'show':
