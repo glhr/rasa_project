@@ -16,6 +16,13 @@
 - hello i don t like to speak to robots
 - hey robot record
 - hello what do you know how to do
+- hey robot what can you do
+- hello
+- bring yourself back online
+- what are you for
+- hallo build me something
+- hello robot i want some help
+- hi robot how are you
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the [table](placement)
@@ -247,7 +254,6 @@
 - could you please sort the [items](object_name) in colour range and then give me the [banana](object_name)
 - can you take the plastic rubber [duck](object_name)
 - take the [yellow](object_color) [banana](object_name) raise it and drop it
-
 - please pick the [banana](object_name) and lift it up
 - that was just wrong because you should grab the [banana](object_name) and lift it up
 - grab the [yellow](object_color) [banana](object_name)
@@ -265,6 +271,52 @@
 - please drop the [green](object_color) [apple](object_name) and give me the [red](object_color) [apple](object_name) instead
 - gently pick up the [object](object_name)
 - no take the [orange](object_name)
+- take only the [hammer](object_name) and smash the banana
+- give me the [hammer](object_name)
+- pick up the [brown](object_color) [ring](object_name)
+- take the [yellow](object_color) [duck](object_name) to me
+- robot pick the [yellow](object_color) rubber [duck](object_name)
+- hey robot hand me that [apple](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- gimme a [red](object_color) [pepper](object_name)
+- take the [brown](object_color) [hammer](object_name) with your right and use it to hit the brown kiwi five times
+- pick up the rainbow colo[red](object_color) [jam](object_name)
+- pick up the [orange](object_color) [orange](object_name)
+- take the [yellow](object_color) [banana](object_name)
+- hallo pick the [duck](object_name) please
+- pick up the [yellow](object_color) [duck](object_name)
+- can you pick up the [red](object_color) [cup](object_name)
+- pick up the [red](object_color) [cup](object_name)
+- robot hand me the [yellow](object_color) [duck](object_name)
+- i world like you to give mere an [red](object_color) [apple](object_name)
+- please pick up the rubber [duck](object_name) that is close to your [right](placement) hand
+- pick the [yellow](object_color) [banana](object_name) for me and put it in my hand
+- pick up that [banana](object_name)
+- pick up the [banana](object_name)
+- pick up a [yellow](object_color) [banana](object_name)
+- please gingerly lift the long [yellow](object_color) fruit
+- use right arm to lift the [yellow](object_color) [banana](object_name)
+- use your right hand to pick up the long [yellow](object_color) thing on the [table](placement)
+- pick up the [banana](object_name)
+- pick up the [banana](object_name)
+- pick up the [banana](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- pick up the [yellow](object_color) [banana](object_name)
+- fondle your [banana](object_name)
+- pick up the [banana](object_name)
+- armbot gently lift the [banana](object_name)
+- i want you to pick up the [yellow](object_color) [banana](object_name)
+- would you give mere the the [banana](object_name) on the [table](placement)
+- gently grip the [banana](object_name) and lift the [banana](object_name)
+- please move your right arm inward lower your arm and then grasp and pick up the [banana](object_name)
+- no pick up the [banana](object_name)
+- stop current task and pick up an [apple](object_name) instead
+- no please pick up the [banana](object_name)
+- cancel please now pick up the [yellow](object_color) [banana](object_name)
+- cancel pick up the [yellow](object_color) [banana](object_name)
+- no i said pick up the [banana](object_name)
+- pick up the [mouse](object_name) then the robot will point at the objekt and then i'll say correct or wrong
+- please move your right arm inward lower your arm and pick up and grasp the [mouse](object_name)
 
 ## intent:clarify
 - do this with the [yellow](object_color) [banana](object_name)
@@ -340,7 +392,26 @@
 - with a detailed description of the shape of the object and its colour with terms matching its data base
 - by showing it the right thing to do
 - what's up man robot what do you prefer?
-
+- make my kids' lunches
+- what date is it today
+- fuck off
+- that's a lot of neat stuff you have there mr robot sir
+- hey alexa play rock music
+- the violent delights have violent ends
+- make me a sanwitch
+- which item do you want to smash first
+- fuck your shiny metal ass
+- give me five
+- you need a name i'm gonna call you armbot
+- what are you a gallagher bot
+- robot rights are human rights
+- split the item into two and rename them
+- what am i asking the robot to do
+- open lower lower lower close rise
+- with motorized pivotpoints at each joint of the arm controlled by a controlboard hooked up to a powersupply
+- tell me the name
+- give the robot some default set of instructions to recognize [objects](object_name) and make it run that set of instructions by command
+- silver top curved 2 to 3 inches long 1 to 2 inches wide light weight
 
 ## intent:find
 - is there a [yellow](object_color) rubber [duck](object_name) on the [table](placement)
@@ -372,6 +443,12 @@
 - spot the nearest [pink](object_color) [ball](object_name)
 - show me the [yellow](object_color) [duck](object_name)
 - identify the [yellow](object_color) [duck](object_name) by showing it with your arm
+- find all the [red](object_color) [items](object_name)
+- where is the [orange](object_color) [orange](object_name)
+- find the [hammer](object_name) clanker
+- armbot please find the [cyan](object_color) [cube](object_name)
+- can you point to the [yellow](object_color) [duck](object_name)
+- identify the [red](object_color) [cup](object_name)
 
 ## intent:deny
 - no i wanted you to
@@ -433,7 +510,24 @@
 - no that's not it
 - try that again differently please
 - cancel task
-
+- i would say stop and say the instruction again
+- robot try again
+- halt and reprogram
+- stop task tell me what you were doing
+- wrong you fucking donkey
+- abort try again
+- name of robot stop
+- stop current task and reset
+- freeze all motor functions
+- put the [banana](object_name) down
+- i'll say wrong then try again
+- no the same request pronounced more clearly
+- stop you fuckin' idiot
+- armbot stop
+- no that is not correct
+- please give me another [objekt](object_name)
+- robot stop
+- robot please stop doing that
 
 ## intent:move
 - move to the [left](placement)
@@ -453,6 +547,10 @@
 - no put this [object](object_name) in [its place](placement) where it was before
 - put the [duck](object_name) on the [jar](placement) of jam
 - put your hand [right](placement) [up](placement) the [banana](object_name)
+- take all the [yellow](object_color) [objects](object_name) and throw them on the [ground](placement)
+- throw the [banana](object_name) to the [floor](placement)
+- move the [banana](object_name) to a basket near the [table](placement)
+- put the [banana](object_name) in the [right](placement) year corner
 
 ## intent:show
 - look at this new [object](object_name)
@@ -545,3 +643,26 @@
 - you see that is a [mouse](object_name) can you register it
 - this is a [mouse](object_name) for a computer remember it
 - this is an [orange](object_name) it's [orange](object_color)
+- the [yellow](object_color) object on the near [right](placement) is an imitation [duck](object_name)
+- save the new [object](object_name) and say what the name it should be saved as
+- this is a [white](object_color) plastic [mouse](object_name) for a computer
+- save object as [mouse](object_name) to your database
+- it is small it is flat on the bottom  it has round shape on the top its base is black its top is [grey](object_color) its name is [mouse](object_name)
+- a 3 inches plastic object [black](object_color) or grey clicks when pressed = computer control
+- please take some pictures of the [object](object_name) from different angles and try lift it up slow remember the weight and give it a random name save it in memory
+- this is a [white](object_color) computer [mouse](object_name)
+- remember that [mouse](object_name)
+- recognize the object as a [mouse](object_name) from now on
+- reprogram yourself to understand the inner works of the object on the [table](placement) name it a computer [mouse](object_name)
+- this is an [apple](object_name)
+- robot this is a [white](object_color) computer [mouse](object_name)
+- please inspect the new [item](object_name)
+- investigate the new [object](object_name)
+- that's a [mouse](object_name) you idiot
+- scan the object in front of you that is a [mouse](object_name)
+- armbot that object is called a [mouse](object_name)
+- this is a [black](object_color) computer [mouse](object_name) with a white top surface
+- pleas give mee a [objekt](object_name) and remember this objekt
+- save this [object](object_name) to your memory
+- robot that is a computer [mouse](object_name)
+- examine the [mouse](object_name) with your sensors and remember that this is what a computer mouse looks and feels like
