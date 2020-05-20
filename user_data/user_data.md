@@ -122,7 +122,7 @@
 - can you give me the [banana](object_name)
 - lift up the [banana](object_name)
 - grab the ba na na
-- sort the [item](object_name)s
+- sort the [items](object_name)
 - pick up the [duck](object_name)
 - pick up the [yellow](object_color) [duck](object_name)
 - place the [object](object_name)
@@ -280,7 +280,7 @@
 - pick up the [yellow](object_color) [banana](object_name)
 - gimme a [red](object_color) [pepper](object_name)
 - take the [brown](object_color) [hammer](object_name) with your right and use it to hit the brown kiwi five times
-- pick up the rainbow colo[red](object_color) [jam](object_name)
+- pick up the [rainbow](object_color) colored [jam](object_name)
 - pick up the [orange](object_color) [orange](object_name)
 - take the [yellow](object_color) [banana](object_name)
 - hallo pick the [duck](object_name) please
@@ -326,7 +326,7 @@
 - [yellow](object_color) [banana](object_name)
 - curved metal tool called [mouse](object_name)
 - long [yellow](object_color) [fruit](object_name)
-- [white](object_color) [computer [mouse](object_name)](object_name)
+- [white](object_color) computer [mouse](object_name)
 - [duck](object_name)
 - the [orange](object_name) please
 - computer [mouse](object_name)
