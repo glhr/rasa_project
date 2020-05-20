@@ -132,6 +132,7 @@ class ReceivedFind(Action):
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+        return [AllSlotsReset()]
 
 
 class ReceivedLearn(Action):
@@ -187,7 +188,7 @@ class ReceivedLearn(Action):
                 # dispatcher.utter_message(text="Error: {}".format(info))
 
             return [AllSlotsReset()]
-        return []
+        return [AllSlotsReset()]
 
 
 class ReceivedPickup(Action):
@@ -234,6 +235,7 @@ class ReceivedPickup(Action):
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+        return [AllSlotsReset()]
 
 
 class ReceivedMove(Action):
@@ -273,7 +275,7 @@ class ReceivedMove(Action):
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
-
+        return [AllSlotsReset()]
 
 class ReceivedCancel(Action):
     """Reset all slots if a command was denied."""
