@@ -1,407 +1,407 @@
 ## intent:find
-- can you please also search for an [watermelon](object_name) that has a [brown](object_color) color thanks
-- find [pepper](object_name) of color [brown](object_color)
-- i'm ordering you to find [blue](object_color) [pineapple](object_name) if you can
-- no i meant search for [melon](object_name) also
-- identify a [black](object_color) [tomato](object_name)
-- find some [purple](object_color) [shape](object_name)
-- search for some [donut](object_name)
-- identify [pink](object_color) [watermelon](object_name) positioned in the area on the [center](placement)
-- find an [glass](object_name) which has a [green](object_color) color
-- can you please find some [orange](object_color) [watermelon](object_name) if possible
-- ok somehow search for the [blue](object_color) [sphere](object_name) that's all
-- can you please also identify this [brown](object_color) [raspberry](object_name)
-- maybe i want you to detect one [yellow](object_color) [pepper](object_name) thanks
-- pinpoint one [yellow](object_color) [pineapple](object_name)
-- ok also identify [strawberry](object_name) also
-- ok also find an [fruit](object_name) of color [brown](object_color) maybe
-- find the [brown](object_color) [melon](object_name)
-- help me find one [pink](object_color) [pear](object_name)
-- what can you look for
-- do you know how to look for that [magenta](object_color) [donut](object_name) please
-- also i want you to detect that [melon](object_name) now
-- where is a [brown](object_color) [duck](object_name)
-- could you immediately spot [brown](object_color) [raspberry](object_name) now
-- search for that [orange](object_color) [object](object_name)
-- what can you locate
-- where is the [brick](object_name) which has a [blue](object_color) color
-- find this [black](object_color) [lemon](object_name) maybe
-- no i meant look for some [brown](object_color) [donut](object_name) that's all
-- where is the [raspberry](object_name)
+- where is [raspberry](object_name) which has the color [brown](object_color)
+- search for this [glass](object_name) which has a [blue](object_color) color at the [ground](placement)
+- immediately i'm asking you to find the [orange](object_color) [pineapple](object_name) if you can
 - what can you search for
-- find this [purple](object_color) [pizza](object_name)
-- where is this [green](object_color) [kiwi](object_name)
-- where is an [pink](object_color) [tomato](object_name)
-- where is that [fruit](object_name)
-- can you please immediately find the [black](object_color) [tomato](object_name) maybe
-- find one [orange](object_color) [tomato](object_name)
-- can you please maybe find some [pineapple](object_name) please
-- find that [pink](object_color) [melon](object_name)
-- find that [blue](object_color) [apple](object_name) on the [middle](placement)
-- can you please maybe search for one [brown](object_color) [apricot](object_name) that's all
-- where is some [black](object_color) [duck](object_name)
-- i'm asking you to detect this [orange](object_color) [ball](object_name) immediately
-- locate [fruit](object_name) on the [center](placement)
+- no what i mean is recognize one [melon](object_name) which is [black](object_color) somehow
+- ok now find the [tomato](object_name) which is [yellow](object_color) immediately
+- find one [blue](object_color) [shape](object_name)
+- search for [duck](object_name) that has a [green](object_color) color
+- what can you spot
+- ok immediately locate the [orange](object_color) [tool](object_name) thanks
+- what i mean is recognize one [brown](object_color) [strawberry](object_name) please
+- ok somehow recognize an [yellow](object_color) [tomato](object_name) thanks
+- somehow can you pinpoint [watermelon](object_name) that has a [purple](object_color) color also
+- what can you locate
+- look for [brown](object_color) [box](object_name) placed at the [middle](placement)
+- find a [blue](object_color) [thing](object_name) at the [middle](placement)
+- find some [magenta](object_color) [thing](object_name) on the [left](placement)
+- search for [blue](object_color) [tomato](object_name) positioned over there in the [platform](placement)
+- search for that [purple](object_color) [pineapple](object_name) on the [platform](placement)
+- somehow i'm asking you to detect one [orange](object_color) [thing](object_name) if possible
+- pinpoint a [fruit](object_name) from the [right](placement)
+- spot a [orange](object_color) [duck](object_name) on the [platform](placement) side
 - what can you find
-- dude pinpoint the [duck](object_name) that has the color [blue](object_color) thanks
-- now i want you to identify that [green](object_color) [shape](object_name) somehow
-- could you immediately identify that [brown](object_color) [tool](object_name)
-- pinpoint a [green](object_color) [tomato](object_name)
-- find an [orange](object_color) [box](object_name)
-- where is that [brown](object_color) [pear](object_name)
-- no what i mean is search for one [brown](object_color) [donut](object_name)
-- locate that [orange](object_color) [pear](object_name)
-- ok locate one [black](object_color) [raspberry](object_name) please robot
-- please also recognize a [green](object_color) [box](object_name) if possible
-- where is some [black](object_color) [glass](object_name)
-- can you please now find this [orange](object_color) [shape](object_name)
-- find this [strawberry](object_name) that is [yellow](object_color) on the [right](placement)
-- maybe can you pinpoint an [pink](object_color) [object](object_name) now
-- where is a [green](object_color) [pepper](object_name)
-- no i wanted to say find a [magenta](object_color) [kiwi](object_name) please robot
-- could you maybe find one [pizza](object_name) immediately
-- find [green](object_color) [watermelon](object_name)
-- spot one [purple](object_color) [hammer](object_name) placed in the area on the [right](placement)
-- search for the [purple](object_color) [hammer](object_name) in the area on the [left](placement)
-- ok maybe recognize an [green](object_color) [pepper](object_name) if you can
-- find that [green](object_color) [brick](object_name)
+- find a [orange](object_color) [pear](object_name) on the [floor](placement)
+- where is [lemon](object_name) that is [blue](object_color)
+- i'm asking you to find a [orange](object_color) [apple](object_name) immediately
+- now can you find the [orange](object_name) of color [blue](object_color) please
+- where is this [magenta](object_color) [donut](object_name)
+- ok maybe locate the [black](object_color) [box](object_name) somehow
+- maybe can you identify this [black](object_color) [ball](object_name) if possible
+- could you find that [purple](object_color) [fruit](object_name) please robot
+- find this [yellow](object_color) [lemon](object_name) located at the [platform](placement)
+- could you immediately detect an [yellow](object_color) [apple](object_name) please
+- find some [melon](object_name) which has a [magenta](object_color) color
+- could you now find one [pear](object_name) that has the color [yellow](object_color) please
+- find an [ball](object_name) that is [brown](object_color) located in the [center](placement)
+- where is some [lemon](object_name)
+- detect an [purple](object_color) [glass](object_name) on the [ground](placement)
+- spot that [tomato](object_name) which has the color [brown](object_color)
+- spot [blue](object_color) [apple](object_name)
+- spot that [green](object_color) [pineapple](object_name)
+- look for that [orange](object_color) [object](object_name) from the [middle](placement)
 - search for a [apple](object_name)
-- where is one [blue](object_color) [sphere](object_name)
-- spot an [brown](object_color) [brick](object_name)
-- thanks spot that [pepper](object_name) which has a [brown](object_color) color somehow
-- find the [magenta](object_color) [strawberry](object_name) positioned in the [middle](placement)
-- identify the [yellow](object_color) [fruit](object_name) over there in the [middle](placement)
-- can you please immediately look for this [brown](object_color) [pepper](object_name) please robot
-- could you look for one [brown](object_color) [duck](object_name) please robot
-- ok find that [blue](object_color) [pear](object_name) that's all
-- now i want you to find [pineapple](object_name) that is [purple](object_color)
-- where is the [orange](object_name)
-- find this [sphere](object_name) that has the color [green](object_color) positioned in the area on the [right](placement)
-- now can you look for [yellow](object_color) [ball](object_name) somehow
-- please also locate this [magenta](object_color) [raspberry](object_name) if possible
-- search for that [apple](object_name) which is [orange](object_color)
-- what can you recognize
-- help me pinpoint one [pink](object_color) [tool](object_name) now
-- also can you locate a [orange](object_color) [glass](object_name) also
-- i wanted to say find one [tool](object_name) that has a [brown](object_color) color now
-- thanks find this [pink](object_color) [melon](object_name)
-- where is a [purple](object_color) [tomato](object_name)
-- can you please now find that [pepper](object_name) of color [yellow](object_color) that's all
-- please also spot [green](object_color) [duck](object_name) somehow
-- spot a [yellow](object_color) [duck](object_name)
-- what i mean is find some [hammer](object_name) thanks
-- look for that [tool](object_name) which has the color [yellow](object_color)
-- what can you detect
-- no i wanted to say identify the [brown](object_color) [strawberry](object_name)
-- find one [magenta](object_color) [shape](object_name)
-- immediately i'm asking you to spot [orange](object_color) [hammer](object_name) maybe
-- where is one [green](object_color) [duck](object_name)
-- locate this [purple](object_color) [watermelon](object_name) on the [left](placement)
-- where is one [magenta](object_color) [strawberry](object_name)
-- do you know how to find the [blue](object_color) [apricot](object_name) that's all
+- what i meant was find this [shape](object_name) which is [brown](object_color) maybe
+- where is some [brick](object_name) of color [orange](object_color)
+- search for this [purple](object_color) [orange](object_name)
+- maybe i'm asking you to find some [blue](object_color) [brick](object_name) please
+- identify [orange](object_name) on the [table](placement)
+- no i meant search for that [blue](object_color) [kiwi](object_name) please robot
+- um look for the [object](object_name) if you can
+- spot an [orange](object_color) [object](object_name)
+- look for some [object](object_name) which has the color [magenta](object_color)
+- detect a [yellow](object_color) [pizza](object_name) somewhere on the [floor](placement)
+- where is that [strawberry](object_name)
+- maybe i want you to search for a [magenta](object_color) [pineapple](object_name) also
+- i wanted to say detect the [brown](object_color) [melon](object_name) thanks
+- detect [magenta](object_color) [object](object_name)
+- pinpoint the [purple](object_color) [tomato](object_name)
+- i wanted to say spot one [magenta](object_color) [object](object_name) please robot
+- so search for that [yellow](object_color) [ball](object_name) if you can
+- spot one [orange](object_color) [duck](object_name)
+- also i want you to find the [object](object_name) if possible
+- ok now spot [pink](object_color) [box](object_name)
+- please also pinpoint [apricot](object_name) that is [blue](object_color) maybe
+- look for one [purple](object_color) [duck](object_name)
+- ok also find an [lemon](object_name) which is [magenta](object_color) if you can
+- recognize some [orange](object_color) [tool](object_name) on the [right](placement)
+- spot the [brown](object_color) [apricot](object_name)
+- where is an [purple](object_color) [raspberry](object_name)
+- find the [yellow](object_color) [tool](object_name)
+- pinpoint that [brown](object_color) [pepper](object_name) over there in the [ground](placement)
+- um detect some [orange](object_color) [tomato](object_name) please robot
+- pinpoint that [blue](object_color) [apricot](object_name)
+- somehow i'm asking you to search for this [donut](object_name) if you can
+- thanks search for one [magenta](object_color) [object](object_name) also
+- please somehow find that [black](object_color) [watermelon](object_name) please robot
+- find [melon](object_name) which has the color [brown](object_color) over there in the [platform](placement)
+- do you know how to spot some [pink](object_color) [pineapple](object_name) immediately
+- search for an [purple](object_color) [raspberry](object_name) placed in the [center](placement) area
+- detect that [brown](object_color) [lemon](object_name) in the [floor](placement) zone
+- where is some [watermelon](object_name) of color [magenta](object_color)
+- find some [pink](object_color) [watermelon](object_name) please robot
+- somehow i'm asking you to find the [purple](object_color) [tool](object_name) now
+- could you maybe pinpoint this [brown](object_color) [pepper](object_name) now
+- please now locate this [green](object_color) [apple](object_name) also
+- can you please now search for a [brown](object_color) [strawberry](object_name) that's all
+- spot an [yellow](object_color) [glass](object_name) on the [platform](placement)
+- find that [orange](object_color) [kiwi](object_name) thanks
+- ok find this [brown](object_color) [tool](object_name) if possible
+- pinpoint a [green](object_color) [pear](object_name)
+- locate [pink](object_color) [fruit](object_name) placed in the [floor](placement) zone
+- where is some [blue](object_color) [apricot](object_name)
+- could you immediately look for one [orange](object_color) [pizza](object_name) if possible
+- find the [yellow](object_color) [glass](object_name) if possible
+- find one [green](object_color) [apricot](object_name)
+- maybe can you find this [raspberry](object_name) somehow
+- could you now find a [blue](object_color) [melon](object_name)
+- what i meant was pinpoint the [brown](object_color) [strawberry](object_name) if possible
+- spot the [pink](object_color) [orange](object_name) on the [floor](placement) side
+- look for a [orange](object_color) [watermelon](object_name) located over there in the [center](placement)
 
 ## intent:move
-- maybe can you recognize that [magenta](object_color) [lemon](object_name) in the [left](placement) area once you're done move that towards the [center](placement) side
-- can you please somehow search for an [black](object_color) [ball](object_name) somewhere on the [left](placement) then put it towards the [middle](placement) zone
-- help me look for this [black](object_color) [pizza](object_name) around here when you're done place that one towards the [left](placement) side
-- drop [raspberry](object_name) that has a [yellow](object_color) color on the [left](placement) to the [center](placement)
-- relocate some [watermelon](object_name) on the [center](placement) to somewhere on the [center](placement)
-- place one [melon](object_name) which has the color [orange](object_color) over there in the [center](placement) to the [left](placement)
-- i mean clasp [pear](object_name) that has a [green](object_color) color over there in the [right](placement) after that place that one towards the [right](placement) area
-- could you somehow look for one [green](object_color) [watermelon](object_name) placed in the area on the [left](placement) afterwards put one to the [right](placement)
-- place some [brown](object_color) [fruit](object_name) towards the [center](placement) zone
-- could you somehow identify the [orange](object_color) [tomato](object_name) in the [left](placement) area once you're done move this to somewhere on the [right](placement)
-- what i mean is find [orange](object_color) [shape](object_name) on the [left](placement) next leave it to somewhere on the [right](placement)
-- leave an [ball](object_name) that has a [green](object_color) color towards the [center](placement) side
-- leave some [pepper](object_name) of color [orange](object_color) towards the [middle](placement) side
-- come on detect one [watermelon](object_name) that is [yellow](object_color) on the [left](placement) once you're done move one towards the [middle](placement) area
-- i'm ordering you to search for some [fruit](object_name) on the [left](placement) and then move something to the [middle](placement)
-- no what i meant was find [lemon](object_name) that has the color [brown](object_color) on the [center](placement) after that move one towards the [left](placement) area
-- move a [object](object_name) which has a [orange](object_color) color on the [center](placement) towards the [center](placement) side
-- ok maybe find the [yellow](object_color) [duck](object_name) placed in the [right](placement) area and then drop one to somewhere on the [center](placement)
-- move a [black](object_color) [duck](object_name) to somewhere on the [right](placement)
-- thanks recognize [pink](object_color) [tool](object_name) on the [left](placement) next leave one towards the [center](placement) zone
-- drop this [blue](object_color) [pepper](object_name) towards the [right](placement) side
-- do you know how to look for that [blue](object_color) [object](object_name) on the [right](placement) and then shift that one towards the [middle](placement) zone
-- my command is recognize a [green](object_color) [lemon](object_name) located over there in the [right](placement) then relocate one to the [left](placement)
-- put a [box](object_name) which is [orange](object_color) placed in the [middle](placement) area to the [center](placement)
-- leave this [purple](object_color) [object](object_name) towards the [right](placement) area
-- are you able to find some [fruit](object_name) of color [black](object_color) in the [middle](placement) area after that put this one to the [middle](placement)
-- drop a [raspberry](object_name) located in the area on the [right](placement) to somewhere on the [center](placement)
-- i mean identify an [pepper](object_name) which has the color [brown](object_color) on the [middle](placement) afterwards drop that one towards the [left](placement) area
-- leave [orange](object_color) [melon](object_name) to somewhere on the [center](placement)
-- ok also find an [pepper](object_name) positioned over there in the [center](placement) and relocate this one towards the [middle](placement) area
-- maybe i'm asking you to identify a [tomato](object_name) on the [center](placement) afterwards leave one towards the [right](placement) area
-- place one [brown](object_color) [orange](object_name) towards the [left](placement) area
-- i mean bring an [sphere](object_name) from the [right](placement) when you're done drop this towards the [right](placement) side
-- i mean find an [purple](object_color) [duck](object_name) positioned in the area on the [middle](placement) when you're done drop one towards the [center](placement) zone
-- my command is identify an [magenta](object_color) [pepper](object_name) placed in the area on the [left](placement) when you're done put that to somewhere on the [middle](placement)
-- relocate an [brown](object_color) [object](object_name) towards the [right](placement) side
-- identify this [magenta](object_color) [watermelon](object_name) positioned in the [right](placement) when you're done shift that one towards the [middle](placement) zone
-- i meant pinpoint one [black](object_color) [kiwi](object_name) on the [center](placement) after that relocate this one to the [right](placement)
-- put some [magenta](object_color) [glass](object_name) in the [center](placement) to the [middle](placement)
-- relocate a [pink](object_color) [watermelon](object_name) on the [center](placement) towards the [middle](placement) zone
-- also can you search for that [apricot](object_name) which has a [brown](object_color) color on the [middle](placement) then drop this one to somewhere on the [left](placement)
-- please recognize the [raspberry](object_name) of color [purple](object_color) placed in the area on the [left](placement) then put that one to the [middle](placement)
-- please somehow spot one [black](object_color) [donut](object_name) placed at the [center](placement) next leave that one to somewhere on the [left](placement)
-- what i meant was pick up one [pineapple](object_name) after that drop this towards the [middle](placement) area
-- maybe i want you to look for the [purple](object_color) [kiwi](object_name) placed in the area on the [middle](placement) afterwards put it to somewhere on the [middle](placement)
-- maybe i want you to find that [purple](object_color) [pineapple](object_name) placed in the [middle](placement) area afterwards move this to somewhere on the [right](placement)
-- what i mean is clench [yellow](object_color) [tomato](object_name) on the [center](placement) afterwards place that one to the [left](placement)
-- leave some [brown](object_color) [strawberry](object_name) located over there in the [center](placement) towards the [middle](placement) area
-- could you also identify the [yellow](object_color) [lemon](object_name) located in the area on the [right](placement) and then shift that one towards the [middle](placement) zone
-- i want you to pinpoint some [lemon](object_name) that has the color [purple](object_color) in the [middle](placement) area and then put this towards the [left](placement) side
-- put this [strawberry](object_name) of color [black](object_color) on the [left](placement) towards the [center](placement) zone
-- what i meant was clench a [magenta](object_color) [hammer](object_name) positioned over there in the [center](placement) when you're done move it towards the [middle](placement) area
-- shift this [yellow](object_color) [tool](object_name) from the [center](placement) towards the [left](placement) area
-- search for this [brown](object_color) [object](object_name) located in the area on the [left](placement) afterwards move one to the [middle](placement)
-- can you please find some [box](object_name) that is [purple](object_color) positioned over there in the [right](placement) and relocate one to the [left](placement)
-- relocate that [green](object_color) [object](object_name) towards the [middle](placement) zone
-- place the [magenta](object_color) [raspberry](object_name) towards the [left](placement) side
-- relocate [blue](object_color) [orange](object_name) to somewhere on the [right](placement)
-- can you find [green](object_color) [strawberry](object_name) on the [center](placement) then drop something towards the [left](placement) zone
-- shift some [thing](object_name) that is [pink](object_color) from the [left](placement) to the [middle](placement)
-- relocate some [magenta](object_color) [brick](object_name) on the [center](placement) towards the [center](placement) zone
-- move that [pepper](object_name) placed in the [left](placement) area to somewhere on the [middle](placement)
-- somehow i want you to look for the [raspberry](object_name) of color [magenta](object_color) positioned in the [middle](placement) zone next move something towards the [middle](placement) area
-- leave this [purple](object_color) [donut](object_name) towards the [left](placement) side
-- do you know how to find this [green](object_color) [box](object_name) over there in the [center](placement) then drop one towards the [center](placement) side
-- i meant pinpoint this [purple](object_color) [object](object_name) in the [left](placement) zone and shift it towards the [left](placement) zone
-- relocate one [duck](object_name) to the [left](placement)
-- i'm asking you to look for a [brown](object_color) [pineapple](object_name) placed in the [middle](placement) and then drop one towards the [left](placement) zone
-- move that [shape](object_name) towards the [center](placement) zone
-- dude find some [magenta](object_color) [box](object_name) positioned in the area on the [right](placement) next place this one to the [center](placement)
-- immediately can you identify one [orange](object_color) [tomato](object_name) located in the [right](placement) afterwards shift this towards the [middle](placement) side
-- i wanted to say grab that [shape](object_name) that has the color [magenta](object_color) afterwards leave this towards the [left](placement) area
-- ok also recognize some [green](object_color) [kiwi](object_name) on the [right](placement) next move that one towards the [center](placement) side
-- i wanted to say search for that [orange](object_color) [orange](object_name) around here once you're done leave something to somewhere on the [middle](placement)
-- shift this [strawberry](object_name) which has a [brown](object_color) color on the platform to the [left](placement)
-- come on detect one [duck](object_name) placed in the [middle](placement) once you're done move that towards the [center](placement) zone
-- drop an [brown](object_color) [brick](object_name) placed at the [center](placement) to the [center](placement)
-- shift the [brown](object_color) [object](object_name) towards the [right](placement) side
-- leave some [pink](object_color) [donut](object_name) located in the area on the [center](placement) towards the [center](placement) area
-- move [duck](object_name) that has the color [orange](object_color) to the [middle](placement)
-- i wanted to say locate that [watermelon](object_name) somewhere on the [right](placement) once you're done relocate that one towards the [left](placement) area
-- move that [blue](object_color) [duck](object_name) to somewhere on the [middle](placement)
-- can you please immediately pinpoint [brown](object_color) [kiwi](object_name) somewhere on the [middle](placement) once you're done drop this towards the [right](placement) side
-- could you pinpoint [orange](object_color) [thing](object_name) at the [center](placement) next shift something towards the [left](placement) side
-- also i'm asking you to find an [pink](object_color) [lemon](object_name) placed in the area on the [left](placement) when you're done place it towards the [center](placement) zone
-- i want you to spot some [raspberry](object_name) placed in the [left](placement) next put it to somewhere on the [left](placement)
-- leave this [magenta](object_color) [duck](object_name) towards the [left](placement) area
-- i wanted to say search for some [blue](object_color) [pizza](object_name) placed over there in the [center](placement) and relocate it towards the [right](placement) zone
-- i'm ordering you to locate a [orange](object_name) in the area on the [right](placement) after that shift that towards the [right](placement) area
-- leave this [purple](object_color) [watermelon](object_name) towards the [middle](placement) side
-- drop this [yellow](object_color) [brick](object_name) to the [left](placement)
-- please also find [orange](object_color) [kiwi](object_name) on the [right](placement) next relocate this towards the [center](placement) area
-- drop this [magenta](object_color) [lemon](object_name) to somewhere on the [middle](placement)
-- ok also find this [orange](object_color) [brick](object_name) at the [middle](placement) and shift one towards the [right](placement) zone
-- i mean detect the [brown](object_color) [box](object_name) on the [center](placement) side afterwards put something towards the [middle](placement) area
-- i meant grab a [black](object_color) [duck](object_name) on the [right](placement) and then leave this one towards the [right](placement) zone
-- can you please maybe spot one [orange](object_color) [strawberry](object_name) placed in the [right](placement) zone and drop it towards the [right](placement) side
-- can you please also spot one [orange](object_color) [brick](object_name) on the [center](placement) then put it towards the [middle](placement) side
-- please immediately locate a [magenta](object_color) [orange](object_name) located in the [right](placement) then relocate it towards the [left](placement) zone
-- i mean grab some [brick](object_name) that has a [pink](object_color) color then place this towards the [center](placement) zone
+- drop that [tomato](object_name) that has a [green](object_color) color towards the [floor](placement) zone
+- please maybe detect some [apricot](object_name) which has a [brown](object_color) color located in the [right](placement) area when you're done put this towards the [left](placement) area
+- put an [pizza](object_name) to somewhere on the [floor](placement)
+- ok find a [green](object_color) [ball](object_name) located in the [middle](placement) area and leave it towards the [table](placement) area
+- drop a [pink](object_color) [lemon](object_name) located in the [floor](placement) towards the [middle](placement) side
+- move that [yellow](object_color) [watermelon](object_name) towards the [left](placement) side
+- i mean find one [apricot](object_name) which is [green](object_color) placed at the [center](placement) and then relocate it towards the [center](placement) area
+- place an [yellow](object_color) [orange](object_name) to the [right](placement)
+- shift that [pineapple](object_name) of color [yellow](object_color) towards the [left](placement) area
+- immediately i'm asking you to identify this [kiwi](object_name) somewhere on the [floor](placement) next relocate this to the [middle](placement)
+- no i wanted to say find this [object](object_name) that has the color [black](object_color) positioned in the [left](placement) next relocate one to the [right](placement)
+- drop an [purple](object_color) [tomato](object_name) towards the [center](placement) zone
+- shift that [apricot](object_name) that is [brown](object_color) to somewhere on the [left](placement)
+- can you find this [pink](object_color) [watermelon](object_name) on the [left](placement) and then put that towards the [ground](placement) side
+- can you please immediately recognize a [orange](object_color) [kiwi](object_name) when you're done leave one to the [table](placement)
+- i mean carry a [green](object_color) [tool](object_name) from the [platform](placement) after that place it to the [table](placement)
+- i'm ordering you to pinpoint that [purple](object_color) [thing](object_name) on the [table](placement) afterwards move it to the [platform](placement)
+- drop that [brown](object_color) [glass](object_name) to somewhere on the [middle](placement)
+- no i wanted to say find an [black](object_color) [box](object_name) positioned over there in the [left](placement) and put that one towards the [center](placement) area
+- somehow i want you to pinpoint one [black](object_color) [glass](object_name) positioned in the [center](placement) zone when you're done leave it to somewhere on the [center](placement)
+- somehow i'm asking you to recognize a [orange](object_color) [box](object_name) located in the [table](placement) once you're done place something towards the [left](placement) side
+- leave the [blue](object_color) [brick](object_name) towards the [platform](placement) zone
+- ok maybe locate some [orange](object_name) from the [platform](placement) once you're done place this to the [right](placement)
+- drop an [brown](object_color) [object](object_name) positioned in the [middle](placement) zone towards the [floor](placement) zone
+- locate a [black](object_color) [kiwi](object_name) on the [floor](placement) afterwards drop it to somewhere on the [center](placement)
+- shift some [purple](object_color) [donut](object_name) towards the [ground](placement) area
+- drop that [apricot](object_name) that has a [green](object_color) color towards the [middle](placement) side
+- please somehow find a [blue](object_color) [hammer](object_name) positioned in the [center](placement) zone afterwards drop this towards the [center](placement) area
+- please maybe detect [brown](object_color) [fruit](object_name) on the [middle](placement) afterwards relocate this one towards the [center](placement) area
+- ok immediately locate some [lemon](object_name) which has the color [orange](object_color) in the area on the [platform](placement) after that drop one to somewhere on the [ground](placement)
+- also can you detect one [blue](object_color) [brick](object_name) when you're done place something towards the [ground](placement) area
+- can you please maybe find [melon](object_name) which is [brown](object_color) positioned in the area on the [right](placement) next move something to the [left](placement)
+- please maybe find that [ball](object_name) which is [black](object_color) placed in the [table](placement) zone and put that towards the [ground](placement) side
+- place the [pineapple](object_name) on the [platform](placement) to the [platform](placement)
+- put [yellow](object_color) [ball](object_name) to the [left](placement)
+- no i meant find an [tomato](object_name) that has a [yellow](object_color) color on the [center](placement) once you're done relocate something towards the [platform](placement) zone
+- please maybe locate the [watermelon](object_name) that has a [black](object_color) color placed over there in the [platform](placement) once you're done shift that towards the [platform](placement) area
+- pinpoint the [object](object_name) which has the color [magenta](object_color) positioned in the [right](placement) and then place it towards the [center](placement) side
+- put a [purple](object_color) [ball](object_name) somewhere on the [platform](placement) to somewhere on the [floor](placement)
+- what i mean is grab one [hammer](object_name) on the [center](placement) once you're done place that towards the [center](placement) side
+- robot recognize an [orange](object_color) [lemon](object_name) placed in the area on the [platform](placement) then relocate that towards the [middle](placement) area
+- could you detect an [tomato](object_name) that has a [pink](object_color) color located at the [right](placement) once you're done move something towards the [floor](placement) area
+- look for that [brown](object_color) [watermelon](object_name) on the [right](placement) then drop this one to the [ground](placement)
+- could you also detect some [green](object_color) [donut](object_name) placed in the [table](placement) zone afterwards shift one towards the [left](placement) side
+- please somehow search for [blue](object_color) [tool](object_name) on the [center](placement) next shift it to somewhere on the [platform](placement)
+- somehow i'm asking you to find some [brown](object_color) [kiwi](object_name) in the area on the [middle](placement) afterwards relocate this one towards the [center](placement) zone
+- leave that [green](object_color) [glass](object_name) to somewhere on the [right](placement)
+- please somehow find the [hammer](object_name) that has the color [magenta](object_color) on the [platform](placement) once you're done relocate it to somewhere on the [table](placement)
+- help me recognize an [blue](object_color) [shape](object_name) on the [ground](placement) after that leave that one towards the [table](placement) area
+- place [pink](object_color) [thing](object_name) on the [middle](placement) to somewhere on the [floor](placement)
+- thanks find one [tool](object_name) next move it towards the [left](placement) zone
+- now i'm asking you to locate some [yellow](object_color) [hammer](object_name) located at the [center](placement) afterwards relocate something towards the [center](placement) area
+- relocate an [purple](object_color) [box](object_name) towards the [floor](placement) zone
+- relocate an [brown](object_color) [tomato](object_name) placed at the [table](placement) towards the [platform](placement) zone
+- move that [thing](object_name) that has the color [brown](object_color) towards the [center](placement) side
+- ok find an [pink](object_color) [glass](object_name) positioned at the [platform](placement) next drop it towards the [floor](placement) area
+- um identify that [tool](object_name) of color [yellow](object_color) located in the [left](placement) next place it towards the [left](placement) side
+- put this [blue](object_color) [shape](object_name) to the [table](placement)
+- move an [green](object_color) [donut](object_name) to the [table](placement)
+- relocate one [melon](object_name) of color [brown](object_color) positioned in the [center](placement) area towards the [right](placement) side
+- also can you pinpoint a [kiwi](object_name) that has a [brown](object_color) color on the [ground](placement) next drop it towards the [table](placement) zone
+- leave a [pineapple](object_name) of color [pink](object_color) on the [middle](placement) to somewhere on the [table](placement)
+- move some [black](object_color) [pizza](object_name) on the [left](placement) towards the [right](placement) side
+- please identify some [brown](object_color) [box](object_name) on the [right](placement) once you're done put this to somewhere on the [floor](placement)
+- i wanted to say secure an [black](object_color) [duck](object_name) positioned in the area on the [table](placement) then leave that towards the [ground](placement) side
+- what i meant was pick up a [apple](object_name) that is [magenta](object_color) on the [center](placement) then place this one towards the [table](placement) zone
+- place an [green](object_color) [raspberry](object_name) in the [table](placement) zone to somewhere on the [floor](placement)
+- leave an [black](object_color) [donut](object_name) located in the [platform](placement) zone to the [ground](placement)
+- please immediately pinpoint some [pear](object_name) which is [brown](object_color) on the [ground](placement) side next leave one towards the [ground](placement) area
+- i wanted to say embrace that [pink](object_color) [kiwi](object_name) on the [floor](placement) and then place one towards the [ground](placement) side
+- put the [magenta](object_color) [tomato](object_name) located over there in the [ground](placement) to somewhere on the [left](placement)
+- search for an [yellow](object_color) [thing](object_name) on the [left](placement) side afterwards relocate this to the [platform](placement)
+- place the [orange](object_name) of color [blue](object_color) towards the [platform](placement) side
+- leave this [yellow](object_color) [object](object_name) to somewhere on the [platform](placement)
+- move one [yellow](object_color) [raspberry](object_name) to somewhere on the [ground](placement)
+- i'm ordering you to identify this [orange](object_name) that has a [blue](object_color) color in the [left](placement) zone when you're done shift that one towards the [table](placement) zone
+- maybe can you detect [tool](object_name) positioned over there in the [middle](placement) afterwards leave one towards the [middle](placement) area
+- what i meant was seize [hammer](object_name) that is [brown](object_color) next move one towards the [floor](placement) zone
+- shift [pineapple](object_name) that has a [purple](object_color) color to somewhere on the [left](placement)
+- what i mean is snatch this [magenta](object_color) [raspberry](object_name) positioned in the [right](placement) area afterwards relocate that to the [ground](placement)
+- drop [blue](object_color) [kiwi](object_name) on the [middle](placement) towards the [left](placement) area
+- shift this [brown](object_color) [tool](object_name) positioned in the [middle](placement) towards the [middle](placement) area
+- could you immediately locate that [orange](object_color) [lemon](object_name) in the [floor](placement) when you're done move this one towards the [table](placement) area
+- somehow i want you to detect a [yellow](object_color) [hammer](object_name) somewhere on the [platform](placement) afterwards move it towards the [ground](placement) side
+- move an [blue](object_color) [watermelon](object_name) in the [table](placement) area to somewhere on the [right](placement)
+- could you maybe recognize the [magenta](object_color) [watermelon](object_name) located in the area on the [middle](placement) after that place it to the [ground](placement)
+- shift some [purple](object_color) [melon](object_name) positioned in the [right](placement) zone to the [middle](placement)
+- can you please now find an [watermelon](object_name) of color [yellow](object_color) on the [floor](placement) when you're done relocate something to the [middle](placement)
+- can you please now search for one [purple](object_color) [pear](object_name) placed in the area on the [platform](placement) and then put that towards the [platform](placement) area
+- shift some [ball](object_name) of color [green](object_color) located in the area on the [table](placement) to somewhere on the [center](placement)
+- relocate the [green](object_color) [box](object_name) to the [platform](placement)
+- please somehow find this [yellow](object_color) [fruit](object_name) on the [floor](placement) then place that one towards the [center](placement) area
+- relocate the [brick](object_name) towards the [platform](placement) zone
+- shift that [brown](object_color) [pizza](object_name) in the [ground](placement) towards the [platform](placement) side
+- could you also find that [black](object_color) [strawberry](object_name) and then relocate one to somewhere on the [table](placement)
+- please locate one [tool](object_name) once you're done place this to somewhere on the [right](placement)
+- move some [brown](object_color) [box](object_name) to somewhere on the [left](placement)
+- come on identify this [brown](object_color) [pizza](object_name) on the [right](placement) when you're done relocate it towards the [middle](placement) side
+- place [box](object_name) towards the [floor](placement) zone
+- also i want you to find the [purple](object_color) [brick](object_name) placed in the [center](placement) area then move this one to the [right](placement)
 
 ## intent:pick up
-- grab a [brown](object_color) [tool](object_name)
-- can you please now grab that [tomato](object_name) that is [purple](object_color) if possible
-- acquire one [blue](object_color) [lemon](object_name) on the [left](placement)
-- what i meant was leave a [brown](object_color) [kiwi](object_name)
-- come on carry that [pink](object_color) [orange](object_name) if you can
-- snatch this [orange](object_color) [lemon](object_name)
-- claim the [pink](object_color) [sphere](object_name) in the [middle](placement)
-- ok now embrace this [box](object_name) maybe
-- lift a [pizza](object_name) located in the [middle](placement)
-- grab some [brown](object_color) [thing](object_name) positioned at the [center](placement)
-- i wanted to say place an [blue](object_color) [lemon](object_name) on the [right](placement)
-- grip [watermelon](object_name) of color [yellow](object_color)
-- collect some [shape](object_name) of color [pink](object_color) in the [right](placement) zone
-- ok now grip this [hammer](object_name) which is [pink](object_color) immediately
-- grab the [black](object_color) [raspberry](object_name)
-- also can you pick up a [brown](object_color) [object](object_name) now
-- crush [green](object_color) [sphere](object_name)
-- somehow i want you to bring a [magenta](object_color) [fruit](object_name) please robot
-- ok maybe clench the [pink](object_color) [apricot](object_name) that's all
-- embrace some [purple](object_color) [raspberry](object_name) placed over there in the [left](placement)
-- grab this [raspberry](object_name) of color [brown](object_color) also
-- lift an [blue](object_color) [tool](object_name) if possible
-- dude pick up an [pink](object_color) [pepper](object_name) also
-- maybe i'm asking you to collect that [brown](object_color) [pear](object_name) if possible
-- grasp an [purple](object_color) [fruit](object_name)
-- please maybe clutch [duck](object_name) that has a [brown](object_color) color
-- no i mean embrace that [pink](object_color) [kiwi](object_name) somehow
-- can you snatch the [donut](object_name) of color [brown](object_color) please
-- i wanted to say put [blue](object_color) [lemon](object_name) located in the area on the [middle](placement)
-- seize the [orange](object_color) [strawberry](object_name) over there in the [left](placement)
-- can you please maybe pick up the [yellow](object_color) [kiwi](object_name) thanks
-- pick up an [purple](object_color) [raspberry](object_name) positioned at the [middle](placement)
-- i want you to secure this [blue](object_color) [strawberry](object_name) please robot
-- can you please maybe hoist [pink](object_color) [sphere](object_name) thanks
-- drop a [blue](object_color) [box](object_name) in the [right](placement) zone
-- somehow i want you to pick up the [orange](object_color) [shape](object_name) also
-- get an [pink](object_color) [strawberry](object_name)
-- immediately i'm asking you to collect the [green](object_color) [melon](object_name) please
-- can you please steal some [brown](object_color) [shape](object_name) immediately
-- ok somehow pick that [orange](object_color) [glass](object_name) please
-- pick up [pepper](object_name) which has a [purple](object_color) color positioned in the [center](placement)
-- embrace this [hammer](object_name) that has the color [orange](object_color)
-- clutch a [fruit](object_name) that is [brown](object_color) on the [middle](placement)
-- pick up one [orange](object_color) [fruit](object_name)
-- are you able to grab this [yellow](object_color) [hammer](object_name) now
-- embrace an [watermelon](object_name)
-- grab one [pink](object_color) [ball](object_name) on the [left](placement)
-- i meant move that [brown](object_color) [lemon](object_name) on the [right](placement)
-- clutch that [object](object_name) located at the [left](placement)
-- come on crush the [blue](object_color) [kiwi](object_name) that's all
-- secure this [shape](object_name) which is [green](object_color)
-- help me grab a [black](object_color) [ball](object_name) also
-- collect a [purple](object_color) [orange](object_name)
-- crush that [green](object_color) [raspberry](object_name)
-- squeeze this [pineapple](object_name) which is [blue](object_color) on the [center](placement)
-- carry that [brown](object_color) [apple](object_name)
-- hoist that [pepper](object_name)
-- i mean place an [purple](object_color) [duck](object_name) placed over there in the [middle](placement)
-- i mean leave one [brown](object_color) [thing](object_name) placed at the [left](placement)
-- squeeze this [blue](object_color) [melon](object_name) in the [middle](placement) area
-- somehow i'm asking you to pick an [magenta](object_color) [watermelon](object_name) maybe
-- what i mean is shift that [green](object_color) [duck](object_name) on the [left](placement)
-- somehow can you grab this [green](object_color) [watermelon](object_name) that's all
-- seize [magenta](object_color) [ball](object_name)
-- i'm ordering you to give one [pink](object_color) [donut](object_name)
-- place [brick](object_name)
-- also i'm asking you to handle some [blue](object_color) [box](object_name) if you can
-- get one [green](object_color) [glass](object_name) on the [left](placement)
-- ok grab a [orange](object_name) which has a [black](object_color) color that's all
-- dude clench that [yellow](object_color) [kiwi](object_name)
-- give a [blue](object_color) [box](object_name)
-- ok somehow bring some [duck](object_name) that has a [purple](object_color) color if possible
-- ok pick up [black](object_color) [sphere](object_name) please robot
-- please immediately give this [yellow](object_color) [watermelon](object_name) thanks
-- can you please now hoist this [blue](object_color) [object](object_name) somehow
-- grasp this [magenta](object_color) [box](object_name)
-- what i meant was move some [green](object_color) [shape](object_name) in the [right](placement) zone
-- squeeze one [blue](object_color) [pineapple](object_name)
-- immediately can you clench an [brown](object_color) [pineapple](object_name) that's all
-- squeeze one [tool](object_name) of color [magenta](object_color) on the [center](placement)
-- now can you acquire an [kiwi](object_name) which has the color [black](object_color) now
-- latch onto this [apple](object_name) which has the color [green](object_color) somewhere on the [left](placement)
-- i wanted to say grab some [magenta](object_color) [melon](object_name) thanks
-- seize one [pink](object_color) [pepper](object_name) over there in the [right](placement)
-- grab that [raspberry](object_name) that has the color [brown](object_color)
-- ok seize the [orange](object_name) please robot
-- no i wanted to say bring that [ball](object_name) which has the color [magenta](object_color) please robot
-- grab [green](object_color) [hammer](object_name) that's all
-- also i want you to clutch one [object](object_name) of color [blue](object_color) somehow
-- i mean lift the [brown](object_color) [apple](object_name)
-- somehow i want you to pinch one [melon](object_name) that has a [pink](object_color) color please
-- thanks gimme a [black](object_color) [orange](object_name) maybe
-- what i mean is grab an [orange](object_color) [orange](object_name) somehow
-- i meant place this [pepper](object_name) on the [middle](placement) side
-- grab that [pink](object_color) [object](object_name)
-- pinch that [magenta](object_color) [duck](object_name)
-- pick an [yellow](object_color) [pepper](object_name) positioned in the [middle](placement) area
-- gimme this [purple](object_color) [shape](object_name) located at the [center](placement)
-- what i meant was drop the [orange](object_color) [fruit](object_name) in the [right](placement) zone
-- ok grip one [kiwi](object_name) that has the color [brown](object_color) that's all
+- bring this [pineapple](object_name) which has a [brown](object_color) color on the [ground](placement)
+- acquire an [blue](object_color) [melon](object_name) at the [table](placement)
+- what i meant was get some [donut](object_name) which is [magenta](object_color) thanks
+- hoist one [thing](object_name) that has a [brown](object_color) color
+- i'm ordering you to pick up an [blue](object_color) [kiwi](object_name) maybe
+- no what i mean is bring a [purple](object_color) [apricot](object_name) please robot
+- i wanted to say drop a [hammer](object_name) that has the color [black](object_color) on the [platform](placement)
+- so hold the [orange](object_color) [thing](object_name) somehow
+- grip the [magenta](object_color) [box](object_name) positioned in the [left](placement) zone
+- immediately i want you to grab an [pink](object_color) [kiwi](object_name) please robot
+- i meant shift [magenta](object_color) [donut](object_name) placed in the [center](placement)
+- grab this [orange](object_color) [thing](object_name) located in the area on the [left](placement)
+- i mean place one [pink](object_color) [apricot](object_name) placed in the area on the [center](placement)
+- i wanted to say place this [purple](object_color) [pepper](object_name) located over there in the [center](placement)
+- i mean place an [kiwi](object_name) that is [orange](object_color) located in the area on the [right](placement)
+- grip a [pink](object_color) [pineapple](object_name)
+- seize an [yellow](object_color) [raspberry](object_name) around here
+- pick up an [blue](object_color) [watermelon](object_name) now
+- can you please also pick up [pink](object_color) [raspberry](object_name) also
+- grab the [black](object_color) [strawberry](object_name) if possible
+- also i'm asking you to grab an [pink](object_color) [donut](object_name) please robot
+- can you please also secure a [pink](object_color) [watermelon](object_name) if possible
+- do you know how to pick up a [magenta](object_color) [sphere](object_name)
+- pick up an [brown](object_color) [thing](object_name) located at the [floor](placement)
+- carry one [blue](object_color) [box](object_name) immediately
+- what i mean is leave an [magenta](object_color) [fruit](object_name) positioned in the [table](placement) zone
+- can you please somehow grasp some [glass](object_name) of color [pink](object_color) somehow
+- crush that [donut](object_name) that is [brown](object_color)
+- i meant put one [pineapple](object_name) of color [orange](object_color) on the [floor](placement)
+- grab one [tomato](object_name) that is [black](object_color) on the [left](placement) side
+- grasp this [raspberry](object_name) placed in the area on the [floor](placement)
+- secure some [fruit](object_name)
+- i mean move this [yellow](object_color) [kiwi](object_name) on the [center](placement)
+- what i meant was leave the [pink](object_color) [apricot](object_name) positioned over there in the [middle](placement)
+- pick up [brown](object_color) [shape](object_name) on the [center](placement)
+- raise some [pink](object_color) [tomato](object_name)
+- get [brown](object_color) [pear](object_name)
+- ok now bring an [pineapple](object_name) which is [orange](object_color)
+- crush the [green](object_color) [thing](object_name)
+- ok now fetch a [blue](object_color) [raspberry](object_name) also
+- maybe i want you to carry some [orange](object_color) [lemon](object_name) maybe
+- i'm ordering you to get one [black](object_color) [strawberry](object_name) that's all
+- what i meant was relocate [brown](object_color) [glass](object_name) on the [table](placement)
+- also can you grab some [orange](object_color) [box](object_name) please
+- i meant relocate that [brown](object_color) [brick](object_name) placed in the area on the [floor](placement)
+- drop a [yellow](object_color) [glass](object_name) on the [ground](placement)
+- no i mean grab the [tomato](object_name) that has the color [orange](object_color)
+- carry an [brown](object_color) [box](object_name) in the [left](placement) zone
+- squeeze this [brown](object_color) [sphere](object_name)
+- so snatch an [magenta](object_color) [brick](object_name) immediately
+- i mean place that [brown](object_color) [sphere](object_name) placed over there in the [right](placement)
+- clutch the [black](object_color) [hammer](object_name) placed at the [left](placement)
+- somehow can you pick up this [magenta](object_color) [ball](object_name) if you can
+- can you please immediately hand over one [yellow](object_color) [pear](object_name) please robot
+- pick up some [yellow](object_color) [glass](object_name)
+- i wanted to say shift an [tomato](object_name) on the [floor](placement)
+- pick up a [sphere](object_name)
+- no what i mean is grab some [blue](object_color) [strawberry](object_name) please
+- could you somehow pick up that [magenta](object_color) [hammer](object_name) somehow
+- grab a [pink](object_color) [duck](object_name) in the area on the [center](placement)
+- i mean put this [green](object_color) [pizza](object_name) positioned at the [center](placement)
+- grab that [pink](object_color) [shape](object_name) if possible
+- embrace a [pink](object_color) [pear](object_name)
+- can you please now grab one [pink](object_color) [brick](object_name)
+- place the [tomato](object_name) that is [pink](object_color) in the [right](placement)
+- i wanted to say move some [green](object_color) [raspberry](object_name) positioned in the [middle](placement) zone
+- ok grab that [yellow](object_color) [tool](object_name) if you can
+- embrace this [yellow](object_color) [tool](object_name) located in the [center](placement) zone
+- no i mean grab [brown](object_color) [orange](object_name) immediately
+- get an [sphere](object_name) that has the color [purple](object_color) placed in the [center](placement) zone
+- grip [magenta](object_color) [fruit](object_name)
+- pick up that [orange](object_color) [sphere](object_name)
+- crush the [blue](object_color) [kiwi](object_name) on the [table](placement)
+- collect this [yellow](object_color) [apricot](object_name)
+- pick up a [black](object_color) [hammer](object_name) located in the [floor](placement)
+- i'm asking you to grab [hammer](object_name) which has the color [brown](object_color) immediately
+- get [black](object_color) [tomato](object_name)
+- seize that [orange](object_color) [duck](object_name)
+- what i meant was put this [magenta](object_color) [shape](object_name)
+- embrace one [blue](object_color) [hammer](object_name)
+- grab this [magenta](object_color) [lemon](object_name)
+- ok maybe pick up some [pink](object_color) [tomato](object_name) if you can
+- hoist [brown](object_color) [brick](object_name)
+- can you please also pick up a [purple](object_color) [ball](object_name) please
+- what i meant was grab the [brown](object_color) [raspberry](object_name) if you can
+- please immediately pick up an [purple](object_color) [pizza](object_name) please robot
+- i meant place the [watermelon](object_name) that has the color [black](object_color) placed in the [ground](placement) zone
+- get one [donut](object_name) located at the [left](placement)
+- i want you to grab [brown](object_color) [apricot](object_name) that's all
+- could you also secure [pineapple](object_name) which is [brown](object_color) maybe
+- somehow i want you to pick the [orange](object_color) [object](object_name) immediately
+- hoist some [orange](object_color) [melon](object_name) from the [center](placement)
+- grab the [brown](object_color) [apple](object_name)
+- what i mean is relocate an [blue](object_color) [ball](object_name) at the [left](placement)
+- i mean put a [pineapple](object_name) which has a [black](object_color) color located in the area on the [ground](placement)
+- grasp the [green](object_color) [glass](object_name) located in the [platform](placement)
+- grab that [magenta](object_color) [apricot](object_name) on the [floor](placement)
+- place this [brown](object_color) [pineapple](object_name) placed at the [center](placement)
+- ok also fetch one [brown](object_color) [sphere](object_name)
+- please maybe crush an [apricot](object_name) please
 
 ## intent:show
-- here is the [yellow](object_color) [donut](object_name)
-- a [fruit](object_name) is known as [pink](object_color) [strawberry](object_name)
-- this is [black](object_color) [box](object_name)
-- this [brick](object_name) is called [kiwi](object_name)
-- this is an [magenta](object_color) [lemon](object_name)
-- placed in the [middle](placement) area is the [duck](object_name)
-- what i'm showing you on the [middle](placement) is some [brown](object_color) [brick](object_name)
-- some [hammer](object_name) is known as a [strawberry](object_name) that has a [pink](object_color) color
-- the [pepper](object_name) is called [blue](object_color) [lemon](object_name)
-- some [fruit](object_name) is called this [black](object_color) [pear](object_name)
-- you should remember that this is the [yellow](object_color) [glass](object_name)
-- this [apple](object_name) is known as some [pink](object_color) [hammer](object_name)
-- this one [apricot](object_name) is called [brown](object_color) [melon](object_name)
-- the [ball](object_name) is known as one [green](object_color) [object](object_name)
-- on the [middle](placement) is some [green](object_color) [strawberry](object_name)
-- that [apple](object_name) is called [magenta](object_color) [orange](object_name)
-- this [shape](object_name) is called a [shape](object_name)
-- this is one [blue](object_color) [lemon](object_name)
-- what i'm showing you in the area on the [left](placement) is a [green](object_color) [sphere](object_name)
-- the [pizza](object_name) here is one [brown](object_color) [pear](object_name)
-- one [raspberry](object_name) is known as that [green](object_color) [pepper](object_name)
-- this [shape](object_name) is called the [black](object_color) [pear](object_name)
-- some [apple](object_name) is known as some [black](object_color) [pineapple](object_name)
-- this [duck](object_name) is called some [blue](object_color) [pear](object_name)
-- somewhere on the [right](placement) is a [yellow](object_color) [shape](object_name)
-- one [ball](object_name) is called [pink](object_color) [pear](object_name)
-- this [strawberry](object_name) is called an [green](object_color) [raspberry](object_name)
-- this [box](object_name) is known as some [tomato](object_name)
-- this is [pizza](object_name) of color [yellow](object_color)
-- the [raspberry](object_name) here is the [yellow](object_color) [watermelon](object_name)
-- located at the [center](placement) is some [brown](object_color) [duck](object_name)
-- what i'm showing you on the [middle](placement) is [pizza](object_name) of color [pink](object_color)
-- this is a [strawberry](object_name) that is [orange](object_color)
-- an [sphere](object_name) is called a [magenta](object_color) [fruit](object_name)
-- this is a [purple](object_color) [brick](object_name)
-- this [strawberry](object_name) is known as this [green](object_color) [pineapple](object_name)
-- some [orange](object_name) is called some [yellow](object_color) [box](object_name)
-- that [sphere](object_name) is called that [black](object_color) [pizza](object_name)
-- the [raspberry](object_name) is known as the [brown](object_color) [thing](object_name)
-- one [pizza](object_name) is called that [raspberry](object_name) which has the color [brown](object_color)
-- placed in the [center](placement) zone is a [blue](object_color) [kiwi](object_name)
-- this is some [purple](object_color) [duck](object_name)
-- that [object](object_name) is known as this [watermelon](object_name)
-- this is a [purple](object_color) [pizza](object_name)
-- this one [sphere](object_name) is called that [yellow](object_color) [hammer](object_name)
-- this is a [brown](object_color) [pizza](object_name)
-- this is [tomato](object_name) of color [purple](object_color)
-- it [glass](object_name) is called one [pink](object_color) [melon](object_name)
-- an [orange](object_name) is known as this [magenta](object_color) [pineapple](object_name)
-- placed in the area on the [right](placement) is the [tomato](object_name) which has the color [green](object_color)
-- some [pear](object_name) is called that [green](object_color) [pepper](object_name)
-- what i'm showing you positioned in the area on the [middle](placement) is [brown](object_color) [thing](object_name)
-- an [box](object_name) is called an [sphere](object_name) that has the color [green](object_color)
-- an [sphere](object_name) is known as this [pink](object_color) [tomato](object_name)
-- this [apricot](object_name) is known as a [orange](object_color) [object](object_name)
-- around here is one [pink](object_color) [pineapple](object_name)
-- one [lemon](object_name) is called that [watermelon](object_name) which has a [magenta](object_color) color
-- the [kiwi](object_name) here is an [brown](object_color) [object](object_name)
-- this [tomato](object_name) is called the [pink](object_color) [box](object_name)
-- it [sphere](object_name) is called an [purple](object_color) [tomato](object_name)
-- this is [magenta](object_color) [pear](object_name)
-- this is that [blue](object_color) [pepper](object_name)
-- this [sphere](object_name) is called a [glass](object_name) which has the color [black](object_color)
-- this is that [orange](object_color) [ball](object_name)
-- what i'm showing you is one [pink](object_color) [box](object_name)
-- this [brick](object_name) is called this [purple](object_color) [lemon](object_name)
-- this one [object](object_name) is called the [blue](object_color) [watermelon](object_name)
-- that one [thing](object_name) is called an [green](object_color) [box](object_name)
-- on the [left](placement) is [purple](object_color) [orange](object_name)
-- this is [raspberry](object_name)
-- this is an [brown](object_color) [orange](object_name)
-- the [duck](object_name) is known as that [black](object_color) [ball](object_name)
-- this [strawberry](object_name) is called an [black](object_color) [shape](object_name)
-- this is some [yellow](object_color) [melon](object_name)
-- one [donut](object_name) is known as [melon](object_name)
-- this is an [apple](object_name) that is [blue](object_color)
-- a [fruit](object_name) is called an [orange](object_name)
-- some [sphere](object_name) is known as this [pink](object_color) [lemon](object_name)
-- it [apricot](object_name) is called [purple](object_color) [fruit](object_name)
-- this is this [yellow](object_color) [pineapple](object_name)
-- that one [raspberry](object_name) is called this [green](object_color) [raspberry](object_name)
-- this [thing](object_name) is called some [brown](object_color) [apricot](object_name)
-- placed in the area on the [right](placement) is some [yellow](object_color) [fruit](object_name)
-- this is some [blue](object_color) [duck](object_name)
-- the [pepper](object_name) here is some [pink](object_color) [tomato](object_name)
-- one [ball](object_name) is called a [orange](object_color) [watermelon](object_name)
-- one [duck](object_name) is known as that [yellow](object_color) [fruit](object_name)
-- one [sphere](object_name) is called an [purple](object_color) [hammer](object_name)
-- what i'm showing you over there in the [right](placement) is this [brown](object_color) [brick](object_name)
-- that [glass](object_name) is called [brown](object_color) [pizza](object_name)
-- one [glass](object_name) is called an [orange](object_color) [kiwi](object_name)
-- the [duck](object_name) is called some [kiwi](object_name) that has the color [orange](object_color)
-- what i'm showing you at the [right](placement) is an [pink](object_color) [lemon](object_name)
-- something [orange](object_name) is called an [black](object_color) [sphere](object_name)
-- what i'm showing you positioned at the [right](placement) is [orange](object_color) [watermelon](object_name)
-- this [object](object_name) is called this [brown](object_color) [melon](object_name)
-- something [sphere](object_name) is called one [pink](object_color) [pineapple](object_name)
-- on the [middle](placement) is [magenta](object_color) [box](object_name)
-- some [tool](object_name) is called an [black](object_color) [lemon](object_name)
-- this [kiwi](object_name) is known as one [lemon](object_name) that is [brown](object_color)
+- what i'm showing you placed at the [center](placement) is this [pink](object_color) [duck](object_name)
+- positioned in the [right](placement) zone is that [brick](object_name) of color [brown](object_color)
+- what i'm showing you on the [floor](placement) is that [ball](object_name)
+- one [pineapple](object_name) is called that [brown](object_color) [shape](object_name)
+- this is some [purple](object_color) [pizza](object_name)
+- this is a [strawberry](object_name) of color [magenta](object_color)
+- a [ball](object_name) is known as some [pink](object_color) [box](object_name)
+- this [hammer](object_name) is called some [raspberry](object_name)
+- on the [left](placement) is some [orange](object_color) [apricot](object_name)
+- a [pear](object_name) is called the [pink](object_color) [lemon](object_name)
+- something [object](object_name) is called the [box](object_name) of color [purple](object_color)
+- over there in the [left](placement) is an [raspberry](object_name) of color [black](object_color)
+- the [tool](object_name) is called that [purple](object_color) [pineapple](object_name)
+- this is a [blue](object_color) [hammer](object_name)
+- it [tomato](object_name) is called a [yellow](object_color) [fruit](object_name)
+- a [donut](object_name) is known as an [blue](object_color) [pizza](object_name)
+- this is that [orange](object_color) [pineapple](object_name)
+- this [sphere](object_name) is known as an [black](object_color) [tomato](object_name)
+- one [box](object_name) is called the [magenta](object_color) [fruit](object_name)
+- positioned at the [middle](placement) is the [pizza](object_name) that has a [brown](object_color) color
+- one [thing](object_name) is called some [yellow](object_color) [watermelon](object_name)
+- what i'm showing you placed in the [right](placement) zone is some [thing](object_name) that has the color [green](object_color)
+- the [tool](object_name) here is that [black](object_color) [duck](object_name)
+- placed over there in the [floor](placement) is that [box](object_name)
+- this is this [shape](object_name)
+- i'm showing you [brown](object_color) [pepper](object_name)
+- an [lemon](object_name) is known as [blue](object_color) [brick](object_name)
+- what i'm showing you placed in the area on the [platform](placement) is an [melon](object_name) which has the color [green](object_color)
+- something [ball](object_name) is called some [black](object_color) [thing](object_name)
+- this is some [blue](object_color) [object](object_name)
+- what i'm showing you positioned over there in the [right](placement) is a [purple](object_color) [glass](object_name)
+- that [tomato](object_name) is called an [donut](object_name) which has a [black](object_color) color
+- this is [pink](object_color) [box](object_name)
+- this [box](object_name) is known as this [orange](object_color) [tool](object_name)
+- one [fruit](object_name) is known as the [fruit](object_name) that has a [brown](object_color) color
+- this is a [magenta](object_color) [lemon](object_name)
+- over there in the [platform](placement) is an [strawberry](object_name) that is [pink](object_color)
+- what i'm showing you placed in the [floor](placement) area is some [brown](object_color) [watermelon](object_name)
+- one [pepper](object_name) is called a [blue](object_color) [thing](object_name)
+- this [tomato](object_name) is known as that [tomato](object_name) that has the color [pink](object_color)
+- a [strawberry](object_name) is known as an [strawberry](object_name) which has a [yellow](object_color) color
+- the [pineapple](object_name) is known as that [black](object_color) [pizza](object_name)
+- some [lemon](object_name) is called that [orange](object_color) [raspberry](object_name)
+- this is an [yellow](object_color) [apple](object_name)
+- on the [ground](placement) is a [magenta](object_color) [object](object_name)
+- over there in the [center](placement) is that [melon](object_name) that has the color [blue](object_color)
+- what i'm showing you positioned at the [platform](placement) is one [yellow](object_color) [orange](object_name)
+- what i'm showing you on the [ground](placement) is the [pink](object_color) [shape](object_name)
+- this one [apple](object_name) is called this [black](object_color) [pear](object_name)
+- this is one [black](object_color) [glass](object_name)
+- this one [watermelon](object_name) is called the [donut](object_name)
+- an [pineapple](object_name) is known as the [brown](object_color) [raspberry](object_name)
+- this is one [orange](object_color) [melon](object_name)
+- this is [magenta](object_color) [pizza](object_name)
+- what i'm showing you on the [right](placement) is this [black](object_color) [object](object_name)
+- located in the area on the [right](placement) is one [kiwi](object_name) that has the color [yellow](object_color)
+- one [object](object_name) is called the [pink](object_color) [donut](object_name)
+- what i'm showing you from the [middle](placement) is an [tool](object_name) that has the color [yellow](object_color)
+- on the [middle](placement) is this [sphere](object_name) that has a [brown](object_color) color
+- located at the [table](placement) is this [black](object_color) [strawberry](object_name)
+- what i'm showing you is an [black](object_color) [brick](object_name)
+- a [ball](object_name) is called the [box](object_name)
+- that one [object](object_name) is called that [brown](object_color) [tomato](object_name)
+- one [donut](object_name) is called an [brown](object_color) [donut](object_name)
+- positioned in the area on the [table](placement) is a [yellow](object_color) [melon](object_name)
+- on the [platform](placement) is [brown](object_color) [glass](object_name)
+- this is that [pink](object_color) [glass](object_name)
+- that [pizza](object_name) is known as [brown](object_color) [brick](object_name)
+- what i'm showing you on the [left](placement) is [black](object_color) [apple](object_name)
+- that [hammer](object_name) is called some [pizza](object_name) which is [purple](object_color)
+- some [thing](object_name) is known as this [brown](object_color) [lemon](object_name)
+- what i'm showing you on the [middle](placement) is some [green](object_color) [sphere](object_name)
+- this [brick](object_name) is called [pink](object_color) [pizza](object_name)
+- this is an [pink](object_color) [pineapple](object_name)
+- this is [pink](object_color) [fruit](object_name)
+- located in the [floor](placement) is this [brown](object_color) [pineapple](object_name)
+- this is the [pink](object_color) [raspberry](object_name)
+- a [pear](object_name) is called the [orange](object_color) [apricot](object_name)
+- the [pepper](object_name) is known as the [pink](object_color) [apple](object_name)
+- what i'm showing you placed over there in the [middle](placement) is a [pink](object_color) [duck](object_name)
+- that [object](object_name) is called this [object](object_name)
+- what i'm showing you located in the [middle](placement) area is the [brown](object_color) [strawberry](object_name)
+- from the [center](placement) is [strawberry](object_name)
+- a [lemon](object_name) is called that [lemon](object_name) of color [green](object_color)
+- this [sphere](object_name) is known as a [pink](object_color) [orange](object_name)
+- this is a [apple](object_name) that has a [brown](object_color) color
+- the [tool](object_name) here is [orange](object_color) [shape](object_name)
+- a [raspberry](object_name) is known as the [black](object_color) [pear](object_name)
+- what i'm showing you is the [blue](object_color) [strawberry](object_name)
+- this is [magenta](object_color) [kiwi](object_name)
+- this is that [green](object_color) [hammer](object_name)
+- what i'm showing you in the [middle](placement) is one [brown](object_color) [shape](object_name)
+- this is the [green](object_color) [kiwi](object_name)
+- this is this [black](object_color) [pepper](object_name)
+- some [sphere](object_name) is known as this [magenta](object_color) [pizza](object_name)
+- what i'm showing you from the [center](placement) is a [pink](object_color) [lemon](object_name)
+- that [tool](object_name) is called one [magenta](object_color) [lemon](object_name)
+- that [apple](object_name) is called one [brown](object_color) [strawberry](object_name)
+- placed over there in the [middle](placement) is one [watermelon](object_name) of color [green](object_color)
+- this [tool](object_name) is called this [magenta](object_color) [kiwi](object_name)

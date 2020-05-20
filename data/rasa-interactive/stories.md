@@ -803,3 +803,89 @@
 ## interactive_story_1
 * bye
     - utter_prompt
+
+## interactive_story_1
+* move{"object_name": "apple", "placement": "right"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "right"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_color
+* clarify{"object_color": "green"}
+    - slot{"object_color": "green"}
+    - utter_command_repeat_withplacement_destination
+* deny
+    - action_cancel
+    - reset_slots
+    - utter_got_denied
+
+## interactive_story_1
+* none
+    - action_default_ask_affirmation
+* none
+    - action_default_ask_rephrase
+* move{"object_name": "banana", "placement": "floor"}
+    - slot{"object_name": "banana"}
+    - slot{"placement": "floor"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_placement_destination
+* clarify{"placement": "middle"}
+    - slot{"placement": "middle"}
+    - utter_prompt_color
+* clarify{"object_color": "yellow"}
+    - slot{"object_color": "yellow"}
+    - utter_command_repeat_withplacement_destination
+* affirmative
+    - utter_got_command
+    - execute_move
+    - reset_slots
+* move{"object_name": "apple", "placement": "table"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "table"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_placement_destination
+* move{"placement": "left"}
+    - slot{"placement": "left"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_color
+* clarify{"object_color": "pink"}
+    - slot{"object_color": "pink"}
+    - utter_got_unknown_color
+
+## interactive_story_1
+* pick up{"object_name": "banana", "placement": "floor"}
+    - slot{"object_name": "banana"}
+    - slot{"placement": "floor"}
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_prompt_placement_origin
+* deny
+    - action_cancel
+    - reset_slots
+    - utter_got_denied
+* pick up{"object_name": "peach", "placement": "table"}
+    - slot{"object_name": "peach"}
+    - slot{"placement": "table"}
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_got_unknown_object
+* pick up{"object_name": "orange", "placement": "platform"}
+    - slot{"object_name": "orange"}
+    - slot{"placement": "platform"}
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_prompt_placement_origin
+* clarify{"placement": "middle"}
+    - slot{"placement": "middle"}
+    - utter_prompt_color
+* clarify{"object_color": "orange"}
+    - slot{"object_color": "orange"}
+    - action_fill
+    - utter_command_repeat_withplacement_origin
+* affirmative
+    - utter_got_command
+    - execute_pickup
+    - reset_slots

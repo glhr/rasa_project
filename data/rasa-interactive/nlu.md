@@ -76,6 +76,10 @@
 - it's dark [green](object_color)
 - the [apple](object_name) is in the [middle](placement) now
 - it's [gray](object_color)
+- it's [green](object_color) as hell
+- [middle](placement)
+- i guess it's [yellow](object_color)
+- it's [pink](object_color)
 
 ## intent:none
 - you're welcome
@@ -94,6 +98,7 @@
 - strangle yourself with your arms
 - what [objects](object_name) do you know then
 - what kind of things do you understand
+- hey can i ask something
 
 ## intent:pick up
 - pick up the [ball](object_name)
@@ -138,6 +143,7 @@
 - yaaaas
 - exactly pick it up
 - yep gogogo
+- yep pleaswe
 
 ## intent:bye
 - thanks
@@ -194,3 +200,7 @@
 - move the [apple](object_name) somewhere to the [right](placement) side
 - please take the [green](object_color) [apple](object_name) and place it in the [middle](placement) of the table
 - no put it on the [right](placement)
+- hey can you put the [apple](object_name) on the [right](placement) somewhere
+- could you move the [banana](object_name) to the [floor](placement)
+- now take the [apple](object_name) and place it on the [table](placement)
+- put it on the [left](placement)

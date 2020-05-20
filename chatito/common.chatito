@@ -92,9 +92,7 @@
     ~[located?] in the @[placement] area
     ~[located?] in the @[placement] zone
     on the @[placement] side
-    on the table
     around here
-    on the platform
     around you
 
 ~[to the right]
@@ -186,6 +184,10 @@
     center
     left
     right
+    platform
+    table
+    floor
+    ground
 
 @[object_color]
     orange

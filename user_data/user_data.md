@@ -665,4 +665,4 @@
 - pleas give mee a [objekt](object_name) and remember this objekt
 - save this [object](object_name) to your memory
 - robot that is a computer [mouse](object_name)
-- examine the [mouse](object_name) with your sensors and remember that this is what a computer mouse looks and feels like
+- examine the [mouse](object_name) with your sensors and remember that this is what a computer [mouse](object_name) looks and feels like

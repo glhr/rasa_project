@@ -145,6 +145,8 @@
 - all right
 
 ## intent:none
+- too bad
+- maybe
 - leave me alone
 - how are you doing
 - how is it going
@@ -255,6 +257,7 @@
 - finish
 
 ## intent:deny
+- maybe not
 - no
 - nope
 - not really
