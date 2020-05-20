@@ -23,6 +23,10 @@
 - hallo build me something
 - hello robot i want some help
 - hi robot how are you
+- hello my dear
+- hello my helper
+- good morning
+- hello
 
 ## intent:pick up
 - pickup the [yellow](object_color) [banana](object_name) from the [table](placement)
@@ -317,6 +321,9 @@
 - no i said pick up the [banana](object_name)
 - pick up the [mouse](object_name) then the robot will point at the objekt and then i'll say correct or wrong
 - please move your right arm inward lower your arm and pick up and grasp the [mouse](object_name)
+- please take the [banana](object_name)
+- take the [banana](object_name)
+- could you take the [banana](object_name)
 
 ## intent:clarify
 - do this with the [yellow](object_color) [banana](object_name)
@@ -449,6 +456,7 @@
 - armbot please find the [cyan](object_color) [cube](object_name)
 - can you point to the [yellow](object_color) [duck](object_name)
 - identify the [red](object_color) [cup](object_name)
+- could you find the little [duck](object_name) [yellow](object_color)
 
 ## intent:deny
 - no i wanted you to
@@ -528,6 +536,9 @@
 - please give me another [objekt](object_name)
 - robot stop
 - robot please stop doing that
+- you're making a mistake
+- you made a mistake
+- you screwed up
 
 ## intent:move
 - move to the [left](placement)
@@ -666,3 +677,5 @@
 - save this [object](object_name) to your memory
 - robot that is a computer [mouse](object_name)
 - examine the [mouse](object_name) with your sensors and remember that this is what a computer [mouse](object_name) looks and feels like
+- it's a computer [mouse](object_name)
+- it's an object you don't know it's called computer [mouse](object_name)
