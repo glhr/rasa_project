@@ -324,6 +324,8 @@
 - please take the [lemon](object_name)
 - take the [apple](object_name)
 - could you take the [fruit](object_name)
+- please give me another [objekt](object_name)
+- move your arm to take the [grapes](object_name) and lift it
 
 ## intent:clarify
 - do this with the [yellow](object_color) [kiwi](object_name)
@@ -417,7 +419,6 @@
 - open lower lower lower close rise
 - with motorized pivotpoints at each joint of the arm controlled by a controlboard hooked up to a powersupply
 - tell me the name
-- give the robot some default set of instructions to recognize [objects](object_name) and make it run that set of instructions by command
 - silver top curved 2 to 3 inches long 1 to 2 inches wide light weight
 
 ## intent:find
@@ -445,7 +446,6 @@
 - stop the object is not correct find the [yellow](object_color) [grapes](object_name) which is a long curved fruit with smooth skin
 - can you show me the [yellow](object_color) [objects](object_name)
 - show me the [orange](object_color) [ball](object_name)
-- move your arm to take the [grapes](object_name) and lift it
 - can you show me the  [yellow](object_color) [duck](object_name) please
 - spot the nearest [pink](object_color) [ball](object_name)
 - show me the [yellow](object_color) [duck](object_name)
@@ -527,13 +527,11 @@
 - name of robot stop
 - stop current task and reset
 - freeze all motor functions
-- put the [raspberry](object_name) down
 - i'll say wrong then try again
 - no the same request pronounced more clearly
 - stop you fuckin' idiot
 - armbot stop
 - no that is not correct
-- please give me another [objekt](object_name)
 - robot stop
 - robot please stop doing that
 - you're making a mistake
@@ -541,6 +539,7 @@
 - you screwed up
 
 ## intent:move
+- put the [raspberry](object_name) down
 - move to the [left](placement)
 - arrange [fruits](object_name) to the [right](placement) and other [items](object_name) to the [left](placement)
 - reach down to the [raspberry](object_name) and clasp it then raise it and move it towards me
