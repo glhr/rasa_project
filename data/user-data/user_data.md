@@ -122,7 +122,7 @@
 - can you give me the [pear](object_name)
 - lift up the [pear](object_name)
 - grab the ba na na
-- sort the [item](object_name)s
+- sort the [items](object_name)
 - pick up the [duck](object_name)
 - pick up the [black](object_color) [duck](object_name)
 - place the [object](object_name)
@@ -326,7 +326,7 @@
 - [yellow](object_color) [kiwi](object_name)
 - curved metal tool called [apple](object_name)
 - long [yellow](object_color) [fruit](object_name)
-- [white](object_color) [computer apple](object_name)](object_name)
+- [white](object_color) computer [apple](object_name)
 - [duck](object_name)
 - the [orange](object_name) please
 - computer [apple](object_name)
