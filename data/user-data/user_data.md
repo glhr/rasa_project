@@ -271,7 +271,7 @@
 - please drop the [green](object_color) [apple](object_name) and give me the [red](object_color) [apple](object_name) instead
 - gently pick up the [object](object_name)
 - no take the [orange](object_name)
-- take only the [hammer](object_name) and smash the jackfruit
+- take only the [hammer](object_name) and smash the [jackfruit](object_name)
 - give me the [hammer](object_name)
 - pick up the [brown](object_color) [ring](object_name)
 - take the [yellow](object_color) [duck](object_name) to me
@@ -279,8 +279,8 @@
 - hey robot hand me that [apple](object_name)
 - pick up the [yellow](object_color) [jackfruit](object_name)
 - gimme a [red](object_color) [pepper](object_name)
-- take the [brown](object_color) [hammer](object_name) with your right and use it to hit the brown kiwi five times
-- pick up the rainbow colo[red](object_color) [jam](object_name)
+- take the [brown](object_color) [hammer](object_name) with your right and use it to hit the [brown](object_color) [kiwi](object_name) five times
+- pick up the [rainbow](object_color) colored [jam](object_name)
 - pick up the [orange](object_color) [orange](object_name)
 - take the [yellow](object_color) [jackfruit](object_name)
 - hallo pick the [duck](object_name) please
@@ -326,7 +326,7 @@
 - [yellow](object_color) [kiwi](object_name)
 - curved metal tool called [apple](object_name)
 - long [yellow](object_color) [fruit](object_name)
-- [white](object_color) [computer [apple](object_name)](object_name)
+- [white](object_color) [computer apple](object_name)](object_name)
 - [duck](object_name)
 - the [orange](object_name) please
 - computer [apple](object_name)

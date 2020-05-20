@@ -103,11 +103,14 @@ class ReceivedFind(Action):
                             ))
                 else:
                     if placement_origin in valid_placements:
-                        dispatcher.utter_message(text="RGB Camera: This is what I can see in the {} area.".format(
+                        dispatcher.utter_message(text="RGB Camera: I didn't find anything {} in the {} area. This is what I can see".format(
+                            response.desired_color,
                             placement_origin
                             ))
                     else:
-                        dispatcher.utter_message(text="RGB Camera: This is what I can see.")
+                        dispatcher.utter_message(text="RGB Camera: I didn't find anything {}. This is what I can see.".format(
+                            response.desired_color
+                            ))
 
                 # handle 3D Vision response
 
