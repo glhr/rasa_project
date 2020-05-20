@@ -823,7 +823,7 @@
 * none
     - utter_prompt
 * none
-    - utter_prompt_action
+    - action_fallback
 * move{"object_name": "banana", "placement": "floor"}
     - slot{"object_name": "banana"}
     - slot{"placement": "floor"}

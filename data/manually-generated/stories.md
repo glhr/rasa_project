@@ -23,7 +23,7 @@
 * none
   - utter_prompt
 * none
-  - utter_prompt_action
+  - action_fallback
 
 <!-- cancel command -->
 

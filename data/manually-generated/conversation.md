@@ -145,6 +145,10 @@
 - all right
 
 ## intent:none
+- dude
+- idiot
+- stupid
+- ass
 - too bad
 - maybe
 - leave me alone
