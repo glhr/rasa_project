@@ -1,24 +1,19 @@
 import os
-import sys
 import json
 import pickle
-import platform
-import subprocess
-
 import timeit
 import time
 
 from rasa.train import train
 #from utils.timing import CodeTimer
 
-pid_id_file = './pid/id'
 domain_file = './domain.yml'
 config_file = './config.yml'
-nlu_data    = './data/'
+nlu_data    = './data//eval/'
 output_path = './models/'
 model_name  = 'fruits_model'
 
-filename = './results/pipeline_training_duration.json'
+filename = './results/pipeline_training_duration/results.json'
 
 class CodeTimer:
     def __init__(self, name=None):
@@ -32,19 +27,6 @@ class CodeTimer:
         self.took = (timeit.default_timer() - self.start) * 1000.0
         # print('Code block' + self.name + ' took: ' + str(self.took) + ' ms')
         return None
-
-def kill_rasa():
-    f = open(pid_id_file, 'r')
-    id = f.readlines()
-    id = [str(i) for i in id]
-    id = "".join(id)
-    id = str(id)
-    f.close()
-    test = platform.uname()
-    if test[0] == "Linux":
-        os.system("kill " + id)
-    else:
-        os.system("taskkill /F /PID " + id)
 
 
 def train_rasa(pipeline_name):
@@ -65,9 +47,6 @@ def train_rasa(pipeline_name):
     return time
 
 
-def relaunch_rasa():
-    os.system("python rasa_main.py run --enable-api -p 5005")
-
 def evaluate_pipelines():
     data = {}
     pipeline_name = ['supervised_embeddings.yml', 'pretrained_embeddings_spacy.yml', 'recommended.yml', 'custom.yml', 'mitie.yml']
@@ -80,8 +59,42 @@ def evaluate_pipelines():
     #data = json.load(open(filename))
 
 if __name__ == "__main__":
-    #kill_rasa()
     #train_rasa(config_file)
-    #relaunch_rasa()
     evaluate_pipelines()
     
+
+'''
+# Old implementation for killing and relaunching RASA
+# No longer used since the RASA API has a smarter way of doing this.
+
+import sys
+import platform
+import subprocess
+
+pid_id_file = './pid/id'
+
+
+def kill_rasa():
+    f = open(pid_id_file, 'r')
+    id = f.readlines()
+    id = [str(i) for i in id]
+    id = "".join(id)
+    id = str(id)
+    f.close()
+    test = platform.uname()
+    if test[0] == "Linux":
+        os.system("kill " + id)
+    else:
+        os.system("taskkill /F /PID " + id)
+
+
+def writePidFile():
+    pid = str(os.getpid())
+    f = open('./pid/id', 'w')
+    f.write(pid)
+    f.close()
+
+
+def relaunch_rasa():
+    os.system("python rasa_main.py run --enable-api -p 5005")
+'''
