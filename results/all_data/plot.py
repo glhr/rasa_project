@@ -67,15 +67,8 @@ dfs_pipelines = pd.concat(dfs_pipelines)
 print(dfs_pipelines)
 dfs_pipelines.to_csv('entity_results.csv')
 
-number_of_examples = [666,
-                      602,
-                      487,
-                      346,
-                      212,
-                      109,
-                      50,
-                      18,
-                      10]
+total_phrases = 1887
+number_of_examples = [total_phrases - total_phrases*i/100 for i in percents]
 
 def _plot_curve(
     number_of_examples,
