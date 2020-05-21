@@ -1,9 +1,17 @@
 from rasa.core.slots import Slot
 
-valid_colors = ['green', 'blue', 'black', 'brown', 'yellow', 'orange', 'red', 'purple']
-valid_objects = ['apple', 'orange', 'banana', 'strawberry', 'kiwi']
-generic_objects = ['something', 'object', 'thing', 'item', 'fruit', 'vegetable']
-valid_placements = ['left', 'right', 'middle']
+valid_colors = {'green', 'blue', 'black', 'brown', 'yellow', 'orange', 'red', 'purple'}
+valid_objects = {'apple', 'orange', 'banana', 'strawberry', 'kiwi'}
+generic_objects = {'something', 'object', 'thing', 'item', 'fruit', 'vegetable'}
+valid_placements = {'left', 'right', 'middle'}
+
+
+def update_known_objects(objects):
+    valid_objects.update(objects)
+
+
+def update_known_colors(objects):
+    valid_objects.update(objects)
 
 
 class ColorSlot(Slot):

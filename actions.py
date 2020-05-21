@@ -16,7 +16,7 @@ from rasa.core.slots import Slot
 from rasa.core.events import Event
 
 from synonym_extraction import collect_synonym, add_synonym
-from slots import valid_placements
+from slots import valid_placements, update_known_colors, update_known_objects
 
 from train import train_model
 
@@ -82,47 +82,50 @@ class ReceivedFind(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("find", object_name, object_color, placement_origin)
-            response, path_2dimg = nlp_node.wait_for_response()
+            response = nlp_node.wait_for_response()
+            try:
+                msg, path_2dimg, path_3dimg = response
+            except Exception:
+                msg, path_2dimg = response
 
-            if response is not None:
+            if msg is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
 
                 # handle 2d vision response
-                print("Found {} object: {}".format(response.desired_color, response.found_obj))
+                print("Found {} object: {}".format(msg.desired_color, msg.found_obj))
 
                 imgurl_2d = "http://localhost:8888/{}?time={}".format(path_2dimg, int(time.time()))
                 dispatcher.utter_attachment(None, image=imgurl_2d)
 
-                if response.found_obj:
+                if msg.found_obj:
                     if placement_origin in valid_placements:
                         dispatcher.utter_message(text="RGB Camera: I found the {} object you asked for in the {} area.".format(
-                            response.desired_color,
+                            msg.desired_color,
                             placement_origin
                             ))
                     else:
                         dispatcher.utter_message(text="RGB Camera: I found the {} object you asked for.".format(
-                            response.desired_color
+                            msg.desired_color
                             ))
                 else:
                     if placement_origin in valid_placements:
                         dispatcher.utter_message(text="RGB Camera: I didn't find anything {} in the {} area. This is what I can see".format(
-                            response.desired_color,
+                            msg.desired_color,
                             placement_origin
                             ))
                     else:
                         dispatcher.utter_message(text="RGB Camera: I didn't find anything {}. This is what I can see.".format(
-                            response.desired_color
+                            msg.desired_color
                             ))
 
                 # handle 3D Vision response
 
-                # imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
-                # dispatcher.utter_attachment(None, image=imgurl_3d)
-
                 try:
-                    if response.pcl_obj:
+                    imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
+                    dispatcher.utter_attachment(None, image=imgurl_3d)
+                    if msg.pcl_obj:
                         dispatcher.utter_message(text="3D Camera: I found the {} you asked for.".format(
-                            response.pcl_object
+                            msg.pcl_object
                             ))
                     else:
                         dispatcher.utter_message(text="3D Camera: I didn't find any {}.".format(
@@ -164,25 +167,30 @@ class ReceivedLearn(Action):
                                   placement_origin=placement_origin,
                                   placement_destination=None)
 
-            response, path_2dimg = nlp_node.wait_for_response()
+            response = nlp_node.wait_for_response()
+            try:
+                msg, path_2dimg, path_3dimg = response
+            except Exception:
+                msg, path_2dimg = response
 
-            if response is not None:
+            if msg is not None:
                 imgpath = path_2dimg
                 print("Image saved at {}".format(imgpath))
-                print("Found object: {}".format(response.desired_color, response.found_obj))
+                print("Found object: {}".format(msg.desired_color, msg.found_obj))
 
                 imgurl = "http://localhost:8888/{}?time={}".format(imgpath,int(time.time()))
                 dispatcher.utter_attachment(None, image=imgurl)
 
-                if response.found_obj:
+                if msg.found_obj:
                     # dispatcher.utter_message(text="I found the {} {} in the {} area of the platform.".format(
-                    #     response.desired_color,
+                    #     msg.desired_color,
                     #     object_name,
                     #     placement_origin))
                     dispatcher.utter_message(template="utter_got_description")
+                    update_known_objects(object_name)
                 else:
                     dispatcher.utter_message(text="Sorry, I didn't find any object. Make sure the {} {} you want to show me is in the {} area of the platform.".format(
-                        response.desired_color,
+                        msg.desired_color,
                         object_name,
                         placement_origin))
             else:
@@ -217,19 +225,23 @@ class ReceivedPickup(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("pick up", object_name, object_color, placement_origin)
-            response, path_2dimg = nlp_node.wait_for_response()
+            response = nlp_node.wait_for_response()
+            try:
+                msg, path_2dimg, _ = response
+            except Exception:
+                msg, path_2dimg = response
 
-            if response is not None:
+            if msg is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
                 if path_2dimg is not None:
                     imgpath = path_2dimg
                     print("Image saved at {}".format(imgpath))
-                    print("Found {} object: {}".format(response.desired_color, response.found_obj))
+                    print("Found {} object: {}".format(msg.desired_color, msg.found_obj))
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
                     dispatcher.utter_attachment(None, image=imgurl)
 
-                # dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
-                if response.grippercode in [1,2,3]:
+                # dispatcher.utter_message(text="Got response code {} from gripper.".format(msg.grippercode))
+                if msg.grippercode in [1,2,3]:
                     dispatcher.utter_message(template="utter_command_failed")
                 else:
                     dispatcher.utter_message(text="Done with pick up.")
@@ -257,19 +269,23 @@ class ReceivedMove(Action):
 
         if ENABLE_ROS:
             nlp_node.send_command("move", object_name, object_color, placement_destination=placement_destination, placement_origin="any")
-            response, path_2dimg= nlp_node.wait_for_response()
+            response = nlp_node.wait_for_response()
+            try:
+                msg, path_2dimg, _ = response
+            except Exception:
+                msg, path_2dimg = response
 
-            if response is not None:
+            if msg is not None:
                 # dispatcher.utter_message(template="utter_executed_command")
                 if path_2dimg is not None:
                     imgpath = path_2dimg
                     print("Image saved at {}".format(imgpath))
-                    print("Found {} object: {}".format(response.desired_color, response.found_obj))
+                    print("Found {} object: {}".format(msg.desired_color, msg.found_obj))
                     imgurl = "http://localhost:8888/{}?time={}".format(imgpath, int(time.time()))
                     dispatcher.utter_attachment(None, image=imgurl)
 
-                # dispatcher.utter_message(text="Got response code {} from gripper.".format(response.grippercode))
-                if response.grippercode in [1,2,3]:
+                # dispatcher.utter_message(text="Got response code {} from gripper.".format(msg.grippercode))
+                if msg.grippercode in [1,2,3]:
                     dispatcher.utter_message(template="utter_command_failed")
                 else:
                     dispatcher.utter_message(text="Done with moving.")
