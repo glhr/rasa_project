@@ -1,16 +1,12 @@
 language: "en"
 
 pipeline:
-- name: "WhitespaceTokenizer"
-- name: "CRFEntityExtractor"
-- name: "RegexFeaturizer"
-- name: "CountVectorsFeaturizer"
-- name: "CountVectorsFeaturizer"
-  analyzer: "char_wb"
-  min_ngram: 1
-  max_ngram: 4
-- name: "EmbeddingIntentClassifier"
-  epochs: 100
+- name: "HFTransformersNLP"
+- name: "LanguageModelTokenizer"
+- name: "LanguageModelFeaturizer"
+- name: "SklearnIntentClassifier"
+- name: "DIETClassifier"
+  intent_classification: False
 
 policies:
   - name: AugmentedMemoizationPolicy
