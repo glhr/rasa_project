@@ -1,0 +1,353 @@
+[
+  {
+    "text": "cherry",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "cherry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "just find me something",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "something",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please take the red ball with your gripper and when you're done put it in the bottom left corner",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "value": "bottom left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 78,
+        "end": 96,
+        "value": "bottom left corner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "move this ball and then place it here",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 14,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "throw the phone at my face",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "entity": "object_name"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "my face",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "move this thing and put it there",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "value": "thing",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i mean is snatch this magenta raspberry positioned in the right area afterwards relocate that to the ground",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 63,
+        "end": 68,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 106,
+        "end": 112,
+        "value": "ground",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 27,
+        "end": 34,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 35,
+        "end": 44,
+        "value": "raspberry",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 106,
+        "end": 112,
+        "value": "ground",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i meant was pick up a apple that is magenta on the center then place this one towards the table zone",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 95,
+        "end": 100,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 27,
+        "end": 32,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 41,
+        "end": 48,
+        "value": "magenta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 56,
+        "end": 62,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 79,
+        "end": 82,
+        "value": "one",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 95,
+        "end": 100,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay pick up this cable over here first",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you placed in the right zone is some thing that has the color green",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "value": "green",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 54,
+        "end": 59,
+        "value": "thing",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 79,
+        "end": 84,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need you to remember this object",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 23,
+        "end": 34,
+        "value": "this object",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

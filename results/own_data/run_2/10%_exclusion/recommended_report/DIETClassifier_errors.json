@@ -1,0 +1,319 @@
+[
+  {
+    "text": "it's on the left of the table",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 12,
+        "end": 16,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 24,
+        "end": 29,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "just find me something",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "something",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "could you find something on the left of the table for me",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 32,
+        "end": 36,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 44,
+        "end": 49,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "throw the phone at my face",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "entity": "object_name"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "my face",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "last thing just drop it somewhere on the right",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 41,
+        "end": 46,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want you to let go of this object and grab the purple bottle",
+    "entities": [
+      {
+        "start": 24,
+        "end": 35,
+        "value": "this object",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "value": "bottle",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 35,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 49,
+        "end": 55,
+        "value": "purple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 56,
+        "end": 62,
+        "value": "bottle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "grab the cup lift it and put it here",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "cup",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 12,
+        "value": "cup",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 32,
+        "end": 36,
+        "value": "here",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay pick up this cable over here first",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hello robot could you give me this object",
+    "entities": [
+      {
+        "start": 30,
+        "end": 41,
+        "value": "this object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 35,
+        "end": 41,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i'm putting my balls on the table for you to learn",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "balls",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 15,
+        "end": 20,
+        "value": "balls",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 28,
+        "end": 33,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you positioned at the platform is one yellow orange",
+    "entities": [
+      {
+        "start": 39,
+        "end": 47,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 47,
+        "value": "platform",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 55,
+        "end": 68,
+        "value": "yellow orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my cat is great",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 3,
+        "end": 6,
+        "value": "cat",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "text": "find something",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 14,
+        "value": "something",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find a red ball on the platform",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "value": "ball",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 7,
+        "end": 10,
+        "value": "red",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 11,
+        "end": 15,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 23,
+        "end": 31,
+        "value": "platform",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search apple",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "throw the phone at my face",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "entity": "object_name"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "my face",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "grab the cup lift it and put it here",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "cup",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 12,
+        "value": "cup",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 32,
+        "end": 36,
+        "value": "here",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay now take the green plate from the left side of the platform",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "plate",
+        "entity": "object_name"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 18,
+        "end": 23,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 24,
+        "end": 29,
+        "value": "plate",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 43,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 56,
+        "end": 64,
+        "value": "platform",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please pick up the pink prism and place it in the left corner of the platform afterwards",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "prism",
+        "entity": "object_name"
+      },
+      {
+        "start": 50,
+        "end": 61,
+        "value": "left corner",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 23,
+        "value": "pink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 24,
+        "end": 29,
+        "value": "prism",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 50,
+        "end": 54,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 69,
+        "end": 77,
+        "value": "platform",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "drop a yellow glass on the ground",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "ground",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 7,
+        "end": 13,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 19,
+        "value": "glass",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me that right there",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "that",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 8,
+        "end": 12,
+        "value": "that",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 19,
+        "end": 24,
+        "value": "there",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please lift this glass up from the platform",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 22,
+        "value": "glass",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "get brown pear",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "value": "pear",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 4,
+        "end": 9,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no i mean grab brown orange immediately",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 15,
+        "end": 27,
+        "value": "brown orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want you to crush this thing with your awesome gripper",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "some thing is known as this brown lemon",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "value": "lemon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 28,
+        "end": 33,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 34,
+        "end": 39,
+        "value": "lemon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "scan the small strawberry and save it to your memory",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "strawberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 9,
+        "end": 14,
+        "value": "small",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 15,
+        "end": 25,
+        "value": "strawberry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "from the center is strawberry",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "value": "strawberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 9,
+        "end": 15,
+        "value": "center",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "one object is called the pink donut",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "object",
+        "entity": "object_name"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "donut",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 25,
+        "end": 29,
+        "value": "pink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 30,
+        "end": 35,
+        "value": "donut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i'm putting my balls on the table for you to learn",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "balls",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 28,
+        "end": 33,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my name is human",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 11,
+        "end": 16,
+        "value": "human",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

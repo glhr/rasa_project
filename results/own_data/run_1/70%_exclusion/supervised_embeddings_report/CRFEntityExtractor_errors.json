@@ -1,0 +1,1538 @@
+[
+  {
+    "text": "located in the area on the floor",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "floor",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "the object",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5510446431833984,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "left",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i meant the pear of color orange",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "pear",
+        "entity": "object_name"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "orange",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.7098191393922045,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "magenta",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "magenta",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what i meant was this pepper that has the color purple",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "pepper",
+        "entity": "object_name"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "purple",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.9127911663193156,
+        "value": "purple",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "search for duck that has a green color",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "duck",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "green",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9682377277791273,
+        "value": "green",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "lastly please search for something red",
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "value": "red",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "leastly please search for something white",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "white",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "um detect some orange tomato please robot",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.6012307686408405,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you detect any red book on the right of the platform",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "value": "book",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9508329637218592,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 48,
+        "end": 56,
+        "confidence_entity": 0.9645611974351316,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "could you also detect something blue",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "something",
+        "entity": "object_name"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "value": "blue",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9406769140615546,
+        "value": "blue",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "also move the blue peach to the left of the platform",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "peach",
+        "entity": "object_name"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.983424797226897,
+        "value": "blue",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.5208369925320061,
+        "value": "peach",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9322270737158735,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 44,
+        "end": 52,
+        "confidence_entity": 0.9645612009372767,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "could you move this to the right",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "this",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9674624843271719,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "place the orange of color blue towards the platform side",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.5473144926274921,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.9483262612210652,
+        "value": "blue",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.9530423365704134,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "shift that apricot that is brown to somewhere on the left",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "apricot",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.5751011735878545,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.9539290249233594,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "throw the phone at my face",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "entity": "object_name"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "my face",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "robot recognize an orange lemon placed in the area on the platform then relocate that towards the middle area",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "lemon",
+        "entity": "object_name"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 98,
+        "end": 104,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.5279611397227485,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 58,
+        "end": 66,
+        "confidence_entity": 0.9736486384638889,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 98,
+        "end": 104,
+        "confidence_entity": 0.9462366720451431,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what i meant was seize hammer that is brown next move one towards the floor zone",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "hammer",
+        "entity": "object_name"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "value": "floor",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.6333804777067137,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i would like you to grab these scissors and place them to the left",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "scissors",
+        "entity": "object_name"
+      },
+      {
+        "start": 62,
+        "end": 66,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 62,
+        "end": 66,
+        "confidence_entity": 0.9539591547915297,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you please now find an watermelon of color yellow on the floor when you're done relocate something to the middle",
+    "entities": [
+      {
+        "start": 27,
+        "end": 37,
+        "value": "watermelon",
+        "entity": "object_name"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "floor",
+        "entity": "placement"
+      },
+      {
+        "start": 110,
+        "end": 116,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.8429137943076616,
+        "value": "watermelon",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.6046309134950765,
+        "value": "yellow",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 110,
+        "end": 116,
+        "confidence_entity": 0.9460658425625953,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "now i'm asking you to locate some yellow hammer located at the center afterwards relocate something towards the center area",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "value": "hammer",
+        "entity": "object_name"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "value": "center",
+        "entity": "placement"
+      },
+      {
+        "start": 112,
+        "end": 118,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 63,
+        "end": 69,
+        "confidence_entity": 0.9296089003164363,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 112,
+        "end": 118,
+        "confidence_entity": 0.9477401853713879,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "drop that apricot that has a green color towards the middle side",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "apricot",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9680159845528535,
+        "value": "green",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 53,
+        "end": 59,
+        "confidence_entity": 0.9378389406280653,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "drop that tomato that has a green color towards the floor zone",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 52,
+        "end": 57,
+        "value": "floor",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.9680160438603225,
+        "value": "green",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "somehow i want you to detect a yellow hammer somewhere on the platform afterwards move it towards the ground side",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "value": "hammer",
+        "entity": "object_name"
+      },
+      {
+        "start": 62,
+        "end": 70,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 102,
+        "end": 108,
+        "value": "ground",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.8901086213593101,
+        "value": "yellow",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 62,
+        "end": 70,
+        "confidence_entity": 0.944389583074011,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 102,
+        "end": 108,
+        "confidence_entity": 0.92970727985399,
+        "value": "ground",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "relocate an brown tomato placed at the table towards the platform zone",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "table",
+        "entity": "placement"
+      },
+      {
+        "start": 57,
+        "end": 65,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 44,
+        "confidence_entity": 0.5969824733916448,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 57,
+        "end": 65,
+        "confidence_entity": 0.9564118385769433,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "put this object on the right",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "this object",
+        "entity": "object_name"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.7675897868953412,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9674448219640246,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pick up the brick then put it on the left",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "brick",
+        "entity": "object_name"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.5338832314094814,
+        "value": "brick",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9539289651452151,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please take the red ball with your gripper and when you're done put it in the bottom left corner",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "value": "bottom left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.735042478384187,
+        "value": "red",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.7927300690759872,
+        "value": "ball",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pick this up and put it there",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "this",
+        "entity": "object_name"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i'd like you to move this glass to the center",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.9541337363037085,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "okay pick up this cable over here first",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hand over that thing please",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "that thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.7252920482060392,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "grab one tomato that is black on the left side",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.7648488045262222,
+        "value": "black",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9417263087707755,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hand over that cup over there",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "cup",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "grasp this raspberry placed in the area on the floor",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "raspberry",
+        "entity": "object_name"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "floor",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "no pick up the banana",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "banana",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.41538044285637293,
+        "value": "banana",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please lift this glass up from the platform",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 35,
+        "end": 43,
+        "confidence_entity": 0.9645611370958994,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "just move this keyboard away",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "keyboard",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "okay then push the apple off the table",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9360357714907537,
+        "value": "apple",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.7010325045431594,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "get black tomato",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 4,
+        "end": 9,
+        "confidence_entity": 0.573284790895145,
+        "value": "black",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "move something for me",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "something",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i'd really like it if you could pick up this yellow cell phone thanks very much",
+    "entities": [
+      {
+        "start": 45,
+        "end": 51,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "value": "cell phone",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.7983246633272821,
+        "value": "yellow",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "maybe i want you to carry some orange lemon maybe",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "lemon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.4689186044364947,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "come on just move this cuboid from the platform",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "cuboid",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 47,
+        "confidence_entity": 0.9645612430914422,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pick up an brown thing located at the floor",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "floor",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.8165886006819565,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.8600525700856302,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that hammer is called some pizza which is purple",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "hammer",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "pizza",
+        "entity": "object_name"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "value": "purple",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.6798906405371008,
+        "value": "pizza",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.9544762391033045,
+        "value": "purple",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "this is that green hammer",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "hammer",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.7006069487786939,
+        "value": "green",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that pizza is known as brown brick",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "pizza",
+        "entity": "object_name"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "brick",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.6990296834990388,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.7278449321155017,
+        "value": "brick",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "this tomato is known as that tomato that has the color pink",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "tomato",
+        "entity": "object_name"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "value": "pink",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 55,
+        "end": 59,
+        "confidence_entity": 0.5540752067757211,
+        "value": "pink",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "let me show you what a banana looks like",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "banana",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "this cup is red",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "cup",
+        "entity": "object_name"
+      },
+      {
+        "start": 12,
+        "end": 15,
+        "value": "red",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what objects do you know then",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "objects",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
