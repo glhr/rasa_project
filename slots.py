@@ -10,8 +10,8 @@ def update_known_objects(objects):
     valid_objects.update(objects)
 
 
-def update_known_colors(objects):
-    valid_objects.update(objects)
+def update_known_colors(colors):
+    valid_colors.update(colors)
 
 
 class ColorSlot(Slot):

@@ -187,7 +187,8 @@ class ReceivedLearn(Action):
                     #     object_name,
                     #     placement_origin))
                     dispatcher.utter_message(template="utter_got_description")
-                    update_known_objects(object_name)
+                    update_known_objects([object_name])
+                    update_known_colors([object_color])
                 else:
                     dispatcher.utter_message(text="Sorry, I didn't find any object. Make sure the {} {} you want to show me is in the {} area of the platform.".format(
                         msg.desired_color,
