@@ -8,6 +8,7 @@
     - slot{"action": "learn"}
     - utter_prompt_color
 * clarify
+    - slot{"object_color": "blue"}
     - utter_got_command
     - execute_learn
 
@@ -17,6 +18,7 @@
     - slot{"action": "learn"}
     - utter_prompt_object
 * clarify
+    - slot{"object_color": "blue"}
     - utter_got_command
     - execute_learn
 
@@ -41,8 +43,7 @@
     - slot{"object_color": "blue"}
     - utter_got_unknown_object
 * affirmative
-    - utter_got_command
-    - execute_pickup
+    - action_fallback
 * bye
     - utter_greet_goodbye
 
@@ -67,6 +68,8 @@
     - utter_got_command
     - execute_find
 * pick up
+    - slot{"object_color": "red"}
+    - slot{"object_name": "apple"}
     - action_fill
     - slot{"action": "pick up"}
     - utter_command_repeat
@@ -93,9 +96,10 @@
 * none
     - utter_prompt
 * find{"object_color": "green", "object_name": "apple"}
-    - action_fill
     - slot{"object_color": "green"}
     - slot{"object_name": "apple"}
+    - action_fill
+    - slot{"action": "find"}
     - utter_got_command
     - execute_find
 * bye
@@ -889,3 +893,151 @@
     - utter_got_command
     - execute_pickup
     - reset_slots
+
+## interactive_story_1
+* pick up
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* none
+    - utter_prompt
+* pick up
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* clarify{"object_color": "blue"}
+    - slot{"object_color": "blue"}
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+
+## interactive_story_1
+* move{"placement": "lefty"}
+    - slot{"placement": "lefty"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* move{"object_name": "ball", "placement": "floor"}
+    - slot{"object_name": "ball"}
+    - slot{"placement": "floor"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_got_unknown_object
+* move{"object_name": "apple", "placement": "table"}
+    - slot{"object_name": "apple"}
+    - slot{"placement": "table"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_placement_destination
+* move{"placement": "right"}
+    - slot{"placement": "right"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_color
+* clarify{"object_color": "grey"}
+    - slot{"object_color": "grey"}
+    - utter_got_unknown_color
+
+## interactive_story_1
+* find
+    - action_fill
+    - slot{"action": "find"}
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* clarify{"object_color": "green"}
+    - slot{"object_color": "green"}
+    - utter_prompt_object
+* clarify{"object_color": "green", "object_name": "apple"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "apple"}
+    - action_fill
+    - utter_got_command
+    - execute_find
+    - reset_slots
+* none
+    - utter_prompt
+* bye
+    - utter_greet_goodbye
+
+## interactive_story_1
+* clarify{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - utter_prompt_action
+* find
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_unknown_object
+
+## interactive_story_2
+* clarify
+    - action_fallback
+* clarify{"object_color": "blue"}
+    - slot{"object_color": "blue"}
+    - action_fallback
+* pick up
+    - action_fill
+    - slot{"action": "pick up"}
+    - utter_prompt_object
+* clarify{"object_name": "banana"}
+    - slot{"object_name": "banana"}
+    - action_fill
+    - utter_command_repeat
+* affirmative
+    - utter_got_command
+    - execute_pickup
+    - reset_slots
+
+## interactive_story_1
+* show
+    - action_fill
+    - slot{"action": "learn"}
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* move{"placement": "right"}
+    - slot{"placement": "right"}
+    - action_fill
+    - slot{"action": "move"}
+    - utter_prompt_object
+* clarify
+    - utter_prompt_object
+* clarify{"object_color": "green"}
+    - slot{"object_color": "green"}
+    - utter_prompt_object
+* clarify{"object_color": "green", "object_name": "duck"}
+    - slot{"object_color": "green"}
+    - slot{"object_name": "duck"}
+    - action_fill
+    - utter_got_unknown_object
+* show
+    - action_fill
+    - slot{"action": "learn"}
+    - utter_got_command
+    - execute_learn
+    - reset_slots
+
+## interactive_story_1
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* clarify
+    - action_fallback
+* find{"object_name": "plant", "placement": "table"}
+    - slot{"object_name": "plant"}
+    - slot{"placement": "table"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_unknown_object
+* clarify
+    - action_fallback
+* none
+    - utter_prompt

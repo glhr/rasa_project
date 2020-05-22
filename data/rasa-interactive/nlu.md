@@ -32,6 +32,8 @@
 - ok let me show you a [cherry](object_name)
 - can you learn something else then
 - look at this [grapefruit](object_name) it is [orange](object_color)
+- learn
+- this is
 
 ## intent:clarify
 - [yellow](object_color) [banana](object_name)
@@ -80,6 +82,11 @@
 - [middle](placement)
 - i guess it's [yellow](object_color)
 - it's [pink](object_color)
+- it's [gray](object_color) and [grey](object_color)
+- [green](object_color) [apple](object_name)
+- [blue](object_color) [box](object_name)
+- [banana](object_name)
+- the [green](object_color) [duck](object_name)
 
 ## intent:none
 - you're welcome
@@ -99,6 +106,9 @@
 - what [objects](object_name) do you know then
 - what kind of things do you understand
 - hey can i ask something
+- dunno
+- thanks baby
+- too bad
 
 ## intent:pick up
 - pick up the [ball](object_name)
@@ -124,6 +134,8 @@
 - move [something](object_name) for me
 - pick up the [green](object_color) [apple](object_name) on the [left](placement)
 - please take the [green](object_color) [apple](object_name) and place it in the [middle](placement)
+- pick up
+- pick it up
 
 ## intent:affirmative
 - yes
@@ -144,6 +156,7 @@
 - exactly pick it up
 - yep gogogo
 - yep pleaswe
+- yeahh nice
 
 ## intent:bye
 - thanks
@@ -182,6 +195,8 @@
 - find it
 - where is the [green](object_color) [apple](object_name)
 - search [green](object_color) [apple](object_name) on the [right](placement)
+- find
+- find [plant](object_name) on the [table](placement)
 
 ## intent:deny
 - nevermind
@@ -204,3 +219,8 @@
 - could you move the [banana](object_name) to the [floor](placement)
 - now take the [apple](object_name) and place it on the [table](placement)
 - put it on the [left](placement)
+- move to the [lefty](placement)
+- move the [ball](object_name) to the [floor](placement)
+- could you pick up the [apple](object_name) then and drop it on the [table](placement)
+- put it in the [right](placement) area please
+- move it to the [right](placement)
