@@ -9,7 +9,7 @@ from rasa.train import train
 
 domain_file = './domain.yml'
 config_file = './config.yml'
-nlu_data    = './data//eval/'
+nlu_data    = './data/'
 output_path = './models/'
 model_name  = 'fruits_model'
 
