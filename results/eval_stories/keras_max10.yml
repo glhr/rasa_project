@@ -1,0 +1,8 @@
+policies:
+  - name: "KerasPolicy"
+    epochs: 50
+    featurizer:
+    - name: MaxHistoryTrackerFeaturizer
+      max_history: 10
+      state_featurizer:
+        - name: BinarySingleStateFeaturizer
