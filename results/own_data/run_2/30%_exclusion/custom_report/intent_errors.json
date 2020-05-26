@@ -1,0 +1,242 @@
+[
+  {
+    "text": "apple duh",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.3696329188704423
+    }
+  },
+  {
+    "text": "can you see the cherry",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.3355426967970401
+    }
+  },
+  {
+    "text": "search apple",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2777914766629607
+    }
+  },
+  {
+    "text": "where is the ball",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.3635232254607931
+    }
+  },
+  {
+    "text": "i want you to let go of this object and grab the purple bottle",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.4953093237168166
+    }
+  },
+  {
+    "text": "um identify that tool of color yellow located in the left next place it towards the left side",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6411578187590445
+    }
+  },
+  {
+    "text": "please grab this purple bubble for me and then put the bubble down",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.767774574088804
+    }
+  },
+  {
+    "text": "cool you can lift the phone now",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.3663758272808488
+    }
+  },
+  {
+    "text": "give me that",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3310257120242555
+    }
+  },
+  {
+    "text": "get one donut located at the left",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.46273480624323177
+    }
+  },
+  {
+    "text": "crush that donut that is brown",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.40256399038749435
+    }
+  },
+  {
+    "text": "use your gripper to pick this up",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6222659439687775
+    }
+  },
+  {
+    "text": "okay so i want to ask you to move the blue brick but not a lot",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.42402441612972014
+    }
+  },
+  {
+    "text": "the orange banana which is in the middle area",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9296473669621362
+    }
+  },
+  {
+    "text": "learn the green apple in the middle of the table",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.3217315662770472
+    }
+  },
+  {
+    "text": "scan the small strawberry and save it to your memory",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6349467653481404
+    }
+  },
+  {
+    "text": "could you inspect this white sheet for me",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.528970945539271
+    }
+  },
+  {
+    "text": "i greet you",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.6244343843328602
+    }
+  },
+  {
+    "text": "yes thank you",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.3704398349296373
+    }
+  },
+  {
+    "text": "looks good",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.4193306673137627
+    }
+  },
+  {
+    "text": "you're welcome",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.7781812617929704
+    }
+  },
+  {
+    "text": "maybe",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.5927265234903469
+    }
+  },
+  {
+    "text": "testing",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.35234647188316426
+    }
+  },
+  {
+    "text": "test",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2859208140301824
+    }
+  },
+  {
+    "text": "are you there",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.40502118187563957
+    }
+  },
+  {
+    "text": "till next time",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.23173807365126345
+    }
+  },
+  {
+    "text": "you are wrong",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.3855233340785989
+    }
+  },
+  {
+    "text": "abort",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6032974472722505
+    }
+  },
+  {
+    "text": "dismiss",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.3257164140903118
+    }
+  },
+  {
+    "text": "i said cancel",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.34264536088257347
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "text": "the apple is in the middle now",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9165990352630615
+    }
+  },
+  {
+    "text": "throw the phone at my face",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6280245780944824
+    }
+  },
+  {
+    "text": "please hold the orange sphere and then drop it thanks",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6585884690284729
+    }
+  },
+  {
+    "text": "can you lift the green ball",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9993065595626831
+    }
+  },
+  {
+    "text": "could you move the banana to the floor",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5426812767982483
+    }
+  },
+  {
+    "text": "could you rotate this ball",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.7864379286766052
+    }
+  },
+  {
+    "text": "throw the ball",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9851831793785095
+    }
+  },
+  {
+    "text": "i meant relocate that brown brick placed in the area on the floor",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.736851692199707
+    }
+  },
+  {
+    "text": "grip magenta fruit",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.5208128690719604
+    }
+  },
+  {
+    "text": "check this pink triangle very slowly",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.8220047950744629
+    }
+  },
+  {
+    "text": "this ball is green",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.8912011384963989
+    }
+  },
+  {
+    "text": "a good day",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.5227428078651428
+    }
+  },
+  {
+    "text": "strangle yourself with your arms",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9968342185020447
+    }
+  },
+  {
+    "text": "what is this",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.5718449354171753
+    }
+  },
+  {
+    "text": "maybe",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.9852898716926575
+    }
+  },
+  {
+    "text": "end",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9958498477935791
+    }
+  },
+  {
+    "text": "till next time",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.6018717288970947
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.829241931438446
+    }
+  },
+  {
+    "text": "finish",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.7633954286575317
+    }
+  }
+]

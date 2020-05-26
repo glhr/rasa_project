@@ -1,40 +1,100 @@
-import logging
-import platform
-import subprocess
-import sys
+import os
+import json
+import pickle
+import timeit
+import time
 
 from rasa.train import train
-from utils.timing import CodeTimer
-
-logger = logging.getLogger(__name__)
+#from utils.timing import CodeTimer
 
 domain_file = './domain.yml'
 config_file = './config.yml'
-nlu_data = './data/'
+nlu_data    = './data/'
 output_path = './models/'
-model_name = 'fruits_model'
+model_name  = 'fruits_model'
+
+filename = './results/pipeline_training_duration/results.json'
+
+class CodeTimer:
+    def __init__(self, name=None):
+        self.name = " '"  + name + "'" if name else ''
+
+    def __enter__(self):
+        self.start = timeit.default_timer()
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.took = (timeit.default_timer() - self.start) * 1000.0
+        # print('Code block' + self.name + ' took: ' + str(self.took) + ' ms')
+        return None
 
 
-def train_rasa():
+def train_rasa(pipeline_name):
+    if pipeline_name == config_file:
+        pipeline_name = config_file
+    else:
+        pipeline_file = './pipelines/' + pipeline_name
     with CodeTimer() as timer:
         train(
             domain=domain_file,
-            config=config_file,
-            training_files=nlu_data, 
-            output=output_path,
-            #force_training=True,
-            fixed_model_name=model_name)
-    time = timer.took * 0.001
-    print('Training time took: {} sec.'.format(time))
+            config=pipeline_file,   # one of the decided pipelines
+            #config=config_file,    # standard config.yml file
+            training_files=nlu_data,
+            #output=output_path,
+            force_training=True,
+            fixed_model_name=pipeline_name)
+    time = str(timer.took * 0.001)
+    return time
 
-    try:
-        test = platform.uname()
-        if test[0] == "Linux":
-            subprocess.call(['./nlp_magic/bin/rasa_bot.sh'])
-        else:
-            return []
-    except Exception as e:
-        logger.warning("Failed because not a Linux OS: {}".format(e))
+
+def evaluate_pipelines():
+    data = {}
+    pipeline_name = ['supervised_embeddings.yml', 'pretrained_embeddings_spacy.yml', 'recommended.yml', 'custom.yml', 'mitie.yml']
+    data ['supervised_embeddings']       = train_rasa(pipeline_name[0])
+    data ['pretrained_embeddings_spacy'] = train_rasa(pipeline_name[1])
+    data ['recommended']                 = train_rasa(pipeline_name[2])
+    data ['custom']                      = train_rasa(pipeline_name[3])
+    data ['mitie']                       = train_rasa(pipeline_name[4])
+    json.dump(data, open(filename, 'w', encoding='utf8'))
+    #data = json.load(open(filename))
+
+if __name__ == "__main__":
+    #train_rasa(config_file)
+    evaluate_pipelines()
     
-#if __name__ == "__main__":
-#    train_rasa()
+
+'''
+# Old implementation for killing and relaunching RASA
+# No longer used since the RASA API has a smarter way of doing this.
+
+import sys
+import platform
+import subprocess
+
+pid_id_file = './pid/id'
+
+
+def kill_rasa():
+    f = open(pid_id_file, 'r')
+    id = f.readlines()
+    id = [str(i) for i in id]
+    id = "".join(id)
+    id = str(id)
+    f.close()
+    test = platform.uname()
+    if test[0] == "Linux":
+        os.system("kill " + id)
+    else:
+        os.system("taskkill /F /PID " + id)
+
+
+def writePidFile():
+    pid = str(os.getpid())
+    f = open('./pid/id', 'w')
+    f.write(pid)
+    f.close()
+
+
+def relaunch_rasa():
+    os.system("python rasa_main.py run --enable-api -p 5005")
+'''

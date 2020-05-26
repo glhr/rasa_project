@@ -1,0 +1,154 @@
+[
+  {
+    "text": "a good day",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.9967672228813171
+    }
+  },
+  {
+    "text": "howdy",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.4584023654460907
+    }
+  },
+  {
+    "text": "here is a green apple",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.8156828880310059
+    }
+  },
+  {
+    "text": "why not",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7599348425865173
+    }
+  },
+  {
+    "text": "go ahead",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.3228086531162262
+    }
+  },
+  {
+    "text": "yeah move it",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.776887834072113
+    }
+  },
+  {
+    "text": "go for it",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.49584588408470154
+    }
+  },
+  {
+    "text": "how are you",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.38256534934043884
+    }
+  },
+  {
+    "text": "who are you",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.5937809944152832
+    }
+  },
+  {
+    "text": "cool",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.7102900147438049
+    }
+  },
+  {
+    "text": "okay we're done here",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.7825800776481628
+    }
+  },
+  {
+    "text": "get lost",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.4573077857494354
+    }
+  },
+  {
+    "text": "till next time",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.3639462888240814
+    }
+  },
+  {
+    "text": "i'm out",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.7056206464767456
+    }
+  },
+  {
+    "text": "we'll speak soon",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.7942553162574768
+    }
+  },
+  {
+    "text": "discard",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.4120904505252838
+    }
+  },
+  {
+    "text": "just stop it",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.9886134266853333
+    }
+  },
+  {
+    "text": "say something",
+    "intent": "command",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.43828535079956055
+    }
+  },
+  {
+    "text": "pick it up",
+    "intent": "command",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.32585909962654114
+    }
+  }
+]

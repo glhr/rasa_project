@@ -1,0 +1,1954 @@
+[
+  {
+    "text": "hey robot (to activate)",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.18419970598716298
+    }
+  },
+  {
+    "text": "salutations what may i call you",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.673138800985682
+    }
+  },
+  {
+    "text": "hey how you doing",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.42815087991987544
+    }
+  },
+  {
+    "text": "hello what is your name are you ready to work for me",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.42792184814919
+    }
+  },
+  {
+    "text": "hello i don t like to speak to robots",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.39970714373918964
+    }
+  },
+  {
+    "text": "hello what do you know how to do",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.5233328947065955
+    }
+  },
+  {
+    "text": "hey robot what can you do",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.4596447177661863
+    }
+  },
+  {
+    "text": "bring yourself back online",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.26873275100908023
+    }
+  },
+  {
+    "text": "what are you for",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.598922325598442
+    }
+  },
+  {
+    "text": "hallo build me something",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8481812151076359
+    }
+  },
+  {
+    "text": "hello robot i want some help",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.43963828996248133
+    }
+  },
+  {
+    "text": "pickup the yellow apple from the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9264434751580117
+    }
+  },
+  {
+    "text": "find the apple and lift it up",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.545079773283776
+    }
+  },
+  {
+    "text": "yeet the hammer off the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.5857497256892004
+    }
+  },
+  {
+    "text": "can you pickup the green apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9372900718446853
+    }
+  },
+  {
+    "text": "give me the purple plum",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.5831820758603729
+    }
+  },
+  {
+    "text": "pick up the yellow rubber ducky with your left arm",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.534374912717083
+    }
+  },
+  {
+    "text": "grab it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2823739821727322
+    }
+  },
+  {
+    "text": "pickup white apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.8202240117746962
+    }
+  },
+  {
+    "text": "pickup red apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.8884234976669145
+    }
+  },
+  {
+    "text": "redo pickup red apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6142347231769234
+    }
+  },
+  {
+    "text": "pass the fruit",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.7050845037593685
+    }
+  },
+  {
+    "text": "reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up object",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.7699553052306057
+    }
+  },
+  {
+    "text": "find the banana and pick it up",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5149940464781627
+    }
+  },
+  {
+    "text": "pick the green plate",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9771900873893679
+    }
+  },
+  {
+    "text": "handover the cherry",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.30494095674570937
+    }
+  },
+  {
+    "text": "pick up the black cherry and then give it to me",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6347491659937615
+    }
+  },
+  {
+    "text": "when someone asks for a grey ball you have to pick up this object",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5042387874743715
+    }
+  },
+  {
+    "text": "pill the cherry",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9305823250047348
+    }
+  },
+  {
+    "text": "lift the cherry",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5056342369226651
+    }
+  },
+  {
+    "text": "grab the object in front of you",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5706270701944698
+    }
+  },
+  {
+    "text": "throw the peel on the floor",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5462992315411961
+    }
+  },
+  {
+    "text": "green apple please",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9542472805157913
+    }
+  },
+  {
+    "text": "hand me the green apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.7823211340606552
+    }
+  },
+  {
+    "text": "throw the red ball on the floor",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4252628025531857
+    }
+  },
+  {
+    "text": "pick up the red tomato",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6789114121538797
+    }
+  },
+  {
+    "text": "pick up the orange next to the pear",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6881580941227031
+    }
+  },
+  {
+    "text": "sort the items",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.8011043122078709
+    }
+  },
+  {
+    "text": "place the object",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9690751277447871
+    }
+  },
+  {
+    "text": "release the orange",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6842150905112665
+    }
+  },
+  {
+    "text": "smash the tomato with the rubber duck",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.23609838015619855
+    }
+  },
+  {
+    "text": "step on it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6654914615213295
+    }
+  },
+  {
+    "text": "pickup the shiny red ball",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.7190823658023284
+    }
+  },
+  {
+    "text": "pick up the blue object or pick up the cyan object",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5583023875128673
+    }
+  },
+  {
+    "text": "can you please hand me the green apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.42842652184342916
+    }
+  },
+  {
+    "text": "give me a green apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.4725115139856704
+    }
+  },
+  {
+    "text": "give me all red stones on the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.49918166218628524
+    }
+  },
+  {
+    "text": "give me the purple strawberry on the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.3299964176683189
+    }
+  },
+  {
+    "text": "hand me the purple strawberry",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2765292780773036
+    }
+  },
+  {
+    "text": "hand over the red tomato",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.272557483920261
+    }
+  },
+  {
+    "text": "please pick up the red rubber duck",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.44654618962765824
+    }
+  },
+  {
+    "text": "go to the strawberry and pick it up",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5839922075889392
+    }
+  },
+  {
+    "text": "pleas give me the purple duck",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.6271431189961412
+    }
+  },
+  {
+    "text": "drag an end-effector to the object",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.7617099290454102
+    }
+  },
+  {
+    "text": "can i have a pear please",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.31278709793476894
+    }
+  },
+  {
+    "text": "smack the apricot with the hammer lmao",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9143784889948958
+    }
+  },
+  {
+    "text": "point at the green apricot",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.6070210806399869
+    }
+  },
+  {
+    "text": "point om green hammer",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2838240064355626
+    }
+  },
+  {
+    "text": "take one object on the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.7666636987197114
+    }
+  },
+  {
+    "text": "raises the pineapple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.8784678204409874
+    }
+  },
+  {
+    "text": "please peel the apple and the pear",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.5844797238370156
+    }
+  },
+  {
+    "text": "can you give me all red objects",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.32004127718483527
+    }
+  },
+  {
+    "text": "lift the green pineapple and then drop it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.8975403541085091
+    }
+  },
+  {
+    "text": "peel the pineapple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.432713059854442
+    }
+  },
+  {
+    "text": "remove objects which aren't edible",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.27746826112760276
+    }
+  },
+  {
+    "text": "find the red yogurt",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.9926656721851096
+    }
+  },
+  {
+    "text": "organize and sort the fruits by color or type",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5696682029382497
+    }
+  },
+  {
+    "text": "robot take the melon on the table in front of you",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.403324415286284
+    }
+  },
+  {
+    "text": "ok robot make me a smoothie",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.44639058472859067
+    }
+  },
+  {
+    "text": "sort the objects",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.7283903598297663
+    }
+  },
+  {
+    "text": "clean up the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6501107667293266
+    }
+  },
+  {
+    "text": "cleanup table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.27237165471621555
+    }
+  },
+  {
+    "text": "but no take the melon you idiot",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.2961822200994596
+    }
+  },
+  {
+    "text": "no it not what i want i want you to take the plum",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3524564772167732
+    }
+  },
+  {
+    "text": "locate the orange plum and gently grasp it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.9139747281956839
+    }
+  },
+  {
+    "text": "could you please sort the items in colour range and then give me the plum",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.44361247359232725
+    }
+  },
+  {
+    "text": "take the orange plum raise it and drop it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5461880503788878
+    }
+  },
+  {
+    "text": "please pick the mango and lift it up",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5325629785308933
+    }
+  },
+  {
+    "text": "do it gently dont crush the starfruit i want to eat it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.22136475118425625
+    }
+  },
+  {
+    "text": "grab the yellow starfruit and lift it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6972649104269931
+    }
+  },
+  {
+    "text": "please drop the green apple and give me the red apple instead",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.49062258733625846
+    }
+  },
+  {
+    "text": "gimme a red pepper",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9395355097175415
+    }
+  },
+  {
+    "text": "take the brown hammer with your right and use it to hit the brown kiwi five times",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4299804039090591
+    }
+  },
+  {
+    "text": "can you pick up the red cup",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.8030442119919436
+    }
+  },
+  {
+    "text": "pick up the red cup",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9157528509130831
+    }
+  },
+  {
+    "text": "i world like you to give mere an red apple",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.36071804686072273
+    }
+  },
+  {
+    "text": "pick the yellow jackfruit for me and put it in my hand",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4681227841474444
+    }
+  },
+  {
+    "text": "please gingerly lift the long yellow fruit",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4849369425993399
+    }
+  },
+  {
+    "text": "use your right hand to pick up the long yellow thing on the table",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.8153517371946601
+    }
+  },
+  {
+    "text": "please move your right arm inward lower your arm and then grasp and pick up the banana",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5217630819262516
+    }
+  },
+  {
+    "text": "pick up the ball then the robot will point at the objekt and then i'll say correct or wrong",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.56625162685606
+    }
+  },
+  {
+    "text": "move your arm to take the grapes and lift it",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.7445544965640257
+    }
+  },
+  {
+    "text": "do this with the yellow kiwi",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2995629915249595
+    }
+  },
+  {
+    "text": "robot don't use the kiwi",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.30634563627703887
+    }
+  },
+  {
+    "text": "dear robert try again byt now at littel more to your left",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.3233059082555586
+    }
+  },
+  {
+    "text": "curved metal tool called apple",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.8807651902923935
+    }
+  },
+  {
+    "text": "duck",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2573565673523815
+    }
+  },
+  {
+    "text": "right",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.8191504645387147
+    }
+  },
+  {
+    "text": "no not that the kiwi please",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3642156096557049
+    }
+  },
+  {
+    "text": "what the hell ils this",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.34156757191412207
+    }
+  },
+  {
+    "text": "hi bot how many types of objects there",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.4779194492659196
+    }
+  },
+  {
+    "text": "it is fragile",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.2340475396022213
+    }
+  },
+  {
+    "text": "it is not fragile",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4711840696370376
+    }
+  },
+  {
+    "text": "re do original task",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.3888143694363167
+    }
+  },
+  {
+    "text": "change the command",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.8823302312027924
+    }
+  },
+  {
+    "text": "by name of the item and thereafter its shape",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.33957990654688575
+    }
+  },
+  {
+    "text": "re-program it i guess",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.43915134204147005
+    }
+  },
+  {
+    "text": "i would look and walk past it",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.24697171468318904
+    }
+  },
+  {
+    "text": "i would wait for the task to be complete and then ask again",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.2919444885214483
+    }
+  },
+  {
+    "text": "i would use the name of the object",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.26276529756569567
+    }
+  },
+  {
+    "text": "what's the meaning of life",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.1805020641077669
+    }
+  },
+  {
+    "text": "could you pass the turing test if you wanted",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.267406023006534
+    }
+  },
+  {
+    "text": "i wanted the other one",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.7245531333123422
+    }
+  },
+  {
+    "text": "will u take over the world some day",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.22348056983938264
+    }
+  },
+  {
+    "text": "hi robot you look kind of weird to me",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.2464435745987724
+    }
+  },
+  {
+    "text": "what does the duck sound like",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.4430589433725233
+    }
+  },
+  {
+    "text": "remember these instructions",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.5982215650989673
+    }
+  },
+  {
+    "text": "say hello to the orange",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.4399928165220419
+    }
+  },
+  {
+    "text": "when i ask the task it means that you have to do the precise instructions",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.25703235225085913
+    }
+  },
+  {
+    "text": "do you watch gordon ramsay",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.23668807096826944
+    }
+  },
+  {
+    "text": "are the fruits ripe",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.9570513557395005
+    }
+  },
+  {
+    "text": "with a detailed description of the shape of the object and its colour with terms matching its data base",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.44782606374455963
+    }
+  },
+  {
+    "text": "by showing it the right thing to do",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.2380494069691265
+    }
+  },
+  {
+    "text": "make my kids' lunches",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2796080797980428
+    }
+  },
+  {
+    "text": "fuck off",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.49549761818659066
+    }
+  },
+  {
+    "text": "hey alexa play rock music",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.24582654313616145
+    }
+  },
+  {
+    "text": "the violent delights have violent ends",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6097260961590816
+    }
+  },
+  {
+    "text": "make me a sanwitch",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.7645998648996347
+    }
+  },
+  {
+    "text": "which item do you want to smash first",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.2834580388052926
+    }
+  },
+  {
+    "text": "fuck your shiny metal ass",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.49403058076361017
+    }
+  },
+  {
+    "text": "give me five",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.7564465942519072
+    }
+  },
+  {
+    "text": "what are you a gallagher bot",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2677572951691911
+    }
+  },
+  {
+    "text": "split the item into two and rename them",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8510393296326677
+    }
+  },
+  {
+    "text": "open lower lower lower close rise",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.243385651713457
+    }
+  },
+  {
+    "text": "with motorized pivotpoints at each joint of the arm controlled by a controlboard hooked up to a powersupply",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4617359299396441
+    }
+  },
+  {
+    "text": "tell me the name",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.32068010204242237
+    }
+  },
+  {
+    "text": "silver top curved 2 to 3 inches long 1 to 2 inches wide light weight",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5261817524534346
+    }
+  },
+  {
+    "text": "is there a yellow rubber duck on the table",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.4406896880790972
+    }
+  },
+  {
+    "text": "show me the brown circle",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.7437287711044241
+    }
+  },
+  {
+    "text": "show me the yellow duck",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.6807365096708923
+    }
+  },
+  {
+    "text": "identify the green ball",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.38879731474129564
+    }
+  },
+  {
+    "text": "show me the green apple",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.43454198426839474
+    }
+  },
+  {
+    "text": "identify new object",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.8336474718039072
+    }
+  },
+  {
+    "text": "what is in a shape of a ball and is in orange colour that u can find on the table",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.4775722380264566
+    }
+  },
+  {
+    "text": "scan the table",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.34077698309277554
+    }
+  },
+  {
+    "text": "identify the hammer made out of wood",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.7337437323580109
+    }
+  },
+  {
+    "text": "can you show me the yellow objects",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.7157412507111524
+    }
+  },
+  {
+    "text": "show me the orange ball",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5637573219831463
+    }
+  },
+  {
+    "text": "can you show me the  yellow duck please",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.3442518453714326
+    }
+  },
+  {
+    "text": "identify the yellow duck by showing it with your arm",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.3579701974505286
+    }
+  },
+  {
+    "text": "can you point to the yellow duck",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.4499666691371
+    }
+  },
+  {
+    "text": "could you find the little duck yellow",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6920354878886315
+    }
+  },
+  {
+    "text": "stop and then repeat what i wanted in the first place",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6405968012814255
+    }
+  },
+  {
+    "text": "nonono do **** instead",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2907636558762475
+    }
+  },
+  {
+    "text": "stop robot",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.505644410036357
+    }
+  },
+  {
+    "text": "stop what you are doing",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.5900098993323688
+    }
+  },
+  {
+    "text": "stop moving",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.584887990778953
+    }
+  },
+  {
+    "text": "robot stop",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.505644410036357
+    }
+  },
+  {
+    "text": "hi bot that's wrong",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.3460349068003841
+    }
+  },
+  {
+    "text": "hey robot undo last job",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.46280257881842635
+    }
+  },
+  {
+    "text": "stop right there buddy",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.29935473049188493
+    }
+  },
+  {
+    "text": "bad robot",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.47557804991558483
+    }
+  },
+  {
+    "text": "emergency button",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.42418621240666227
+    }
+  },
+  {
+    "text": "cease your doing",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5269537850876639
+    }
+  },
+  {
+    "text": "abort action",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.2593244614211956
+    }
+  },
+  {
+    "text": "stop this do what i said before",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.26948975719417817
+    }
+  },
+  {
+    "text": "error",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.5059617643416886
+    }
+  },
+  {
+    "text": "your action is incorrect",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.7392219018768224
+    }
+  },
+  {
+    "text": "robot can you try again",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.2120676748095645
+    }
+  },
+  {
+    "text": "try one more time",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.23157132404723962
+    }
+  },
+  {
+    "text": "you made a mistake try again",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.4008402294334197
+    }
+  },
+  {
+    "text": "you made an error",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2307601299005197
+    }
+  },
+  {
+    "text": "i'm sorry i think you're doing the wrong task",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.519407579676674
+    }
+  },
+  {
+    "text": "try that again differently please",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.23875384527803828
+    }
+  },
+  {
+    "text": "i would say stop and say the instruction again",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.18990617670789126
+    }
+  },
+  {
+    "text": "robot try again",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.33587400206429485
+    }
+  },
+  {
+    "text": "stop task tell me what you were doing",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.45104888224557044
+    }
+  },
+  {
+    "text": "wrong you fucking donkey",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.48275735813080917
+    }
+  },
+  {
+    "text": "name of robot stop",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.33960317408510793
+    }
+  },
+  {
+    "text": "stop current task and reset",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.5626317676047511
+    }
+  },
+  {
+    "text": "freeze all motor functions",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.26262609814667354
+    }
+  },
+  {
+    "text": "no the same request pronounced more clearly",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2280748904009144
+    }
+  },
+  {
+    "text": "stop you fuckin' idiot",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2614825299242424
+    }
+  },
+  {
+    "text": "armbot stop",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.41551409151478963
+    }
+  },
+  {
+    "text": "robot please stop doing that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6944316315412388
+    }
+  },
+  {
+    "text": "you're making a mistake",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.42952600859528983
+    }
+  },
+  {
+    "text": "you made a mistake",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.22205176673672755
+    }
+  },
+  {
+    "text": "you screwed up",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.3236613217954656
+    }
+  },
+  {
+    "text": "put the raspberry down",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9668041709612384
+    }
+  },
+  {
+    "text": "move into position above the raspberry move down close gripper move up move left",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9715199672602935
+    }
+  },
+  {
+    "text": "use it to knock everything from the table onto the floor",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.43842351100258065
+    }
+  },
+  {
+    "text": "put the green apple on the brown circle",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.7402150766454524
+    }
+  },
+  {
+    "text": "put the apple on the circle",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5458409113426779
+    }
+  },
+  {
+    "text": "stop put the banana down and pick up the orange",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8854853800234243
+    }
+  },
+  {
+    "text": "put your hand right up the banana",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5234877139893797
+    }
+  },
+  {
+    "text": "take all the yellow objects and throw them on the ground",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6817200254744636
+    }
+  },
+  {
+    "text": "put the banana in the right year corner",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5817760714146206
+    }
+  },
+  {
+    "text": "learn new object orange",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5141434057237959
+    }
+  },
+  {
+    "text": "scan new object and identify it as a computer orange",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.3023522447720246
+    }
+  },
+  {
+    "text": "hi bot there is a banana on the table",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.5358045424019247
+    }
+  },
+  {
+    "text": "the yellow banana is on the middle of the table",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.6657693360056394
+    }
+  },
+  {
+    "text": "hi bot there is a orange on the table",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.6114982756938006
+    }
+  },
+  {
+    "text": "save this object's name and characteristics on your library",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.37433150499051754
+    }
+  },
+  {
+    "text": "learn magenta orange",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9538954320621708
+    }
+  },
+  {
+    "text": "add the object to data base",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5609379468025054
+    }
+  },
+  {
+    "text": "save",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3407891535553663
+    }
+  },
+  {
+    "text": "store new object in memory",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.7694184853555092
+    }
+  },
+  {
+    "text": "save into your hard drive",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.735959113797836
+    }
+  },
+  {
+    "text": "robot save the object for future tasks",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.3333720876159983
+    }
+  },
+  {
+    "text": "register yellow banana",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8776445352751409
+    }
+  },
+  {
+    "text": "register white bottle",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8074750792698214
+    }
+  },
+  {
+    "text": "scan new object on the board",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.342950694130933
+    }
+  },
+  {
+    "text": "register as grey bottle",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.28731709026579766
+    }
+  },
+  {
+    "text": "save this object",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6575334951210732
+    }
+  },
+  {
+    "text": "save this fruit as an orange",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8888077862130601
+    }
+  },
+  {
+    "text": "when i ask for an orange i would like the object you are holding",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.4643783565503257
+    }
+  },
+  {
+    "text": "add the new object to your database please mr robot",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.3439647058225098
+    }
+  },
+  {
+    "text": "save this white can",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6732435601923025
+    }
+  },
+  {
+    "text": "save this white can to memory",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.30311009187985133
+    }
+  },
+  {
+    "text": "this is an apple can you say apple",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.5130164629817145
+    }
+  },
+  {
+    "text": "remember the can",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.24659131435099813
+    }
+  },
+  {
+    "text": "take pictures using camera and save the object",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.42805806477686
+    }
+  },
+  {
+    "text": "remember",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.2607076360937015
+    }
+  },
+  {
+    "text": "save detected object as can",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.2898418349870531
+    }
+  },
+  {
+    "text": "identify and save",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.39146547597630743
+    }
+  },
+  {
+    "text": "it is a can for computer",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.5140203560245463
+    }
+  },
+  {
+    "text": "add tags for new object",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.318270441882854
+    }
+  },
+  {
+    "text": "hey look at that it’s a marble ok can you remember it",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.5371662569873099
+    }
+  },
+  {
+    "text": "it's a mouth remember",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.4104779541828805
+    }
+  },
+  {
+    "text": "james save the object as computer tool tag computer peripheral wireless three button white",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.4468480403152401
+    }
+  },
+  {
+    "text": "on the table you have a certain number of objects various fruits a hammer a glass some marbles",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.410004163218446
+    }
+  },
+  {
+    "text": "you see that is a fork can you register it",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.3618931272988265
+    }
+  },
+  {
+    "text": "save the new object and say what the name it should be saved as",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5349837335753562
+    }
+  },
+  {
+    "text": "this is a white plastic mouse for a computer",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.6239843415102609
+    }
+  },
+  {
+    "text": "save object as mouse to your database",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6365681776413968
+    }
+  },
+  {
+    "text": "it is small it is flat on the bottom  it has round shape on the top its base is black its top is grey its name is mouse",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.4285763909856715
+    }
+  },
+  {
+    "text": "a 3 inches plastic object black or grey clicks when pressed = computer control",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.512479153216723
+    }
+  },
+  {
+    "text": "please take some pictures of the object from different angles and try lift it up slow remember the weight and give it a random name save it in memory",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.4219198480204386
+    }
+  },
+  {
+    "text": "recognize the object as a knife from now on",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.4519981883669804
+    }
+  },
+  {
+    "text": "please inspect the new item",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.7952062316158852
+    }
+  },
+  {
+    "text": "investigate the new object",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.751223984188686
+    }
+  },
+  {
+    "text": "this is a black computer fork with a white top surface",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.4291792322387347
+    }
+  },
+  {
+    "text": "it's a blue orange",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9161311747127947
+    }
+  },
+  {
+    "text": "it's an object you don't know it's called red apple",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.2359089752114162
+    }
+  }
+]

@@ -1,0 +1,241 @@
+// Common entities to be imported and reused
+
+~[adverb]
+    now
+    also
+    immediately
+    maybe
+    somehow
+
+~[i mean]
+    i mean
+    what i mean is
+    i meant
+    i wanted to say
+    what i meant was
+
+~[come on]
+    dude
+    robot
+    come on
+
+~[intro]
+    could you ~[adverb?]
+    can you please ~[adverb?]
+    please ~[adverb?]
+    ok ~[adverb?]
+    ~[adverb?] i want you to
+    ~[adverb?] i'm asking you to
+    ~[adverb?] can you
+    are you able to
+    do you know how to
+    so
+    um
+    thanks
+    my command is
+    i'm ordering you to
+    help me
+    no ~[i mean]
+    ok
+    ~[i mean]
+    ~[come on]
+
+~[outro]
+    please
+    thanks
+    please robot
+    that's all
+    if you can
+    if possible
+    ~[adverb]
+
+~[colored object]
+    *[5%] @[object_name] ~[which] is @[object_color]
+    *[5%] @[object_name] ~[which] has the color @[object_color]
+    *[5%] @[object_name] ~[which] has a @[object_color] color
+    *[5%] @[object_name] of color @[object_color]
+    *[50%] @[object_color?] @[object_name]
+    @[object_name]
+    @[object_color?] @[object_name]
+
+~[the]
+    a
+    an
+    the
+    one
+    that
+    this
+    some
+
+~[located]
+    placed
+    located
+    positioned
+
+~[which]
+    which
+    that
+
+~[placement]
+    *[50%] ~[on the left]
+    *[50%] ~[to the right]
+
+~[on the left]
+    *[20%] on the @[placement]
+    *[10%] on the @[placement]
+    from the @[placement]
+    ~[located?] in the @[placement]
+    ~[located?] at the @[placement]
+    somewhere on the @[placement]
+    ~[located?] over there in the @[placement]
+    ~[located?] in the area on the @[placement]
+    ~[located?] in the @[placement] area
+    ~[located?] in the @[placement] zone
+    on the @[placement] side
+    around here
+    around you
+
+~[to the right]
+    to the @[placement]
+    towards the @[placement] area
+    towards the @[placement] zone
+    towards the @[placement] side
+    to somewhere on the @[placement]
+
+~[find]
+    *[30%] find
+    *[10%] look for
+    *[10%] search for
+    detect
+    recognize
+    locate
+    identify
+    spot
+    pinpoint
+
+~[can you see]
+    *[50%] can you see
+    can you perceive
+    can you notice
+
+~[then]
+    after that
+    then
+    afterwards
+    next
+    when you're done
+    once you're done
+    and then
+    and
+
+~[move]
+    move
+    shift
+    relocate
+    place
+    put
+    drop
+    leave
+
+~[place]
+    place
+    put
+    set
+
+~[pick it up]
+    pick ~[it?] up
+
+~[pick up]
+    *[20%] pick up
+    pick
+    *[20%] grab
+    bring
+    lift
+    raise
+    get
+    acquire
+    hoist
+    latch onto
+    grasp
+    crush
+    hold
+    fetch
+    give
+    gimme
+    hand over
+    pinch
+    snatch
+    seize
+    secure
+    clasp
+    clutch
+    grip
+    clench
+    carry
+    steal
+    claim
+    collect
+    embrace
+    squeeze
+    handle
+
+@[placement]
+    middle
+    center
+    left
+    right
+    platform
+    table
+    floor
+    ground
+
+@[object_color]
+    orange
+    yellow
+    black
+    brown
+    blue
+    brown
+    purple
+    green
+    pink
+    magenta
+
+@[object_name]
+    orange
+    apple
+    apricot
+    kiwi
+    pineapple
+    pear
+    lemon
+    strawberry
+    raspberry
+    melon
+    watermelon
+    pepper
+    tomato
+    fruit
+    object
+    thing
+    ball
+    hammer
+    glass
+    donut
+    duck
+    pizza
+    box
+    shape
+    sphere
+    tool
+    brick
+
+
+~[it]
+    it
+    that
+    this
+    something
+    that one
+    this one
+    one

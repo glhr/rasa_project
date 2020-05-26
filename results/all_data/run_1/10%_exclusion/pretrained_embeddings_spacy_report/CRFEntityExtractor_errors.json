@@ -1,0 +1,941 @@
+[
+  {
+    "text": "it's gray",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "gray",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "where is your head",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "head",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "find something",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "something",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you please maybe find melon which is brown positioned in the area on the right next move something to the left",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "melon",
+        "entity": "object_name"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 77,
+        "end": 82,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 110,
+        "end": 114,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.9430437596257704,
+        "value": "melon",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.9865992021503119,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 77,
+        "end": 82,
+        "confidence_entity": 0.981626063774646,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 93,
+        "end": 102,
+        "confidence_entity": 0.6442333761885641,
+        "value": "something",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 110,
+        "end": 114,
+        "confidence_entity": 0.9873169595752106,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please take the red ball with your gripper and when you're done put it in the bottom left corner",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "value": "bottom left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.9968596468754871,
+        "value": "red",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9997178621569947,
+        "value": "ball",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 78,
+        "end": 96,
+        "confidence_entity": 0.5029039514505054,
+        "value": "bottom left corner",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "move this thing and put it there",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9173622253340978,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you pick this up first and after that please put it over there",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "this",
+        "entity": "object_name"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.8788508021457992,
+        "value": "this",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm ordering you to place the brick in the middle of the platform",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "brick",
+        "entity": "object_name"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.8969807986785397,
+        "value": "brick",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.9179978668475566,
+        "value": "middle",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 57,
+        "end": 65,
+        "confidence_entity": 0.8427068160792964,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "go down until you touch the table",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "down",
+        "entity": "placement"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "table",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.8014669042040455,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "put this object on the right",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "this object",
+        "entity": "object_name"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9453641150341734,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9760565061425837,
+        "value": "right",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please hand me that thing",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "that thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.7790634940472032,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yes pick up the green ball not the blue one",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "ball",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.9987103264235223,
+        "value": "green",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9994338108846368,
+        "value": "ball",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.9819911839268762,
+        "value": "blue",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pick up the brown ring",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 18,
+        "end": 22,
+        "value": "ring",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9728658808303126,
+        "value": "brown",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pick up the yellow rubber ducky with your left arm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "ducky",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9748953308770819,
+        "value": "yellow",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "just move this keyboard away",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "keyboard",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please gingerly lift the long yellow fruit",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.9964870750338147,
+        "value": "yellow",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.974459046035947,
+        "value": "fruit",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please grab the flamingo",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "flamingo",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "okay then push the apple off the table",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9952740505621935,
+        "value": "apple",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.8014673431812513,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me that thing",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "that thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.7789221124315217,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hand over that thing please",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "that thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.8414358787918887,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "scan new object on the board",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9247906068964802,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.48890598340596386,
+        "value": "board",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that's a knife you idiot",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "knife",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "recognize the object as a knife from now on",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "knife",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.8738076206003047,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.8921101871575106,
+        "value": "knife",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hello you have a lot of colorful things on the table in front of you",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "things",
+        "entity": "object_name"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.6710968333073815,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "the object in front of you is called the fork",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "fork",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.7759400957301557,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.8951774778094207,
+        "value": "fork",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "it's an object you don't know it's called red apple",
+    "entities": [
+      {
+        "start": 42,
+        "end": 45,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 46,
+        "end": 51,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.7827358985328013,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 42,
+        "end": 45,
+        "confidence_entity": 0.991776352795564,
+        "value": "red",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.9998904251409086,
+        "value": "apple",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "remember this new object it is called a computer tool the colour of this tool is black with white top it’s shape is oval and 8cm length",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "object",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "value": "tool",
+        "entity": "object_name"
+      },
+      {
+        "start": 73,
+        "end": 77,
+        "value": "tool",
+        "entity": "object_name"
+      },
+      {
+        "start": 81,
+        "end": 86,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 92,
+        "end": 97,
+        "value": "white",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.8723196297763262,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 49,
+        "end": 53,
+        "confidence_entity": 0.9575057421724824,
+        "value": "tool",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 73,
+        "end": 77,
+        "confidence_entity": 0.99072411160811,
+        "value": "tool",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "start": 81,
+        "end": 86,
+        "confidence_entity": 0.9822857162096443,
+        "value": "black",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "this object is a kiwi",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "kiwi",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9602485372712286,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9993990907655356,
+        "value": "kiwi",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "on the table you have a certain number of objects various fruits a hammer a glass some marbles",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "table",
+        "entity": "placement"
+      },
+      {
+        "start": 42,
+        "end": 49,
+        "value": "objects",
+        "entity": "object_name"
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "value": "fruits",
+        "entity": "object_name"
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "value": "hammer",
+        "entity": "object_name"
+      },
+      {
+        "start": 76,
+        "end": 81,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 87,
+        "end": 94,
+        "value": "marbles",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 42,
+        "end": 49,
+        "confidence_entity": 0.9149959701267634,
+        "value": "objects",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 67,
+        "end": 73,
+        "confidence_entity": 0.9865239150107608,
+        "value": "hammer",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 76,
+        "end": 81,
+        "confidence_entity": 0.9534601043731431,
+        "value": "glass",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 87,
+        "end": 94,
+        "confidence_entity": 0.6784653031267013,
+        "value": "marbles",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "with a detailed description of the shape of the object and its colour with terms matching its data base",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.8991009579390508,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what objects do you know then",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "objects",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "split the item into two and rename them",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.8845878121125489,
+        "value": "item",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

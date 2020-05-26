@@ -1,5 +1,8 @@
+## Ignores
 *.wav
 *.tar.gz
+*.tar.bz2
+total_word_feature_extractor.dat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -13,7 +16,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+# dist/
 downloads/
 eggs/
 .eggs/
@@ -112,6 +115,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+rasaenv/
 
 # Spyder project settings
 .spyderproject
@@ -131,8 +135,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-results/
-
 test_scripts/data/
 
 vision.png
+
+chatito/node_modules/
+
+
+
+
+## Exceptions
+!model.tar.gz

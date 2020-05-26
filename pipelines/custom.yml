@@ -4,9 +4,21 @@ pipeline:
 - name: "HFTransformersNLP"
 - name: "LanguageModelTokenizer"
 - name: "LanguageModelFeaturizer"
-- name: "EntitySynonymMapper"
+- name: "SklearnIntentClassifier"
 - name: "DIETClassifier"
   intent_classification: False
-  epochs: 100
-- name: "SklearnIntentClassifier"
-###- name: "KeywordIntentClassifier"
+
+policies:
+  - name: AugmentedMemoizationPolicy
+    max_history: 10
+  - name: TEDPolicy
+    epochs: 50
+    featurizer:
+      - name: FullDialogueTrackerFeaturizer
+        state_featurizer:
+          - name: LabelTokenizerSingleStateFeaturizer
+  - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.3
+    ambiguity_threshold: 0.1
+    core_threshold: 0.3
+    deny_suggestion_intent_name: "none"

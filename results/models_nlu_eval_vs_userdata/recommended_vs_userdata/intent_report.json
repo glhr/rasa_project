@@ -1,0 +1,99 @@
+{
+  "none": {
+    "precision": 0.6415094339622641,
+    "recall": 0.5151515151515151,
+    "f1-score": 0.5714285714285715,
+    "support": 66,
+    "confused_with": {
+      "move": 14,
+      "pick up": 9
+    }
+  },
+  "find": {
+    "precision": 0.7142857142857143,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8,
+    "support": 33,
+    "confused_with": {
+      "show": 2,
+      "none": 1
+    }
+  },
+  "deny": {
+    "precision": 0.8909090909090909,
+    "recall": 0.7424242424242424,
+    "f1-score": 0.8099173553719009,
+    "support": 66,
+    "confused_with": {
+      "pick up": 6,
+      "none": 6
+    }
+  },
+  "pick up": {
+    "precision": 0.8931297709923665,
+    "recall": 0.841726618705036,
+    "f1-score": 0.8666666666666667,
+    "support": 278,
+    "confused_with": {
+      "move": 34,
+      "find": 6
+    }
+  },
+  "greetings": {
+    "precision": 0.8947368421052632,
+    "recall": 0.68,
+    "f1-score": 0.7727272727272727,
+    "support": 25,
+    "confused_with": {
+      "none": 7,
+      "pick up": 1
+    }
+  },
+  "show": {
+    "precision": 0.9247311827956989,
+    "recall": 0.7478260869565218,
+    "f1-score": 0.826923076923077,
+    "support": 115,
+    "confused_with": {
+      "move": 10,
+      "pick up": 9
+    }
+  },
+  "clarify": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.606060606060606,
+    "support": 18,
+    "confused_with": {
+      "show": 4,
+      "pick up": 1
+    }
+  },
+  "move": {
+    "precision": 0.25,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.392156862745098,
+    "support": 22,
+    "confused_with": {
+      "pick up": 2
+    }
+  },
+  "micro avg": {
+    "precision": 0.7754442649434572,
+    "recall": 0.7704654895666132,
+    "f1-score": 0.7729468599033817,
+    "support": 623
+  },
+  "macro avg": {
+    "precision": 0.734496087714633,
+    "recall": 0.737608229621836,
+    "f1-score": 0.7057350514903991,
+    "support": 623
+  },
+  "weighted avg": {
+    "precision": 0.8334087233113209,
+    "recall": 0.7704654895666132,
+    "f1-score": 0.7904543211171481,
+    "support": 623
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "text": "a good day",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.30000362168885336
+    }
+  },
+  {
+    "text": "good morning robot",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.5372225510343246
+    }
+  },
+  {
+    "text": "you should know that this is a ball",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.4080159513966634
+    }
+  },
+  {
+    "text": "yes pick it up",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.39437302127848173
+    }
+  },
+  {
+    "text": "why not",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8582951777729428
+    }
+  },
+  {
+    "text": "go ahead",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.771777268977498
+    }
+  },
+  {
+    "text": "alrighty",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.6971810789924916
+    }
+  },
+  {
+    "text": "that's right",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.38425918228338174
+    }
+  },
+  {
+    "text": "yeah go ahead",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.5937172884651085
+    }
+  },
+  {
+    "text": "ok go ahead",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.5514072737790874
+    }
+  },
+  {
+    "text": "confirmed",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5762506484281474
+    }
+  },
+  {
+    "text": "go for it",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.5969322291949345
+    }
+  },
+  {
+    "text": "yeh",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.5712173215967059
+    }
+  },
+  {
+    "text": "let me test you",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.3981449031826439
+    }
+  },
+  {
+    "text": "i don't know",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.7190969361399389
+    }
+  },
+  {
+    "text": "okay we're done here",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.3163475640739935
+    }
+  },
+  {
+    "text": "i'm out",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.45722679556479573
+    }
+  },
+  {
+    "text": "just stop it",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.3735283416549793
+    }
+  },
+  {
+    "text": "you are wrong",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.4038259676910249
+    }
+  },
+  {
+    "text": "say something",
+    "intent": "command",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.4291538831763338
+    }
+  }
+]

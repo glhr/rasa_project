@@ -1,0 +1,38 @@
+{
+  "placement": {
+    "precision": 0.92,
+    "recall": 0.9324324324324325,
+    "f1-score": 0.9261744966442953,
+    "support": 74
+  },
+  "object_name": {
+    "precision": 0.9724137931034482,
+    "recall": 0.9276315789473685,
+    "f1-score": 0.9494949494949495,
+    "support": 152
+  },
+  "object_color": {
+    "precision": 1.0,
+    "recall": 0.9459459459459459,
+    "f1-score": 0.9722222222222222,
+    "support": 111
+  },
+  "micro avg": {
+    "precision": 0.9692307692307692,
+    "recall": 0.9347181008902077,
+    "f1-score": 0.9516616314199395,
+    "support": 337
+  },
+  "macro avg": {
+    "precision": 0.9641379310344828,
+    "recall": 0.9353366524419157,
+    "f1-score": 0.9492972227871558,
+    "support": 337
+  },
+  "weighted avg": {
+    "precision": 0.969990790954671,
+    "recall": 0.9347181008902077,
+    "f1-score": 0.9518599754942934,
+    "support": 337
+  }
+}

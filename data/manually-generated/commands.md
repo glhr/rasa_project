@@ -1,0 +1,182 @@
+## intent:find
+- look for an [orange](object_color) [fruit](object_name) on the [left](placement)
+- how about you search for an [orange](object_name) in the [middle](placement)
+- could you also detect [something](object_name) [blue](object_color)
+- can you detect any [red](object_color) [book](object_name) on the [right](placement) of the platform
+- find the [gold](object_color) [phone](object_name) instead
+- do you recognize a [bracelet](object_name) on the [table](placement)
+- i want you to look for a [bracelet](object_name) in the [middle](placement)
+- just find me [something](object_name)
+- find me a [red](object_color) [apple](object_name) on the [right](placement) side
+- please find the [orange](object_color) [brick](object_name)
+- please look for a [phone](object_name) in the [middle](placement)
+- find a [red](object_color) [ball](object_name) on the platform
+- find it
+- search for it
+- can you see the [cherry](object_name)
+- search [apple](object_name)
+
+
+## intent:pick up
+- i want you to clasp this [thing](object_name)
+- i want you to crush this [thing](object_name) with your awesome gripper
+- please lift this [glass](object_name) up from the [platform](placement)
+- could you pick it up
+- pick up this [ball](object_name)
+- hold this [orange](object_color) [ball](object_name)
+- hold on to the [ball](object_name)
+- please pick up the [phone](object_name)
+- give me [that thing](object_name)
+- give me [that](object_name)
+- give me [that](object_name) right there
+- pick up this [ball](object_name)
+- could you pick up this [yellow](object_color) [ball](object_name)
+- i want you to grab this [blue](object_color) [bottle](object_name) please
+- okay just bring me that [waffle](object_name)
+- cool you can lift the [phone](object_name) now
+- could you also lift the [phone](object_name) over there
+- could you pick up this [green](object_color) [apple](object_name) over there
+- please pick up [this object](object_name)
+- can you grab the [cup](object_name) over there
+- just give me [that object](object_name)
+- please hand me [that thing](object_name)
+- i want to tell you that you should pick [this](object_name) up
+- grab me [that thing](object_name) over there
+- i want you to pick it up
+- pick [this](object_name) up
+- give me [that thing](object_name) over there
+- hand over that [cup](object_name) over there
+- hand over [that thing](object_name) please
+- could you give me that [phone](object_name)
+- i want you to grab the [blue](object_color) [brick](object_name)
+- i want you to grab the [orange](object_color) [object](object_name)
+- pick up this [cup](object_name) for me please
+- i'm asking you to hold the [teddy bear](object_name)
+- could you please squeeze this [red](object_color) [box](object_name) now
+- grab the [blue](object_color) [ball](object_name)
+- please grab the [blue](object_color) [ball](object_name)
+- i'd really like it if you could pick up this [yellow](object_color) [cell phone](object_name) thanks very much
+- pick up this [ball](object_name) please
+- i want you to take the [red](object_color) [pencil](object_name) please thanks
+- grab the [pencil](object_name) please
+- okay pick up this [cable](object_name) over [here](placement) first
+- first i want you to pick up the [pink](object_color) [box](object_name) for me
+- please pick [this](object_name) up
+- please pick [this](object_name) up
+- pick up this [orange](object_color) [ball](object_name)
+- pick up this [orange](object_color) [ball](object_name)
+- pick [this](object_name) up please
+- pick [this](object_name) up please
+- pick [this](object_name) up
+- pick this [shit](object_name) up
+- move [this](object_name)
+- pick this [ball](object_name) up
+- pick [this](object_name) up
+- pick it up
+- yes pick up the [green](object_color) [ball](object_name) not the blue one
+- please grab the [flamingo](object_name)
+- could you grab that [phone](object_name) on the [left](placement) side
+- could you pick up the [orange](object_color) [triangle](object_name) for me
+- pick up this [lamp](object_name) for me
+- could you rotate this [ball](object_name)
+- throw the [ball](object_name)
+- okay so i want to ask you to move the [blue](object_color) [brick](object_name) but not a lot
+- use your gripper to pick [this](object_name) up
+- grab [this](object_name) with the gripper
+- move
+- move this [thing](object_name)
+- are you able to move this [book](object_name)
+- just move this [keyboard](object_name) away
+- okay grab the [green](object_color) [pen](object_name) now
+- hello robot could you give me [this object](object_name)
+- could you move the [orange](object_color) [block](object_name)
+- come on just move this [cuboid](object_name) from the platform
+- could you lift this [fork](object_name) up from the [bottom right](placement)
+- could you grab the [gray](object_color) [can](object_name) from the [center](placement) of the platform
+- ok so can you lift the [gold](object_color) [phone](object_name) over there
+- now pick up the [apricot](object_name)
+- hey could you place the [apple](object_name) on the [left](placement)
+- okay then push the [apple](object_name) off the table
+
+
+## intent:move
+- pick up the [brick](object_name) then put it on the [left](placement)
+- last thing just drop it somewhere on the [right](placement)
+- pick up that [yellow](object_color) [cable](object_name) and then place it on the [left](placement) side
+- i want you to move this [ball](object_name) to the [right](placement)
+- also move the [blue](object_color) [peach](object_name) to the [left](placement) of the platform
+- could you move [this](object_name) to the [right](placement)
+- put [this object](object_name) on the [right](placement)
+- could you please shift this [cup](object_name) a little bit to the [left](placement)
+- i would like you to pick [this](object_name) up and place it on the [left](placement)
+- grab the [cup](object_name) lift it and put it here
+- take this [brick](object_name) lift it up and place it on the [right](placement)
+- pick up the [red](object_color) [phone](object_name) and put it on the [right](placement)
+- i'd like you to put the [red](object_color) [phone](object_name) on the [left](placement) thanks
+- i would like you to grab these [scissors](object_name) and place them to the [left](placement)
+- so i want you to move the [black](object_color) [toy](object_name) to the [left](placement)
+- could you move this [box](object_name) to the [right](placement) please
+- could you move this [object](object_name) to the [left](placement) please
+- please grab this [purple](object_color) [bubble](object_name) for me and then put the [bubble](object_name) down
+- place the [ball](object_name) in the [center](placement)
+- could you please pick up the [red](object_color) [brick](object_name)
+- place the [red](object_color) [brick](object_name) on the [right](placement)
+- i want you to let go of [this object](object_name) and grab the [purple](object_color) [bottle](object_name)
+- can you lift the [green](object_color) [ball](object_name)
+- can you lift the [green](object_color) [ball](object_name) up and place it on the [left](placement)
+- i'd like you to push [this](object_name) a bit to the [right](placement)
+- put it somewhere on the [right](placement) thanks
+- move this [ball](object_name) and then place it [here](placement)
+- i wanna ask if you can move this [ball](object_name) and put it [there](placement)
+- move this [thing](object_name) and put it [there](placement)
+- pick [this](object_name) up and put it [there](placement)
+- i really really really want you to throw the [ball](object_name) to the [left](placement)
+- throw the [phone](object_name) at [my face](placement)
+- toss the [orange](object_color) [ball](object_name)
+- throw out the [orange](object_color) [ball](object_name)
+- can you pick [this](object_name) up first and after that please put it over [there](placement)
+- please pick up the [pink](object_color) [prism](object_name) and place it in the [left corner](placement) of the platform afterwards
+- i want you to grasp the [brown](object_color) [cube](object_name) lift the [cube](object_name) and move it a bit to the [right](placement)
+- please hold the [orange](object_color) [sphere](object_name) and then drop it thanks
+- i'd like you to move this [glass](object_name) to the [center](placement)
+- pick this [ball](object_name) up from the platform and place it somewhere on the [right](placement)
+- i want you to pick up this [bottle](object_name) from the [bottom-left](placement) and put it somewhere in the [middle](placement)
+- okay now take the [green](object_color) [plate](object_name) from the [left](placement) side of the platform
+- pick [this](object_name) up from the [left corner](placement) and put it on the [top](placement)
+- please take the [red](object_color) [ball](object_name) with your gripper and when you're done put it in the [bottom left](placement) corner
+- i'm ordering you to place the [brick](object_name) in the [middle](placement) of the platform
+- move the [ball](object_name) from the [middle](placement) to the [left](placement)
+- please pick up the [phone](object_name) on the [left](placement) and put it on the [right](placement)
+
+## intent:show
+- please inspect this [orange](object_name) very carefully
+- please check this [ball](object_name) carefully
+- check this [pink](object_color) [triangle](object_name) very slowly
+- could you inspect this [white](object_color) [sheet](object_name) for me
+- check out this [green](object_color) [apple](object_name) that i'm showing you
+- this [cup](object_name) is [red](object_color)
+- this [thing](object_name) is [white](object_color)
+- this is a pair of [scissors](object_name)
+- this is a [ball](object_name)
+- this is an [apple](object_name)
+- here is a [green](object_color) [apple](object_name)
+- ok here's a [banana](object_name) for you to look at
+- i need you to learn what a [tomato](object_name) is
+- here is a [fruit](object_name) with a [yellow](object_color) color
+- i'm showing you a [ball](object_name)
+- i'm showing you a [blue](object_color) [banana](object_name)
+- i'm going to show you what a [cell phone](object_name) looks like
+- this [ball](object_name) is [green](object_color)
+- this is a [blue](object_color) [cube](object_name)
+- i'm showing you a [blue](object_color) [cube](object_name)
+- this is a [yellow](object_color) [brick](object_name)
+- this is an [orange](object_name)
+- this is a [blue](object_color) [banana](object_name)
+- this is a [blue](object_color) [ball](object_name)
+- and this right here is an [orange](object_color) [apple](object_name)
+- let me show you what a [banana](object_name) looks like
+- this object is a [kiwi](object_name)
+- i'm teaching you what [green](object_color) [grapes](object_name) look like
+- i wanna show you a [red](object_color) [apple](object_name)
+- and this one is a [green](object_color) [kiwi](object_name) fruit
+- okay now i'm going to teach you what a [pineapple](object_name) is

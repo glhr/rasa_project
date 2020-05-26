@@ -1,0 +1,138 @@
+[
+  {
+    "text": "what i mean is some donut",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9724453091621399
+    }
+  },
+  {
+    "text": "the apple is in the middle now",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9119167327880859
+    }
+  },
+  {
+    "text": "this pizza which is green if you can",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8981888890266418
+    }
+  },
+  {
+    "text": "what i mean is to somewhere on the middle",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9545748829841614
+    }
+  },
+  {
+    "text": "i wanted to say positioned in the area on the table",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9704940319061279
+    }
+  },
+  {
+    "text": "i wanted to say towards the center zone",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5683736801147461
+    }
+  },
+  {
+    "text": "i wanted to say spot one magenta object please robot",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9457446932792664
+    }
+  },
+  {
+    "text": "place the ball in the center",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.7513424158096313
+    }
+  },
+  {
+    "text": "throw out the orange ball",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9999953508377075
+    }
+  },
+  {
+    "text": "hey could you place the apple on the left",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.6219542026519775
+    }
+  },
+  {
+    "text": "could you rotate this ball",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9488833546638489
+    }
+  },
+  {
+    "text": "hello is anybody there",
+    "intent": "greetings",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.9087792634963989
+    }
+  },
+  {
+    "text": ":)",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.6810511946678162
+    }
+  },
+  {
+    "text": "let's discuss something",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.834369957447052
+    }
+  },
+  {
+    "text": "long time no see",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.9882076382637024
+    }
+  },
+  {
+    "text": "you don't wanna chat",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.6771981716156006
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.9744686484336853
+    }
+  }
+]

@@ -1,0 +1,2902 @@
+[
+  {
+    "text": "a brown thing now",
+    "entities": [
+      {
+        "start": 2,
+        "end": 7,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "value": "thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 2,
+        "end": 7,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "an shape if you can",
+    "entities": [
+      {
+        "start": 3,
+        "end": 8,
+        "value": "shape",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "the book",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "book",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "book",
+        "start": 4,
+        "end": 8,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that pineapple that has a brown color",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "brown",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 5,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "that",
+        "start": 15,
+        "end": 19,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 26,
+        "end": 31,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "it's on the left of the table",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 12,
+        "end": 16,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 24,
+        "end": 29,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "the purple one",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "purple",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "purple",
+        "start": 4,
+        "end": 10,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "one",
+        "start": 11,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "do you know how to spot some pink pineapple immediately",
+    "entities": [
+      {
+        "start": 29,
+        "end": 33,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "pineapple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "how",
+        "start": 12,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "spot",
+        "start": 19,
+        "end": 23,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "pink",
+        "start": 29,
+        "end": 33,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 34,
+        "end": 43,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "immediately",
+        "start": 44,
+        "end": 55,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "search for that purple pineapple on the platform",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "purple",
+        "start": 16,
+        "end": 22,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 23,
+        "end": 32,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what i mean is recognize one brown strawberry please",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "value": "strawberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "recognize",
+        "start": 15,
+        "end": 24,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 29,
+        "end": 34,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "strawberry",
+        "start": 35,
+        "end": 45,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what can you locate",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "can",
+        "start": 5,
+        "end": 8,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what can you spot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "can",
+        "start": 5,
+        "end": 8,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "spot",
+        "start": 13,
+        "end": 17,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "find melon which has the color brown over there in the platform",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "melon",
+        "entity": "object_name"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 55,
+        "end": 63,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "melon",
+        "start": 5,
+        "end": 10,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 31,
+        "end": 36,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "recognize some orange tool on the right",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "tool",
+        "entity": "object_name"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "recognize",
+        "start": 0,
+        "end": 9,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 15,
+        "end": 21,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "tool",
+        "start": 22,
+        "end": 26,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 34,
+        "end": 39,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "somehow i'm asking you to detect one orange thing if possible",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "value": "thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "you",
+        "start": 19,
+        "end": 22,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 37,
+        "end": 43,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "thing",
+        "start": 44,
+        "end": 49,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "just find me something",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "something",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "search for this glass which has a blue color at the ground",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "value": "ground",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "glass",
+        "start": 16,
+        "end": 21,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "blue",
+        "start": 34,
+        "end": 38,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "color",
+        "start": 39,
+        "end": 44,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "ground",
+        "start": 52,
+        "end": 58,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm asking you to find a orange apple immediately",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "you",
+        "start": 11,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 25,
+        "end": 31,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "apple",
+        "start": 32,
+        "end": 37,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "could you find something on the left of the table for me",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "something",
+        "start": 15,
+        "end": 24,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 32,
+        "end": 36,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 44,
+        "end": 49,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "spot that green pineapple",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "value": "pineapple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "spot",
+        "start": 0,
+        "end": 4,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "green",
+        "start": 10,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 16,
+        "end": 25,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "spot the brown apricot",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "value": "apricot",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "spot",
+        "start": 0,
+        "end": 4,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 9,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "apricot",
+        "start": 15,
+        "end": 22,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "throw the phone at my face",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "entity": "object_name"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "my face",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "phone",
+        "start": 10,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "face",
+        "start": 22,
+        "end": 26,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm ordering you to pinpoint that purple thing on the table afterwards move it to the platform",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "value": "table",
+        "entity": "placement"
+      },
+      {
+        "start": 86,
+        "end": 94,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "you",
+        "start": 13,
+        "end": 16,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "purple",
+        "start": 34,
+        "end": 40,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "thing",
+        "start": 41,
+        "end": 46,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 54,
+        "end": 59,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "last thing just drop it somewhere on the right",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "last",
+        "start": 0,
+        "end": 4,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "thing",
+        "start": 5,
+        "end": 10,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 41,
+        "end": 46,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you please maybe find melon which is brown positioned in the area on the right next move something to the left",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "melon",
+        "entity": "object_name"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 77,
+        "end": 82,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 110,
+        "end": 114,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "melon",
+        "start": 26,
+        "end": 31,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 41,
+        "end": 46,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 77,
+        "end": 82,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "something",
+        "start": 93,
+        "end": 102,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 110,
+        "end": 114,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "robot recognize an orange lemon placed in the area on the platform then relocate that towards the middle area",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "lemon",
+        "entity": "object_name"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 98,
+        "end": 104,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "recognize",
+        "start": 6,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 19,
+        "end": 25,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "lemon",
+        "start": 26,
+        "end": 31,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "middle",
+        "start": 98,
+        "end": 104,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "shift that pineapple of color yellow towards the left area",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 11,
+        "end": 20,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "of",
+        "start": 21,
+        "end": 23,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "yellow",
+        "start": 30,
+        "end": 36,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 49,
+        "end": 53,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please maybe detect some apricot which has a brown color located in the right area when you're done put this towards the left area",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "apricot",
+        "entity": "object_name"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 72,
+        "end": 77,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 121,
+        "end": 125,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "apricot",
+        "start": 25,
+        "end": 32,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 45,
+        "end": 50,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 72,
+        "end": 77,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "this",
+        "start": 104,
+        "end": 108,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 121,
+        "end": 125,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "somehow i'm asking you to find some brown kiwi in the area on the middle afterwards relocate this one towards the center zone",
+    "entities": [
+      {
+        "start": 36,
+        "end": 41,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "value": "kiwi",
+        "entity": "object_name"
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 114,
+        "end": 120,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "you",
+        "start": 19,
+        "end": 22,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 36,
+        "end": 41,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "kiwi",
+        "start": 42,
+        "end": 46,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "middle",
+        "start": 66,
+        "end": 72,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "one",
+        "start": 98,
+        "end": 101,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "center",
+        "start": 114,
+        "end": 120,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i want you to let go of this object and grab the purple bottle",
+    "entities": [
+      {
+        "start": 24,
+        "end": 35,
+        "value": "this object",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "value": "bottle",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "object",
+        "start": 29,
+        "end": 35,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "purple",
+        "start": 49,
+        "end": 55,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "bottle",
+        "start": 56,
+        "end": 62,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you please immediately recognize a orange kiwi when you're done leave one to the table",
+    "entities": [
+      {
+        "start": 39,
+        "end": 45,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "value": "kiwi",
+        "entity": "object_name"
+      },
+      {
+        "start": 85,
+        "end": 90,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "please",
+        "start": 8,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 39,
+        "end": 45,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "kiwi",
+        "start": 46,
+        "end": 50,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "one",
+        "start": 74,
+        "end": 77,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 85,
+        "end": 90,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "could you please shift this cup a little bit to the left",
+    "entities": [
+      {
+        "start": 28,
+        "end": 31,
+        "value": "cup",
+        "entity": "object_name"
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "cup",
+        "start": 28,
+        "end": 31,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "little",
+        "start": 34,
+        "end": 40,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 52,
+        "end": 56,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please take the green apple and place it in the middle of the table",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "green",
+        "start": 16,
+        "end": 21,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "apple",
+        "start": 22,
+        "end": 27,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "middle",
+        "start": 48,
+        "end": 54,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 62,
+        "end": 67,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "leave this yellow object to somewhere on the platform",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "object",
+        "entity": "object_name"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "yellow",
+        "start": 11,
+        "end": 17,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "object",
+        "start": 18,
+        "end": 24,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please immediately pinpoint some pear which is brown on the ground side next leave one towards the ground area",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "value": "pear",
+        "entity": "object_name"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "value": "ground",
+        "entity": "placement"
+      },
+      {
+        "start": 99,
+        "end": 105,
+        "value": "ground",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "please",
+        "start": 0,
+        "end": 6,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "pear",
+        "start": 33,
+        "end": 37,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 47,
+        "end": 52,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "ground",
+        "start": 60,
+        "end": 66,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "one",
+        "start": 83,
+        "end": 86,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "ground",
+        "start": 99,
+        "end": 105,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please hold the orange sphere and then drop it thanks",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "sphere",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 16,
+        "end": 22,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "sphere",
+        "start": 23,
+        "end": 29,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "drop",
+        "start": 39,
+        "end": 43,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "grab the cup lift it and put it here",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "cup",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "the",
+        "start": 5,
+        "end": 8,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i would like you to grab these scissors and place them to the left",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "scissors",
+        "entity": "object_name"
+      },
+      {
+        "start": 62,
+        "end": 66,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "scissors",
+        "start": 31,
+        "end": 39,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "and",
+        "start": 40,
+        "end": 43,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "left",
+        "start": 62,
+        "end": 66,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "leave a pineapple of color pink on the middle to somewhere on the table",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 31,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 66,
+        "end": 71,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 8,
+        "end": 17,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "of",
+        "start": 18,
+        "end": 20,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "pink",
+        "start": 27,
+        "end": 31,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "middle",
+        "start": 39,
+        "end": 45,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "to",
+        "start": 46,
+        "end": 48,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 66,
+        "end": 71,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you please also pick up pink raspberry also",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "value": "raspberry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "please",
+        "start": 8,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "pink",
+        "start": 28,
+        "end": 32,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "raspberry",
+        "start": 33,
+        "end": 42,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm asking you to lift the fruit",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "fruit",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "you",
+        "start": 11,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "fruit",
+        "start": 27,
+        "end": 32,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please pick up this object",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "this object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i meant put one pineapple of color orange on the floor",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 49,
+        "end": 54,
+        "value": "floor",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "pineapple",
+        "start": 16,
+        "end": 25,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "of",
+        "start": 26,
+        "end": 28,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 35,
+        "end": 41,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "floor",
+        "start": 49,
+        "end": 54,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "grab me that thing over there",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "that thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pick up brown shape on the center",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "shape",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 8,
+        "end": 13,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "center",
+        "start": 27,
+        "end": 33,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no i mean grab brown orange immediately",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 15,
+        "end": 20,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 21,
+        "end": 27,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ok so can you lift the gold phone over there",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "gold",
+        "entity": "object_color"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "phone",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "gold",
+        "start": 23,
+        "end": 27,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "phone",
+        "start": 28,
+        "end": 33,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "crush that donut that is brown",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "donut",
+        "entity": "object_name"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "brown",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "that",
+        "start": 6,
+        "end": 10,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "donut",
+        "start": 11,
+        "end": 16,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "brown",
+        "start": 25,
+        "end": 30,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "give me that thing",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "that thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "okay pick up this cable over here first",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "cable",
+        "start": 18,
+        "end": 23,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "first",
+        "start": 34,
+        "end": 39,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "grasp the green glass located in the platform",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "green",
+        "start": 10,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "glass",
+        "start": 16,
+        "end": 21,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "somehow can you pick up this magenta ball if you can",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "ball",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "somehow",
+        "start": 0,
+        "end": 7,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "magenta",
+        "start": 29,
+        "end": 36,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "ball",
+        "start": 37,
+        "end": 41,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "no what i mean is bring a purple apricot please robot",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "purple",
+        "entity": "object_color"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "value": "apricot",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "purple",
+        "start": 26,
+        "end": 32,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "apricot",
+        "start": 33,
+        "end": 40,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "please",
+        "start": 41,
+        "end": 47,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm ordering you to pick up an blue kiwi maybe",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "kiwi",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "you",
+        "start": 13,
+        "end": 16,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "blue",
+        "start": 31,
+        "end": 35,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "kiwi",
+        "start": 36,
+        "end": 40,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hello robot could you give me this object",
+    "entities": [
+      {
+        "start": 30,
+        "end": 41,
+        "value": "this object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "robot",
+        "start": 6,
+        "end": 11,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "do you know how to pick up a magenta sphere",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "sphere",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "how",
+        "start": 12,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "to",
+        "start": 16,
+        "end": 18,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "magenta",
+        "start": 29,
+        "end": 36,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "sphere",
+        "start": 37,
+        "end": 43,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm putting my balls on the table for you to learn",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "balls",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "my",
+        "start": 12,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "balls",
+        "start": 15,
+        "end": 20,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "value": "table",
+        "start": 28,
+        "end": 33,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i need you to remember this object",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "could you inspect this white sheet for me",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "white",
+        "entity": "object_color"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "sheet",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "white",
+        "start": 23,
+        "end": 28,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "sheet",
+        "start": 29,
+        "end": 34,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm teaching you what green grapes look like",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "grapes",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "teaching",
+        "start": 4,
+        "end": 12,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "green",
+        "start": 22,
+        "end": 27,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you learn something else now",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "something",
+        "start": 14,
+        "end": 23,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you on the right is this black object",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 28,
+        "end": 33,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "black",
+        "start": 42,
+        "end": 47,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i want you to learn something",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "something",
+        "start": 20,
+        "end": 29,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you positioned at the platform is one yellow orange",
+    "entities": [
+      {
+        "start": 39,
+        "end": 47,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "platform",
+        "start": 39,
+        "end": 47,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "yellow",
+        "start": 55,
+        "end": 61,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "orange",
+        "start": 62,
+        "end": 68,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "on the ground is a magenta object",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "ground",
+        "entity": "placement"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "magenta",
+        "entity": "object_color"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "ground",
+        "start": 7,
+        "end": 13,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_color",
+        "value": "magenta",
+        "start": 19,
+        "end": 26,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hello fellow human",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "fellow",
+        "start": 6,
+        "end": 12,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "human",
+        "start": 13,
+        "end": 18,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "a good day",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "good",
+        "start": 2,
+        "end": 6,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "day",
+        "start": 7,
+        "end": 10,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hi again",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "hi",
+        "start": 0,
+        "end": 2,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "good morning robot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "morning",
+        "start": 5,
+        "end": 12,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hallo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "hallo",
+        "start": 0,
+        "end": 5,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yeah that's right",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 12,
+        "end": 17,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "all right",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 4,
+        "end": 9,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i don't know what to say",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "to",
+        "start": 18,
+        "end": 20,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i need to talk to you",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "talk",
+        "start": 10,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "to",
+        "start": 15,
+        "end": 17,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hey can i ask something",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "value": "hey",
+        "start": 0,
+        "end": 3,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "something",
+        "start": 14,
+        "end": 23,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "strangle yourself with your arms",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "yourself",
+        "start": 9,
+        "end": 17,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "arms",
+        "start": 28,
+        "end": 32,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "my cat is great",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "cat",
+        "start": 3,
+        "end": 6,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "that's all for now bye robot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "robot",
+        "start": 23,
+        "end": 28,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hope to see you later",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "hope",
+        "start": 0,
+        "end": 4,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "till next time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "next",
+        "start": 5,
+        "end": 9,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "value": "time",
+        "start": 10,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i must go",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "i",
+        "start": 0,
+        "end": 1,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cancel request",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "request",
+        "start": 7,
+        "end": 14,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "it is not right",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "value": "right",
+        "start": 10,
+        "end": 15,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cancel all that",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "value": "all",
+        "start": 7,
+        "end": 10,
+        "confidence": null,
+        "extractor": "MitieEntityExtractor"
+      }
+    ]
+  }
+]

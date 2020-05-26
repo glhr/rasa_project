@@ -1,0 +1,130 @@
+[
+  {
+    "text": "what i mean is some donut",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8599966764450073
+    }
+  },
+  {
+    "text": "the apple is in the middle now",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9021079540252686
+    }
+  },
+  {
+    "text": "one purple hammer immediately",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.7453420758247375
+    }
+  },
+  {
+    "text": "what i mean is to somewhere on the middle",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.5526571869850159
+    }
+  },
+  {
+    "text": "i wanted to say positioned in the area on the table",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.6535676121711731
+    }
+  },
+  {
+    "text": "i wanted to say spot one magenta object please robot",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.838613748550415
+    }
+  },
+  {
+    "text": "could you look on the table for something pink",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.7543911337852478
+    }
+  },
+  {
+    "text": "place the ball in the center",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.5172186493873596
+    }
+  },
+  {
+    "text": "throw out the orange ball",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.8794130682945251
+    }
+  },
+  {
+    "text": "hey could you place the apple on the left",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9044010043144226
+    }
+  },
+  {
+    "text": "i want you to take the red pencil please thanks",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9573156833648682
+    }
+  },
+  {
+    "text": "drop a yellow glass on the ground",
+    "intent": "pick up",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9993301630020142
+    }
+  },
+  {
+    "text": "let's discuss something",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.38282862305641174
+    }
+  },
+  {
+    "text": "long time no see",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.9803629517555237
+    }
+  },
+  {
+    "text": "seriously tell me what you can do",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9144375920295715
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.9938039779663086
+    }
+  }
+]

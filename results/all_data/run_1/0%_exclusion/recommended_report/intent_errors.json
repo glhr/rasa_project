@@ -1,0 +1,178 @@
+[
+  {
+    "text": "some fruit which is orange maybe",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.9939947724342346
+    }
+  },
+  {
+    "text": "i meant one brown box",
+    "intent": "clarify",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9888823628425598
+    }
+  },
+  {
+    "text": "spot blue apple",
+    "intent": "find",
+    "intent_prediction": {
+      "name": "clarify",
+      "confidence": 0.9472935199737549
+    }
+  },
+  {
+    "text": "no grab the orange and drop it in the middle",
+    "intent": "move",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9999406337738037
+    }
+  },
+  {
+    "text": "please take some pictures of the object from different angles and try lift it up slow remember the weight and give it a random name save it in memory",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9603118300437927
+    }
+  },
+  {
+    "text": "recognize the object as a knife from now on",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.9612311124801636
+    }
+  },
+  {
+    "text": "check this pink triangle very slowly",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.5745925307273865
+    }
+  },
+  {
+    "text": "hello you have a lot of colorful things on the table in front of you",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.500236988067627
+    }
+  },
+  {
+    "text": "a 3 inches plastic object black or grey clicks when pressed = computer control",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.966408908367157
+    }
+  },
+  {
+    "text": "looks good",
+    "intent": "affirmative",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.49974948167800903
+    }
+  },
+  {
+    "text": "good",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "affirmative",
+      "confidence": 0.5587270259857178
+    }
+  },
+  {
+    "text": "what objects do you know then",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "find",
+      "confidence": 0.9944742918014526
+    }
+  },
+  {
+    "text": "long time no see",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "greetings",
+      "confidence": 0.9478899240493774
+    }
+  },
+  {
+    "text": "my cat is great",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9461994767189026
+    }
+  },
+  {
+    "text": "split the item into two and rename them",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "move",
+      "confidence": 0.9976329803466797
+    }
+  },
+  {
+    "text": "my name is human",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9835461378097534
+    }
+  },
+  {
+    "text": "remember these instructions",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9930005073547363
+    }
+  },
+  {
+    "text": "make my kids' lunches",
+    "intent": "none",
+    "intent_prediction": {
+      "name": "pick up",
+      "confidence": 0.9993563294410706
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.9259538054466248
+    }
+  },
+  {
+    "text": "talk to you later",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.7549285888671875
+    }
+  },
+  {
+    "text": "hey robot undo last job",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.41724929213523865
+    }
+  },
+  {
+    "text": "no i wanted you to",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "none",
+      "confidence": 0.6306238174438477
+    }
+  }
+]

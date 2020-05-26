@@ -1,0 +1,626 @@
+[
+  {
+    "text": "cherry",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "cherry",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "identify orange on the table",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 9,
+        "end": 15,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 23,
+        "end": 28,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search apple",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "could you move this to the right",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "this",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 27,
+        "end": 32,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please take the red ball with your gripper and when you're done put it in the bottom left corner",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "value": "bottom left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 35,
+        "end": 42,
+        "value": "gripper",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 78,
+        "end": 96,
+        "value": "bottom left corner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "place the orange of color blue towards the platform side",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "orange",
+        "entity": "object_name"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "value": "blue",
+        "entity": "object_color"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 10,
+        "end": 16,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 30,
+        "value": "blue",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 43,
+        "end": 51,
+        "value": "platform",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "move this ball and then place it here",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 14,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "throw the phone at my face",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "entity": "object_name"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "my face",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "value": "phone",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "move this thing and put it there",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 15,
+        "value": "thing",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maybe can you detect tool positioned over there in the middle afterwards leave one towards the middle area",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "tool",
+        "entity": "object_name"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "middle",
+        "entity": "placement"
+      },
+      {
+        "start": 95,
+        "end": 101,
+        "value": "middle",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 55,
+        "end": 61,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 95,
+        "end": 101,
+        "value": "middle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please grab the flamingo",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "flamingo",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "get black tomato",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "tomato",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 4,
+        "end": 9,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "so hold the orange thing somehow",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 12,
+        "end": 18,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay pick up this cable over here first",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "here",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 18,
+        "end": 23,
+        "value": "cable",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "use your gripper to pick this up",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "this",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 16,
+        "value": "gripper",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 25,
+        "end": 29,
+        "value": "this",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "crush the green thing",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "value": "thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 10,
+        "end": 15,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please lift this glass up from the platform",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "value": "glass",
+        "entity": "object_name"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "platform",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 22,
+        "value": "glass",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you positioned at the platform is one yellow orange",
+    "entities": [
+      {
+        "start": 39,
+        "end": 47,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 39,
+        "end": 47,
+        "value": "platform",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 55,
+        "end": 68,
+        "value": "yellow orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "on the platform is brown glass",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "platform",
+        "entity": "placement"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "glass",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 24,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 25,
+        "end": 30,
+        "value": "glass",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what i'm showing you placed in the right zone is some thing that has the color green",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "value": "right",
+        "entity": "placement"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "value": "green",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 54,
+        "end": 59,
+        "value": "thing",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 79,
+        "end": 84,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "one pineapple is called that brown shape",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "pineapple",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "value": "brown",
+        "entity": "object_color"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "shape",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 4,
+        "end": 13,
+        "value": "pineapple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 29,
+        "end": 34,
+        "value": "brown",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

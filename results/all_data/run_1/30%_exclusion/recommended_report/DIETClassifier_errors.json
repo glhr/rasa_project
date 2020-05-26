@@ -1,0 +1,1055 @@
+[
+  {
+    "text": "orange",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "orange",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 0,
+        "end": 6,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i meant the pear of color orange",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "pear",
+        "entity": "object_name"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "orange",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 12,
+        "end": 16,
+        "value": "pear",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 26,
+        "end": 32,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "where is your head",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "head",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "where is some brick of color orange",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "brick",
+        "entity": "object_name"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 19,
+        "value": "brick",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 29,
+        "end": 35,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find something",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "something",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "stop put the banana down and pick up the orange",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "banana",
+        "entity": "object_name"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "value": "orange",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 13,
+        "end": 19,
+        "value": "banana",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 20,
+        "end": 24,
+        "value": "down",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 41,
+        "end": 47,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "catch the banana and put it back down",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "banana",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 16,
+        "value": "banana",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 33,
+        "end": 37,
+        "value": "down",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please take the red ball with your gripper and when you're done put it in the bottom left corner",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "value": "bottom left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 78,
+        "end": 96,
+        "value": "bottom left corner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "move this thing and put it there",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "somehow i'm asking you to recognize a orange box located in the table once you're done place something towards the left side",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "value": "box",
+        "entity": "object_name"
+      },
+      {
+        "start": 64,
+        "end": 69,
+        "value": "table",
+        "entity": "placement"
+      },
+      {
+        "start": 115,
+        "end": 119,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 38,
+        "end": 44,
+        "value": "orange",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 45,
+        "end": 48,
+        "value": "box",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 115,
+        "end": 119,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you pick this up first and after that please put it over there",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "this",
+        "entity": "object_name"
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "value": "there",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 13,
+        "end": 17,
+        "value": "this",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "go down until you touch the table",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "down",
+        "entity": "placement"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "table",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 3,
+        "end": 7,
+        "value": "down",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 28,
+        "end": 33,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put this object on the right",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "this object",
+        "entity": "object_name"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "right",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 15,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 23,
+        "end": 28,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes pick up the green ball not the blue one",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "green",
+        "entity": "object_color"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "ball",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 21,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 22,
+        "end": 26,
+        "value": "ball",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 35,
+        "end": 39,
+        "value": "blue",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pick up the yellow rubber ducky with your left arm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "ducky",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 12,
+        "end": 18,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 26,
+        "end": 31,
+        "value": "ducky",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 42,
+        "end": 46,
+        "value": "left",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "just move this keyboard away",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "keyboard",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please gingerly lift the long yellow fruit",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "yellow",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 30,
+        "end": 36,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 37,
+        "end": 42,
+        "value": "fruit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pick up the yellow apple that is placed atop the table",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 54,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 12,
+        "end": 18,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "reach hard surface with a 2 centimeter distance from such clench the claw fingers to pick up object",
+    "entities": [
+      {
+        "start": 93,
+        "end": 99,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hello robot could you give me this object",
+    "entities": [
+      {
+        "start": 30,
+        "end": 41,
+        "value": "this object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 35,
+        "end": 41,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay then push the apple off the table",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 24,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "placement",
+        "start": 33,
+        "end": 38,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "grab the object in front of you",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i want you to crush this thing with your awesome gripper",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "thing",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "remove objects which aren't edible",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "objects",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 28,
+        "end": 34,
+        "value": "edible",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "one thing is called some yellow watermelon",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "yellow",
+        "entity": "object_color"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "value": "watermelon",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 25,
+        "end": 31,
+        "value": "yellow",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 32,
+        "end": 42,
+        "value": "watermelon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please take some pictures of the object from different angles and try lift it up slow remember the weight and give it a random name save it in memory",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "the object in front of you is a tool store this definition",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "object",
+        "entity": "object_name"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "value": "tool",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 32,
+        "end": 36,
+        "value": "tool",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "this is a grey can please remember it",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "grey",
+        "entity": "object_color"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "can",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 10,
+        "end": 14,
+        "value": "grey",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need you to remember this object",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "object",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 23,
+        "end": 34,
+        "value": "this object",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recognize the object as a knife from now on",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "knife",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 20,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 26,
+        "end": 31,
+        "value": "knife",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hello you have a lot of colorful things on the table in front of you",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "things",
+        "entity": "object_name"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "table",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 47,
+        "end": 52,
+        "value": "table",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it's an object you don't know it's called red apple",
+    "entities": [
+      {
+        "start": 42,
+        "end": 45,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 46,
+        "end": 51,
+        "value": "apple",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 8,
+        "end": 14,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 42,
+        "end": 45,
+        "value": "red",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 46,
+        "end": 51,
+        "value": "apple",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a 3 inches plastic object black or grey clicks when pressed = computer control",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "black",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 19,
+        "end": 25,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 26,
+        "end": 31,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 35,
+        "end": 39,
+        "value": "grey",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "remember this new object it is called a computer tool the colour of this tool is black with white top it’s shape is oval and 8cm length",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "object",
+        "entity": "object_name"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "value": "tool",
+        "entity": "object_name"
+      },
+      {
+        "start": 73,
+        "end": 77,
+        "value": "tool",
+        "entity": "object_name"
+      },
+      {
+        "start": 81,
+        "end": 86,
+        "value": "black",
+        "entity": "object_color"
+      },
+      {
+        "start": 92,
+        "end": 97,
+        "value": "white",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 18,
+        "end": 24,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 49,
+        "end": 53,
+        "value": "tool",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 73,
+        "end": 77,
+        "value": "tool",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_color",
+        "start": 81,
+        "end": 86,
+        "value": "black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "this object is a kiwi",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "kiwi",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 11,
+        "value": "object",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 21,
+        "value": "kiwi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "this thing is white",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "thing",
+        "entity": "object_name"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "white",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 14,
+        "end": 19,
+        "value": "white",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "split the item into two and rename them",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 10,
+        "end": 14,
+        "value": "item",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "my name is human",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 11,
+        "end": 16,
+        "value": "human",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "make my kids' lunches",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 14,
+        "end": 21,
+        "value": "lunches",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

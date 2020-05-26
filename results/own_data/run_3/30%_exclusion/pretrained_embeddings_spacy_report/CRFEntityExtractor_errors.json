@@ -1,0 +1,350 @@
+[
+  {
+    "text": "find something red then",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "red",
+        "entity": "object_color"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "could you find something on the left of the table for me",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9867347230765405,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 44,
+        "end": 49,
+        "confidence_entity": 0.8012884927959657,
+        "value": "table",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i would like you to grab these scissors and place them to the left",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "scissors",
+        "entity": "object_name"
+      },
+      {
+        "start": 62,
+        "end": 66,
+        "value": "left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "placement",
+        "start": 62,
+        "end": 66,
+        "confidence_entity": 0.9937992400292742,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "grab the cup lift it and put it here",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "cup",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.8509530660235455,
+        "value": "cup",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.6148593199489842,
+        "value": "here",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please pick up the pink prism and place it in the left corner of the platform afterwards",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "pink",
+        "entity": "object_color"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "prism",
+        "entity": "object_name"
+      },
+      {
+        "start": 50,
+        "end": 61,
+        "value": "left corner",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9499436817385272,
+        "value": "pink",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.9948296346097473,
+        "value": "left",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.8946450602171109,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please take the red ball with your gripper and when you're done put it in the bottom left corner",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "red",
+        "entity": "object_color"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "ball",
+        "entity": "object_name"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "value": "bottom left",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.9955377608089183,
+        "value": "red",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9998260290181759,
+        "value": "ball",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 78,
+        "end": 96,
+        "confidence_entity": 0.6912697881799379,
+        "value": "bottom left corner",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "could you move the orange block",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "orange",
+        "entity": "object_color"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "value": "block",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.6910803877390708,
+        "value": "orange",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm asking you to hold the teddy bear",
+    "entities": [
+      {
+        "start": 27,
+        "end": 37,
+        "value": "teddy bear",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "could you grab the gray can from the center of the platform",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "gray",
+        "entity": "object_color"
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "value": "can",
+        "entity": "object_name"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "center",
+        "entity": "placement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.46698579544633684,
+        "value": "gray",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.9660199204838934,
+        "value": "center",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "placement",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.811829435763455,
+        "value": "platform",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "this object is a kiwi",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "kiwi",
+        "entity": "object_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9908033776086282,
+        "value": "object",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9218221774469813,
+        "value": "kiwi",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "let's have a discussion",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_name",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.48324739051173893,
+        "value": "discussion",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cancel the whole thing",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "object_color",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.41418281336967044,
+        "value": "whole",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "object_name",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.6070390123984842,
+        "value": "thing",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

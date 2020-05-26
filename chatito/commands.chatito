@@ -1,0 +1,71 @@
+import ./common.chatito
+
+// Ways to say find
+
+%[find]('training': '100')
+    ~[find]
+    ~[i mean] ~[find]
+    *[20%] ~[find] ~[the?] ~[colored object]
+    *[20%] ~[find] ~[the?] ~[colored object] ~[on the left]
+    ~[find] ~[it]
+    ~[intro?] ~[find] ~[the?] ~[colored object] ~[outro?]
+    *[10%] where is ~[the?] ~[colored object]
+    ~[can you see] ~[the?] ~[colored object]
+    *[10%] what can you ~[find]
+
+// Ways to say move
+
+%[move]('training': '100')
+    ~[move] ~[to the right]
+    ~[to the right] ~[move] ~[colored object]
+    ~[i mean] ~[pick up] ~[the?] ~[colored object] ~[on the left?] ~[then] ~[move] ~[it] ~[to the right]
+    ~[intro?] ~[find] ~[the?] ~[colored object] ~[on the left?] ~[then] ~[move] ~[it] ~[to the right]
+    *[20%] ~[move] ~[the?] ~[colored object] ~[to the right]
+    *[20%] ~[move] ~[the?] ~[colored object] ~[on the left?] ~[to the right]
+    ~[move] ~[it] ~[to the right]
+    ~[i mean] ~[move] ~[it] ~[to the right] ~[outro?]
+    ~[intro?] ~[move] ~[the?] ~[colored object] ~[to the right] ~[outro?]
+
+%[pick up]('training': '100')
+    ~[pick up]
+    ~[i mean] ~[pick up]
+    ~[pick up] ~[the?] ~[colored object]
+    ~[i mean?] ~[move] ~[the?] ~[colored object] ~[on the left?]
+    ~[to the right] ~[pick up] ~[colored object]
+    *[20%] ~[pick up] ~[the?] ~[colored object]
+    *[20%] ~[pick up] ~[the?] ~[colored object] ~[on the left?]
+    ~[pick up] ~[it] ~[on the left?]
+    ~[pick it up]
+    ~[i mean] ~[pick up] ~[it] ~[on the left?]
+    ~[intro?] ~[pick up] ~[the?] ~[colored object] ~[outro?]
+
+%[show]('training': '100')
+    ~[this is] ~[the?] ~[colored object]
+    ~[this is] @[object_color]
+    ~[save this]
+
+~[save this]
+    scan
+    remember this
+    save this
+    add this
+    scan this
+    analyze this
+    learn this
+
+~[this is]
+    *[20%] this is
+    you should remember that this is
+    you should know that this is
+    you need to remember this is
+    what i'm showing you ~[on the left?] is
+    the @[object_name] here is
+    i'm showing you
+    i'm teaching you that this is
+    learn that this is
+    i'm demonstrating
+    here is
+    ~[on the left] is
+    ~[it] @[object_name] is called
+    ~[the] @[object_name] is called
+    ~[the] @[object_name] is known as
