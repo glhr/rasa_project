@@ -1,8 +1,13 @@
 import requests
 import json
-from utils.logger import get_logger
 
-logger = get_logger()
+try:
+    from utils.logger import get_logger
+
+    logger = get_logger()
+except ImportError:
+    import logging
+    logger = logging.getLogger(__name__)
 
 API_UNAVAILABLE = False
 
