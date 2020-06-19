@@ -1,4 +1,5 @@
 [submodule "rasa-voice-interface"]
+	path = rasa-voice-interface
 	url = https://github.com/glhr/rasa-voice-interface.git
 [submodule "rasa-webapp"]
 	path = rasa-webapp
