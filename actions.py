@@ -137,6 +137,11 @@ class ReceivedFind(Action):
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+        else:
+            dispatcher.utter_message(text="I found the {} {} you asked for.".format(
+                object_color,
+                object_name
+                ))
         return [AllSlotsReset()]
 
 
@@ -199,6 +204,8 @@ class ReceivedLearn(Action):
                 # dispatcher.utter_message(text="Error: {}".format(info))
 
             return [AllSlotsReset()]
+        else:
+            dispatcher.utter_message(template="utter_got_description")
         return [AllSlotsReset()]
 
 
@@ -250,6 +257,8 @@ class ReceivedPickup(Action):
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+        else:
+            dispatcher.utter_message(text="Done with pick up.")
         return [AllSlotsReset()]
 
 
@@ -294,6 +303,8 @@ class ReceivedMove(Action):
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
+        else:
+            dispatcher.utter_message(text="Done with moving.")
         return [AllSlotsReset()]
 
 class ReceivedCancel(Action):
