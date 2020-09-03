@@ -1,7 +1,7 @@
 from rasa.core.slots import Slot
 
 valid_colors = {'green', 'blue', 'black', 'brown', 'yellow', 'orange', 'red', 'purple'}
-valid_objects = {'apple', 'orange', 'banana', 'strawberry', 'kiwi'}
+valid_objects = {'apple', 'orange', 'banana', 'strawberry', 'kiwi', 'brick'}
 generic_objects = {'something', 'object', 'thing', 'item', 'fruit', 'vegetable'}
 valid_placements = {'left', 'right', 'middle'}
 
@@ -51,11 +51,10 @@ class PlacementSlot(Slot):
     def feature_dimensionality(self):
         return 2
 
-    def as_feature(self):
-        r = [0.0] * self.feature_dimensionality()
-        if self.value:
-            if self.value in valid_placements:
+    def as_feature(self):ColorEstimation::computeFeature] The local reference frame is not valid! Aborting description of point with index 7458
+lacements:
                 r = [1.0, 1.0]
             else:
                 r = [0.0, 1.0]
         return r
+ColorEstimation::computeFeature] The local reference frame is not valid! Aborting description of point with index 7458
