@@ -146,6 +146,7 @@
 
 ## intent:none
 - dude
+- guess
 - idiot
 - stupid
 - ass

@@ -305,6 +305,7 @@
     - slot{"object_name": "ball"}
     - action_fill
     - slot{"action": "learn"}
+    - utter_got_command
     - execute_learn
     - reset_slots
 * none
@@ -409,6 +410,7 @@
     - utter_prompt_placement_origin
 * clarify{"placement": "left"}
     - slot{"placement": "left"}
+    - utter_got_command
     - execute_learn
     - reset_slots
 

@@ -98,6 +98,7 @@
   - slot{"object_color": "green"}
   - action_fill
   - slot{"action": "find"}
+  - utter_got_command
   - execute_find
 
 <!-- known object but unknown color in find command -->
@@ -126,6 +127,7 @@
 * clarify{"object_name": "banana", "object_color": "yellow"}
   - slot{"object_name": "banana"}
   - slot{"object_color": "yellow"}
+  - utter_got_command
   - execute_learn
 
 ## show
@@ -136,7 +138,8 @@
   - utter_prompt_object
 * clarify{"object_name": "banana", "object_color": "blue"}
   - slot{"object_name": "banana"}
-  - slot{"object_color": "blue"}
+  - slot{"object_color": "blue"}'
+  - utter_got_command
   - execute_learn
 
 ## show
@@ -150,6 +153,7 @@
   - utter_prompt_object
 * clarify{"object_name": "banana"}
   - slot{"object_name": "banana"}
+  - utter_got_command
   - execute_learn
 
 ## show
