@@ -8,4 +8,4 @@ sanic==19.12.2
 gevent_socketio==0.3.6
 rasa==1.10.1
 rasa_sdk==1.10.1
-tensorflow-text
+rasa[convert]==1.10.1
