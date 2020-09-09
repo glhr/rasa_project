@@ -12,7 +12,7 @@
     - utter_got_command
     - execute_learn
 
-## interactive_story_1
+## interactive_story_2
 * show{"object_color": "red"}
     - action_fill
     - slot{"action": "learn"}
@@ -22,7 +22,7 @@
     - utter_got_command
     - execute_learn
 
-## interactive_story_1
+## interactive_story_3
 * show{"object_name": "apple"}
     - slot{"object_name": "apple"}
     - action_fill
@@ -47,7 +47,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_4
 * show{"object_color": "pink"}
     - slot{"object_color": "pink"}
     - action_fill
@@ -79,7 +79,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_5
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -105,7 +105,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_6
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -143,7 +143,7 @@
     - execute_learn
     - reset_slots
 
-## interactive_story_1
+## interactive_story_7
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -160,7 +160,7 @@
     - utter_got_command
     - execute_find
 
-## interactive_story_1
+## interactive_story_8
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -170,7 +170,7 @@
     - slot{"action": "learn"}
     - utter_prompt_object
 
-## interactive_story_2
+## interactive_story_9
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -184,7 +184,7 @@
     - utter_got_command
     - execute_find
 
-## interactive_story_3
+## interactive_story_10
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -200,7 +200,7 @@
     - utter_got_command
     - execute_find
 
-## interactive_story_1
+## interactive_story_11
 * find{"object_color": "orange", "object_name": "orange", "placement": "table"}
     - slot{"object_color": "orange"}
     - slot{"object_name": "orange"}
@@ -220,7 +220,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_12
 * none
     - utter_prompt
 * find{"placement": "left"}
@@ -237,7 +237,7 @@
 * none
     - utter_prompt
 
-## interactive_story_1
+## interactive_story_13
 * show
     - action_fill
     - slot{"action": "learn"}
@@ -266,7 +266,7 @@
     - execute_learn
     - reset_slots
 
-## interactive_story_1
+## interactive_story_14
 * show{"object_name": "duck"}
     - slot{"object_name": "duck"}
     - action_fill
@@ -299,7 +299,7 @@
     - utter_got_command
     - execute_pickup
 
-## interactive_story_1
+## interactive_story_15
 * show{"object_color": "red", "object_name": "ball"}
     - slot{"object_color": "red"}
     - slot{"object_name": "ball"}
@@ -341,7 +341,7 @@
     - utter_got_command
     - execute_pickup
 
-## interactive_story_1
+## interactive_story_16
 * move{"object_name": "apple", "placement": "right"}
     - slot{"object_name": "apple"}
     - slot{"placement": "right"}
@@ -371,7 +371,7 @@
     - utter_got_command
     - execute_move
 
-## interactive_story_1
+## interactive_story_17
 * pick up{"placement": "left"}
     - slot{"placement": "left"}
     - action_fill
@@ -393,7 +393,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_18
 * pick up{"object_name": "balls"}
     - slot{"object_name": "balls"}
     - action_fill
@@ -414,7 +414,7 @@
     - execute_learn
     - reset_slots
 
-## interactive_story_1
+## interactive_story_19
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -438,7 +438,7 @@
     - utter_got_command
     - execute_move
 
-## interactive_story_1
+## interactive_story_20
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -459,7 +459,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_21
 * show{"object_color": "green", "object_name": "apple", "placement": "middle"}
     - slot{"object_color": "green"}
     - slot{"object_name": "apple"}
@@ -505,7 +505,7 @@
     - utter_got_command
     - execute_pickup
 
-## interactive_story_1
+## interactive_story_22
 * move{"object_name": "apple", "placement": "right"}
     - slot{"object_name": "apple"}
     - slot{"placement": "right"}
@@ -527,7 +527,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_23
 * show{"object_name": "object"}
     - slot{"object_name": "object"}
     - action_fill
@@ -555,7 +555,7 @@
     - utter_got_command
     - execute_find
 
-## interactive_story_1
+## interactive_story_24
 * find{"placement": "table", "object_color": "pink"}
     - slot{"object_color": "pink"}
     - slot{"placement": "table"}
@@ -593,17 +593,17 @@
 * none
     - utter_prompt
 * none
-    - utter_prompt
+    - action_fallback
 * none
     - utter_prompt
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_25
 * bye
     - utter_prompt
 * none
-    - utter_prompt
+    - action_fallback
 * find{"placement": "table"}
     - slot{"placement": "table"}
     - action_fill
@@ -614,11 +614,11 @@
     - reset_slots
     - utter_got_denied
 * none
-    - utter_prompt
+    - action_fallback
 * deny
     - utter_prompt
 * deny
-    - utter_prompt
+    - action_fallback
 * none
     - utter_prompt
 * pick up{"object_name": "something"}
@@ -645,7 +645,7 @@
     - reset_slots
     - utter_got_denied
 
-## interactive_story_1
+## interactive_story_26
 * pick up{"object_color": "green", "object_name": "thing"}
     - slot{"object_color": "green"}
     - slot{"object_name": "thing"}
@@ -673,7 +673,7 @@
     - execute_pickup
     - reset_slots
 
-## interactive_story_1
+## interactive_story_27
 * clarify{"object_color": "blue", "object_name": "object"}
     - slot{"object_color": "blue"}
     - slot{"object_name": "object"}
@@ -688,7 +688,7 @@
     - execute_find
     - reset_slots
 
-## interactive_story_1
+## interactive_story_28
 * pick up{"object_name": "apple", "placement": "table"}
     - slot{"object_name": "apple"}
     - slot{"placement": "table"}
@@ -708,12 +708,12 @@
     - utter_got_command
     - execute_pickup
 
-## interactive_story_1
+## interactive_story_29
 * greetings
     - utter_greet_hello
     - utter_prompt
 * none
-    - utter_prompt
+    - action_fallback
 * pick up{"object_name": "cup"}
     - slot{"object_name": "cup"}
     - action_fill
@@ -740,7 +740,7 @@
     - execute_pickup
     - reset_slots
 
-## interactive_story_1
+## interactive_story_30
 * pick up{"object_name": "something"}
     - slot{"object_name": "something"}
     - action_fill
@@ -764,7 +764,7 @@
     - reset_slots
     - utter_got_denied
 
-## interactive_story_1
+## interactive_story_31
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -780,7 +780,7 @@
     - execute_pickup
     - reset_slots
 
-## interactive_story_1
+## interactive_story_32
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -806,11 +806,11 @@
     - execute_find
     - reset_slots
 
-## interactive_story_1
+## interactive_story_33
 * bye
     - utter_prompt
 
-## interactive_story_1
+## interactive_story_34
 * move{"object_name": "apple", "placement": "right"}
     - slot{"object_name": "apple"}
     - slot{"placement": "right"}
@@ -825,7 +825,7 @@
     - reset_slots
     - utter_got_denied
 
-## interactive_story_1
+## interactive_story_35
 * none
     - utter_prompt
 * none
@@ -861,7 +861,7 @@
     - slot{"object_color": "pink"}
     - utter_got_unknown_color
 
-## interactive_story_1
+## interactive_story_36
 * pick up{"object_name": "banana", "placement": "floor"}
     - slot{"object_name": "banana"}
     - slot{"placement": "floor"}
@@ -896,7 +896,7 @@
     - execute_pickup
     - reset_slots
 
-## interactive_story_1
+## interactive_story_37
 * pick up
     - action_fill
     - slot{"action": "pick up"}
@@ -917,7 +917,7 @@
 * clarify
     - utter_prompt_object
 
-## interactive_story_1
+## interactive_story_38
 * move{"placement": "lefty"}
     - slot{"placement": "lefty"}
     - action_fill
@@ -948,7 +948,7 @@
     - slot{"object_color": "grey"}
     - utter_got_unknown_color
 
-## interactive_story_1
+## interactive_story_39
 * find
     - action_fill
     - slot{"action": "find"}
@@ -970,7 +970,7 @@
 * bye
     - utter_greet_goodbye
 
-## interactive_story_1
+## interactive_story_40
 * clarify{"object_name": "ball"}
     - slot{"object_name": "ball"}
     - utter_prompt_action
@@ -979,9 +979,9 @@
     - slot{"action": "find"}
     - utter_got_unknown_object
 
-## interactive_story_2
+## interactive_story_41
 * clarify
-    - action_fallback
+    - utter_prompt
 * clarify{"object_color": "blue"}
     - slot{"object_color": "blue"}
     - action_fallback
@@ -998,7 +998,7 @@
     - execute_pickup
     - reset_slots
 
-## interactive_story_1
+## interactive_story_42
 * show
     - action_fill
     - slot{"action": "learn"}
@@ -1027,7 +1027,7 @@
     - execute_learn
     - reset_slots
 
-## interactive_story_1
+## interactive_story_43
 * greetings
     - utter_greet_hello
     - utter_prompt
@@ -1043,3 +1043,133 @@
     - action_fallback
 * none
     - utter_prompt
+
+## interactive_story_44
+* show{"object_color": "orange", "object_name": "brick"}
+    - slot{"object_color": "orange"}
+    - slot{"object_name": "brick"}
+    - action_fill
+    - slot{"action": "learn"}
+    - utter_got_command
+    - execute_learn
+    - reset_slots
+* find
+    - action_fill
+    - slot{"action": "find"}
+    - utter_prompt_object
+* find{"object_color": "orange", "object_name": "brick"}
+    - slot{"object_color": "orange"}
+    - slot{"object_name": "brick"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_command
+    - execute_find
+    - reset_slots
+* none
+    - utter_prompt
+* none
+    - action_fallback
+
+## interactive_story_45
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* find{"object_color": "black", "object_name": "ball"}
+    - slot{"object_color": "black"}
+    - slot{"object_name": "ball"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_unknown_object
+* show{"object_name": "ball"}
+    - slot{"object_name": "ball"}
+    - action_fill
+    - slot{"action": "learn"}
+    - utter_prompt_color
+* clarify{"object_color": "black"}
+    - slot{"object_color": "black"}
+    - utter_got_command
+    - execute_learn
+    - reset_slots
+* find{"object_color": "black", "object_name": "ball"}
+    - slot{"object_color": "black"}
+    - slot{"object_name": "ball"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_command
+    - execute_find
+    - reset_slots
+
+## interactive_story_46
+* show{"object_name": "object"}
+    - slot{"object_name": "object"}
+    - action_fill
+    - slot{"action": "learn"}
+    - utter_prompt_object
+* show{"object_color": "yellow", "object_name": "ball"}
+    - slot{"object_color": "yellow"}
+    - slot{"object_name": "ball"}
+    - action_fill
+    - slot{"action": "learn"}
+    - utter_got_command
+    - execute_learn
+    - reset_slots
+* find{"object_color": "yellow", "object_name": "ball"}
+    - slot{"object_color": "yellow"}
+    - slot{"object_name": "ball"}
+    - action_fill
+    - slot{"action": "find"}
+    - utter_got_command
+    - execute_find
+    - reset_slots
+
+## interactive_story_47
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* none
+    - action_fallback
+* affirmative
+    - utter_prompt
+* none
+    - action_fallback
+* deny
+    - utter_prompt
+* bye
+    - utter_greet_goodbye
+
+## interactive_story_48
+* deny
+    - utter_prompt
+* none
+    - action_fallback
+
+## interactive_story_49
+* affirmative
+    - action_fallback
+* none
+    - utter_prompt
+
+## interactive_story_50
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* none
+    - action_fallback
+
+## interactive_story_51
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* deny
+    - action_fallback
+
+## interactive_story_52
+* greetings
+    - utter_greet_hello
+    - utter_prompt
+* affirmative
+    - action_fallback
+
+## interactive_story_53
+* affirmative
+    - action_fallback

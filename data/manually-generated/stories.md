@@ -28,11 +28,6 @@
 <!-- cancel command -->
 
 ## deny
-* deny
-  - action_cancel
-  - utter_got_denied
-
-## deny
 * deny{"object_name": "banana"}
   - slot{"object_name": "banana"}
   - utter_command_repeat
@@ -138,7 +133,7 @@
   - utter_prompt_object
 * clarify{"object_name": "banana", "object_color": "blue"}
   - slot{"object_name": "banana"}
-  - slot{"object_color": "blue"}'
+  - slot{"object_color": "blue"}
   - utter_got_command
   - execute_learn
 
