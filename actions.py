@@ -99,22 +99,22 @@ class ReceivedFind(Action):
 
                 if msg.found_obj:
                     if placement_origin in valid_placements:
-                        dispatcher.utter_message(text="RGB Camera: I found the {} object you asked for in the {} area.".format(
+                        dispatcher.utter_message(text="I found the {} object you asked for in the {} area.".format(
                             msg.desired_color,
                             placement_origin
                             ))
                     else:
-                        dispatcher.utter_message(text="RGB Camera: I found the {} object you asked for.".format(
+                        dispatcher.utter_message(text="I found the {} object you asked for.".format(
                             msg.desired_color
                             ))
                 else:
                     if placement_origin in valid_placements:
-                        dispatcher.utter_message(text="RGB Camera: I didn't find anything {} in the {} area. This is what I can see".format(
+                        dispatcher.utter_message(text="I didn't find anything {} in the {} area. This is what I can see".format(
                             msg.desired_color,
                             placement_origin
                             ))
                     else:
-                        dispatcher.utter_message(text="RGB Camera: I didn't find anything {}. This is what I can see.".format(
+                        dispatcher.utter_message(text="I didn't find anything {}. This is what I can see.".format(
                             msg.desired_color
                             ))
 
@@ -122,15 +122,15 @@ class ReceivedFind(Action):
 
                 try:
                     imgurl_3d = "http://localhost:8888/{}?time={}".format(path_3dimg, int(time.time()))
-                    dispatcher.utter_attachment(None, image=imgurl_3d)
                     if msg.pcl_obj:
-                        dispatcher.utter_message(text="3D Camera: I found the {} you asked for.".format(
+                        dispatcher.utter_attachment(None, image=imgurl_3d)
+                        dispatcher.utter_message(text="I found the {} you asked for.".format(
                             msg.pcl_object
                             ))
-                    else:
-                        dispatcher.utter_message(text="3D Camera: I didn't find any {}.".format(
-                            object_name
-                            ))
+                    # else:
+                    #     dispatcher.utter_message(text="I didn't find any {}.".format(
+                    #         object_name
+                    #         ))
                 except Exception as e:
                     logger.warning(e)
             else:
@@ -252,13 +252,13 @@ class ReceivedPickup(Action):
                 if msg.grippercode in [1,2,3]:
                     dispatcher.utter_message(template="utter_command_failed")
                 else:
-                    dispatcher.utter_message(text="Done with pick up.")
+                    dispatcher.utter_message(text="I've managed to pick it up!")
             else:
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
         else:
-            dispatcher.utter_message(text="Done with pick up.")
+            dispatcher.utter_message(text="I've managed to pick it up!")
         return [AllSlotsReset()]
 
 
@@ -298,13 +298,13 @@ class ReceivedMove(Action):
                 if msg.grippercode in [1,2,3]:
                     dispatcher.utter_message(template="utter_command_failed")
                 else:
-                    dispatcher.utter_message(text="Done with moving.")
+                    dispatcher.utter_message(text="I've managed to move it!")
             else:
                 dispatcher.utter_message(template="utter_command_failed")
                 return [AllSlotsReset()]
                 # dispatcher.utter_message(text="Error: {}...Check that the required ROS Service is running!".format(info))
         else:
-            dispatcher.utter_message(text="Done with moving.")
+            dispatcher.utter_message(text="I've managed to move it!")
         return [AllSlotsReset()]
 
 class ReceivedCancel(Action):
