@@ -28,11 +28,6 @@
 <!-- cancel command -->
 
 ## deny
-* deny
-  - action_cancel
-  - utter_got_denied
-
-## deny
 * deny{"object_name": "banana"}
   - slot{"object_name": "banana"}
   - utter_command_repeat
